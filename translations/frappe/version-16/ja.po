@@ -30258,7 +30258,7 @@ msgstr "ブラウザウィンドウのタイトルを「プレフィックス - 
 
 #: frappe/public/js/frappe/widgets/onboarding_widget.js:150
 msgid "Show {0} List"
-msgstr "Show {0}リスト"
+msgstr "{0}リストを表示"
 
 #: frappe/public/js/frappe/views/reports/report_view.js:580
 msgid "Showing only Numeric fields from Report"
@@ -40217,3 +40217,2211 @@ msgstr "{} が PATH に見つかりません！これはバックアップを作
 #, fuzzy
 msgid "← Back to upload files"
 msgstr "← ファイルのアップロードに戻る"
+
+#. module_onboarding.success_message fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid "Customization onboarding is all done!"
+msgstr "カスタマイズのオンボーディングはすべて完了しました。"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"A DocType (Document Type) is used to insert forms in ERPNext. Forms such as "
+"Customer, Orders, and Invoices are Doctypes in the backend. You can also "
+"create new DocTypes to create new forms in ERPNext as per your business "
+"needs."
+msgstr ""
+"DocType（文書タイプ）は、ERPNext にフォームを追加するために使います。顧客・受注・請求といったフォームは、内部ではいずれも DocType"
+" です。業務に合わせて新しい DocType を作成し、独自のフォームを追加することもできます。"
+
+#. onboarding_step.action_label fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid "Learn more about creating new DocTypes"
+msgstr "新しい DocType の作成について詳しく見る"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"Every form in ERPNext has a standard set of fields. If you need to capture some information, but there is no standard Field available for it, you can insert Custom Field for it.\n"
+"\n"
+"Once custom fields are added, you can use them for reports and analytics charts as well.\n"
+msgstr ""
+"ERPNext の各フォームには標準の項目一式が用意されています。取得したい情報に対応する標準項目が無い場合は、カスタムフィールドを追加できます。\n"
+"\n"
+"追加したカスタムフィールドは、レポートや分析チャートでも利用できます。\n"
+
+#. onboarding_step.action_label fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid "Learn how to add Custom Fields"
+msgstr "カスタムフィールドの追加方法を見る"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"Each document created in ERPNext can have a unique ID generated for it, "
+"using a prefix defined for it. Though each document has some prefix pre-"
+"configured, you can further customize it using tools like Naming Series Tool"
+" and Document Naming Rule.\n"
+msgstr ""
+"ERPNext で作成する文書には、あらかじめ定義した接頭辞を使って一意の ID "
+"を採番できます。各文書には既定の接頭辞が設定済みですが、命名シリーズツールや文書命名ルールを使ってさらに調整できます。\n"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"Print Formats allow you can define looks for documents when printed or "
+"converted to PDF. You can also create a custom Print Format using drag-and-"
+"drop tools."
+msgstr ""
+"印刷書式では、文書を印刷または PDF 出力したときの体裁を定義できます。ドラッグ＆ドロップのツールを使って、独自の印刷書式を作成することもできます。"
+
+#. onboarding_step.action_label fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid "Learn about Standard and Custom Print Formats"
+msgstr "標準の印刷書式とカスタム印刷書式について学ぶ"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"In each module, you will find a host of single-click reports, ranging from "
+"financial statements to sales and purchase analytics and stock tracking "
+"reports. If a required new report is not available out-of-the-box, you can "
+"create custom reports in ERPNext by pulling values from the same multiple "
+"ERPNext tables.\n"
+msgstr ""
+"各モジュールには、財務諸表から販売・購買の分析、在庫の追跡まで、ワンクリックで実行できるレポートが多数用意されています。必要なレポートが標準で用意されていない場合は、複数の"
+" ERPNext のテーブルから値を取得してカスタムレポートを作成できます。\n"
+
+#. onboarding_step.action_label fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid "Learn more about Report Builders"
+msgstr "レポートビルダーについて詳しく見る"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"In ERPNext, you can add your Employees as Users, and give them restricted "
+"access. Tools like Role Permission and User Permission allow you to define "
+"rules which give restricted access to the user to masters and transactions."
+msgstr ""
+"ERPNext "
+"では、従業員をユーザーとして追加し、アクセス範囲を制限して利用させることができます。ロール権限やユーザーのアクセス許可といった機能を使い、マスタや取引に対するアクセスを制限するルールを定義できます。"
+
+#. onboarding_step.description fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid ""
+"Workflows allow you to define custom rules for the approval process of a "
+"particular document in ERPNext. You can also set complex Workflow Rules and "
+"set approval conditions."
+msgstr ""
+"ワークフローを使うと、ERPNext "
+"の特定の文書について承認プロセスのルールを独自に定義できます。複雑なワークフロールールや承認条件を設定することもできます。"
+
+#. module_onboarding.title fixture (DB-stored, invisible to get-untranslated)
+msgid "Let's Set Up Your Website."
+msgstr "ウェブサイトを設定しましょう。"
+
+#. module_onboarding.subtitle fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid "Blogs, Website View Tracking, and more."
+msgstr "ブログ、ウェブサイトの閲覧トラッキングなど。"
+
+#. module_onboarding.success_message fixture (DB-stored, invisible to get-
+#. untranslated)
+msgid "Your website is all set up!"
+msgstr "ウェブサイトの設定がすべて完了しました。"
+
+#. onboarding_step.title fixture (DB-stored, invisible to get-untranslated)
+msgid "Add Blog Category"
+msgstr "ブログカテゴリーを追加"
+
+#. onboarding_step.title fixture (DB-stored, invisible to get-untranslated)
+msgid "Create Blogger"
+msgstr "ブロガーを作成"
+
+#. onboarding_step.title fixture (DB-stored, invisible to get-untranslated)
+msgid "Enable Website Tracking"
+msgstr "ウェブサイトのトラッキングを有効化"
+
+#. onboarding_step.title fixture (DB-stored, invisible to get-untranslated)
+msgid "Introduction to Website"
+msgstr "ウェブサイトの概要"
+
+#. onboarding_step.title fixture (DB-stored, invisible to get-untranslated)
+msgid "Learn about Web Pages"
+msgstr "ウェブページについて学ぶ"
+
+#. frappe/core/doctype/data_import/data_import.js
+msgid "Successfully {0} 1 record."
+msgstr "1 件を{0}しました。"
+
+#. frappe/core/doctype/data_import/data_import.js
+msgid "Successfully {0} {1} records."
+msgstr "{1} 件を{0}しました。"
+
+#. frappe/core/doctype/data_import/data_import.js
+msgid ""
+"Successfully {0} {1} record out of {2}. Click on Export Errored Rows, fix "
+"the errors and import again."
+msgstr "{2} 件中 {1} 件を{0}しました。「エラー行をエクスポート」を押し、エラーを修正して再度取り込んでください。"
+
+#. frappe/core/doctype/data_import/data_import.js
+msgid ""
+"Successfully {0} {1} records out of {2}. Click on Export Errored Rows, fix "
+"the errors and import again."
+msgstr "{2} 件中 {1} 件を{0}しました。「エラー行をエクスポート」を押し、エラーを修正して再度取り込んでください。"
+
+#. frappe/core/doctype/doctype/doctype.js
+msgid "DocTypes can not be modified, please use {0} instead"
+msgstr "DocType は変更できません。代わりに {0} を使用してください"
+
+#. frappe/core/doctype/doctype/doctype.js
+msgid "If you just want to customize for your site, use {0} instead."
+msgstr "自分のサイト向けにカスタマイズするだけであれば、代わりに {0} を使用してください。"
+
+#. frappe/core/doctype/duckdb_sync/duckdb_sync.js
+msgid "Sync Data"
+msgstr "データを同期"
+
+#. frappe/core/doctype/rq_job/rq_job.js
+msgid ""
+"This will terminate the job immediately and might be dangerous, are you "
+"sure? "
+msgstr "ジョブを直ちに終了します。危険を伴う場合があります。よろしいですか？"
+
+#. frappe/core/doctype/server_script/server_script_list.js
+msgid "Loving Frappe Framework?"
+msgstr "Frappe Framework は気に入りましたか？"
+
+#. frappe/core/doctype/server_script/server_script_list.js
+msgid "Star us on GitHub"
+msgstr "GitHub でスターを付ける"
+
+#. frappe/core/doctype/user_invitation/user_invitation.js
+msgid "Resend"
+msgstr "再送"
+
+#. frappe/core/doctype/user_invitation/user_invitation.js
+msgid "Are you sure you want to resend the invitation?"
+msgstr "招待を再送してもよろしいですか？"
+
+#. frappe/core/doctype/user_invitation/user_invitation.js
+msgid "Invitation resent"
+msgstr "招待を再送しました"
+
+#. frappe/desk/doctype/notification_settings/notification_settings.js
+msgid ""
+"Choose which notification types are emailed to you. Unchecked types still "
+"show as in-app notifications."
+msgstr "メールで受け取る通知の種類を選択します。チェックを外した種類も、アプリ内通知には表示されます。"
+
+#. frappe/desk/doctype/notification_type/notification_type.js
+msgid "Enable Email Notifications for All Users"
+msgstr "全ユーザーのメール通知を有効にする"
+
+#. frappe/desk/doctype/notification_type/notification_type.js
+msgid ""
+"Email everyone for <b>{0}</b> notifications? This adds it to every user's "
+"email preferences. Users can still opt out individually afterwards."
+msgstr "<b>{0}</b> の通知を全員にメール送信しますか？ 全ユーザーのメール設定に追加されます。追加後も、ユーザーは個別に解除できます。"
+
+#. frappe/desk/doctype/workspace/workspace.js
+msgid ""
+"This document allows you to edit limited fields. For all kinds of workspace "
+"customization, use the Edit button located on the workspace page"
+msgstr "この画面で編集できる項目は限られています。ワークスペースのカスタマイズ全般は、ワークスペースページの「編集」ボタンから行ってください"
+
+#. frappe/desk/page/leaderboard/leaderboard.js
+msgid "No Items Found"
+msgstr "項目が見つかりません"
+
+#. frappe/desk/page/setup_wizard/setup_wizard.js
+msgid "Could not start up: "
+msgstr "起動できませんでした: "
+
+#. frappe/desk/page/setup_wizard/setup_wizard.js
+msgid "Allow recording my first session to improve user experience"
+msgstr "操作性向上のため、最初のセッションの記録を許可する"
+
+#. frappe/desk/page/user_profile/user_profile.html
+msgid "No Data to Show"
+msgstr "表示するデータがありません"
+
+#. frappe/desk/page/user_profile/user_profile.html
+msgid "Type Distribution"
+msgstr "種類別の分布"
+
+#. frappe/desk/page/user_profile/user_profile_controller.js
+msgid "Loading user profile"
+msgstr "ユーザープロフィールを読み込んでいます"
+
+#. frappe/desk/page/user_profile/user_profile_controller.js
+msgid "Rank"
+msgstr "順位"
+
+#. frappe/desk/page/user_profile/user_profile_controller.js
+msgid "Monthly Rank"
+msgstr "月間順位"
+
+#. frappe/desk/page/user_profile/user_profile_controller.js
+msgid "No activities to show"
+msgstr "表示する活動がありません"
+
+#. frappe/desk/page/user_profile/user_profile_sidebar.html
+msgid "Intro"
+msgstr "紹介"
+
+#. frappe/email/doctype/newsletter/newsletter.js
+msgid "Send a test email"
+msgstr "テストメールを送信"
+
+#. frappe/email/doctype/newsletter/newsletter.js
+msgid "Check broken links"
+msgstr "リンク切れを確認"
+
+#. frappe/email/doctype/newsletter/newsletter.js
+msgid "Checking broken links..."
+msgstr "リンク切れを確認しています..."
+
+#. frappe/email/doctype/newsletter/newsletter.js
+msgid "Following links are broken in the email content: {0}"
+msgstr "メール本文に次のリンク切れがあります: {0}"
+
+#. frappe/email/doctype/newsletter/newsletter.js
+msgid "No broken links found in the email content"
+msgstr "メール本文にリンク切れはありませんでした"
+
+#. frappe/email/doctype/newsletter/newsletter.js
+msgid "Send now"
+msgstr "今すぐ送信"
+
+#. frappe/email/doctype/newsletter/newsletter.js
+msgid ""
+"This newsletter was scheduled to send on a later date. Are you sure you want"
+" to send it now?"
+msgstr "このニュースレターは後日の送信が予約されています。今すぐ送信してもよろしいですか？"
+
+#. frappe/email/doctype/newsletter/newsletter.js
+msgid "Are you sure you want to send this newsletter now?"
+msgstr "このニュースレターを今すぐ送信してもよろしいですか？"
+
+#. frappe/email/doctype/newsletter/newsletter.js
+msgid "Schedule sending"
+msgstr "送信を予約"
+
+#. frappe/email/doctype/newsletter/newsletter.js
+msgid "Queuing emails..."
+msgstr "メールをキューに登録しています..."
+
+#. frappe/email/doctype/newsletter/newsletter.js
+msgid "Queued {0} emails"
+msgstr "{0} 件のメールをキューに登録しました"
+
+#. frappe/email/doctype/newsletter/newsletter.js
+msgid "Schedule Newsletter"
+msgstr "ニュースレターを予約"
+
+#. frappe/email/doctype/newsletter/newsletter.js
+msgid "Cancel Scheduling"
+msgstr "予約を取り消す"
+
+#. frappe/email/doctype/newsletter/newsletter.js
+msgid "Send Test Email"
+msgstr "テストメールを送信"
+
+#. frappe/email/doctype/newsletter/newsletter.js
+msgid "Send again"
+msgstr "再送信"
+
+#. frappe/email/doctype/newsletter/newsletter.js
+msgid "Sending emails"
+msgstr "メールを送信しています"
+
+#. frappe/email/doctype/newsletter/newsletter.js
+msgid "{0} of {1} sent"
+msgstr "{1} 件中 {0} 件を送信"
+
+#. frappe/email/doctype/newsletter/newsletter.js
+msgid "This newsletter is scheduled to be sent on {0}"
+msgstr "このニュースレターは {0} に送信予定です"
+
+#. frappe/integrations/doctype/dropbox_settings/dropbox_settings.js
+msgid "App Access Key and/or Secret Key are not present."
+msgstr "アプリのアクセスキーまたはシークレットキーが設定されていません。"
+
+#. frappe/integrations/doctype/google_drive/google_drive.js
+msgid "Uploading to Google Drive"
+msgstr "Google ドライブにアップロードしています"
+
+#. frappe/integrations/doctype/s3_backup_settings/s3_backup_settings.js
+msgid ""
+"S3 Backup has been queued. You can track the progress <a href='/app/rq-"
+"job/{0}' target='_blank'>here</a>."
+msgstr ""
+"S3 バックアップをキューに登録しました。進捗は <a href='/app/rq-job/{0}' target='_blank'>こちら</a> "
+"で確認できます。"
+
+#. frappe/printing/page/print/print.js
+msgid "Try the new Print Designer"
+msgstr "新しい Print Designer を試す"
+
+#. frappe/public/js/billing.bundle.js
+msgid "Upgrade plan"
+msgstr "プランをアップグレード"
+
+#. frappe/public/js/frappe/form/grid_row.js
+msgid "The total column width cannot be more than 10."
+msgstr "列幅の合計は 10 を超えられません。"
+
+#. frappe/public/js/frappe/form/print_utils.js
+msgid "QZ Tray Failed: "
+msgstr "QZ Tray でエラーが発生しました: "
+
+#. frappe/public/js/frappe/form/sidebar/review.js
+msgid "{0} appreciation point for {1}"
+msgstr "{1} に対する称賛ポイント {0}"
+
+#. frappe/public/js/frappe/form/sidebar/review.js
+msgid "{0} appreciation points for {1}"
+msgstr "{1} に対する称賛ポイント {0}"
+
+#. frappe/public/js/frappe/form/sidebar/review.js
+msgid "{0} criticism point for {1}"
+msgstr "{1} に対する指摘ポイント {0}"
+
+#. frappe/public/js/frappe/form/sidebar/review.js
+msgid "{0} criticism points for {1}"
+msgstr "{1} に対する指摘ポイント {0}"
+
+#. frappe/public/js/frappe/form/templates/set_sharing.html
+msgid "Can Submit"
+msgstr "提出できる"
+
+#. frappe/public/js/frappe/legacy_gravatar_cleanup.js
+msgid "Delete Gravatar URLs"
+msgstr "Gravatar の URL を削除"
+
+#. frappe/public/js/frappe/legacy_gravatar_cleanup.js
+msgid ""
+"Frappe no longer uses Gravatar because it can disclose hashed email "
+"addresses to a third-party service. To fully stop this behavior, existing "
+"Gravatar image URLs must be deleted."
+msgstr ""
+"Frappe は Gravatar "
+"の利用を取りやめました。ハッシュ化されたメールアドレスが第三者のサービスに渡る可能性があるためです。この動作を完全に止めるには、既存の Gravatar"
+" 画像 URL を削除する必要があります。"
+
+#. frappe/public/js/frappe/legacy_gravatar_cleanup.js
+msgid ""
+"Existing Gravatar URLs may still be stored on User, Contact, and Lead "
+"records. Do you want to delete these URLs now?"
+msgstr ""
+"ユーザー・連絡先・リードのレコードに、既存の Gravatar URL が残っている可能性があります。これらの URL を今すぐ削除しますか？"
+
+#. frappe/public/js/frappe/legacy_gravatar_cleanup.js
+msgid ""
+"Existing Gravatar URLs may still be stored on User and Contact records. Do "
+"you want to delete these URLs now?"
+msgstr "ユーザー・連絡先のレコードに、既存の Gravatar URL が残っている可能性があります。これらの URL を今すぐ削除しますか？"
+
+#. frappe/public/js/frappe/legacy_gravatar_cleanup.js
+msgid "Keep Gravatar URLs"
+msgstr "Gravatar の URL を残す"
+
+#. frappe/public/js/frappe/legacy_gravatar_cleanup.js
+msgid "Gravatar URL deletion has been queued."
+msgstr "Gravatar URL の削除をキューに登録しました。"
+
+#. frappe/public/js/frappe/legacy_gravatar_cleanup.js
+msgid "Gravatar URLs will not be deleted."
+msgstr "Gravatar の URL は削除されません。"
+
+#. frappe/public/js/frappe/list/list_sidebar.js
+msgid "Get more insights with"
+msgstr "さらに詳しい分析は"
+
+#. frappe/public/js/frappe/list/list_sidebar.js
+msgid "Switch to Frappe CRM for smarter sales"
+msgstr "より賢い営業活動へ、Frappe CRM に切り替える"
+
+#. frappe/public/js/frappe/list/list_sidebar.js
+msgid "Upgrade your support experience with Frappe Helpdesk"
+msgstr "Frappe Helpdesk でサポート業務を強化する"
+
+#. frappe/public/js/frappe/list/list_view_select.js
+msgid "No {0} Found"
+msgstr "{0} が見つかりません"
+
+#. frappe/public/js/frappe/ui/toolbar/navbar.html
+msgid "Your site is undergoing maintenance or being updated."
+msgstr "サイトはメンテナンスまたは更新の作業中です。"
+
+#. frappe/public/js/frappe/ui/toolbar/navbar.html
+msgid "Search or type a command ({0})"
+msgstr "検索、またはコマンドを入力（{0}）"
+
+#. frappe/public/js/frappe/ui/toolbar/navbar.html
+msgid "No new notifications"
+msgstr "新しい通知はありません"
+
+#. frappe/public/js/frappe/ui/toolbar/navbar.html
+msgid "You have unseen notifications"
+msgstr "未読の通知があります"
+
+#. frappe/public/js/frappe/ui/toolbar/search.js
+msgid "All Results"
+msgstr "すべての結果"
+
+#. frappe/public/js/frappe/ui/toolbar/search_utils.js
+msgid "{0} Workspace"
+msgstr "{0} ワークスペース"
+
+#. frappe/public/js/frappe/ui/toolbar/search_utils.js
+msgid "Recents"
+msgstr "最近使った項目"
+
+#. frappe/public/js/frappe/ui/toolbar/search_utils.js
+msgid "Create a new ..."
+msgstr "新規作成 ..."
+
+#. frappe/public/js/frappe/ui/toolbar/search_utils.js
+msgid "Lists"
+msgstr "一覧"
+
+#. frappe/public/js/frappe/ui/toolbar/search_utils.js
+msgid "Find '{0}' in ..."
+msgstr "'{0}' を次から探す ..."
+
+#. frappe/public/js/frappe/views/reports/query_report.js
+msgid "This is a snapshot report generated {0}."
+msgstr "これは {0} に生成されたスナップショットのレポートです。"
+
+#. frappe/public/js/frappe/views/reports/query_report.js
+msgid "Hidden columns include: {0}"
+msgstr "非表示の列: {0}"
+
+#. frappe/public/js/frappe/views/workspace/workspace.js
+msgid "Toggle Section: {0}"
+msgstr "セクションの表示切替: {0}"
+
+#. frappe/public/js/frappe/views/workspace/workspace.js
+msgid "Only Workspace Manager can sort or edit this page"
+msgstr "このページの並べ替えと編集は、ワークスペース管理者のみ行えます"
+
+#. frappe/public/js/frappe/views/workspace/workspace.js
+msgid "Duplicate Workspace"
+msgstr "ワークスペースを複製"
+
+#. frappe/public/js/frappe/views/workspace/workspace.js
+msgid "Unhide Workspace"
+msgstr "ワークスペースの非表示を解除"
+
+#. frappe/public/js/frappe/views/workspace/workspace.js
+msgid "Workspace {0} Edited Successfully"
+msgstr "ワークスペース {0} を編集しました"
+
+#. frappe/public/js/frappe/views/workspace/workspace.js
+msgid "Edit Workspace"
+msgstr "ワークスペースを編集"
+
+#. frappe/public/js/frappe/views/workspace/workspace.js
+msgid "Hide Workspace"
+msgstr "ワークスペースを非表示"
+
+#. frappe/public/js/frappe/views/workspace/workspace.js
+msgid "Delete Workspace"
+msgstr "ワークスペースを削除"
+
+#. frappe/public/js/frappe/views/workspace/workspace.js
+msgid "Are you sure you want to delete page {0}?"
+msgstr "ページ {0} を削除してもよろしいですか？"
+
+#. frappe/public/js/frappe/views/workspace/workspace.js
+msgid "Workspace {0} Deleted Successfully"
+msgstr "ワークスペース {0} を削除しました"
+
+#. frappe/public/js/frappe/views/workspace/workspace.js
+msgid "Create Duplicate"
+msgstr "複製を作成"
+
+#. frappe/public/js/frappe/views/workspace/workspace.js
+msgid "Duplicate of {0} named as {1} is created successfully"
+msgstr "{0} の複製を {1} という名前で作成しました"
+
+#. frappe/public/js/frappe/views/workspace/workspace.js
+msgid "Workspace {0} Created Successfully"
+msgstr "ワークスペース {0} を作成しました"
+
+#. frappe/public/js/frappe/views/workspace/workspace.js
+msgid "Page with title {0} already exist."
+msgstr "タイトルが {0} のページはすでに存在します。"
+
+#. frappe/public/js/frappe/views/workspace/workspace.js
+msgid "Doctype with same route already exist. Please choose different title."
+msgstr "同じルートの DocType がすでに存在します。別のタイトルを指定してください。"
+
+#. frappe/public/js/frappe/views/workspace/workspace.js
+msgid ""
+"One of the child page with name {0} already exist in {1} Section. Please "
+"update the name of the child page first before moving"
+msgstr "名前が {0} の子ページが {1} セクションにすでに存在します。移動する前に、子ページの名前を変更してください"
+
+#. frappe/public/js/frappe/views/workspace/workspace.js
+msgid "No changes made on the page"
+msgstr "ページに変更はありません"
+
+#. frappe/public/js/frappe/views/workspace/workspace.js
+msgid "Page Saved Successfully"
+msgstr "ページを保存しました"
+
+#. frappe/public/js/frappe/widgets/links_widget.js
+msgid "You need to create these first: "
+msgstr "先に次を作成する必要があります: "
+
+#. frappe/website/doctype/web_form/web_form.js
+msgid "Copy Embed Code"
+msgstr "埋め込みコードをコピー"
+
+#. frappe/website/doctype/web_form/web_form.js
+msgid "Atleast one field is required in Web Form Fields Table"
+msgstr "ウェブフォーム項目テーブルには、少なくとも 1 つの項目が必要です"
+
+#. carried over from the deployable CSV
+msgid "A new account has been created for you"
+msgstr "新しいアカウントを作成しました"
+
+#. carried over from the deployable CSV
+msgid "Add A User Restriction"
+msgstr "ユーザー制限を追加"
+
+#. carried over from the deployable CSV
+msgid "Allow Item to be Added Multiple Times in a Transaction"
+msgstr "1つの取引で同じ品目の複数回追加を許可"
+
+#. carried over from the deployable CSV
+msgid "Allow Negative rates for Items"
+msgstr "品目のマイナス単価を許可"
+
+#. carried over from the deployable CSV
+msgid "Allow Sales Order Creation For Expired Quotation"
+msgstr "期限切れの見積書からの受注作成を許可"
+
+#. carried over from the deployable CSV
+msgid "Allow Sales Order with Zero Quantity"
+msgstr "数量ゼロの受注を許可"
+
+#. carried over from the deployable CSV
+msgid "Allow UOM with Conversion Rate Defined in Item"
+msgstr "品目に換算率が定義された単位を許可"
+
+#. carried over from the deployable CSV
+msgid "Allow User If"
+msgstr "ユーザーを許可する条件"
+
+#. carried over from the deployable CSV
+msgid "Allow to Edit Stock UOM Qty for Purchase Documents"
+msgstr "購買伝票で在庫単位数量の編集を許可"
+
+#. carried over from the deployable CSV
+msgid "Allow to Edit Stock UOM Qty for Sales Documents"
+msgstr "販売伝票で在庫単位数量の編集を許可"
+
+#. carried over from the deployable CSV
+msgid "Already in user's To Do list"
+msgstr "すでにユーザーの ToDo に含まれています"
+
+#. carried over from the deployable CSV
+msgid "Any existing permission will be deleted / overwritten."
+msgstr "既存の権限は削除または上書きされます。"
+
+#. carried over from the deployable CSV
+msgid "Apply User Permission for following DocTypes"
+msgstr "次の DocType にユーザー権限を適用"
+
+#. carried over from the deployable CSV
+msgid "Apply User Permissions"
+msgstr "ユーザー権限を適用"
+
+#. carried over from the deployable CSV
+msgid "Assign a permission level to the field."
+msgstr "フィールドに権限レベルを割り当てます。"
+
+#. carried over from the deployable CSV
+msgid "Auto Create Serial and Batch Bundle For Outward"
+msgstr "出庫時にシリアル・バッチバンドルを自動作成"
+
+#. carried over from the deployable CSV
+msgid "Auto Insert Item Price If Missing"
+msgstr "品目価格が無い場合は自動登録"
+
+#. carried over from the deployable CSV
+msgid "Auto Reserve Serial and Batch Nos"
+msgstr "シリアル番号・バッチ番号を自動引当"
+
+#. carried over from the deployable CSV
+msgid "Auto Reserve Stock for Sales Order on Purchase"
+msgstr "購買時に受注向け在庫を自動引当"
+
+#. carried over from the deployable CSV
+msgid "BOM Info"
+msgstr "部品表情報"
+
+#. carried over from the deployable CSV
+msgid "Bulk Email"
+msgstr "一括メール"
+
+#. carried over from the deployable CSV
+msgid "Bulk Email records."
+msgstr "一括メールの記録。"
+
+#. carried over from the deployable CSV
+msgid "Calculate Product Bundle Price based on Child Items' Rates"
+msgstr "構成品目の単価にもとづいて製品バンドル価格を計算"
+
+#. carried over from the deployable CSV
+msgid "Configure accounts for google calendar"
+msgstr "Google カレンダー用のアカウントを設定"
+
+#. carried over from the deployable CSV
+msgid "Convert Item Description to Clean HTML in Transactions"
+msgstr "取引内の品目説明を整形済 HTML に変換する"
+
+#. carried over from the deployable CSV
+msgid "Cost of Goods Sold Account in Items Table"
+msgstr "品目テーブルの売上原価勘定"
+
+#. carried over from the deployable CSV
+msgid "Disable Serial No And Batch Selector"
+msgstr "シリアル番号・バッチ選択を無効にする"
+
+#. carried over from the deployable CSV
+msgid "Distinct Item and Warehouse"
+msgstr "品目と倉庫の組み合わせ"
+
+#. carried over from the deployable CSV
+msgid "Do Not Update Serial / Batch on Creation of Auto Bundle"
+msgstr "自動バンドル作成時にシリアル・バッチを更新しない"
+
+#. carried over from the deployable CSV
+msgid "Do Not Use Batch-wise Valuation"
+msgstr "バッチ別評価を使用しない"
+
+#. carried over from the deployable CSV
+msgid "Document is only editable by users of role"
+msgstr "この文書を編集できるのは次のロールのユーザーのみです"
+
+#. carried over from the deployable CSV
+msgid "Don't Reserve Sales Order Qty on Sales Return"
+msgstr "返品時に受注数量を引き当てない"
+
+#. carried over from the deployable CSV
+msgid "Edit Permissions"
+msgstr "権限を編集"
+
+#. carried over from the deployable CSV
+msgid "Edit Role Permissions"
+msgstr "ロール権限を編集"
+
+#. carried over from the deployable CSV
+msgid "Email Account setup please enter your password for:"
+msgstr "メールアカウントの設定です。次のパスワードを入力してください:"
+
+#. carried over from the deployable CSV
+msgid "Email Alert"
+msgstr "メール通知"
+
+#. carried over from the deployable CSV
+msgid "Email Alert Recipient"
+msgstr "メール通知の宛先"
+
+#. carried over from the deployable CSV
+msgid "Email By Document Field"
+msgstr "文書のフィールドで宛先を決める"
+
+#. carried over from the deployable CSV
+msgid "Email By Role"
+msgstr "ロールで宛先を決める"
+
+#. carried over from the deployable CSV
+msgid "Email Field"
+msgstr "メールフィールド"
+
+#. carried over from the deployable CSV
+msgid "Email Fieldname"
+msgstr "メールのフィールド名"
+
+#. carried over from the deployable CSV
+msgid "Email Sent?"
+msgstr "メール送信済"
+
+#. carried over from the deployable CSV
+msgid "Enable Stock Reservation"
+msgstr "在庫引当を有効にする"
+
+#. carried over from the deployable CSV
+msgid "Enter at least one permission row"
+msgstr "権限を1行以上入力してください"
+
+#. carried over from the deployable CSV
+msgid "Event Role"
+msgstr "イベントのロール"
+
+#. carried over from the deployable CSV
+msgid "Export Report:"
+msgstr "レポートを書き出し:"
+
+#. carried over from the deployable CSV
+msgid "Facebook User ID"
+msgstr "Facebook ユーザー ID"
+
+#. carried over from the deployable CSV
+msgid "Facebook Username"
+msgstr "Facebook ユーザー名"
+
+#. carried over from the deployable CSV
+msgid "Feedback Request is already sent to user"
+msgstr "フィードバック依頼はすでに送信済です"
+
+#. carried over from the deployable CSV
+msgid ""
+"For Links, enter the DocType as range.\n"
+"For Select, enter list of Options, each on a new line."
+msgstr ""
+"Link の場合は範囲として DocType を入力します。\n"
+"Select の場合は選択肢を改行区切りで入力します。"
+
+#. carried over from the deployable CSV
+msgid "GCalendar Account"
+msgstr "Google カレンダー アカウント"
+
+#. carried over from the deployable CSV
+msgid "GCalendar Settings"
+msgstr "Google カレンダーの設定"
+
+#. carried over from the deployable CSV
+msgid "GSuite Settings"
+msgstr "Google Workspace の設定"
+
+#. carried over from the deployable CSV
+msgid "Get Scrap Items"
+msgstr "スクラップ品目を取得"
+
+#. carried over from the deployable CSV
+msgid "Getting Scrap Items"
+msgstr "スクラップ品目を取得しています"
+
+#. carried over from the deployable CSV
+msgid "Github User ID"
+msgstr "GitHub ユーザー ID"
+
+#. carried over from the deployable CSV
+msgid "Github Username"
+msgstr "GitHub ユーザー名"
+
+#. carried over from the deployable CSV
+msgid "Google Maps Settings"
+msgstr "Google マップの設定"
+
+#. carried over from the deployable CSV
+msgid "Google User ID"
+msgstr "Google ユーザー ID"
+
+#. carried over from the deployable CSV
+msgid "Have Default Naming Series for Batch ID?"
+msgstr "バッチ ID に既定の命名シリーズを使用しますか。"
+
+#. carried over from the deployable CSV
+msgid "Help for User Permissions"
+msgstr "ユーザー権限のヘルプ"
+
+#. carried over from the deployable CSV
+msgid "Hide Saved"
+msgstr "保存済を隠す"
+
+#. carried over from the deployable CSV
+msgid "Hide Tags"
+msgstr "タグを隠す"
+
+#. carried over from the deployable CSV
+msgid "Hide field in Report Builder"
+msgstr "レポートビルダーでフィールドを隠す"
+
+#. carried over from the deployable CSV
+msgid "Hide field in Standard Print Format"
+msgstr "標準印刷フォーマットでフィールドを隠す"
+
+#. carried over from the deployable CSV
+msgid "In Report Filter"
+msgstr "レポートフィルタに表示"
+
+#. carried over from the deployable CSV
+msgid "Incorrect UserId or Password"
+msgstr "ユーザー ID またはパスワードが正しくありません"
+
+#. carried over from the deployable CSV
+msgid "Invalid Email Account"
+msgstr "メールアカウントが不正です"
+
+#. carried over from the deployable CSV
+msgid "Is Scrap Item"
+msgstr "スクラップ品目"
+
+#. carried over from the deployable CSV
+msgid "Job Card Scrap Item"
+msgstr "ジョブカード スクラップ品目"
+
+#. carried over from the deployable CSV
+msgid "Limit icon choices for all users."
+msgstr "全ユーザーが選べるアイコンを制限します。"
+
+#. carried over from the deployable CSV
+msgid "Loading Report"
+msgstr "レポートを読み込んでいます"
+
+#. carried over from the deployable CSV
+msgid "Multiple Warehouse Accounts"
+msgstr "複数の倉庫勘定"
+
+#. carried over from the deployable CSV
+msgid "My Settings"
+msgstr "自分の設定"
+
+#. carried over from the deployable CSV
+msgid "New password emailed"
+msgstr "新しいパスワードをメールで送信しました"
+
+#. carried over from the deployable CSV
+msgid "No User Restrictions found."
+msgstr "ユーザー制限が見つかりません。"
+
+#. carried over from the deployable CSV
+msgid "No permission to edit"
+msgstr "編集する権限がありません"
+
+#. carried over from the deployable CSV
+msgid "No permission to write / remove."
+msgstr "書き込みまたは削除の権限がありません。"
+
+#. carried over from the deployable CSV
+msgid "Not a valid LDAP user"
+msgstr "LDAP ユーザーとして正しくありません"
+
+#. carried over from the deployable CSV
+msgid "Note: Other permission rules may also apply"
+msgstr "注記: 他の権限ルールも適用される場合があります"
+
+#. carried over from the deployable CSV
+msgid "Over Picking Allowance"
+msgstr "超過ピッキング許容率"
+
+#. carried over from the deployable CSV
+msgid "Page Role"
+msgstr "ページのロール"
+
+#. carried over from the deployable CSV
+msgid "Payment Complete"
+msgstr "支払完了"
+
+#. carried over from the deployable CSV
+msgid "Permission already set"
+msgstr "権限はすでに設定されています"
+
+#. carried over from the deployable CSV
+msgid "Permissions Settings"
+msgstr "権限の設定"
+
+#. carried over from the deployable CSV
+msgid "Permissions Updated"
+msgstr "権限を更新しました"
+
+#. carried over from the deployable CSV
+msgid "Please select a valid Purchase Order that has Service Items."
+msgstr "サービス品目を含む有効な発注書を選択してください。"
+
+#. carried over from the deployable CSV
+msgid "Please set script URL on Gsuite Settings"
+msgstr "Google Workspace の設定でスクリプト URL を設定してください"
+
+#. carried over from the deployable CSV
+msgid "Please specify user"
+msgstr "ユーザーを指定してください"
+
+#. carried over from the deployable CSV
+msgid "Registration Details Emailed."
+msgstr "登録情報をメールで送信しました。"
+
+#. carried over from the deployable CSV
+msgid "Report this issue"
+msgstr "この問題を報告する"
+
+#. carried over from the deployable CSV
+msgid "Role exists"
+msgstr "ロールは既に存在します"
+
+#. carried over from the deployable CSV
+msgid "Roles Permission"
+msgstr "ロール権限"
+
+#. carried over from the deployable CSV
+msgid "Scrap & Process Loss"
+msgstr "スクラップと工程ロス"
+
+#. carried over from the deployable CSV
+msgid "Scrap Cost Per Qty"
+msgstr "数量あたりスクラップ費用"
+
+#. carried over from the deployable CSV
+msgid "Scrap Item Code"
+msgstr "スクラップ品目コード"
+
+#. carried over from the deployable CSV
+msgid "Scrap Item Name"
+msgstr "スクラップ品目名"
+
+#. carried over from the deployable CSV
+msgid "Segregate Serial / Batch Bundle"
+msgstr "シリアル・バッチバンドルを分割"
+
+#. carried over from the deployable CSV
+msgid "Select User"
+msgstr "ユーザーを選択"
+
+#. carried over from the deployable CSV
+msgid "Select User or DocType to start."
+msgstr "はじめにユーザーまたは DocType を選択してください。"
+
+#. carried over from the deployable CSV
+msgid "Send As Email"
+msgstr "メールとして送信"
+
+#. carried over from the deployable CSV
+msgid "Send document web view link in email"
+msgstr "文書のウェブ表示リンクをメールで送る"
+
+#. carried over from the deployable CSV
+msgid "Serial & Batch Item Settings"
+msgstr "シリアル・バッチ品目の設定"
+
+#. carried over from the deployable CSV
+msgid "Set Operating Cost / Scrap Items From Sub-assemblies"
+msgstr "サブアセンブリから稼働費用・スクラップ品目を設定"
+
+#. carried over from the deployable CSV
+msgid "Set Permissions per User"
+msgstr "ユーザーごとに権限を設定"
+
+#. carried over from the deployable CSV
+msgid "Settings..."
+msgstr "設定……"
+
+#. carried over from the deployable CSV
+msgid "Setup > User Permissions Manager"
+msgstr "設定 > ユーザー権限マネージャ"
+
+#. carried over from the deployable CSV
+msgid "Setup Email Alert based on various criteria."
+msgstr "さまざまな条件でメール通知を設定します。"
+
+#. carried over from the deployable CSV
+msgid "Show Barcode Field in Stock Transactions"
+msgstr "在庫取引でバーコード欄を表示する"
+
+#. carried over from the deployable CSV
+msgid "Show Pay Button in Purchase Order Portal"
+msgstr "発注ポータルに支払ボタンを表示する"
+
+#. carried over from the deployable CSV
+msgid "Show Print First"
+msgstr "先に印刷を表示する"
+
+#. carried over from the deployable CSV
+msgid "Show Saved"
+msgstr "保存済を表示"
+
+#. carried over from the deployable CSV
+msgid "Show User Permissions"
+msgstr "ユーザー権限を表示"
+
+#. carried over from the deployable CSV
+msgid "Stock Transactions Settings"
+msgstr "在庫取引の設定"
+
+#. carried over from the deployable CSV
+msgid "Stock UOM Quantity"
+msgstr "在庫単位数量"
+
+#. carried over from the deployable CSV
+msgid "Subcontract BOM"
+msgstr "外注部品表"
+
+#. carried over from the deployable CSV
+msgid "Syntax error in Jinja template"
+msgstr "Jinja テンプレートの構文エラー"
+
+#. carried over from the deployable CSV
+msgid "There were errors. Please report this."
+msgstr "エラーが発生しました。報告してください。"
+
+#. carried over from the deployable CSV
+msgid "Uncheck modules to hide from user's desktop"
+msgstr "チェックを外したモジュールはデスクトップに表示されません"
+
+#. carried over from the deployable CSV
+msgid "Upload User Permissions"
+msgstr "ユーザー権限をアップロード"
+
+#. carried over from the deployable CSV
+msgid "Use Serial / Batch Fields"
+msgstr "シリアル・バッチ欄を使用する"
+
+#. carried over from the deployable CSV
+msgid "User ID of a blog writer."
+msgstr "ブログ執筆者のユーザー ID。"
+
+#. carried over from the deployable CSV
+msgid "User Permission DocTypes"
+msgstr "ユーザー権限の DocType"
+
+#. carried over from the deployable CSV
+msgid "User Permission for Page and Report"
+msgstr "ページとレポートのユーザー権限"
+
+#. carried over from the deployable CSV
+msgid "User Permissions Manager"
+msgstr "ユーザー権限マネージャ"
+
+#. carried over from the deployable CSV
+msgid "UserRole"
+msgstr "ユーザーロール"
+
+#. carried over from the deployable CSV
+msgid "Validate Consumed Qty (as per BOM)"
+msgstr "消費数量を検証する（部品表基準）"
+
+#. carried over from the deployable CSV
+msgid "Validate Material Transfer Warehouses"
+msgstr "資材移動の倉庫を検証する"
+
+#. carried over from the deployable CSV
+msgid "Verify Your Account"
+msgstr "アカウントを確認してください"
+
+#. carried over from the deployable CSV
+msgid "With Ledgers"
+msgstr "元帳を含む"
+
+#. carried over from the deployable CSV
+msgid "Workflow will start after saving."
+msgstr "ワークフローは保存後に開始します。"
+
+#. carried over from the deployable CSV
+msgid "You have subscribed for one user free plan"
+msgstr "1ユーザーの無料プランに登録済です"
+
+#. carried over from the deployable CSV
+msgid "quotation_item"
+msgstr "見積品目"
+
+#. carried over from the deployable CSV
+msgid "user_image_show"
+msgstr "ユーザー画像を表示"
+
+#: frappe/templates/emails/new_user.html:7
+#, fuzzy
+msgid "A new account has been created for you at {0}."
+msgstr "{0}で新しいアカウントが作成されました。"
+
+#: frappe/public/js/frappe/ui/naming_series.js:26
+#, fuzzy
+msgid "Add Series Prefix"
+msgstr "シリーズプレフィックスを追加"
+
+#: frappe/public/js/frappe/ui/naming_series.js:86
+#, fuzzy
+msgid "Allowed special characters are '/' and '-'"
+msgstr "許可されている特殊文字は '/' と '-' です"
+
+#: frappe/integrations/frappe_providers/cloud_marketplace.py:108
+#, fuzzy
+msgid "App name is required."
+msgstr "アプリ名は必須です。"
+
+#. Description of the 'App' (Select) field in DocType 'Notification Log'
+#: frappe/desk/doctype/notification_log/notification_log.json
+#, fuzzy
+msgid ""
+"App that produced this notification; used to scope app-specific panels. "
+"Derived from the reference document when not set explicitly."
+msgstr ""
+"この通知を生成したアプリ。アプリ固有のパネルの範囲を決定するために使用されます。明示的に設定されていない場合は、参照ドキュメントから派生します。"
+
+#. Label of the apps_involved (Data) field in DocType 'Recorder'
+#: frappe/core/doctype/recorder/recorder.json
+#, fuzzy
+msgid "Apps Involved"
+msgstr "関連アプリ"
+
+#: frappe/www/login.html:188 frappe/www/update-password.html:92
+#, fuzzy
+msgid "Back to sign in"
+msgstr "サインインに戻る"
+
+#: frappe/database/mariadb/schema.py:177
+#, fuzzy
+msgid ""
+"Cannot change field type in {0}: some existing values cannot be converted to"
+" the new type"
+msgstr "{0}のフィールドタイプを変更できません: 既存の一部の値を新しいタイプに変換できません"
+
+#. Description of the 'Notification Type' (Link) field in DocType
+#. 'Notification'
+#: frappe/email/doctype/notification/notification.json
+#, fuzzy
+msgid ""
+"Category for the in-app notification. Used for filtering and per-user email "
+"preferences."
+msgstr "アプリ内通知のカテゴリ。フィルタリングおよびユーザーごとのメール設定に使用されます。"
+
+#: frappe/templates/emails/user_invitation.html:5
+#, fuzzy
+msgid "Click below to accept your invitation and get started."
+msgstr "招待を承諾して開始するには、以下をクリックしてください。"
+
+#: frappe/templates/emails/new_user.html:10
+#, fuzzy
+msgid ""
+"Click the button below to complete your registration and set a new password."
+msgstr "登録を完了し、新しいパスワードを設定するには、以下のボタンをクリックしてください。"
+
+#: frappe/templates/emails/login_with_email_link.html:2
+#, fuzzy
+msgid ""
+"Click the button below to sign in to your account. This link will expire in "
+"{0} minutes."
+msgstr "アカウントにサインインするには、以下のボタンをクリックしてください。このリンクは{0}分で期限切れになります。"
+
+#: frappe/desk/page/desktop/desktop.html:29
+#: frappe/desk/page/desktop/desktop.html:30
+#, fuzzy
+msgid "Cloud settings"
+msgstr "クラウド設定"
+
+#: frappe/public/js/frappe/ui/naming_series.js:108
+#, fuzzy
+msgid "Company Abbreviation (requires ERPNext to be installed)"
+msgstr "会社略称 (ERPNextのインストールが必要です)"
+
+#: frappe/templates/emails/new_user.html:1
+#, fuzzy
+msgid "Complete your registration"
+msgstr "登録を完了する"
+
+#: frappe/public/js/frappe/legacy_gravatar_cleanup.js:45
+#, fuzzy
+msgctxt "Confirm gravatar deletion prompt"
+msgid "Confirm"
+msgstr "確認"
+
+#: frappe/public/js/frappe/ui/toolbar/about.js:63
+#, fuzzy
+msgid "Copy Apps Version"
+msgstr "アプリバージョンをコピー"
+
+#: frappe/integrations/frappe_providers/cloud_settings.py:62
+#, fuzzy
+msgid "Could not reach your server: {0}"
+msgstr "サーバーに到達できませんでした: {0}"
+
+#: frappe/desk/page/desktop/desktop.js:467
+#: frappe/desk/page/desktop/desktop.js:477
+#, fuzzy
+msgid "Couldn't open Cloud settings. Please try again."
+msgstr "クラウド設定を開けませんでした。もう一度お試しください。"
+
+#: frappe/templates/includes/login/login.js:152
+#: frappe/templates/signup.html:18
+#, fuzzy
+msgid "Create Account"
+msgstr "アカウントを作成"
+
+#: frappe/public/js/frappe/ui/naming_series.js:248
+#, fuzzy
+msgid "Current Series"
+msgstr "現在のシリーズ"
+
+#. Label of the db_tables (Table) field in DocType 'DuckDB Sync'
+#: frappe/core/doctype/duckdb_sync/duckdb_sync.json
+#, fuzzy
+msgid "DB Tables"
+msgstr "DBテーブル"
+
+#: frappe/public/js/frappe/ui/naming_series.js:101
+#, fuzzy
+msgid "Day of month"
+msgstr "月の日にち"
+
+#. Label of the depth (Int) field in DocType 'Recorder Event'
+#: frappe/core/doctype/recorder_event/recorder_event.json
+#, fuzzy
+msgid "Depth"
+msgstr "深さ"
+
+#: frappe/www/login.html:219
+#, fuzzy
+msgid "Didn't receive the link?"
+msgstr "リンクが届きませんでしたか？"
+
+#. Label of the doc_values (Code) field in DocType 'Web Form Request'
+#: frappe/website/doctype/web_form_request/web_form_request.json
+#: frappe/website/doctype/web_form_request/web_form_request.py:104
+#, fuzzy
+msgid "Doc Values"
+msgstr "ドキュメント値"
+
+#. Name of a DocType
+#. Label of the doctype_to_sync (Table) field in DocType 'Report'
+#: frappe/core/doctype/doctype_to_sync/doctype_to_sync.json
+#: frappe/core/doctype/report/report.json
+#, fuzzy
+msgid "Doctype To Sync"
+msgstr "同期するDocType"
+
+#: frappe/public/js/frappe/ui/naming_series.js:7
+#, fuzzy
+msgid "Document Naming"
+msgstr "ドキュメント命名"
+
+#: frappe/integrations/frappe_providers/cloud_settings.py:406
+#, fuzzy
+msgid "Domain is required."
+msgstr "ドメインは必須です。"
+
+#. Name of a DocType
+#: frappe/core/doctype/duckdb_sync/duckdb_sync.json
+#, fuzzy
+msgid "DuckDB Sync"
+msgstr "DuckDB同期"
+
+#. Name of a DocType
+#: frappe/core/doctype/duckdb_sync_item/duckdb_sync_item.json
+#, fuzzy
+msgid "DuckDB Sync Item"
+msgstr "DuckDB同期項目"
+
+#. Label of the duration (Float) field in DocType 'Recorder Event'
+#: frappe/core/doctype/recorder_event/recorder_event.json
+#, fuzzy
+msgid "Duration (ms)"
+msgstr "期間 (ミリ秒)"
+
+#: frappe/templates/includes/login/login.js:24
+#, fuzzy
+msgid "Email is required."
+msgstr "メールアドレスは必須です。"
+
+#. Label of the email_notification_types (Table MultiSelect) field in DocType
+#. 'Notification Settings'
+#. Label of the email_notification_types_html (HTML) field in DocType
+#. 'Notification Settings'
+#: frappe/desk/doctype/notification_settings/notification_settings.json
+#, fuzzy
+msgid "Email me for these notification types"
+msgstr "これらの通知タイプについてメールで通知する"
+
+#. Label of the enable_snapshot_reports (Check) field in DocType 'System
+#. Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+#, fuzzy
+msgid "Enable Snapshot Reports"
+msgstr "スナップショットレポートを有効にする"
+
+#: frappe/desk/doctype/notification_type/notification_type.py:92
+#, fuzzy
+msgid "Enable the notification type before emailing it to users."
+msgstr "ユーザーにメールで送信する前に、通知タイプを有効にしてください。"
+
+#: frappe/desk/doctype/notification_type/notification_type.py:103
+#, fuzzy
+msgid "Enabling email for {0} across all users in the background."
+msgstr "バックグラウンドで全ユーザーに対して{0}のメールを有効にしています。"
+
+#: frappe/public/js/frappe/ui/naming_series.js:112
+#, fuzzy
+msgid "Examples:"
+msgstr "例:"
+
+#. Label of the filename (Data) field in DocType 'DuckDB Sync'
+#: frappe/core/doctype/duckdb_sync/duckdb_sync.json
+#, fuzzy
+msgid "Filename"
+msgstr "ファイル名"
+
+#. Label of the fingerprint (Data) field in DocType 'Error Log'
+#: frappe/core/doctype/error_log/error_log.json
+#, fuzzy
+msgid "Fingerprint"
+msgstr "フィンガープリント"
+
+#. Label of the fingerprint_stats (HTML) field in DocType 'Error Log'
+#: frappe/core/doctype/error_log/error_log.json
+#, fuzzy
+msgid "Fingerprint Stats"
+msgstr "フィンガープリント統計"
+
+#: frappe/core/doctype/error_log/error_log.js:63
+#, fuzzy
+msgid "First Seen"
+msgstr "初回検出"
+
+#. Label of the first_used_on (Datetime) field in DocType 'Web Form Request'
+#: frappe/website/doctype/web_form_request/web_form_request.json
+#, fuzzy
+msgid "First Used On"
+msgstr "初回使用日"
+
+#: frappe/public/js/frappe/ui/naming_series.js:107
+#, fuzzy
+msgid "Fiscal Year (requires ERPNext to be installed)"
+msgstr "会計年度 (ERPNextのインストールが必要です)"
+
+#. Description of the 'Client script' (Code) field in DocType 'Web Form'
+#: frappe/website/doctype/web_form/web_form.json
+#, fuzzy
+msgid ""
+"For help see <a "
+"href=\"https://frappeframework.com/docs/user/en/guides/portal-"
+"development/web-forms\" target=\"_blank\" rel=\"noopener noreferrer\">Client"
+" Script API and Examples</a>"
+msgstr ""
+"ヘルプについては、<a href=\"https://frappeframework.com/docs/user/en/guides/portal-"
+"development/web-forms\" target=\"_blank\" rel=\"noopener "
+"noreferrer\">クライアントスクリプトAPIと例</a>を参照してください。"
+
+#: frappe/www/login.html:48
+#, fuzzy
+msgid "Forgot password?"
+msgstr "パスワードをお忘れですか？"
+
+#: frappe/templates/includes/login/login.js:53
+#, fuzzy
+msgid "Full name is required."
+msgstr "氏名は必須です。"
+
+#: frappe/website/doctype/web_form/web_form.js:394
+#: frappe/website/doctype/web_form/web_form.js:398
+#, fuzzy
+msgid "Go to Access Control section"
+msgstr "アクセス制御セクションへ移動"
+
+#: frappe/www/update-password.html:288
+#, fuzzy
+msgid "Good"
+msgstr "良好"
+
+#: frappe/www/update-password.html:289
+#, fuzzy
+msgid "Great!"
+msgstr "素晴らしい！"
+
+#. Label of the handlers (Small Text) field in DocType 'Recorder Event'
+#: frappe/core/doctype/recorder_event/recorder_event.json
+#, fuzzy
+msgid "Handlers"
+msgstr "ハンドラー"
+
+#. Description of the 'Notification Title' (Data) field in DocType
+#. 'Notification'
+#: frappe/email/doctype/notification/notification.json
+#, fuzzy
+msgid ""
+"Headline of the in-app notification. Falls back to Subject if left blank. "
+"Supports Jinja."
+msgstr "アプリ内通知の見出し。空白の場合、件名にフォールバックします。Jinjaをサポートしています。"
+
+#. Description of the 'Key required' (Check) field in DocType 'Web Form'
+#: frappe/website/doctype/web_form/web_form.json
+#, fuzzy
+msgid ""
+"If enabled, the web form can only be used with a <i>Key</i> from a "
+"corresponding <b>Web Form Request</b>."
+msgstr "有効にすると、ウェブフォームは対応する<b>ウェブフォームリクエスト</b>からの<i>キー</i>でのみ使用できます。"
+
+#. Success message of the request-data Web Form
+#: frappe/website/web_form/request_data/request_data.json
+#, fuzzy
+msgid ""
+"If this email is registered with us, a download link will be sent to it."
+msgstr "このメールアドレスが弊社に登録されている場合、ダウンロードリンクが送信されます。"
+
+#: frappe/templates/emails/password_reset.html:6
+#, fuzzy
+msgid ""
+"If you did not request a password reset, please ignore this email. Your "
+"password will remain unchanged."
+msgstr "パスワードのリセットを要求していない場合は、このメールを無視してください。パスワードは変更されません。"
+
+#: frappe/templates/emails/verification_code.html:4
+#, fuzzy
+msgid "If you did not request this code, you can safely ignore this email."
+msgstr "このコードを要求していない場合は、このメールを無視して問題ありません。"
+
+#: frappe/templates/emails/login_with_email_link.html:6
+#, fuzzy
+msgid ""
+"If you didn't request this link, you can ignore this email. Someone may have"
+" entered your email address by mistake."
+msgstr "このリンクを要求していない場合は、このメールを無視してください。誰かが誤ってあなたのメールアドレスを入力した可能性があります。"
+
+#: frappe/database/mariadb/schema.py:180
+#, fuzzy
+msgid "Incompatible Values"
+msgstr "互換性のない値"
+
+#: frappe/templates/includes/login/login.js:66
+#: frappe/templates/includes/login/login.js:83
+#, fuzzy
+msgid "Invalid Email."
+msgstr "無効なメールアドレスです。"
+
+#: frappe/website/doctype/web_form_request/web_form_request.py:84
+#, fuzzy
+msgid "Invalid JSON"
+msgstr "無効なJSON"
+
+#: frappe/core/doctype/doctype/doctype.py:1757
+#, fuzzy
+msgid ""
+"Invalid Link Filters for field {0}. Link Filters must be a list of filters, "
+"where each filter is a list with four values: doctype, fieldname, operator, "
+"and value."
+msgstr ""
+"フィールド{0}のリンクフィルターが無効です。リンクフィルターはフィルターのリストである必要があり、各フィルターはdoctype、fieldname、operator、valueの4つの値を持つリストである必要があります。"
+
+#: frappe/core/doctype/doctype/doctype.py:1748
+#, fuzzy
+msgid "Invalid Link Filters for field {0}. Link Filters must be valid JSON."
+msgstr "フィールド{0}のリンクフィルターが無効です。リンクフィルターは有効なJSONである必要があります。"
+
+#: frappe/core/doctype/package_import/package_import.py:49
+#, fuzzy
+msgid "Invalid Package Name"
+msgstr "無効なパッケージ名"
+
+#: frappe/website/doctype/web_form/web_form.py:520
+#: frappe/website/doctype/web_form/web_form.py:988
+#: frappe/website/doctype/web_form_request/web_form_request.py:142
+#, fuzzy
+msgid "Invalid Web Form Request"
+msgstr "無効なウェブフォームリクエスト"
+
+#: frappe/utils/legacy_gravatar_cleanup.py:82
+#, fuzzy
+msgid "Invalid action"
+msgstr "無効なアクション"
+
+#: frappe/templates/includes/login/login.js:328
+#, fuzzy
+msgid "Invalid credentials, try again."
+msgstr "認証情報が無効です。もう一度お試しください。"
+
+#: frappe/utils/preview.py:34
+#, fuzzy
+msgid "Invalid format. Supported formats are {0}"
+msgstr "無効な形式です。サポートされている形式は{0}です"
+
+#: frappe/templates/emails/user_invitation_cancelled.html:1
+#, fuzzy
+msgid "Invitation cancelled"
+msgstr "招待がキャンセルされました"
+
+#: frappe/templates/emails/user_invitation_expired.html:1
+#, fuzzy
+msgid "Invitation expired"
+msgstr "招待の有効期限が切れました"
+
+#: frappe/website/doctype/web_form_request/web_form_request.py:87
+#, fuzzy
+msgid "JSON value must be an object"
+msgstr "JSON値はオブジェクトである必要があります"
+
+#: frappe/website/doctype/web_form/web_form.js:399
+#, fuzzy
+msgid "Key Required"
+msgstr "キーは必須"
+
+#. Label of the key_required (Check) field in DocType 'Web Form'
+#: frappe/website/doctype/web_form/web_form.json
+#, fuzzy
+msgid "Key required"
+msgstr "キーは必須"
+
+#: frappe/core/doctype/error_log/error_log.js:64
+#, fuzzy
+msgid "Last Seen"
+msgstr "最終検出"
+
+#: frappe/www/login.html:151
+#, fuzzy
+msgid "Let's setup your account."
+msgstr "アカウントを設定しましょう。"
+
+#: frappe/core/doctype/error_log/error_log.js:25
+#, fuzzy
+msgid "Loading error stats..."
+msgstr "エラー統計を読み込み中..."
+
+#: frappe/templates/emails/login_with_email_link.html:4
+#, fuzzy
+msgid "Log In to {0}"
+msgstr "{0}にログイン"
+
+#: frappe/templates/emails/login_with_email_link.html:1
+#, fuzzy
+msgid "Log in to {0}"
+msgstr "{0}にログイン"
+
+#: frappe/website/doctype/web_form/web_form.js:395
+#, fuzzy
+msgid "Login Required"
+msgstr "ログインが必要です"
+
+#: frappe/website/doctype/web_form/web_form.js:402
+#, fuzzy
+msgid ""
+"Login or a request key is required to see web form list view. Enable {0} to "
+"see list settings"
+msgstr "ウェブフォームリストビューを表示するには、ログインまたはリクエストキーが必要です。リスト設定を表示するには{0}を有効にしてください"
+
+#: frappe/www/login.html:224
+#, fuzzy
+msgid "Login with password"
+msgstr "パスワードでログイン"
+
+#: frappe/email/receive.py:520
+#, fuzzy
+msgid "Malformed Address Header"
+msgstr "不正なアドレスヘッダー"
+
+#. Label of the max_zip_extract_size (Int) field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+#, fuzzy
+msgid "Max Zip Extract Size (MB)"
+msgstr "Zip展開最大サイズ (MB)"
+
+#. Description of the 'Max Zip Extract Size (MB)' (Int) field in DocType
+#. 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+#, fuzzy
+msgid ""
+"Maximum total size a ZIP archive is allowed to expand to when extracted."
+msgstr "ZIPアーカイブが展開されたときに許容される最大合計サイズ。"
+
+#: frappe/core/doctype/doctype/doctype.py:879
+#, fuzzy
+msgid ""
+"Module changed to {0}. Files in the previous module were not moved and "
+"remain at {1}, remove or relocate them manually."
+msgstr "モジュールが{0}に変更されました。以前のモジュールのファイルは移動されず、{1}に残っています。手動で削除または再配置してください。"
+
+#: frappe/public/js/frappe/ui/naming_series.js:216
+#, fuzzy
+msgid "Naming Series updated"
+msgstr "命名シリーズが更新されました"
+
+#: frappe/public/js/frappe/ui/naming_series.js:417
+#, fuzzy
+msgid "No naming series defined"
+msgstr "命名シリーズが定義されていません"
+
+#: frappe/tests/test_translate.py:84
+#, fuzzy
+msgid "Noop Source"
+msgstr "Noopソース"
+
+#: frappe/website/doctype/web_form_request/web_form_request_list.js:13
+#, fuzzy
+msgid "Not Used"
+msgstr "未使用"
+
+#: frappe/public/js/frappe/ui/naming_series.js:358
+#, fuzzy
+msgid "Not configured"
+msgstr "未設定"
+
+#. Label of the notification_message (Small Text) field in DocType
+#. 'Notification'
+#: frappe/email/doctype/notification/notification.json
+#, fuzzy
+msgid "Notification Message"
+msgstr "通知メッセージ"
+
+#. Label of the notification_title (Data) field in DocType 'Notification'
+#: frappe/email/doctype/notification/notification.json
+#, fuzzy
+msgid "Notification Title"
+msgstr "通知タイトル"
+
+#. Name of a DocType
+#. Label of the notification_type (Link) field in DocType 'Notification Type
+#. Preference'
+#. Label of the notification_type (Link) field in DocType 'Notification'
+#: frappe/desk/doctype/notification_type/notification_type.json
+#: frappe/desk/doctype/notification_type_preference/notification_type_preference.json
+#: frappe/email/doctype/notification/notification.json
+#, fuzzy
+msgid "Notification Type"
+msgstr "通知タイプ"
+
+#. Name of a DocType
+#: frappe/desk/doctype/notification_type_preference/notification_type_preference.json
+#, fuzzy
+msgid "Notification Type Preference"
+msgstr "通知タイプ設定"
+
+#. Label of the number_of_events (Int) field in DocType 'Recorder'
+#: frappe/core/doctype/recorder/recorder.json
+#, fuzzy
+msgid "Number of Events"
+msgstr "イベント数"
+
+#: frappe/core/doctype/error_log/error_log.js:67
+#, fuzzy
+msgid "Occurrences (last 30 days)"
+msgstr "発生回数 (過去30日間)"
+
+#: frappe/core/api/user_invitation.py:124
+#, fuzzy
+msgid "Only pending invitations can be resent"
+msgstr "保留中の招待のみ再送信できます"
+
+#: frappe/public/js/frappe/ui/sidebar/sidebar.js:112
+#, fuzzy
+msgid "Open Frappe CRM"
+msgstr "Frappe CRMを開く"
+
+#: frappe/public/js/frappe/ui/sidebar/sidebar.js:149
+#, fuzzy
+msgid "Open Frappe Helpdesk"
+msgstr "Frappe Helpdeskを開く"
+
+#. Description of the 'Notification Message' (Small Text) field in DocType
+#. 'Notification'
+#: frappe/email/doctype/notification/notification.json
+#, fuzzy
+msgid "Optional body of the in-app notification. Supports Jinja."
+msgstr "アプリ内通知のオプションの本文。Jinjaをサポートしています。"
+
+#: frappe/public/js/frappe/ui/naming_series.js:88
+#, fuzzy
+msgid ""
+"Optionally, set the number of digits in the series using dot (.) followed by"
+" hashes (#). For example, '.####' means that the series will have four "
+"digits. Default is five digits."
+msgstr ""
+"オプションで、ドット(.)の後にハッシュ(#)を使用してシリーズの桁数を設定します。例えば、'.####'はシリーズが4桁になることを意味します。デフォルトは5桁です。"
+
+#: frappe/templates/emails/new_user.html:21
+#, fuzzy
+msgid "Or copy and paste this link:"
+msgstr "またはこのリンクをコピーして貼り付けてください:"
+
+#. Description of the 'Timeline' (Table) field in DocType 'Recorder'
+#: frappe/core/doctype/recorder/recorder.json
+#, fuzzy
+msgid ""
+"Ordered timeline of document lifecycle methods and doc_events handlers that "
+"ran during this request, attributed to the app(s) that hook them."
+msgstr ""
+"このリクエスト中に実行されたドキュメントライフサイクルメソッドとdoc_eventsハンドラの順序付けられたタイムラインで、それらをフックするアプリに帰属します。"
+
+#: frappe/core/doctype/package_import/package_import.py:65
+#, fuzzy
+msgid "Package contains disallowed path entry"
+msgstr "パッケージに許可されていないパスエントリが含まれています"
+
+#: frappe/templates/includes/login/login.js:28
+#, fuzzy
+msgid "Password is required."
+msgstr "パスワードは必須です。"
+
+#: frappe/public/js/frappe/ui/naming_series.js:180
+#, fuzzy
+msgid "Please add at least one naming series."
+msgstr "少なくとも1つの命名シリーズを追加してください。"
+
+#: frappe/www/login.html:202
+#, fuzzy
+msgid "Please check your email."
+msgstr "メールをご確認ください。"
+
+#: frappe/templates/includes/login/login.js:49
+#, fuzzy
+msgid "Please enter a valid email."
+msgstr "有効なメールアドレスを入力してください。"
+
+#: frappe/www/login.html:166
+#, fuzzy
+msgid "Please enter your email, we'll send you password reset link"
+msgstr "メールアドレスを入力してください。パスワードリセットリンクをお送りします"
+
+#: frappe/public/js/frappe/ui/naming_series.js:175
+#, fuzzy
+msgid "Please select a transaction."
+msgstr "取引を選択してください。"
+
+#: frappe/www/update-password.html:286
+#, fuzzy
+msgid "Poor!"
+msgstr "悪い！"
+
+#. Label of the queries (Int) field in DocType 'Recorder Event'
+#: frappe/core/doctype/recorder_event/recorder_event.json
+#, fuzzy
+msgid "Queries"
+msgstr "クエリ"
+
+#. Label of the method (Data) field in DocType 'Recorder Event'
+#: frappe/core/doctype/recorder_event/recorder_event.json
+#, fuzzy
+msgid "Raw Method"
+msgstr "生メソッド"
+
+#. Description of the 'Email me for these notification types' (Table
+#. MultiSelect) field in DocType 'Notification Settings'
+#: frappe/desk/doctype/notification_settings/notification_settings.json
+#, fuzzy
+msgid ""
+"Receive an email for notifications of these types. Remove a type to stop its"
+" emails (in-app notifications are unaffected)."
+msgstr "これらの種類の通知についてメールを受け取ります。メールを停止するには種類を削除してください（アプリ内通知には影響しません）。"
+
+#. Label of the recipient_section (Section Break) field in DocType
+#. 'Notification Log'
+#: frappe/desk/doctype/notification_log/notification_log.json
+#, fuzzy
+msgid "Recipient & Status"
+msgstr "受信者とステータス"
+
+#. Name of a DocType
+#: frappe/core/doctype/recorder_event/recorder_event.json
+#, fuzzy
+msgid "Recorder Event"
+msgstr "レコーダーイベント"
+
+#. Label of the redact_message_after_send (Check) field in DocType 'Email
+#. Queue'
+#: frappe/email/doctype/email_queue/email_queue.json
+#, fuzzy
+msgid "Redact Message After Send"
+msgstr "送信後にメッセージを編集"
+
+#. Label of the references (Table) field in DocType 'Web Form Request'
+#: frappe/website/doctype/web_form_request/web_form_request.json
+#, fuzzy
+msgid "References"
+msgstr "参照"
+
+#: frappe/email/receive.py:521
+#, fuzzy
+msgid "Rejected malformed encoded address header with synthesized '@': {0}"
+msgstr "合成された「@」を含む不正な形式のエンコード済みアドレスヘッダーが拒否されました: {0}"
+
+#. Description of the 'Redact Message After Send' (Check) field in DocType
+#. 'Email Queue'
+#: frappe/email/doctype/email_queue/email_queue.json
+#, fuzzy
+msgid ""
+"Replace the message body with a placeholder once the email has been sent, so"
+" that sensitive content like password reset links is not retained in the "
+"queue."
+msgstr ""
+"メール送信後、メッセージ本文をプレースホルダーに置き換えることで、パスワードリセットリンクなどの機密性の高いコンテンツがキューに残らないようにします。"
+
+#: frappe/integrations/frappe_providers/cloud_settings.py:69
+#, fuzzy
+msgid "Request to your server failed."
+msgstr "サーバーへのリクエストが失敗しました。"
+
+#: frappe/public/js/frappe/ui/naming_series.js:57
+#, fuzzy
+msgid "Rules for configuring series"
+msgstr "シリーズ設定のルール"
+
+#. Label of the send_acknowledgement_email (Check) field in DocType 'Contact
+#. Us
+#. Settings'
+#: frappe/website/doctype/contact_us_settings/contact_us_settings.json
+#, fuzzy
+msgid "Send Acknowledgement Email"
+msgstr "確認メールを送信"
+
+#: frappe/templates/includes/login/login.js:151 frappe/www/login.html:184
+#, fuzzy
+msgid "Send Link"
+msgstr "リンクを送信"
+
+#. Description of the 'Send Acknowledgement Email' (Check) field in DocType
+#. 'Contact Us Settings'
+#: frappe/website/doctype/contact_us_settings/contact_us_settings.json
+#, fuzzy
+msgid ""
+"Send an acknowledgement email to the email address entered in the contact "
+"form."
+msgstr "連絡フォームに入力されたメールアドレスに確認メールを送信します。"
+
+#. Label of the seq (Int) field in DocType 'Recorder Event'
+#: frappe/core/doctype/recorder_event/recorder_event.json
+#, fuzzy
+msgid "Sequence"
+msgstr "シーケンス"
+
+#: frappe/public/js/frappe/ui/naming_series.js:34
+#, fuzzy
+msgid "Series"
+msgstr "シリーズ"
+
+#: frappe/core/doctype/error_log/error_log.js:9
+#, fuzzy
+msgid "Show Similar Errors"
+msgstr "類似のエラーを表示"
+
+#: frappe/www/login.html:98 frappe/www/login.html:120
+#: frappe/www/login.html:136 frappe/www/login.html:195
+#, fuzzy
+msgid "Sign In"
+msgstr "サインイン"
+
+#: frappe/www/login.html:151
+#, fuzzy
+msgid "Sign Up"
+msgstr "サインアップ"
+
+#. Label of the snapshot_report (Check) field in DocType 'Report'
+#: frappe/core/doctype/report/report.json
+#, fuzzy
+msgid "Snapshot Report"
+msgstr "スナップショットレポート"
+
+#. Label of the snapshot_reports_section (Section Break) field in DocType
+#. 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+#, fuzzy
+msgid "Snapshot Reports"
+msgstr "スナップショットレポート"
+
+#: frappe/public/js/frappe/ui/naming_series.js:96
+#, fuzzy
+msgid "Supported Variables:"
+msgstr "サポートされている変数:"
+
+#: frappe/public/js/frappe/ui/sidebar/sidebar.js:111
+#, fuzzy
+msgid "Switch to CRM"
+msgstr "CRMに切り替える"
+
+#. Label of the sync_in_batch (Check) field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+#, fuzzy
+msgid "Sync In Batches"
+msgstr "バッチで同期"
+
+#. Label of the sync_timeout (Int) field in DocType 'System Settings'
+#: frappe/core/doctype/system_settings/system_settings.json
+#, fuzzy
+msgid "Sync Timeout (Seconds)"
+msgstr "同期タイムアウト（秒）"
+
+#. Label of the synced (Check) field in DocType 'DuckDB Sync Item'
+#: frappe/core/doctype/duckdb_sync_item/duckdb_sync_item.json
+#, fuzzy
+msgid "Synced"
+msgstr "同期済み"
+
+#: frappe/integrations/frappe_providers/cloud_settings.py:267
+#, fuzzy
+msgid "Task id is required."
+msgstr "タスクIDは必須です。"
+
+#: frappe/www/contact.py:48
+#, fuzzy
+msgid ""
+"Thank you for reaching out to us. We will get back to you at the earliest."
+msgstr "お問い合わせいただきありがとうございます。できるだけ早くご連絡いたします。"
+
+#: frappe/core/doctype/doctype/doctype.py:1433
+#, fuzzy
+msgid "The default value for the Check field {0} must be either '0' or '1'"
+msgstr "チェックフィールド{0}のデフォルト値は「0」または「1」のいずれかである必要があります"
+
+#: frappe/website/doctype/web_form_request/web_form_request.py:59
+#, fuzzy
+msgid "This Web Form Request has already been used"
+msgstr "このWebフォームリクエストはすでに使用されています"
+
+#: frappe/website/doctype/web_form_request/web_form_request.py:62
+#, fuzzy
+msgid "This Web Form Request has expired"
+msgstr "このWebフォームリクエストは期限切れです"
+
+#: frappe/public/js/frappe/ui/naming_series.js:244
+#, fuzzy
+msgid "Transaction"
+msgstr "取引"
+
+#. Label of the type_name (Data) field in DocType 'Notification Type'
+#: frappe/desk/doctype/notification_type/notification_type.json
+#, fuzzy
+msgid "Type Name"
+msgstr "タイプ名"
+
+#: frappe/www/update-password.html:63
+#, fuzzy
+msgid ""
+"Use minimum of 8 characters(case sensitive) with at least one number or "
+"special character."
+msgstr "少なくとも1つの数字または特殊文字を含む、8文字以上（大文字と小文字を区別）を使用してください。"
+
+#: frappe/www/update-password.html:20
+#, fuzzy
+msgid "Use strong passwords."
+msgstr "強力なパスワードを使用してください。"
+
+#: frappe/templates/emails/verification_code.html:2
+#, fuzzy
+msgid "Use the code below to complete your sign-in."
+msgstr "サインインを完了するには、以下のコードを使用してください。"
+
+#: frappe/website/doctype/web_form_request/web_form_request_list.js:9
+#, fuzzy
+msgid "Used"
+msgstr "使用済み"
+
+#: frappe/templates/emails/verification_code.html:1
+#, fuzzy
+msgid "Verification code"
+msgstr "認証コード"
+
+#: frappe/templates/emails/password_reset.html:3
+#, fuzzy
+msgid ""
+"We received a request to reset the password for your account. Click the "
+"button below to set a new password."
+msgstr "お客様のアカウントのパスワードリセットリクエストを受け付けました。新しいパスワードを設定するには、以下のボタンをクリックしてください。"
+
+#. Name of a DocType
+#: frappe/website/doctype/web_form_request/web_form_request.json
+#, fuzzy
+msgid "Web Form Request"
+msgstr "Webフォームリクエスト"
+
+#: frappe/website/doctype/web_form_request/web_form_request.py:129
+#, fuzzy
+msgid "Web Form Request key is required"
+msgstr "Webフォームリクエストキーは必須です"
+
+#: frappe/website/doctype/web_form_request/web_form_request.js:15
+#, fuzzy
+msgid "Web Form Request link copied"
+msgstr "Webフォームリクエストリンクがコピーされました"
+
+#. Label of the web_form_values (Code) field in DocType 'Web Form Request'
+#: frappe/website/doctype/web_form_request/web_form_request.json
+#: frappe/website/doctype/web_form_request/web_form_request.py:98
+#, fuzzy
+msgid "Web Form Values"
+msgstr "Webフォーム値"
+
+#: frappe/public/js/frappe/ui/naming_series.js:102
+#, fuzzy
+msgid "Week of the year"
+msgstr "年の週"
+
+#: frappe/www/login.html:120 frappe/www/login.html:136
+#: frappe/www/login.html:195
+#, fuzzy
+msgid "Welcome! Please sign in to continue."
+msgstr "ようこそ！続行するにはサインインしてください。"
+
+#. Description of the 'Email' (Section Break) field in DocType 'Notification
+#. Log'
+#: frappe/desk/doctype/notification_log/notification_log.json
+#, fuzzy
+msgid ""
+"What the recipient receives by email when this notification fires. Mirrors "
+"Title/Description by default; set these to make the email differ from the "
+"in-app text."
+msgstr ""
+"この通知がトリガーされたときに受信者がメールで受け取る内容です。デフォルトではタイトル/説明を反映しますが、メールをアプリ内テキストと異なるものにするにはこれらを設定してください。"
+
+#: frappe/public/js/frappe/ui/naming_series.js:99
+#, fuzzy
+msgid "Year in 2 digits"
+msgstr "2桁の年"
+
+#: frappe/public/js/frappe/ui/naming_series.js:98
+#, fuzzy
+msgid "Year in 4 digits"
+msgstr "4桁の年"
+
+#: frappe/public/js/frappe/ui/naming_series.js:92
+#, fuzzy
+msgid ""
+"You can also use variables in the series name by putting them between (.) "
+"dots"
+msgstr "シリーズ名に変数を使用することもできます。その場合は、変数を(.)ドットで囲んでください"
+
+#: frappe/desk/form/activity.py:67
+#, fuzzy
+msgid "You created this document"
+msgstr "このドキュメントを作成しました"
+
+#: frappe/integrations/frappe_providers/cloud_settings.py:125
+#, fuzzy
+msgid "You do not have access to Cloud Settings for this site."
+msgstr "このサイトのクラウド設定にアクセスする権限がありません。"
+
+#: frappe/website/doctype/web_form/web_form.py:761
+#: frappe/website/doctype/web_form/web_form.py:978
+#, fuzzy
+msgid "You must login to use this form"
+msgstr "このフォームを使用するにはログインする必要があります"
+
+#: frappe/desk/doctype/workspace/workspace.py:347
+#, fuzzy
+msgid "You need the Workspace Manager role to edit this workspace."
+msgstr "このワークスペースを編集するには、ワークスペースマネージャーのロールが必要です。"
+
+#: frappe/templates/emails/user_invitation.html:1
+#, fuzzy
+msgid "You've been invited"
+msgstr "招待されました"
+
+#: frappe/integrations/google_oauth.py:204
+#, fuzzy
+msgid ""
+"Your authorization attempt is invalid or has expired. Please try again."
+msgstr "認証試行が無効であるか、期限切れです。もう一度お試しください。"
+
+#: frappe/templates/emails/new_user.html:8
+#, fuzzy
+msgid "Your login ID is:"
+msgstr "あなたのログインIDは:"
+
+#: frappe/utils/oauth.py:232
+#, fuzzy
+msgid "Your login attempt is invalid or has expired. Please try again."
+msgstr "ログイン試行が無効であるか、期限切れです。もう一度お試しください。"
+
+#: frappe/www/update-password.html:122
+#, fuzzy
+msgid "Your password has expired. Please set a new password."
+msgstr "パスワードの有効期限が切れました。新しいパスワードを設定してください。"
+
+#: frappe/core/doctype/file/file.py:648 frappe/core/doctype/file/file.py:666
+#, fuzzy
+msgid "Zip file extracts to more than the maximum allowed size of {0} MB"
+msgstr "Zipファイルの展開サイズが、許可されている最大サイズ{0} MBを超えています"
+
+#: frappe/desk/form/activity.py:362
+#, fuzzy
+msgid "added {0} row(s) to {1}"
+msgstr "{1}に{0}行を追加しました"
+
+#: frappe/desk/form/activity.py:352
+#, fuzzy
+msgid "cancelled this document"
+msgstr "このドキュメントをキャンセルしました"
+
+#: frappe/desk/form/activity.py:443
+#, fuzzy
+msgid "changed {0}"
+msgstr "{0}を変更しました"
+
+#: frappe/desk/form/activity.py:436
+#, fuzzy
+msgid "cleared {0}"
+msgstr "{0}をクリアしました"
+
+#: frappe/public/js/frappe/ui/naming_series.js:104
+#, fuzzy
+msgid "fieldname on the document e.g."
+msgstr "ドキュメント上のフィールド名 例:"
+
+#: frappe/desk/form/activity.py:363
+#, fuzzy
+msgid "removed {0} row(s) from {1}"
+msgstr "{1}から{0}行を削除しました"
+
+#: frappe/desk/form/activity.py:450
+#, fuzzy
+msgid "set {0} to"
+msgstr "{0}をに設定"
+
+#: frappe/desk/form/activity.py:402
+#, fuzzy
+msgid "set {0} to {1} in row #{2}"
+msgstr "{0}を{1}に設定（行#{2}）"
+
+#: frappe/desk/form/activity.py:350
+#, fuzzy
+msgid "submitted this document"
+msgstr "このドキュメントを提出しました"
+
+#: frappe/desk/form/activity.py:434
+#, fuzzy
+msgid "updated {0}"
+msgstr "{0}を更新しました"
+
+#: frappe/public/js/frappe/ui/naming_series.js:291
+#: frappe/public/js/frappe/ui/naming_series.js:435
+#, fuzzy
+msgid "{0} Naming Series"
+msgstr "{0}命名シリーズ"
+
+#: frappe/website/doctype/web_form_request/web_form_request.py:110
+#, fuzzy
+msgid "{0} contains invalid field(s): {1}"
+msgstr "{0}には無効なフィールドが含まれています: {1}"
+
+#: frappe/desk/form/activity.py:68
+#, fuzzy
+msgid "{0} created this document"
+msgstr "{0}がこのドキュメントを作成しました"
+
+#: frappe/desk/doctype/notification_type/notification_type.py:89
+#, fuzzy
+msgid "{0} does not exist"
+msgstr "{0}は存在しません"
+
+#: frappe/desk/doctype/notification_type/notification_type.py:42
+#, fuzzy
+msgid ""
+"{0} is a built-in Notification Type and cannot be deleted. Disable it "
+"instead."
+msgstr "{0}は組み込みの通知種類であり、削除できません。代わりに無効にしてください。"
+
+#: frappe/desk/calendar.py:54
+#, fuzzy
+msgid "{0} is not a valid field of {1}"
+msgstr "{0}は{1}の有効なフィールドではありません"
+
+#: frappe/desk/form/activity.py:164
+#, fuzzy
+msgid "{0} liked"
+msgstr "{0}がいいねしました"
+
+#: frappe/desk/doctype/notification_type/notification_type.py:95
+#, fuzzy
+msgid "{0} never sends email, so it cannot be enabled for users."
+msgstr "{0}はメールを送信しないため、ユーザーに対して有効にすることはできません。"
+
+#: frappe/public/js/frappe/ui/notifications/notifications.js:421
+#, fuzzy
+msgid "{0} unread notifications"
+msgstr "{0}件の未読通知"
+
+#: frappe/website/doctype/web_form/web_form.py:121
+#, fuzzy
+msgid ""
+"{0}: Link field cannot reference DocType {1} without Guest read permission"
+msgstr "{0}: リンクフィールドは、ゲストの読み取り権限なしにDocType {1}を参照できません"
