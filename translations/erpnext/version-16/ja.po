@@ -350,9 +350,8 @@ msgid "'To Date' is required"
 msgstr "'終了日'は必須です"
 
 #: erpnext/stock/doctype/packing_slip/packing_slip.py:95
-#, fuzzy
 msgid "'To Package No.' cannot be less than 'From Package No.'"
-msgstr "「梱包番号(To)」は「梱包番号(From)」より小さくすることはできません"
+msgstr "「梱包番号（至）」は「梱包番号（自）」より小さくできません"
 
 #: erpnext/controllers/sales_and_purchase_return.py:80
 #, fuzzy
@@ -14402,7 +14401,7 @@ msgstr "原価計算"
 #. Label of the costing_detail (Section Break) field in DocType 'BOM Creator'
 #: erpnext/manufacturing/doctype/bom_creator/bom_creator.json
 msgid "Costing Details"
-msgstr "Costing詳細"
+msgstr "原価計算の詳細"
 
 #. Label of the costing_rate (Currency) field in DocType 'Activity Cost'
 #. Label of the costing_rate (Currency) field in DocType 'Timesheet Detail'
@@ -42948,9 +42947,8 @@ msgstr "社長"
 
 #. Label of the prevdoc_doctype (Data) field in DocType 'Packed Item'
 #: erpnext/stock/doctype/packed_item/packed_item.json
-#, fuzzy
 msgid "Prevdoc DocType"
-msgstr "Prevdoc DocType"
+msgstr "前文書の DocType"
 
 #. Label of the prevent_pos (Check) field in DocType 'Supplier'
 #. Label of the prevent_pos (Check) field in DocType 'Supplier Scorecard'
@@ -60190,11 +60188,10 @@ msgid ""
 msgstr "財務諸表に表示されるテキスト (例: 「総収益」、「現金および現金同等物」)"
 
 #: erpnext/stock/doctype/packing_slip/packing_slip.py:91
-#, fuzzy
 msgid ""
 "The 'From Package No.' field must neither be empty nor it's value less than "
 "1."
-msgstr "「From Package No.」フィールドは空であってはならず、その値が1未満であってもなりません。"
+msgstr "「梱包番号（自）」は空欄にできず、1 未満の値も指定できません。"
 
 #: erpnext/buying/doctype/request_for_quotation/request_for_quotation.py:423
 #, fuzzy
@@ -63087,7 +63084,7 @@ msgstr "合計支払額は {} を超えることはできません"
 
 #: erpnext/accounts/doctype/cost_center_allocation/cost_center_allocation.py:66
 msgid "Total percentage against cost centers should be 100"
-msgstr "percentage against cost centers should be 100合計"
+msgstr "コストセンターに対する割合の合計は 100 である必要があります"
 
 #: erpnext/selling/doctype/sales_order/sales_order.js:673
 #, fuzzy

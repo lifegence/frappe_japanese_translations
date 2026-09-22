@@ -29,6 +29,7 @@ Default Source Warehouse,既定の出庫倉庫
 Default Target Warehouse,既定の入庫倉庫
 Default Work In Progress Warehouse,既定の仕掛品倉庫
 Delivery Date,納品日
+Duplicate customer group found in the cutomer group table,顧客グループテーブルに重複する顧客グループがあります
 Equals,等しい
 Expected Delivery Date,納品予定日
 Finance Book,会計帳簿
@@ -81,10 +82,11 @@ Open,未処理
 Order By,並び順
 Ordered,発注済
 Ordered Qty,発注数量
-"Page {0} of {1}",{1} ページ中 {0} ページ
+Page {0} of {1},{1} ページ中 {0} ページ
 Party Type,取引先種別
 Pending,保留中
 Picked Qty,ピッキング数量
+Please enter Reqd by Date,要求日を入力してください
 Posting Date,記帳日
 Posting Time,記帳時刻
 Press Enter to save,Enter キーを押して保存
@@ -118,6 +120,7 @@ Shipping Address Name,出荷先住所名
 Show Stock Ageing Data,在庫エージングデータを表示
 Show Variant Attributes,バリアント属性を表示
 Show unclosed fiscal year's P&L balances,未締めの会計年度の損益残高を表示
+"Simple Python Expression, Example: Status in (""Closed"", ""Cancelled"")","単純な Python 式。例：Status in (""Closed"", ""Cancelled"")"
 Source Type,参照元種別
 Source Warehouse,出庫倉庫
 Stock Entry,在庫エントリ
@@ -141,6 +144,7 @@ Transferred Qty,移動数量
 Type,種別
 UOM Conversion Factor,単位換算係数
 Update Items,品目を更新
+User ID of a Blogger,ブロガーのユーザー ID
 Valuation Rate,評価単価
 Variance,差異
 WIP Warehouse,仕掛品倉庫

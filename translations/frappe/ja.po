@@ -1312,7 +1312,7 @@ msgstr "勘定科目"
 #. DocType 'Website Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
 msgid "Account Deletion Settings"
-msgstr "Account Deletion設定"
+msgstr "アカウント削除設定"
 
 #. Name of a role
 #: frappe/automation/doctype/auto_repeat/auto_repeat.json
@@ -1702,7 +1702,7 @@ msgstr "タグを追加"
 
 #: frappe/public/js/frappe/views/communication.js:486
 msgid "Add Template"
-msgstr "Addテンプレート"
+msgstr "テンプレートを追加"
 
 #. Label of the add_total_row (Check) field in DocType 'Report'
 #: frappe/core/doctype/report/report.json
@@ -2908,7 +2908,7 @@ msgstr "修正カウンター"
 #. Name of a DocType
 #: frappe/core/doctype/amended_document_naming_settings/amended_document_naming_settings.json
 msgid "Amended Document Naming Settings"
-msgstr "Amended Document Naming設定"
+msgstr "訂正文書の命名設定"
 
 #. Label of the amended_documents_section (Section Break) field in DocType
 #. 'Document Naming Settings'
@@ -3781,7 +3781,7 @@ msgstr "添付ファイルが削除されました"
 #. 'Notification'
 #: frappe/email/doctype/notification/notification.json
 msgid "Attachment Settings"
-msgstr "Attachment設定"
+msgstr "添付ファイル設定"
 
 #. Label of the attachments (Code) field in DocType 'Email Queue'
 #: frappe/email/doctype/email_queue/email_queue.json
@@ -5984,7 +5984,7 @@ msgstr "クリア"
 
 #: frappe/public/js/frappe/views/communication.js:491
 msgid "Clear & Add Template"
-msgstr "Clear & Addテンプレート"
+msgstr "消去してテンプレートを追加"
 
 #: frappe/public/js/frappe/views/communication.js:115
 #, fuzzy
@@ -7739,7 +7739,7 @@ msgstr "カスタムベースURL"
 #. Block'
 #: frappe/desk/doctype/workspace_custom_block/workspace_custom_block.json
 msgid "Custom Block Name"
-msgstr "Custom Block名"
+msgstr "カスタムブロック名"
 
 #. Label of the custom_blocks_tab (Tab Break) field in DocType 'Workspace'
 #. Label of the custom_blocks (Table) field in DocType 'Workspace'
@@ -8586,7 +8586,7 @@ msgstr "デフォルトアプリ"
 #: frappe/core/doctype/doctype/doctype.json
 #: frappe/custom/doctype/customize_form/customize_form.json
 msgid "Default Email Template"
-msgstr "Default Emailテンプレート"
+msgstr "既定のメールテンプレート"
 
 #: frappe/email/doctype/email_account/email_account_list.js:13
 #, fuzzy
@@ -8701,7 +8701,7 @@ msgstr "デフォルトユーザーロール"
 #. Label of the default_user_type (Link) field in DocType 'LDAP Settings'
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.json
 msgid "Default User Type"
-msgstr "Default User種類"
+msgstr "既定のユーザー種類"
 
 #. Label of the default (Text) field in DocType 'Custom Field'
 #. Label of the default_value (Data) field in DocType 'Property Setter'
@@ -9176,7 +9176,7 @@ msgstr "デスクアクセス"
 #. Label of the desk_settings_section (Section Break) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
 msgid "Desk Settings"
-msgstr "Desk設定"
+msgstr "デスク設定"
 
 #. Label of the desk_theme (Select) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
@@ -9779,9 +9779,8 @@ msgid "DocType is a Table / Form in the application."
 msgstr "DocType はアプリケーション内のテーブル/フォームです。"
 
 #: frappe/integrations/doctype/webhook/webhook.py:85
-#, fuzzy
 msgid "DocType must be Submittable for the selected Doc Event"
-msgstr "選択された Doc イベントに対して DocType は提出可能である必要があります"
+msgstr "選択した文書イベントを使うには、DocType が提出可能である必要があります"
 
 #: frappe/public/js/form_builder/store.js:177
 #, fuzzy
@@ -9973,7 +9972,7 @@ msgstr "ドキュメント命名ルール条件"
 #. Name of a DocType
 #: frappe/core/doctype/document_naming_settings/document_naming_settings.json
 msgid "Document Naming Settings"
-msgstr "Document Naming設定"
+msgstr "文書の命名設定"
 
 #: frappe/model/document.py:759
 #, fuzzy
@@ -10174,11 +10173,11 @@ msgstr "このユーザーに対してドキュメントフォローは有効に
 
 #: frappe/public/js/frappe/list/list_view.js:1454
 msgid "Document has been cancelled"
-msgstr "Documentがキャンセルされました"
+msgstr "文書が取り消されました"
 
 #: frappe/public/js/frappe/list/list_view.js:1453
 msgid "Document has been submitted"
-msgstr "Documentが提出されました"
+msgstr "文書が提出されました"
 
 #: frappe/public/js/frappe/list/list_view.js:1452
 #, fuzzy
@@ -10891,7 +10890,7 @@ msgstr "例: smsgateway.com/api/send_sms.cgi"
 
 #: frappe/rate_limiter.py:152
 msgid "Either key or IP flag is required."
-msgstr "Either key or IP flagは必須です"
+msgstr "key または IP フラグのいずれかが必要です。"
 
 #. Label of the element_selector (Data) field in DocType 'Form Tour Step'
 #: frappe/desk/doctype/form_tour_step/form_tour_step.json
@@ -11411,7 +11410,7 @@ msgstr "パスワードポリシーを有効化"
 #. Permission for Page and Report'
 #: frappe/core/doctype/role_permission_for_page_and_report/role_permission_for_page_and_report.json
 msgid "Enable Prepared Report"
-msgstr "Enable Preparedレポート"
+msgstr "準備済みレポートを有効にする"
 
 #. Label of the enable_print_server (Check) field in DocType 'Print Settings'
 #: frappe/printing/doctype/print_settings/print_settings.json
@@ -11500,7 +11499,7 @@ msgstr "子テーブルの行全体でこのフィールドの一括更新を有
 
 #: frappe/printing/doctype/print_format_field_template/print_format_field_template.py:30
 msgid "Enable developer mode to create a standard Print Template"
-msgstr "Enable developer mode to create a standard Printテンプレート"
+msgstr "標準の印刷テンプレートを作成するには、開発者モードを有効にしてください"
 
 #: frappe/website/doctype/web_template/web_template.py:35
 msgid "Enable developer mode to create a standard Web Template"
@@ -14353,7 +14352,7 @@ msgstr "ログイン必須フィールドへ移動"
 
 #: frappe/desk/doctype/notification_settings/notification_settings.js:17
 msgid "Go to Notification Settings List"
-msgstr "Go to Notification Settingsリスト"
+msgstr "通知設定の一覧へ移動"
 
 #. Option for the 'Action' (Select) field in DocType 'Onboarding Step'
 #: frappe/desk/doctype/onboarding_step/onboarding_step.json
@@ -15650,9 +15649,7 @@ msgstr "無効になっている場合、このロールはすべてのユーザ
 msgid ""
 "If enabled,  user can login from any IP Address using Two Factor Auth, this "
 "can also be set for all users in System Settings"
-msgstr ""
-"If enabled,  user can login from any IP Address using Two Factor Auth, this "
-"can also be set for all users in System設定"
+msgstr "有効にすると、二要素認証を使って任意の IP アドレスからログインできます。システム設定ですべてのユーザーに対して設定することもできます。"
 
 #. Description of the 'Anonymous responses' (Check) field in DocType 'Web
 #. Form'
@@ -15665,12 +15662,11 @@ msgstr "有効になっている場合、ウェブフォーム上のすべての
 #. Description of the 'Bypass restricted IP Address check If Two Factor Auth
 #. Enabled' (Check) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
-#, fuzzy
 msgid ""
 "If enabled, all users can login from any IP Address using Two Factor Auth. "
 "This can also be set only for specific user(s) in User Page"
 msgstr ""
-"有効になっている場合、すべてのユーザーは二要素認証を使用して任意のIPアドレスからログインできます。これはユーザーページで特定のユーザーにのみ設定することもできます"
+"有効にすると、すべてのユーザーが二要素認証を使って任意の IP アドレスからログインできます。ユーザーページで特定のユーザーにのみ設定することもできます"
 
 #. Description of the 'Track Changes' (Check) field in DocType 'DocType'
 #: frappe/core/doctype/doctype/doctype.json
@@ -15724,11 +15720,10 @@ msgstr ""
 #. Description of the 'Bypass Two Factor Auth for users who login from
 #. restricted IP Address' (Check) field in DocType 'System Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
-#, fuzzy
 msgid ""
 "If enabled, users who login from Restricted IP Address, won't be prompted "
 "for Two Factor Auth"
-msgstr "有効になっている場合、制限されたIPアドレスからログインするユーザーは二要素認証を求められません"
+msgstr "有効にすると、制限付き IP アドレスからログインしたユーザーには二要素認証が求められません"
 
 #. Description of the 'Notify Users On Every Login' (Check) field in DocType
 #. 'Note'
@@ -16170,9 +16165,8 @@ msgid "Import Warnings"
 msgstr "インポート警告"
 
 #: frappe/public/js/frappe/views/file/file_view.js:123
-#, fuzzy
 msgid "Import Zip"
-msgstr "Zipのインポート"
+msgstr "ZIP を取り込む"
 
 #. Label of the google_sheets_url (Data) field in DocType 'Data Import'
 #: frappe/core/doctype/data_import/data_import.json
@@ -16702,11 +16696,11 @@ msgstr "{0}に対する権限が不足しています"
 
 #: frappe/desk/reportview.py:371
 msgid "Insufficient Permissions for deleting Report"
-msgstr "Insufficient Permissions for deletingレポート"
+msgstr "レポートを削除する権限がありません"
 
 #: frappe/desk/reportview.py:335
 msgid "Insufficient Permissions for editing Report"
-msgstr "Insufficient Permissions for editingレポート"
+msgstr "レポートを編集する権限がありません"
 
 #: frappe/core/doctype/doctype/doctype.py:451
 #, fuzzy
@@ -16860,7 +16854,7 @@ msgstr "無効なCSV Format"
 
 #: frappe/integrations/frappe_providers/frappecloud_billing.py:120
 msgid "Invalid Code. Please try again."
-msgstr "無効なCode. Please try again"
+msgstr "コードが無効です。もう一度お試しください。"
 
 #: frappe/integrations/doctype/webhook/webhook.py:93
 msgid "Invalid Condition: {}"
@@ -16893,11 +16887,11 @@ msgstr "無効なDoctype"
 #: frappe/core/doctype/doctype/doctype.py:1351
 #: frappe/core/doctype/doctype/doctype.py:1360
 msgid "Invalid Fieldname"
-msgstr "無効なFieldname"
+msgstr "フィールド名が不正です"
 
 #: frappe/core/doctype/file/file.py:301
 msgid "Invalid File URL"
-msgstr "無効なFile URL"
+msgstr "ファイル URL が不正です"
 
 #: frappe/database/query.py:844 frappe/database/query.py:871
 #: frappe/database/query.py:881
@@ -16945,7 +16939,7 @@ msgstr "無効なNaming Series: {}"
 #: frappe/core/doctype/rq_job/rq_job.py:115
 #: frappe/core/doctype/rq_job/rq_job.py:124
 msgid "Invalid Operation"
-msgstr "無効なOperation"
+msgstr "操作が不正です"
 
 #: frappe/core/doctype/doctype/doctype.py:1729
 #: frappe/core/doctype/doctype/doctype.py:1737
@@ -16971,7 +16965,7 @@ msgstr "無効なパッケージ名"
 
 #: frappe/integrations/doctype/connected_app/connected_app.py:204
 msgid "Invalid Parameters."
-msgstr "無効なParameters"
+msgstr "パラメータが不正です。"
 
 #: frappe/core/doctype/user/user.py:982 frappe/www/update-password.html:148
 #: frappe/www/update-password.html:169 frappe/www/update-password.html:171
@@ -16981,7 +16975,7 @@ msgstr "無効なパスワード"
 
 #: frappe/utils/__init__.py:116
 msgid "Invalid Phone Number"
-msgstr "無効なPhone Number"
+msgstr "電話番号が不正です"
 
 #: frappe/auth.py:97 frappe/utils/oauth.py:214 frappe/utils/oauth.py:223
 #: frappe/www/login.py:121
@@ -16994,11 +16988,11 @@ msgstr "無効なSearch Field {0}"
 
 #: frappe/core/doctype/doctype/doctype.py:1291
 msgid "Invalid Table Fieldname"
-msgstr "無効なTable Fieldname"
+msgstr "テーブルのフィールド名が不正です"
 
 #: frappe/public/js/workflow_builder/store.js:229
 msgid "Invalid Transition"
-msgstr "無効なTransition"
+msgstr "遷移が不正です"
 
 #: frappe/core/doctype/file/file.py:312
 #: frappe/public/js/frappe/widgets/widget_dialog.js:602
@@ -17016,11 +17010,11 @@ msgstr "無効な値"
 
 #: frappe/integrations/doctype/webhook/webhook.py:122
 msgid "Invalid Webhook Secret"
-msgstr "無効なWebhook Secret"
+msgstr "Webhook シークレットが不正です"
 
 #: frappe/desk/reportview.py:191
 msgid "Invalid aggregate function"
-msgstr "無効なaggregate function"
+msgstr "集計関数が不正です"
 
 #: frappe/database/query.py:2469
 msgid "Invalid alias format: {0}. Alias must be a simple identifier."
@@ -17028,7 +17022,7 @@ msgstr "無効なalias format: {0}. Alias must be a simple identifier"
 
 #: frappe/core/doctype/user_invitation/user_invitation.py:196
 msgid "Invalid app"
-msgstr "無効なapp"
+msgstr "アプリが不正です"
 
 #: frappe/database/query.py:2429 frappe/database/query.py:2445
 msgid ""
@@ -17072,7 +17066,7 @@ msgstr "無効なdirection in Order By: {0}. Must be 'ASC' or 'DESC'"
 
 #: frappe/model/document.py:1344 frappe/model/document.py:1358
 msgid "Invalid docstatus"
-msgstr "無効なdocstatus"
+msgstr "docstatus の値が不正です"
 
 #: frappe/www/list.py:231
 #, fuzzy
@@ -17150,7 +17144,7 @@ msgstr ""
 
 #: frappe/core/api/user_invitation.py:17
 msgid "Invalid input"
-msgstr "無効なinput"
+msgstr "入力が不正です"
 
 #: frappe/desk/doctype/dashboard/dashboard.py:69
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.py:432
@@ -17159,7 +17153,7 @@ msgstr "無効なjson added in the custom options: {0}"
 
 #: frappe/model/naming.py:511
 msgid "Invalid name type (integer) for varchar name column"
-msgstr "無効なname type (integer) for varchar name column"
+msgstr "varchar の name 列に対して、name の型（integer）が不正です"
 
 #: frappe/model/naming.py:60
 msgid "Invalid naming series {}: dot (.) missing"
@@ -17194,7 +17188,7 @@ msgstr "無効なredirect regex in row #{}: {}"
 
 #: frappe/app.py:346
 msgid "Invalid request arguments"
-msgstr "無効なrequest arguments"
+msgstr "リクエストの引数が不正です"
 
 #: frappe/app.py:333
 msgid "Invalid request body"
@@ -17202,7 +17196,7 @@ msgstr "無効なrequest body"
 
 #: frappe/core/doctype/user_invitation/user_invitation.py:182
 msgid "Invalid role"
-msgstr "無効なrole"
+msgstr "ロールが不正です"
 
 #: frappe/database/query.py:818
 msgid "Invalid simple filter format: {0}"
@@ -17219,7 +17213,7 @@ msgstr "無効なtemplate file for import"
 #: frappe/integrations/doctype/connected_app/connected_app.py:210
 msgid ""
 "Invalid token state! Check if the token has been created by the OAuth user."
-msgstr "無効なtoken state! Check if the token has been created by the OAuth user"
+msgstr "トークンの状態が不正です。トークンが OAuth ユーザーによって作成されたかを確認してください。"
 
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.py:167
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.py:340
@@ -17238,7 +17232,7 @@ msgstr "フィールドの値が無効です:"
 
 #: frappe/printing/page/print/print.js:698
 msgid "Invalid wkhtmltopdf version"
-msgstr "無効なwkhtmltopdf version"
+msgstr "wkhtmltopdf のバージョンが不正です"
 
 #: frappe/core/doctype/doctype/doctype.py:1652
 msgid "Invalid {0} condition"
@@ -17262,7 +17256,7 @@ msgstr "招待はすでに承認されています"
 
 #: frappe/core/doctype/user_invitation/user_invitation.py:99
 msgid "Invitation already exists"
-msgstr "Invitationは既に存在します"
+msgstr "招待は既に存在します"
 
 #: frappe/core/api/user_invitation.py:101
 #, fuzzy
@@ -17281,7 +17275,7 @@ msgstr "招待は期限切れです"
 
 #: frappe/core/api/user_invitation.py:90 frappe/core/api/user_invitation.py:95
 msgid "Invitation not found"
-msgstr "Invitationが見つかりません"
+msgstr "招待が見つかりません"
 
 #: frappe/core/doctype/user_invitation/user_invitation.py:59
 #, fuzzy
@@ -17498,7 +17492,7 @@ msgstr "公開フィールドは有効なフィールド名である必要があ
 #: frappe/desk/doctype/workspace_link/workspace_link.json
 #: frappe/public/js/frappe/widgets/widget_dialog.js:341
 msgid "Is Query Report"
-msgstr "Is Queryレポート"
+msgstr "クエリレポートかどうか"
 
 #. Label of the is_remote_request (Check) field in DocType 'Integration
 #. Request'
@@ -17925,7 +17919,7 @@ msgstr "LDAP認証"
 #. 'LDAP Settings'
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.json
 msgid "LDAP Custom Settings"
-msgstr "LDAP Custom設定"
+msgstr "LDAP カスタム設定"
 
 #. Label of the ldap_email_field (Data) field in DocType 'LDAP Settings'
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.json
@@ -18031,7 +18025,7 @@ msgstr "LDAPセキュリティ"
 #. 'LDAP Settings'
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.json
 msgid "LDAP Server Settings"
-msgstr "LDAP Server設定"
+msgstr "LDAP サーバー設定"
 
 #. Label of the ldap_server_url (Data) field in DocType 'LDAP Settings'
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.json
@@ -18640,7 +18634,7 @@ msgstr "ライセンス"
 #. Label of the license_type (Select) field in DocType 'Package'
 #: frappe/core/doctype/package/package.json
 msgid "License Type"
-msgstr "License種類"
+msgstr "ライセンス種類"
 
 #. Option for the 'Desk Theme' (Select) field in DocType 'User'
 #: frappe/core/doctype/user/user.json
@@ -20349,7 +20343,7 @@ msgstr "モジュールプロファイル"
 #. Label of the module_profile_name (Data) field in DocType 'Module Profile'
 #: frappe/core/doctype/module_profile/module_profile.json
 msgid "Module Profile Name"
-msgstr "Module Profile名"
+msgstr "モジュールプロファイル名"
 
 #: frappe/printing/doctype/letter_head/letter_head.py:176
 #, fuzzy
@@ -20902,7 +20896,7 @@ msgstr "ネストセットエラー。管理者にお問い合わせください
 #. Name of a DocType
 #: frappe/printing/doctype/network_printer_settings/network_printer_settings.json
 msgid "Network Printer Settings"
-msgstr "Network Printer設定"
+msgstr "ネットワークプリンター設定"
 
 #. Option for the 'Show External Link Warning' (Select) field in DocType
 #. 'System Settings'
@@ -20955,7 +20949,7 @@ msgstr "新規Custom Print Format"
 #. Label of the new_document_form (Check) field in DocType 'Form Tour'
 #: frappe/desk/doctype/form_tour/form_tour.json
 msgid "New Document Form"
-msgstr "新規Document Form"
+msgstr "新規文書フォーム"
 
 #: frappe/desk/doctype/notification_log/notification_log.py:156
 msgid "New Document Shared {0}"
@@ -21044,7 +21038,7 @@ msgstr "新規ショートカット"
 #. Label of the new_users (Int) field in DocType 'System Health Report'
 #: frappe/desk/doctype/system_health_report/system_health_report.json
 msgid "New Users (Last 30 days)"
-msgstr "新規Users (Last 30 days)"
+msgstr "新規ユーザー（直近 30 日）"
 
 #: frappe/core/doctype/version/version_view.html:75
 #: frappe/core/doctype/version/version_view.html:140
@@ -21053,7 +21047,7 @@ msgstr "新規値"
 
 #: frappe/workflow/page/workflow_builder/workflow_builder.js:61
 msgid "New Workflow Name"
-msgstr "New Workflow名"
+msgstr "新しいワークフロー名"
 
 #: frappe/public/js/frappe/views/workspace/workspace.js:414
 msgid "New Workspace"
@@ -21088,7 +21082,7 @@ msgstr ""
 
 #: frappe/www/update-password.html:92
 msgid "New password cannot be same as old password"
-msgstr "新規password cannot be same as old password"
+msgstr "新しいパスワードは、以前のパスワードと同じにはできません"
 
 #: frappe/core/doctype/user/user.py:979
 #, fuzzy
@@ -21110,7 +21104,7 @@ msgstr "新規updates are available"
 #. Settings'
 #: frappe/website/doctype/website_settings/website_settings.json
 msgid "New users will have to be manually registered by system managers."
-msgstr "新規users will have to be manually registered by system managers."
+msgstr "新規ユーザーは、システム管理者が手動で登録する必要があります。"
 
 #. Description of the 'Set Value' (Small Text) field in DocType 'Property
 #. Setter'
@@ -22317,7 +22311,7 @@ msgstr "数値カードリンク"
 #. Card'
 #: frappe/desk/doctype/workspace_number_card/workspace_number_card.json
 msgid "Number Card Name"
-msgstr "Number Card名"
+msgstr "ナンバーカード名"
 
 #. Label of the number_cards_tab (Tab Break) field in DocType 'Workspace'
 #. Label of the number_cards (Table) field in DocType 'Workspace'
@@ -22466,7 +22460,7 @@ msgstr "OAuthプロバイダー"
 #: frappe/integrations/doctype/oauth_provider_settings/oauth_provider_settings.json
 #: frappe/integrations/workspace/integrations/integrations.json
 msgid "OAuth Provider Settings"
-msgstr "OAuth Provider設定"
+msgstr "OAuth プロバイダー設定"
 
 #. Name of a DocType
 #: frappe/integrations/doctype/oauth_scope/oauth_scope.json
@@ -22705,7 +22699,7 @@ msgstr "オンボード"
 
 #: frappe/public/js/frappe/widgets/widget_dialog.js:232
 msgid "Onboarding Name"
-msgstr "Onboarding名"
+msgstr "オンボーディング名"
 
 #. Name of a DocType
 #: frappe/desk/doctype/onboarding_permission/onboarding_permission.json
@@ -23249,7 +23243,7 @@ msgstr "送信"
 #. Account'
 #: frappe/email/doctype/email_account/email_account.json
 msgid "Outgoing (SMTP) Settings"
-msgstr "Outgoing (SMTP)設定"
+msgstr "送信（SMTP）設定"
 
 #. Label of the outgoing_emails_column (Column Break) field in DocType 'System
 #. Health Report'
@@ -23599,7 +23593,7 @@ msgstr "親DocType"
 #: frappe/desk/doctype/dashboard_chart/dashboard_chart.json
 #: frappe/desk/doctype/number_card/number_card.json
 msgid "Parent Document Type"
-msgstr "Parent Document種類"
+msgstr "親文書の種類"
 
 #: frappe/desk/doctype/number_card/number_card.py:71
 #, fuzzy
@@ -24507,14 +24501,13 @@ msgstr "有効なURLを入力してください"
 
 #: frappe/templates/includes/comments/comments.html:163
 msgid "Please enter a valid email address."
-msgstr "a valid email addressを入力してください"
+msgstr "有効なメールアドレスを入力してください。"
 
 #: frappe/templates/includes/contact.js:15
 msgid ""
 "Please enter both your email and message so that we can get back to you. "
 "Thanks!"
-msgstr ""
-"both your email and message so that we can get back to you. Thanks!を入力してください"
+msgstr "折り返しご連絡できるよう、メールアドレスとメッセージの両方をご入力ください。"
 
 #: frappe/www/update-password.html:259
 msgid "Please enter the password"
@@ -24532,11 +24525,11 @@ msgstr "valid mobile nosを入力してください"
 
 #: frappe/www/update-password.html:142
 msgid "Please enter your new password."
-msgstr "your new passwordを入力してください"
+msgstr "新しいパスワードを入力してください。"
 
 #: frappe/www/update-password.html:135
 msgid "Please enter your old password."
-msgstr "your old passwordを入力してください"
+msgstr "現在のパスワードを入力してください。"
 
 #: frappe/public/js/frappe/form/save.js:259
 #, fuzzy
@@ -24618,11 +24611,11 @@ msgstr "Minimum Password Scoreを選択してください"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:1251
 msgid "Please select X and Y fields"
-msgstr "X and Y fieldsを選択してください"
+msgstr "X 軸と Y 軸の項目を選択してください"
 
 #: frappe/public/js/form_builder/components/Field.vue:158
 msgid "Please select a DocType in options before setting filters"
-msgstr "a DocType in options before setting filtersを選択してください"
+msgstr "フィルターを設定する前に、オプションで DocType を選択してください"
 
 #: frappe/desk/doctype/number_card/number_card.js:365
 #, fuzzy
@@ -24640,7 +24633,7 @@ msgstr "a country code for field {1}を選択してください"
 
 #: frappe/public/js/frappe/file_uploader/FileUploader.vue:525
 msgid "Please select a file first."
-msgstr "a file firstを選択してください"
+msgstr "先にファイルを選択してください。"
 
 #: frappe/utils/file_manager.py:50
 msgid "Please select a file or url"
@@ -24674,7 +24667,7 @@ msgstr "the Document Typeを選択してください"
 #. Settings'
 #: frappe/integrations/doctype/ldap_settings/ldap_settings.json
 msgid "Please select the LDAP Directory being used"
-msgstr "the LDAP Directory being usedを選択してください"
+msgstr "使用している LDAP ディレクトリを選択してください"
 
 #: frappe/website/doctype/website_settings/website_settings.js:104
 msgid "Please select {0}"
@@ -25236,7 +25229,7 @@ msgstr "印刷フォーマットエラー"
 #. Name of a DocType
 #: frappe/printing/doctype/print_format_field_template/print_format_field_template.json
 msgid "Print Format Field Template"
-msgstr "Print Format Fieldテンプレート"
+msgstr "印刷書式の項目テンプレート"
 
 #. Label of the print_format_for (Select) field in DocType 'Print Format'
 #: frappe/printing/doctype/print_format/print_format.json
@@ -25257,7 +25250,7 @@ msgstr "Print Format種類"
 
 #: frappe/public/js/frappe/views/reports/query_report.js:1681
 msgid "Print Format not found"
-msgstr "Print Formatが見つかりません"
+msgstr "印刷書式が見つかりません"
 
 #: frappe/www/printview.py:453
 #, fuzzy
@@ -25744,7 +25737,7 @@ msgstr "プッシュ通知"
 #: frappe/integrations/doctype/push_notification_settings/push_notification_settings.json
 #: frappe/integrations/workspace/integrations/integrations.json
 msgid "Push Notification Settings"
-msgstr "Push Notification設定"
+msgstr "プッシュ通知設定"
 
 #. Label of a Card Break in the Integrations Workspace
 #: frappe/integrations/workspace/integrations/integrations.json
@@ -26078,7 +26071,7 @@ msgstr "生印刷設定"
 
 #: frappe/public/js/frappe/form/templates/print_layout.html:37
 msgid "Raw Printing Settings"
-msgstr "Raw Printing設定"
+msgstr "Raw 印刷設定"
 
 #: frappe/desk/doctype/console_log/console_log.js:6
 #, fuzzy
@@ -26715,7 +26708,7 @@ msgstr "リレーサーバーのURLがありません"
 #. Notification Settings'
 #: frappe/integrations/doctype/push_notification_settings/push_notification_settings.json
 msgid "Relay Settings"
-msgstr "Relay設定"
+msgstr "リレー設定"
 
 #. Group in Package's connections
 #: frappe/core/doctype/package/package.json
@@ -27482,7 +27475,7 @@ msgstr "パスワードリセットリンクの有効期限"
 #. Settings'
 #: frappe/core/doctype/system_settings/system_settings.json
 msgid "Reset Password Template"
-msgstr "Reset Passwordテンプレート"
+msgstr "パスワード再設定テンプレート"
 
 #: frappe/core/page/permission_manager/permission_manager.js:121
 #, fuzzy
@@ -28122,8 +28115,7 @@ msgstr "ルール条件"
 msgid ""
 "Rule for this doctype, role, permlevel and if-owner combination already "
 "exists."
-msgstr ""
-"Rule for this doctype, role, permlevel and if-owner combinationは既に存在します"
+msgstr "この DocType・ロール・権限レベル・所有者条件の組み合わせのルールは、既に存在します。"
 
 #. Group in DocType's connections
 #: frappe/core/doctype/doctype/doctype.json
@@ -28229,7 +28221,7 @@ msgstr "SMSは送信されませんでした。管理者にお問い合わせく
 
 #: frappe/email/doctype/email_account/email_account.py:282
 msgid "SMTP Server is required"
-msgstr "SMTP Serverは必須です"
+msgstr "SMTP サーバーは必須です"
 
 #. Option for the 'Type' (Select) field in DocType 'System Console'
 #: frappe/desk/doctype/system_console/system_console.json
@@ -29629,7 +29621,7 @@ msgstr "送信済"
 #: frappe/email/doctype/email_account/email_account.json
 #: frappe/email/doctype/email_domain/email_domain.json
 msgid "Sent Folder Name"
-msgstr "Sent Folder名"
+msgstr "送信済みフォルダ名"
 
 #. Label of the sent_on (Date) field in DocType 'SMS Log'
 #: frappe/core/doctype/sms_log/sms_log.json
@@ -33061,9 +33053,7 @@ msgstr "ドキュメントは{0}に割り当てられました"
 msgid ""
 "The document type selected is a child table, so the parent document type is "
 "required."
-msgstr ""
-"The document type selected is a child table, so the parent document "
-"typeは必須です"
+msgstr "選択した文書タイプは子テーブルのため、親の文書タイプが必要です。"
 
 #: frappe/core/page/permission_manager/permission_manager_help.html:58
 #, fuzzy
@@ -34513,12 +34503,12 @@ msgstr "合計"
 #. Report'
 #: frappe/desk/doctype/system_health_report/system_health_report.json
 msgid "Total Background Workers"
-msgstr "Background Workers合計"
+msgstr "バックグラウンドワーカー数"
 
 #. Label of the total_errors (Int) field in DocType 'System Health Report'
 #: frappe/desk/doctype/system_health_report/system_health_report.json
 msgid "Total Errors (last 1 day)"
-msgstr "Errors (last 1 day)合計"
+msgstr "エラー合計（直近 1 日）"
 
 #: frappe/public/js/frappe/ui/capture.js:260
 msgid "Total Images"
@@ -34528,7 +34518,7 @@ msgstr "画像合計"
 #. Report'
 #: frappe/desk/doctype/system_health_report/system_health_report.json
 msgid "Total Outgoing Emails"
-msgstr "Outgoing Emails合計"
+msgstr "送信メール合計"
 
 #. Label of the total_subscribers (Int) field in DocType 'Email Group'
 #: frappe/email/doctype/email_group/email_group.json
@@ -34543,7 +34533,7 @@ msgstr "ユーザー合計"
 #. Label of the total_working_time (Duration) field in DocType 'RQ Worker'
 #: frappe/core/doctype/rq_worker/rq_worker.json
 msgid "Total Working Time"
-msgstr "Working Time合計"
+msgstr "合計作業時間"
 
 #: frappe/public/js/print_format_builder/ConfigureColumns.vue:26
 #, fuzzy
@@ -35839,7 +35829,7 @@ msgstr "ユーザーDocType権限"
 #. Name of a DocType
 #: frappe/core/doctype/user_document_type/user_document_type.json
 msgid "User Document Type"
-msgstr "User Document種類"
+msgstr "ユーザー文書タイプ"
 
 #. Name of a DocType
 #: frappe/core/doctype/user_email/user_email.json
@@ -35975,7 +35965,7 @@ msgstr "ユーザーロールプロファイル"
 #. Name of a DocType
 #: frappe/core/doctype/user_select_document_type/user_select_document_type.json
 msgid "User Select Document Type"
-msgstr "User Select Document種類"
+msgstr "ユーザー選択の文書タイプ"
 
 #. Name of a DocType
 #: frappe/core/doctype/user_session_display/user_session_display.json
@@ -37360,12 +37350,12 @@ msgstr "レターヘッド付き"
 #. Worker'
 #: frappe/core/doctype/rq_worker/rq_worker.json
 msgid "Worker Information"
-msgstr "Worker情報"
+msgstr "ワーカー情報"
 
 #. Label of the worker_name (Data) field in DocType 'RQ Worker'
 #: frappe/core/doctype/rq_worker/rq_worker.json
 msgid "Worker Name"
-msgstr "Worker名"
+msgstr "ワーカー名"
 
 #. Option for the 'Comment Type' (Select) field in DocType 'Comment'
 #. Group in DocType's connections
@@ -37447,7 +37437,7 @@ msgstr "ワークフローデータ"
 
 #: frappe/public/js/workflow_builder/components/Properties.vue:53
 msgid "Workflow Details"
-msgstr "Workflow詳細"
+msgstr "ワークフローの詳細"
 
 #. Name of a DocType
 #: frappe/workflow/doctype/workflow_document_state/workflow_document_state.json
@@ -37599,7 +37589,7 @@ msgstr "ワークスペース数値カード"
 #. Name of a DocType
 #: frappe/desk/doctype/workspace_quick_list/workspace_quick_list.json
 msgid "Workspace Quick List"
-msgstr "Workspace Quickリスト"
+msgstr "ワークスペースのクイックリスト"
 
 #. Name of a DocType
 #: frappe/desk/doctype/workspace_shortcut/workspace_shortcut.json
@@ -38562,7 +38552,7 @@ msgstr "あなたのショートカット"
 #: frappe/website/doctype/personal_data_deletion_request/personal_data_deletion_request.py:147
 #: frappe/website/doctype/personal_data_deletion_request/personal_data_deletion_request.py:153
 msgid "Your account has been deleted"
-msgstr "Your accountが削除されました"
+msgstr "アカウントが削除されました"
 
 #: frappe/auth.py:529
 #, fuzzy
