@@ -8,6 +8,7 @@ Allow Alternative Item,代替品目を許可
 Amount,金額
 Available,利用可能
 Available Qty,利用可能数量
+Average,普通
 Based On,基準
 Billed,請求済
 Billed Amt,請求済金額
@@ -16,6 +17,7 @@ Buying,購買
 Cancelled,取消済
 Category,カテゴリ
 Charts Based On,グラフの基準
+Clear,クリア
 Closed,クローズ済
 Compact Item Print,品目のコンパクト印刷
 Consumed Qty,消費数量
@@ -31,6 +33,7 @@ Default Work In Progress Warehouse,既定の仕掛品倉庫
 Delivery Date,納品日
 DocType must be Submittable for the selected Doc Event,選択した文書イベントを使うには、DocType が提出可能である必要があります
 Duplicate customer group found in the cutomer group table,顧客グループテーブルに重複する顧客グループがあります
+Edit,編集
 Equals,等しい
 Expected Delivery Date,納品予定日
 Finance Book,会計帳簿
@@ -40,6 +43,7 @@ From Posting Date,記帳日（開始）
 Get Items From,品目の取得元
 Grand Total,総計
 Grand Total (Company Currency),総計（会社通貨）
+Hide,非表示
 Id,ID
 "If enabled,  user can login from any IP Address using Two Factor Auth, this can also be set for all users in System Settings",有効にすると、二要素認証を使って任意の IP アドレスからログインできます。システム設定ですべてのユーザーに対して設定することもできます。
 "If enabled, all users can login from any IP Address using Two Factor Auth. This can also be set only for specific user(s) in User Page",有効にすると、すべてのユーザーが二要素認証を使って任意の IP アドレスからログインできます。ユーザーページで特定のユーザーにのみ設定することもできます
@@ -78,6 +82,7 @@ Medium,中
 Method,方式
 Naming Series,命名シリーズ
 Net Total (Company Currency),正味合計（会社通貨）
+New,新規
 New BOM,新規部品表
 Next,次へ
 Non stock items,非在庫品目
@@ -124,6 +129,7 @@ Search Sub Assemblies,中間組立品を検索
 Select Target Warehouse,入庫倉庫を選択
 Set Target Warehouse,入庫倉庫を設定
 Shipping Address Name,出荷先住所名
+Show,表示
 Show Stock Ageing Data,在庫エージングデータを表示
 Show Variant Attributes,バリアント属性を表示
 Show unclosed fiscal year's P&L balances,未締めの会計年度の損益残高を表示
