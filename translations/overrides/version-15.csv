@@ -29,6 +29,7 @@ Default Source Warehouse,既定の出庫倉庫
 Default Target Warehouse,既定の入庫倉庫
 Default Work In Progress Warehouse,既定の仕掛品倉庫
 Delivery Date,納品日
+DocType must be Submittable for the selected Doc Event,選択した文書イベントを使うには、DocType が提出可能である必要があります
 Duplicate customer group found in the cutomer group table,顧客グループテーブルに重複する顧客グループがあります
 Equals,等しい
 Expected Delivery Date,納品予定日
@@ -40,6 +41,10 @@ Get Items From,品目の取得元
 Grand Total,総計
 Grand Total (Company Currency),総計（会社通貨）
 Id,ID
+"If enabled,  user can login from any IP Address using Two Factor Auth, this can also be set for all users in System Settings",有効にすると、二要素認証を使って任意の IP アドレスからログインできます。システム設定ですべてのユーザーに対して設定することもできます。
+"If enabled, all users can login from any IP Address using Two Factor Auth. This can also be set only for specific user(s) in User Page",有効にすると、すべてのユーザーが二要素認証を使って任意の IP アドレスからログインできます。ユーザーページで特定のユーザーにのみ設定することもできます
+"If enabled, users who login from Restricted IP Address, won't be prompted for Two Factor Auth",有効にすると、制限付き IP アドレスからログインしたユーザーには二要素認証が求められません
+Import Zip,ZIP を取り込む
 Include Default FB Entries,既定の会計帳簿の仕訳を含める
 Invalid Filter Value,無効なフィルタ値
 Invalid Quantity,数量が不正です
@@ -78,6 +83,7 @@ Next,次へ
 Non stock items,非在庫品目
 Note,メモ
 Notification,通知
+OAuth Provider Settings,OAuth プロバイダー設定
 Open,未処理
 Order By,並び順
 Ordered,発注済
@@ -90,6 +96,7 @@ Please enter Reqd by Date,要求日を入力してください
 Posting Date,記帳日
 Posting Time,記帳時刻
 Press Enter to save,Enter キーを押して保存
+Prevdoc DocType,前文書の DocType
 Print,印刷
 Print UOM after Quantity,数量の後に単位を印刷
 Print taxes with zero amount,金額がゼロの税を印刷
