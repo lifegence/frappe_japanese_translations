@@ -749,7 +749,7 @@ ${values.doctype_name} has been added to queue for optimization,${values.doctype
 'Recipients' not specified,「受信者」が指定されていません
 'To Case No.' cannot be less than 'From Case No.',「終了事例番号」は「開始事例番号」より前にはできません
 'To Date' is required,「終了日」が必要です
-'To Package No.' cannot be less than 'From Package No.',「梱包番号(To)」は「梱包番号(From)」より小さくすることはできません
+'To Package No.' cannot be less than 'From Package No.',「梱包番号（至）」は「梱包番号（自）」より小さくできません
 'Total',「合計」
 'Update Stock' can not be checked because items are not delivered via {0},アイテムが{0}経由で配送されていないため、「在庫更新」はチェックできません
 'Update Stock' cannot be checked for fixed asset sale,「アップデート証券は「固定資産売却をチェックすることはできません
@@ -2247,7 +2247,7 @@ Account Currency,アカウント通貨
 Account Currency (From),勘定科目通貨 (開始)
 Account Currency (To),勘定科目通貨 (終了)
 Account Data,データ
-Account Deletion Settings,Account Deletion設定
+Account Deletion Settings,アカウント削除設定
 Account Detail Level,詳細レベル
 Account Details,口座詳細
 Account Head,勘定科目
@@ -2566,7 +2566,7 @@ Add Subscribers,登録者を追加
 Add Suppliers,サプライヤを追加
 Add Tags,タグを追加
 Add Taxes,税を追加
-Add Template,Addテンプレート
+Add Template,テンプレートを追加
 Add Test,テスト追加
 Add Time Slots,タイムスロットを追加する
 Add Timesheets,タイムシートを追加
@@ -3195,7 +3195,7 @@ Amazon MWS Settings,Amazon MWSの設定
 Amazon will synch data updated after this date,Amazonは、この日付後に更新されたデータを同期させます
 Amend,修正
 Amend Counter,修正カウンター
-Amended Document Naming Settings,Amended Document Naming設定
+Amended Document Naming Settings,訂正文書の命名設定
 Amended Documents,修正済みドキュメント
 Amended From,修正元
 Amending,修正中
@@ -3751,7 +3751,7 @@ Attachment Limit Reached,添付ファイル制限に達しました
 Attachment Link,アタッチメントリンク
 Attachment Not Found,添付ファイルが見つかりません
 Attachment Removed,添付ファイル削除済
-Attachment Settings,Attachment設定
+Attachment Settings,添付ファイル設定
 Attachments,添付
 Attempting Connection to QZ Tray...,QZトレイへの接続を試みています...
 Attempting to launch QZ Tray...,QZトレイを起動しようとしています...
@@ -5217,7 +5217,7 @@ Clay,粘土
 Clay Composition (%),粘土組成（％）
 Clay Loam,埴壌土
 Clear,晴れ
-Clear & Add Template,Clear & Addテンプレート
+Clear & Add Template,消去してテンプレートを追加
 Clear & Add template,クリアしてテンプレートを追加
 Clear Activity Log After,後でアクティビティログをクリアする
 Clear All,すべてクリア
@@ -5882,7 +5882,7 @@ Cost to Company (CTC),会社負担費用 (CTC)
 "Cost, Insurance and Freight",運賃、保険料込み条件
 Costing,原価計算
 Costing Amount,原価計算額
-Costing Details,Costing詳細
+Costing Details,原価計算の詳細
 Costing Rate,原価計算単価
 Costing and Billing,原価計算と請求
 Costing and Billing fields has been updated,原価計算および請求フィールドが更新されました。
@@ -6347,7 +6347,7 @@ Custody,親権
 Custom,カスタム
 Custom API,カスタムAPI
 Custom Base URL,カスタムベースURL
-Custom Block Name,Custom Block名
+Custom Block Name,カスタムブロック名
 Custom Blocks,カスタムブロック
 Custom CSS,カスタムCSS
 Custom Configuration,カスタム構成
@@ -6736,7 +6736,7 @@ Default Distance Unit,デフォルト距離単位
 Default Down Payment Payable Account,既定の前渡金（買掛）勘定
 Default Down Payment Receivable Account,既定の前受金（売掛）勘定
 Default Duration (In Minutes),デフォルトの期間（分単位）
-Default Email Template,Default Emailテンプレート
+Default Email Template,既定のメールテンプレート
 Default Employee Advance Account,デフォルトの従業員アドバンスアカウント
 Default Expense Account,デフォルト経費
 Default Expense Claim Payable Account,デフォルト経費請求支払可能口座
@@ -6818,7 +6818,7 @@ Default Unit of Measure for Item {0} cannot be changed directly because you have
 Default Unit of Measure for Item {0} cannot be changed directly because you have already made some transaction(s) with another UOM. You will need to create a new Item to use a different Default UOM.,品目 {0} のデフォルト単位は、他の単位で既に取引を行っているため、直接変更できません。異なるデフォルト単位を使用するには、新しい品目を作成する必要があります。
 Default Unit of Measure for Variant '{0}' must be same as in Template '{1}',バリエーションのデフォルト単位 '{0}' はテンプレート '{1}' と同じである必要があります
 Default User Role,デフォルトユーザーロール
-Default User Type,Default User種類
+Default User Type,既定のユーザー種類
 Default Valuation Method,デフォルト評価方法
 Default Value,デフォルト値
 Default Values,デフォルト値
@@ -7080,7 +7080,7 @@ Desk Access,デスクのアクセス
 Desk Card,デスクカード
 Desk Chart,デスクチャート
 Desk Page,デスクページ
-Desk Settings,Desk設定
+Desk Settings,デスク設定
 Desk Shortcut,デスクショートカット
 Desk Theme,デスクテーマ
 Desk User,デスクユーザー
@@ -7416,7 +7416,7 @@ Document Name must not be empty,ドキュメント名を空にすることはで
 Document Naming,伝票命名
 Document Naming Rule,ドキュメントの命名規則
 Document Naming Rule Condition,ドキュメントの命名規則の条件
-Document Naming Settings,Document Naming設定
+Document Naming Settings,文書の命名設定
 Document No,伝票番号
 Document Queued,文書キュー
 Document Restoration Summary,ドキュメント復元の概要
@@ -7448,8 +7448,8 @@ Document Unlocked,ドキュメントがロック解除されました
 Document can't saved.,文書を保存できませんでした。
 Document cannot be used as a filter value,ドキュメントをフィルター値として使用することはできません
 Document follow is not enabled for this user.,このユーザーに対してドキュメントフォローは有効になっていません。
-Document has been cancelled,Documentがキャンセルされました
-Document has been submitted,Documentが提出されました
+Document has been cancelled,文書が取り消されました
+Document has been submitted,文書が提出されました
 Document is in draft state,ドキュメントは下書き状態です
 Document is only editable by users of role,この文書を編集できるのは次のロールのユーザーのみです
 Document is only editable by users with role,ドキュメントは、役割を持つユーザーのみが編集できます
@@ -7616,7 +7616,7 @@ Duplicate Stock Closing Entry,複製在庫期末入力
 Duplicate Workspace,ワークスペースを複製
 Duplicate current row,現在の行を複製
 Duplicate customer group found in the customer group table,顧客グループテーブルに重複する顧客グループが見つかりました
-Duplicate customer group found in the cutomer group table,cutomerグループテーブルで見つかった重複する顧客グループ
+Duplicate customer group found in the cutomer group table,顧客グループテーブルに重複する顧客グループがあります
 Duplicate entry,エントリーを複製
 Duplicate entry against the item code {0} and manufacturer {1},商品コード{0}と製造元{1}に対する重複エントリ
 Duplicate entry: {0}{1},重複エントリ: {0}{1}
@@ -7746,7 +7746,7 @@ Eg. smsgateway.com/api/send_sms.cgi,例「smsgateway.com/api/send_sms.cgi」
 Either 'Selling' or 'Buying' must be selected,「販売」または「購買」のいずれかを選択する必要があります
 Either GST Transporter ID or Vehicle No is required if Mode of Transport is Road,交通手段が道路の場合は、GSTトランスポータIDまたは車両番号のいずれかが必要です。
 Either Workstation or Workstation Type is mandatory,ワークステーションまたはワークステーションタイプは必須です
-Either key or IP flag is required.,Either key or IP flagは必須です
+Either key or IP flag is required.,key または IP フラグのいずれかが必要です。
 Either location or employee must be required,場所または従業員のいずれかが必要です
 Either target qty or target amount is mandatory,ターゲット数量や目標量のどちらかが必須です
 Either target qty or target amount is mandatory.,ターゲット数量や目標量のどちらかが必須です。
@@ -7994,7 +7994,7 @@ Enable Parallel Reposting,並行再転記を有効にする
 Enable Password Policy,パスワードポリシーを有効にする
 Enable Perpetual Inventory,永久在庫を有効にする
 Enable Perpetual Inventory For Non Stock Items,非在庫品目の永久在庫を有効にする
-Enable Prepared Report,Enable Preparedレポート
+Enable Prepared Report,準備済みレポートを有効にする
 Enable Print Server,プリントサーバーを有効にする
 Enable Provisional Accounting For Non Stock Items,非在庫品目の仮会計を有効にする
 Enable Push Notification Relay,プッシュ通知リレーを有効化
@@ -8030,7 +8030,7 @@ Enable bulk edit for child table fields in Form view.,フォームビューで�
 Enable bulk update of this field across child table rows.,子テーブルの行全体でこのフィールドの一括更新を有効にします。
 "Enable cost center, projects and other custom accounting dimensions",コストセンター、プロジェクト、その他のカスタム会計ディメンションを有効にする
 Enable cut-off date on creating bulk Delivery Notes,一括納品書作成時に締め日を有効にする
-Enable developer mode to create a standard Print Template,Enable developer mode to create a standard Printテンプレート
+Enable developer mode to create a standard Print Template,標準の印刷テンプレートを作成するには、開発者モードを有効にしてください
 Enable developer mode to create a standard Web Template,開発者モードを有効にして、標準のWebテンプレートを作成します
 Enable discount accounting for selling,販売の値引き会計を有効にする
 Enable for raw material items used in BOM. Uncheck for additional services like 'washing' used in manufacturing.,部品表で使用される原材料品目に対して有効化します。製造で使用される「洗浄」などの追加サービスの場合はチェックを外してください。
@@ -9447,7 +9447,7 @@ Go to Customers,顧客一覧へ
 Go to Desktop,デスクトップへ移動
 Go to Items,品目一覧へ
 Go to Login Required field,ログイン必須フィールドへ移動
-Go to Notification Settings List,Go to Notification Settingsリスト
+Go to Notification Settings List,通知設定の一覧へ移動
 Go to Page,ページに移動
 Go to Suppliers,仕入先一覧へ
 Go to Users,ユーザー一覧へ
@@ -10542,8 +10542,8 @@ Insufficient Data,不十分なデータ
 Insufficient Permission Level for {0},{0}に対する権限レベルが不足しています
 Insufficient Permission for {0},{0}のアクセス権が不十分です
 Insufficient Permissions,不十分な権限
-Insufficient Permissions for deleting Report,Insufficient Permissions for deletingレポート
-Insufficient Permissions for editing Report,Insufficient Permissions for editingレポート
+Insufficient Permissions for deleting Report,レポートを削除する権限がありません
+Insufficient Permissions for editing Report,レポートを編集する権限がありません
 Insufficient Stock,不十分な証券
 Insufficient Stock for Batch,バッチの在庫不足
 Insufficient Stock for Product Bundle Items,製品バンドル品目の在庫不足
@@ -10648,7 +10648,7 @@ Invalid Blanket Order for the selected Customer and Item,選択された顧客�
 Invalid CSV Format,無効なCSV形式
 Invalid CSV format. Expected column: doctype_name,無効なCSV形式です。予期される列: doctype_name
 Invalid Child Procedure,無効な子手順
-Invalid Code. Please try again.,無効なCode. Please try again
+Invalid Code. Please try again.,コードが無効です。もう一度お試しください。
 Invalid Company Field,無効なフィールド
 Invalid Company for Inter Company Invoice.,会社間請求の会社が不正です。
 Invalid Company for Inter Company Transaction.,会社間取引に無効な会社です。
@@ -10669,9 +10669,9 @@ Invalid Document,無効な文書
 Invalid Document Type,無効な文書タイプ
 Invalid Document Type {0},無効なドキュメントタイプ {0}
 Invalid Email Account,メールアカウントが不正です
-Invalid Fieldname,無効なFieldname
+Invalid Fieldname,フィールド名が不正です
 Invalid File Type,無効なファイルタイプ
-Invalid File URL,無効なFile URL
+Invalid File URL,ファイル URL が不正です
 Invalid Filter,無効なフィルター
 Invalid Filter Format for field {0} of type {1}. Try using filter icon on the field to set it correctly,無効なFilter Format for field {0} of type {1}. Try using filter icon on the field to set it correctly
 Invalid Filter Value,無効なフィルタ値
@@ -10695,7 +10695,7 @@ Invalid Mail Server. Please rectify and try again.,無効なメールサーバ�
 Invalid Naming Series: {},無効なNaming Series: {}
 Invalid Net Purchase Amount,無効な純仕入
 Invalid Opening Entry,無効なオープニングエントリ
-Invalid Operation,無効なOperation
+Invalid Operation,操作が不正です
 Invalid Option,無効なオプション
 Invalid Outgoing Mail Server or Port,無効な送信メールサーバーまたはポート
 Invalid Outgoing Mail Server or Port: {0},無効なOutgoing Mail Server or Port: {0}
@@ -10703,13 +10703,13 @@ Invalid Output Format,無効な出力フォーマット
 Invalid Override,無効な上書き
 Invalid POS Invoices,無効なPOS請求書
 Invalid Package Name,無効なパッケージ名
-Invalid Parameters.,無効なParameters
+Invalid Parameters.,パラメータが不正です。
 Invalid Parent Account,無効な親アカウント
 Invalid Part Number,部品番号が無効です
 Invalid Password,無効なパスワード
 Invalid Password:,無効なパスワード：
 Invalid Period,無効な期間
-Invalid Phone Number,無効なPhone Number
+Invalid Phone Number,電話番号が不正です
 Invalid Posting Time,転記時間が無効です
 Invalid Primary Role,無効な主要ロール
 Invalid Print Format,無効な印刷フォーマット
@@ -10729,9 +10729,9 @@ Invalid Selling Price,無効な販売価格
 Invalid Serial and Batch Bundle,無効なシリアルバッチバンドル
 Invalid Source and Target Warehouse,無効なソース目標倉庫
 Invalid Subscription,無効なサブスクリプション
-Invalid Table Fieldname,無効なTable Fieldname
+Invalid Table Fieldname,テーブルのフィールド名が不正です
 Invalid Token,無効なトークン
-Invalid Transition,無効なTransition
+Invalid Transition,遷移が不正です
 Invalid Tree Type {0},無効なツリータイプ {0}
 Invalid URL,無効なURL
 Invalid Upload,無効なアップロード
@@ -10739,11 +10739,11 @@ Invalid User Name or Support Password. Please rectify and try again.,無効な�
 Invalid Value,無効な値
 Invalid Values,無効な値
 Invalid Warehouse,無効な倉庫
-Invalid Webhook Secret,無効なWebhook Secret
-Invalid aggregate function,無効なaggregate function
+Invalid Webhook Secret,Webhook シークレットが不正です
+Invalid aggregate function,集計関数が不正です
 Invalid alias format: {0}. Alias must be a simple identifier.,無効なalias format: {0}. Alias must be a simple identifier
 Invalid amount in accounting entries of {} {} for Account {}: {},勘定科目{}の{} {}の会計入力における無効な金額: {}
-Invalid app,無効なapp
+Invalid app,アプリが不正です
 Invalid argument format: {0}. Only quoted string literals or simple field names are allowed.,無効なargument format: {0}. Only quoted string literals or simple field names are allowed
 "Invalid argument type: {0}. Only strings, numbers, dicts, and None are allowed.","無効なargument type: {0}. Only strings, numbers, dicts, and None are allowed"
 Invalid attribute {0} {1},無効な属性{0} {1}
@@ -10754,7 +10754,7 @@ Invalid condition expression,無効な条件式
 Invalid condition type in nested filters: {0},無効なcondition type in nested filters: {0}
 Invalid credentials,無効な資格情報
 Invalid direction in Order By: {0}. Must be 'ASC' or 'DESC'.,無効なdirection in Order By: {0}. Must be 'ASC' or 'DESC'
-Invalid docstatus,無効なdocstatus
+Invalid docstatus,docstatus の値が不正です
 Invalid expression in Web Form Dynamic Filter for {0}: {1},Webフォーム動的フィルター内の無効な式 {0}: {1}
 Invalid expression in Workflow Update Value: {0},無効なexpression in Workflow Update Value: {0}
 Invalid expression set in filter {0},フィルタ{0}に無効な式が設定されています
@@ -10774,12 +10774,12 @@ Invalid filter formula. Please check the syntax.,無効なフィルター数式�
 Invalid filter: {0},無効なフィルター：{0}
 "Invalid function argument type: {0}. Only strings, numbers, lists, and None are allowed.","無効なfunction argument type: {0}. Only strings, numbers, lists, and None are allowed"
 Invalid include path,無効なインクルードパス
-Invalid input,無効なinput
+Invalid input,入力が不正です
 Invalid json added in the custom options: {0},カスタムオプションに無効なjsonが追加されました：{0}
 Invalid login or password,無効なログインまたはパスワード
 "Invalid lost reason {0}, please create a new lost reason",無効な紛失理由{0}、新しい紛失理由を作成してください
 Invalid module path,モジュールパスが無効です
-Invalid name type (integer) for varchar name column,無効なname type (integer) for varchar name column
+Invalid name type (integer) for varchar name column,varchar の name 列に対して、name の型（integer）が不正です
 Invalid naming series (. missing),無効な命名シリーズ（「.」がありません）
 Invalid naming series (. missing) for {0},{0}の命名シリーズが無効です（。欠落しています）
 Invalid naming series {}: dot (.) missing,無効なnaming series {}: dot (.) missing
@@ -10794,15 +10794,15 @@ Invalid recipient address,無効な受信者のアドレス
 Invalid redirect regex in row #{}: {},無効なredirect regex in row #{}: {}
 Invalid reference {0} {1},無効な参照 {0} {1}
 Invalid regex pattern.,無効な正規表現パターンです。
-Invalid request arguments,無効なrequest arguments
+Invalid request arguments,リクエストの引数が不正です
 Invalid request body,無効なrequest body
 Invalid result key. Response:,無効な結果キー。応答:
-Invalid role,無効なrole
+Invalid role,ロールが不正です
 Invalid search query,無効な検索クエリ
 Invalid simple filter format: {0},無効なsimple filter format: {0}
 Invalid start for filter condition: {0}. Expected a list or tuple.,無効なstart for filter condition: {0}. Expected a list or tuple
 Invalid template file for import,インポート用の無効なテンプレートファイル
-Invalid token state! Check if the token has been created by the OAuth user.,無効なtoken state! Check if the token has been created by the OAuth user
+Invalid token state! Check if the token has been created by the OAuth user.,トークンの状態が不正です。トークンが OAuth ユーザーによって作成されたかを確認してください。
 "Invalid token, please provide a valid token with prefix 'Basic' or 'Token'.",トークンが無効です。プレフィックスが「Basic」または「Token」の有効なトークンを入力してください。
 Invalid username or password,ユーザー名かパスワードが無効
 Invalid value specified for UUID: {},無効なvalue specified for UUID: {}
@@ -10810,7 +10810,7 @@ Invalid value {0} for 'Based On','Based On' の値 {0} は無効です
 Invalid value {0} for 'Doctype','Doctype' の値 {0} は無効です
 Invalid value {0} for {1} against account {2},勘定科目{2}に対する{1}の無効な値{0}
 Invalid values for fields:,フィールドの値が無効です:
-Invalid wkhtmltopdf version,無効なwkhtmltopdf version
+Invalid wkhtmltopdf version,wkhtmltopdf のバージョンが不正です
 Invalid {0},無効な {0}
 Invalid {0} condition,無効な{0}条件
 Invalid {0} dictionary format,無効な{0} dictionary format
@@ -10832,11 +10832,11 @@ Investigations,調査
 Investment Banking,投資銀行
 Investments,投資
 Invitation already accepted,招待はすでに承認されています
-Invitation already exists,Invitationは既に存在します
+Invitation already exists,招待は既に存在します
 Invitation cannot be cancelled,招待はキャンセルできません
 Invitation is cancelled,招待はキャンセルされました
 Invitation is expired,招待は期限切れです
-Invitation not found,Invitationが見つかりません
+Invitation not found,招待が見つかりません
 Invitation resent,招待を再送しました
 Invitation to join {0} cancelled,{0}への招待はキャンセルされました
 Invitation to join {0} expired,{0}への招待は期限切れです
@@ -11005,7 +11005,7 @@ Is Purchase Order Required for Purchase Invoice & Receipt Creation?,発注書と
 Is Purchase Order required for Purchase Invoice & Receipt creation?,仕入請求書と入荷伝票の作成には発注書が必要ですか？
 Is Purchase Receipt Required for Purchase Invoice Creation?,購入請求書の作成には購入領収書が必要ですか？
 Is Purchase Receipt required for Purchase Invoice creation?,仕入請求書の作成には入荷伝票が必要ですか？
-Is Query Report,Is Queryレポート
+Is Query Report,クエリレポートかどうか
 Is Rate Adjustment Entry (Debit Note),単価調整入力（借方票）
 Is Recursive,再帰的
 Is Rejected,却下済
@@ -11410,7 +11410,7 @@ Knowledge Base,ナレッジベース
 Knowledge Base Contributor,ナレッジベースコントリビューター
 Knowledge Base Editor,ナレッジベースエディター
 LDAP Auth,LDAP認証
-LDAP Custom Settings,LDAP Custom設定
+LDAP Custom Settings,LDAP カスタム設定
 LDAP Email Field,LDAPメールフィールド
 LDAP First Name Field,LDAP名前フィールド
 LDAP Group,LDAPグループ
@@ -11428,7 +11428,7 @@ LDAP Search String,LDAP検索文字列
 "LDAP Search String needs to end with a placeholder, eg sAMAccountName={0}",LDAP検索文字列はプレースホルダーで終わる必要があります。例えばsAMAccountName = {0}
 LDAP Search and Paths,LDAP検索とパス
 LDAP Security,LDAPセキュリティ
-LDAP Server Settings,LDAP Server設定
+LDAP Server Settings,LDAP サーバー設定
 LDAP Server Url,LDAPサーバURL
 LDAP Settings,LDAP設定
 LDAP User Creation and Mapping,LDAPユーザーの作成とマッピング
@@ -11742,7 +11742,7 @@ License,運転免許
 License Details,運転免許詳細
 License Number,運転免許番号
 License Plate,ナンバープレート
-License Type,License種類
+License Type,ライセンス種類
 Light,ライト
 Light Blue,ライトブルー
 Light Color,明色
@@ -12633,7 +12633,7 @@ Module Not Found,モジュールが見つかりません
 Module Onboarding,モジュールのオンボーディング
 Module Path,モジュールパス
 Module Profile,モジュールプロファイル
-Module Profile Name,Module Profile名
+Module Profile Name,モジュールプロファイル名
 Module Settings,モジュールの設定
 Module is required when Standard is set to 'Yes',標準が「はい」に設定されている場合、モジュールは必須です。
 Module onboarding progress reset,モジュールオンボーディングの進捗をリセット
@@ -12857,7 +12857,7 @@ Net Weight,正味重量
 Net Weight UOM,正味重量単位
 Net Weight of each Item,各品目の正味重量
 Net total calculation precision loss,純合計計算の精度損失
-Network Printer Settings,Network Printer設定
+Network Printer Settings,ネットワークプリンター設定
 Never,しない
 New,新着
 New Academic Term,新しい学期
@@ -12887,7 +12887,7 @@ New Customer Revenue,新規顧客の収益
 New Customers,新規顧客
 New Delivery Notes,新規の納品書
 New Department,新部門
-New Document Form,新規Document Form
+New Document Form,新規文書フォーム
 New Document Shared {0},新しいドキュメント共有{0}
 New Email,新しいメール
 New Email Account,新しいメールアカウント
@@ -12943,11 +12943,11 @@ New Student Batch,新しい生徒バッチ
 New Supplier Quotations,新規の仕入先見積
 New Task,新規タスク
 New Transactions,新しい取引
-New Users (Last 30 days),新規Users (Last 30 days)
+New Users (Last 30 days),新規ユーザー（直近 30 日）
 New Value,新しい値
 New Version,新しいバージョン
 New Warehouse Name,新倉庫名
-New Workflow Name,New Workflow名
+New Workflow Name,新しいワークフロー名
 New Workplace,新しい職場
 New Workspace,新規ワークスペース
 New credit limit is less than current outstanding amount for the customer. Credit limit has to be atleast {0},新たな与信限度は顧客の現在の残高よりも少なくなっています。与信限度は少なくとも {0} である必要があります
@@ -12961,7 +12961,7 @@ Public clients are restricted by default."
 New line separated list of scope values.,新規line separated list of scope values.
 "New lines separated list of strings representing ways to contact people responsible for this client, typically email addresses.","新規lines separated list of strings representing ways to contact people responsible for this client, typically email addresses."
 New module created {0},新しいモジュールが作成されました{0}
-New password cannot be same as old password,新規password cannot be same as old password
+New password cannot be same as old password,新しいパスワードは、以前のパスワードと同じにはできません
 New password cannot be the same as your current password. Please choose a different password.,新しいパスワードは現在のパスワードと同じにすることはできません。別のパスワードを選択してください。
 New password emailed,新しいパスワードをメールで送信しました
 New release date should be in the future,新しいリリース日は将来になるはずです
@@ -12969,7 +12969,7 @@ New revised budget created successfully,新しい改訂予算が正常に作成�
 New role created successfully.,新しいロールが正常に作成されました。
 New task,新しいタスク
 New updates are available,新しい更新が利用可能です
-New users will have to be manually registered by system managers.,新規users will have to be manually registered by system managers.
+New users will have to be manually registered by system managers.,新規ユーザーは、システム管理者が手動で登録する必要があります。
 New value to be set,新しい値を設定する必要があります
 New {0},新しい{0}
 New {0} Created,新規{0}が作成されました
@@ -13489,7 +13489,7 @@ Now,今
 Number,数
 Number Card,ナンバーカード
 Number Card Link,ナンバーカードリンク
-Number Card Name,Number Card名
+Number Card Name,ナンバーカード名
 Number Cards,ナンバーカード
 Number Format,数の書式
 Number of Backups,バックアップ数
@@ -13631,7 +13631,7 @@ On-machine press checks,オンマシンプレスチェック
 Onboard,オンボード
 Onboarding,オンボーディング
 Onboarding Complete,オンボーディング完了
-Onboarding Name,Onboarding名
+Onboarding Name,オンボーディング名
 Onboarding Permission,オンボーディング許可
 Onboarding Status,入社手続きステータス
 Onboarding Step,オンボーディングステップ
@@ -13966,7 +13966,7 @@ Out of Warranty,保証外
 Out of stock,在庫切れ
 Outdated POS Opening Entry,期限切れのPOS期首入力
 Outgoing,支出
-Outgoing (SMTP) Settings,Outgoing (SMTP)設定
+Outgoing (SMTP) Settings,送信（SMTP）設定
 Outgoing Bills,支払手形
 Outgoing Bills (Sales Invoice),発行した請求（売上請求）
 Outgoing Emails (Last 7 days),送信メール（過去7日間）
@@ -14211,7 +14211,7 @@ Parent Department,親部
 Parent Detail docname,親詳細文書名
 Parent DocType,親DocType
 Parent Document,親文書
-Parent Document Type,Parent Document種類
+Parent Document Type,親文書の種類
 Parent Document Type is required to create a number card,数値カードを作成するには、親ドキュメントタイプが必要です
 Parent Element Selector,親要素セレクタ
 Parent Error Snapshot,親エラースナップショット
@@ -14915,7 +14915,7 @@ Please enter Receipt Document,領収書の文書を入力してください。
 Please enter Redirect URL,リダイレクトURLを入力してください
 Please enter Reference date,基準日を入力してください
 Please enter Repayment Periods,返済期間を入力してください
-Please enter Reqd by Date,Reqd by Dateを入力してください
+Please enter Reqd by Date,要求日を入力してください
 Please enter Root Type for account- {0},勘定科目- {0} のルートタイプを入力してください。
 Please enter Sales Orders in the above table,上の表に受注を入力してください
 Please enter Serial No,シリアル
@@ -14931,12 +14931,12 @@ Please enter a valid URL,有効なURLを入力してください
 Please enter a valid Write Off Account,有効な償却勘定科目を入力してください
 Please enter a valid Write Off Cost Center,有効な償却コストセンターを入力してください
 Please enter a valid coupon code,有効なクーポンコードを入力してください
-Please enter a valid email address.,a valid email addressを入力してください
+Please enter a valid email address.,有効なメールアドレスを入力してください。
 Please enter a valid number of deliveries,有効な納品数を入力してください。
 Please enter a valid quantity,有効な数量を入力してください。
 Please enter at least one delivery date and quantity,少なくとも1つの納品日と数量を入力してください。
 Please enter atleast 1 invoice in the table,表に少なくとも1件の請求書を入力してください
-Please enter both your email and message so that we can get back to you. Thanks!,both your email and message so that we can get back to you. Thanks!を入力してください
+Please enter both your email and message so that we can get back to you. Thanks!,折り返しご連絡できるよう、メールアドレスとメッセージの両方をご入力ください。
 Please enter company first,最初の「会社」を入力してください
 Please enter company name first,最初の「会社」名を入力してください
 Please enter default currency in Company Master,会社マスターにデフォルトの通貨を入力してください
@@ -14964,8 +14964,8 @@ Please enter valid Financial Year Start and End Dates,有効な会計年度開�
 Please enter valid email address,有効なメールアドレスを入力してください
 Please enter valid mobile nos,有効な携帯電話番号を入力してください
 Please enter values for App Access Key and App Secret Key,App Access KeyとApp Secret Keyを入力してください
-Please enter your new password.,your new passwordを入力してください
-Please enter your old password.,your old passwordを入力してください
+Please enter your new password.,新しいパスワードを入力してください。
+Please enter your old password.,現在のパスワードを入力してください。
 Please enter {0},{0}を入力してください
 Please enter {0} first,先に{0}を入力してください
 Please fill in all the details to generate Assessment Result.,評価結果を生成するためにすべての詳細を記入してください。
@@ -15068,7 +15068,7 @@ Please select Stock Asset Account,在庫資産
 Please select Student Admission which is mandatory for the paid student applicant,有料の生徒出願に必須となる生徒の入学を選択してください
 Please select Subcontracting Order instead of Purchase Order {0},発注書 {0} ではなく外注注文を選択してください
 Please select Unrealized Profit / Loss account or add default Unrealized Profit / Loss account account for company {0},未実現損益勘定を選択するか、会社 {0} のデフォルトの未実現損益勘定を追加してください
-Please select X and Y fields,X and Y fieldsを選択してください
+Please select X and Y fields,X 軸と Y 軸の項目を選択してください
 Please select a Amount Field.,金額フィールドを選択してください。
 Please select a BOM,部品表
 Please select a Batch for Item {0}. Unable to find a single batch that fulfills this requirement,アイテム{0}のバッチを選択してください。この要件を満たす単一のバッチを見つけることができません
@@ -15076,7 +15076,7 @@ Please select a Company,会社を選択してください
 Please select a Company first.,最初に会社を選択してください。
 Please select a Customer,顧客を選択してください
 Please select a Delivery Note,納品書を選択してください
-Please select a DocType in options before setting filters,a DocType in options before setting filtersを選択してください
+Please select a DocType in options before setting filters,フィルターを設定する前に、オプションで DocType を選択してください
 Please select a Document Type first,まずドキュメントタイプを選択してください
 Please select a Mode of Payment first,最初にお支払い方法を選択してください
 Please select a Patient first,最初に患者を選択してください
@@ -15098,7 +15098,7 @@ Please select a date,日付を選択してください
 Please select a date and time,日付と時刻を選択してください
 Please select a default mode of payment,デフォルトのお支払い方法を選択してください
 Please select a field to edit from numpad,編集するフィールドを数字で選択してください
-Please select a file first.,a file firstを選択してください
+Please select a file first.,先にファイルを選択してください。
 Please select a file or url,ファイルまたはURLを選択してください
 Please select a frequency for delivery schedule,配送スケジュールの頻度を選択してください
 Please select a new name to rename,名前を変更する新しい名前を選択してください
@@ -15155,7 +15155,7 @@ Please select rows to create Reposting Entries,再転記入力を作成する行
 Please select target language for translation,翻訳の対象言語を選択してください
 Please select the Company,会社を選択してください
 Please select the Document Type.,ドキュメントタイプを選択してください。
-Please select the LDAP Directory being used,the LDAP Directory being usedを選択してください
+Please select the LDAP Directory being used,使用している LDAP ディレクトリを選択してください
 Please select the Multiple Tier Program type for more than one collection rules.,複数のコレクションルールに複数のティアプログラムタイプを選択してください。
 Please select the Warehouse first,倉庫
 Please select the assessment group other than 'All Assessment Groups',「すべての評価グループ」以外の評価グループを選択してください
@@ -15523,14 +15523,14 @@ Print Format,印刷書式
 Print Format Builder,印刷書式ビルダー
 Print Format Builder Beta,印刷フォーマットビルダー ベータ
 Print Format Error,印刷フォーマットエラー
-Print Format Field Template,Print Format Fieldテンプレート
+Print Format Field Template,印刷書式の項目テンプレート
 Print Format For,印刷フォーマット対象
 Print Format Help,印刷書式ヘルプ
 Print Format Type,印刷書式タイプ
 Print Format Type should be Jinja.,印刷フォーマットタイプはJinjaである必要があります。
 Print Format for Online,オンライン用の印刷フォーマット
 Print Format must be an enabled Report Print Format matching the selected Report.,印刷フォーマットは、選択されたレポートと一致する有効なレポート印刷フォーマットである必要があります。
-Print Format not found,Print Formatが見つかりません
+Print Format not found,印刷書式が見つかりません
 Print Format {0} is disabled,印刷書式{0}は無効になっています
 Print Formats allow you can define looks for documents when printed or converted to PDF. You can also create a custom Print Format using drag-and-drop tools.,印刷書式では、文書を印刷または PDF 出力したときの体裁を定義できます。ドラッグ＆ドロップのツールを使って、独自の印刷書式を作成することもできます。
 Print Heading,印刷見出し
@@ -15957,7 +15957,7 @@ Push Delete,プッシュ削除
 Push Failed,プッシュ失敗
 Push Insert,プッシュインサート
 Push Notification,プッシュ通知
-Push Notification Settings,Push Notification設定
+Push Notification Settings,プッシュ通知設定
 Push Notifications,プッシュ通知
 Push Update,プッシュアップデート
 Push this column to the right edge in print,この列を印刷時に右端に寄せる
@@ -16246,7 +16246,7 @@ Raw Materials cannot be blank.,原材料は空白にできません。
 Raw Materials to Customer,原資材顧客
 Raw Printing,生の印刷
 Raw Printing Setting,生印刷設定
-Raw Printing Settings,Raw Printing設定
+Raw Printing Settings,Raw 印刷設定
 Raw Printing Settings...,生の印刷設定...
 Raw SQL,生の SQL
 Raw material cannot be same as main Item,原材料を主品目と同じにすることはできません
@@ -16548,7 +16548,7 @@ Relation,関連
 Relation with Guardian1,Guardian1との関係
 Relation with Guardian2,Guardian2との関係
 Relay Server URL missing,リレーサーバーのURLがありません
-Relay Settings,Relay設定
+Relay Settings,リレー設定
 Release,リリース
 Release Date,発売日
 Release Notes,リリースノート
@@ -16890,7 +16890,7 @@ Reset OTP Secret,OTPシークレットをリセットする
 Reset Password,パスワード再設定
 Reset Password Key,パスワードキーリセット
 Reset Password Link Expiry Duration,パスワードリセットリンクの有効期限
-Reset Password Template,Reset Passwordテンプレート
+Reset Password Template,パスワード再設定テンプレート
 Reset Permissions for {0}?,{0}のアクセス権限をリセットしますか？
 Reset Plaid Link,Plaidリンクをリセット
 Reset Raw Materials Table,原材料テーブルをリセット
@@ -17562,7 +17562,7 @@ Rule Description,ルール説明
 Rule Name,ルール名
 Rule created successfully,ルールが正常に作成されました
 Rule deleted.,ルールが削除されました。
-"Rule for this doctype, role, permlevel and if-owner combination already exists.","Rule for this doctype, role, permlevel and if-owner combinationは既に存在します"
+"Rule for this doctype, role, permlevel and if-owner combination already exists.",この DocType・ロール・権限レベル・所有者条件の組み合わせのルールは、既に存在します。
 Rule matched based on transaction description and other criteria.,取引説明およびその他の条件に基づいてルールが一致しました。
 Rule name is required,ルール名は必須です
 Rule priorities updated,ルールの優先順位が更新されました
@@ -17616,7 +17616,7 @@ SMS sent successfully,SMSが正常に送信されました
 SMS sent to following numbers: {0},次の番号に送信されたSMS：{0}
 SMS was not sent. Please contact Administrator.,SMSは送信されませんでした。管理者に連絡してください。
 SMTP Server,SMTPサーバー
-SMTP Server is required,SMTP Serverは必須です
+SMTP Server is required,SMTP サーバーは必須です
 SMTP Settings for outgoing emails,送信メール用のSMTP設定
 SO Qty,受注数量
 SO Total Qty,受注合計数量
@@ -18368,7 +18368,7 @@ Sensitivity,感度
 Sensitivity Test Items,感受性検査項目
 Sensitivity Test Result,感度試験結果
 Sent,送信済
-Sent Folder Name,Sent Folder名
+Sent Folder Name,送信済みフォルダ名
 Sent On,送信済
 Sent Read Receipt,送信された開封確認
 Sent To,送信先
@@ -19072,7 +19072,7 @@ Similar types of workstations where the same operations run in parallel.,同じ�
 "Simple Python Expression, Example: <code class=""language-python"">status == ""Invalid""</code>","シンプルなPython式、例: <code class=""language-python"">status == ""Invalid""</code>"
 "Simple Python Expression, Example: <code class=""language-python"">status == 'Open' and issue_type == 'Bug'</code>","シンプルなPython式、例: <code class=""language-python"">status == 'Open' and issue_type == 'Bug'</code>"
 "Simple Python Expression, Example: <code class=""language-python"">status in (""Closed"", ""Cancelled"")</code>","シンプルなPython式、例: <code class=""language-python"">status in (""Closed"", ""Cancelled"")</code>"
-"Simple Python Expression, Example: Status in (""Closed"", ""Cancelled"")",単純なPython式、例：（ &quot;Closed&quot;、 &quot;Canceled&quot;）のステータス
+"Simple Python Expression, Example: Status in (""Closed"", ""Cancelled"")","単純な Python 式。例：Status in (""Closed"", ""Cancelled"")"
 "Simple Python Expression, Example: Status in (""Invalid"")",単純なPython式、例：（「無効」のステータス）
 "Simple Python Expression, Example: doc.status == 'Open' and doc.issue_type == 'Bug'",シンプルなPython式、例: doc.status == 'Open' and doc.issue_type == 'Bug'
 "Simple Python Expression, Example: status == 'Open' and type == 'Bug'",単純なPython表現、例：status == &#39;Open&#39;、type == &#39;Bug&#39;
@@ -20276,7 +20276,7 @@ Thank you for your feedback!,ご意見ありがとうございます！
 Thank you for your interest in subscribing to our updates,アップデートに関心をお寄せいただきありがとうございます
 Thank you for your message,メッセージありがとうございました。
 Thanks,ありがとうございます
-The 'From Package No.' field must neither be empty nor it's value less than 1.,「From Package No.」は、フィールドは空でも値も1未満でなければなりません。
+The 'From Package No.' field must neither be empty nor it's value less than 1.,「梱包番号（自）」は空欄にできず、1 未満の値も指定できません。
 The <strong>Doc Status</strong> for all states has been reset to <strong>0</strong> because <strong>{0}</strong> is not submittable,<strong>{0}</strong>は提出できないため、すべての状態の<strong>ドキュメントステータス</strong>が<strong>0</strong>にリセットされました
 The <strong>Doc Status</strong> for all states has been reset to <strong>Draft</strong> because <strong>{0}</strong> is not submittable,<strong>{0}</strong>は提出できないため、すべての状態の<strong>ドキュメントステータス</strong>が<strong>下書き</strong>にリセットされました
 "The Access to Request for Quotation From Portal is Disabled. To Allow Access, Enable it in Portal Settings.",ポータルからの見積依頼へのアクセスが無効になっています。アクセスを許可するには、ポータル設定で有効にします。
@@ -20374,7 +20374,7 @@ The difference between from time and To Time must be a multiple of Appointment,�
 The document could not be correctly assigned,文書を正しく割り当てることができませんでした
 The document has been assigned to {0},ドキュメントは{0}に割り当てられています
 The document has been created and reconciled. Uploading attachments...,ドキュメントが作成され、照合されました。添付ファイルをアップロード中...
-"The document type selected is a child table, so the parent document type is required.","The document type selected is a child table, so the parent document typeは必須です"
+"The document type selected is a child table, so the parent document type is required.",選択した文書タイプは子テーブルのため、親の文書タイプが必要です。
 The email button is enabled for the user in the document.,ドキュメント内のユーザーに対してメールボタンが有効になっています。
 "The fallback series is ""SO-WOO-"".",フォールバックシリーズは &quot;SO-WOO-&quot;です。
 The field Asset Account cannot be blank,フィールド資産勘定は空白にできません
@@ -21155,7 +21155,7 @@ Total Applicable Charges in Purchase Receipt Items table must be same as Total T
 Total Asset,合計資産
 Total Asset Cost,合計資産コスト
 Total Assets,総資産
-Total Background Workers,Background Workers合計
+Total Background Workers,バックグラウンドワーカー数
 Total Billable Amount,合計請求可能な金額
 Total Billable Amount (via Timesheet),請求可能総額（タイムシートから）
 Total Billable Hours,合計請求可能な時間
@@ -21196,7 +21196,7 @@ Total Debits,借方合計
 Total Delivered Amount,総納品額
 Total Demand (Past Data),総需要（過去のデータ）
 Total Equity,合計純資産
-Total Errors (last 1 day),Errors (last 1 day)合計
+Total Errors (last 1 day),エラー合計（直近 1 日）
 Total Estimated Budget,見積予算 合計
 Total Estimated Distance,合計推定距離
 Total Expense,総費用
@@ -21242,7 +21242,7 @@ Total Orders,総注文数
 Total Other Charges,合計手数料
 Total Outgoing,出費総額
 Total Outgoing Bills,発行請求の合計
-Total Outgoing Emails,Outgoing Emails合計
+Total Outgoing Emails,送信メール合計
 Total Outgoing Payment,支払 合計
 Total Outgoing Value,支出価値合計
 Total Outgoing Value (Consumption),合計出庫額 (消費)
@@ -21308,7 +21308,7 @@ Total Weight,総重量
 Total Weight (kg),合計重量 (kg)
 Total Weightage of all Assessment Criteria must be 100%,すべての評価基準の総Weightageは100％でなければなりません
 Total Working Hours,総労働時間
-Total Working Time,Working Time合計
+Total Working Time,合計作業時間
 Total Workstation Time (In Hours),合計ワークステーション時間 (時間)
 Total advance ({0}) against Order {1} cannot be greater than the Grand Total ({2}),注文に対する総事前（{0}）{1}（{2}）総合計よりも大きくすることはできません。
 Total advance amount cannot be greater than total claimed amount,総引き出し額は、請求された金額の合計よりも大きくすることはできません
@@ -21324,7 +21324,7 @@ Total hours: {0},合計時間：{0}
 Total number of emails to sync in initial sync process,number of emails to sync in initial sync process合計
 Total number of emails to sync in initial sync process ,初期同期プロセスに同期するメールの総数
 Total payments amount can't be greater than {},合計支払い額は{}を超えることはできません
-Total percentage against cost centers should be 100,percentage against cost centers should be 100合計
+Total percentage against cost centers should be 100,コストセンターに対する割合の合計は 100 である必要があります
 Total percentage allocation for distributed cost center should be equal to 100,分散原価センタの合計割り当て割合は100に等しくなければなりません
 Total quantity in delivery schedule cannot be greater than the item quantity,配送スケジュール内の合計数量は品目数量を超えることはできません
 Total weightage assigned should be 100%.<br>It is {0},割り当てられる総重みは100％である必要があります。<br> {0}です
@@ -21945,7 +21945,7 @@ User Changed,ユーザーが変更されました
 User Defaults,ユーザーデフォルト
 User Details,ユーザーの詳細
 User Doctype Permissions,ユーザーDocType権限
-User Document Type,User Document種類
+User Document Type,ユーザー文書タイプ
 User Email,ユーザーのメール
 User Emails,ユーザーのメール
 User Field,ユーザーフィールド
@@ -21956,7 +21956,7 @@ User Group Members,ユーザーグループメンバー
 User ID,ユーザー ID
 User ID Property,ユーザーIDプロパティ
 User ID not set for Employee {0},従業員{0}のユーザーIDが未設定です。
-User ID of a Blogger,BloggerのユーザーID
+User ID of a Blogger,ブロガーのユーザー ID
 User ID of a blog writer.,ブログ執筆者のユーザー ID。
 User Id,ユーザーID
 User Id Field,ユーザーIDフィールド
@@ -21980,7 +21980,7 @@ User Resolution Time,ユーザー解決時間
 User Role,ユーザーロール
 User Role Profile,ユーザーロールプロファイル
 User Roles,ユーザーの役割
-User Select Document Type,User Select Document種類
+User Select Document Type,ユーザー選択の文書タイプ
 User Session Display,ユーザーセッション表示
 User Settings,ユーザー設定
 User Social Login,ユーザーソーシャルログイン
@@ -22666,8 +22666,8 @@ Work-in-Progress Warehouse,作業中の倉庫
 Work-in-Progress Warehouse is required before Submit,提出する前に作業中の倉庫が必要です
 Workday,就業日
 Workday {0} has been repeated.,就業日{0}が繰り返されました。
-Worker Information,Worker情報
-Worker Name,Worker名
+Worker Information,ワーカー情報
+Worker Name,ワーカー名
 Workflow,ワークフロー
 Workflow Action,ワークフローアクション
 Workflow Action Master,ワークフローアクションマスター
@@ -22678,7 +22678,7 @@ Workflow Builder,ワークフロービルダー
 Workflow Builder ID,ワークフロービルダーID
 Workflow Builder allows you to create workflows visually. You can drag and drop states and link them to create transitions. Also you can update their properties from the sidebar.,ワークフロービルダーを使用すると、ワークフローを視覚的に作成できます。状態をドラッグアンドドロップし、それらをリンクして遷移を作成できます。また、サイドバーからプロパティを更新することもできます。
 Workflow Data,ワークフローデータ
-Workflow Details,Workflow詳細
+Workflow Details,ワークフローの詳細
 Workflow Document State,ワークフロー文書のステータス
 Workflow Evaluation Error,ワークフロー評価エラー
 Workflow Name,ワークフロー名
@@ -22708,7 +22708,7 @@ Workspace Custom Block,ワークスペースカスタムブロック
 Workspace Link,ワークスペースリンク
 Workspace Manager,ワークスペースマネージャー
 Workspace Number Card,ワークスペース数値カード
-Workspace Quick List,Workspace Quickリスト
+Workspace Quick List,ワークスペースのクイックリスト
 Workspace Shortcut,ワークスペースショートカット
 Workspace Sidebar,ワークスペースサイドバー
 Workspace Sidebar Item,ワークスペースサイドバー項目
@@ -23055,7 +23055,7 @@ Your Session will be expire in ,あなたのセッションはで期限切れに
 Your Shortcuts,あなたのショートカット
 Your Suppliers,自社の仕入先
 Your Target,あなたのターゲット
-Your account has been deleted,Your accountが削除されました
+Your account has been deleted,アカウントが削除されました
 Your account has been locked and will resume after {0} seconds,あなたのアカウントはロックされており、{0}秒後に再開します
 Your assignment on {0} {1} has been removed by {2},{0} {1}の割り当ては{2}によって削除されました
 Your browser does not support the audio element.,お使いのブラウザはオーディオ要素をサポートしていません。
