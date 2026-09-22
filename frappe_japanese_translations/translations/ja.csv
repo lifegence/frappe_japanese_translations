@@ -7374,7 +7374,7 @@ DocType can be one of them {0},DocTypeは{0}のいずれかです
 DocType can not be merged,文書タイプを混在させることはできません。
 DocType can only be renamed by Administrator,文書タイプは管理者のみ名前を変更することができます
 DocType is a Table / Form in the application.,文書タイプはアプリケーション内のテーブル／フォームです
-DocType must be Submittable for the selected Doc Event,DocTypeは、選択したDocイベントに対してSubmittableでなければなりません
+DocType must be Submittable for the selected Doc Event,選択した文書イベントを使うには、DocType が提出可能である必要があります
 DocType must have atleast one field,DocType には少なくとも1つのフィールドが必要です
 DocType not supported by Log Settings.,DocType はログ設定でサポートされていません。
 DocType on which this Workflow is applicable.,このワークフローには文書タイプが適用可能です
@@ -10013,12 +10013,12 @@ If different than customer address,顧客の住所と異なる場合
 "If disabled, this role will be removed from all users.",無効にした場合、この役割は全ユーザーから削除されます。
 If enabled then system won't apply the pricing rule on the delivery note which will be create from the pick list,有効の場合、システムはピッキングリストから作成される納品書に価格ルールを適用しません
 If enabled then system won't override the picked qty / batches / serial numbers / warehouse.,有効の場合、システムはピッキングされた数量/バッチ/シリアル番号/倉庫を上書きしません。
-"If enabled,  user can login from any IP Address using Two Factor Auth, this can also be set for all users in System Settings",有効になっている場合、ユーザーはTwo Factor認証を使用して任意のIPアドレスからログインできます。これは、システム設定ですべてのユーザーに対して設定することもできます。
+"If enabled,  user can login from any IP Address using Two Factor Auth, this can also be set for all users in System Settings",有効にすると、二要素認証を使って任意の IP アドレスからログインできます。システム設定ですべてのユーザーに対して設定することもできます。
 "If enabled, a print of this document will be attached to each email",有効の場合、このドキュメントの印刷物が各メールに添付されます
 "If enabled, additional ledger entries will be made for discounts in a separate Discount Account",有効の場合、値引きについて個別の値引き勘定科目で追加の元帳入力が行われます
 "If enabled, all files attached to this document will be attached to each email",有効の場合、このドキュメントに添付されているすべてのファイルが各メールに添付されます
 "If enabled, all responses on the web form will be submitted anonymously",有効になっている場合、ウェブフォーム上のすべての回答は匿名で提出されます
-"If enabled, all users can login from any IP Address using Two Factor Auth. This can also be set only for specific user(s) in User Page",有効にすると、すべてのユーザーはTwo Factor Authを使用して任意のIPアドレスからログインできます。これは、ユーザーページの特定のユーザーに対してのみ設定することもできます
+"If enabled, all users can login from any IP Address using Two Factor Auth. This can also be set only for specific user(s) in User Page",有効にすると、すべてのユーザーが二要素認証を使って任意の IP アドレスからログインできます。ユーザーページで特定のユーザーにのみ設定することもできます
 "If enabled, changes to the document are tracked and shown in timeline",有効にすると、ドキュメントへの変更が追跡され、タイムラインに表示されます。
 "If enabled, do not update serial / batch values in the stock transactions on creation of auto Serial 
  / Batch Bundle.","有効にすると、自動シリアル 
@@ -10060,7 +10060,7 @@ Required Qty (BOM) - <a href=""https://docs.frappe.io/erpnext/user/manual/en/pro
 "If enabled, this row's values will be displayed on financial charts",有効の場合、この行の値は財務チャートに表示されます
 "If enabled, user will be alerted before resetting posting date to current date in relevant transactions",有効な場合、関連する取引で転記日を現在の日付にリセットする前に、ユーザーに警告が表示されます。
 "If enabled, users must enter Serial No. / Batch data manually instead of using the selector dialog.",有効化されている場合、ユーザーはセレクターダイアログを使用する代わりにシリアル番号/バッチデータを手動で入力する必要があります。
-"If enabled, users who login from Restricted IP Address, won't be prompted for Two Factor Auth",有効にすると、制限付きIPアドレスからログインしたユーザーは、Two Factor Auth
+"If enabled, users who login from Restricted IP Address, won't be prompted for Two Factor Auth",有効にすると、制限付き IP アドレスからログインしたユーザーには二要素認証が求められません
 "If enabled, users will be notified every time they login. If not enabled, users will only be notified once.",有効にすると、ユーザーがログインするたびに通知されます。有効にしない場合、ユーザーには一度だけ通知されます。
 "If item is a variant of another item then description, image, pricing, taxes etc will be set from the template unless explicitly specified",アイテムが別のアイテムのバリエーションである場合には、明示的に指定しない限り、その後の説明、画像、価格、税金などはテンプレートから設定されます
 "If items in stock, proceed with Material Transfer or Purchase.",在庫がある場合、倉庫間移動または購買に進みます。
@@ -10242,7 +10242,7 @@ Import Supplier Invoice,仕入先請求書のインポート
 Import Type,インポートタイプ
 Import Using CSV file,CSVファイルを使用してインポート
 Import Warnings,インポート警告
-Import Zip,Zipのインポート
+Import Zip,ZIP を取り込む
 Import completed. {0} common codes created.,インポートが完了しました。{0}個の共通コードが作成されました。
 Import from Google Sheets,Googleスプレッドシートからインポート
 Import in Bulk,一括でインポート
@@ -13542,7 +13542,7 @@ OAuth Client Role,OAuthクライアントロール
 OAuth Credentials,OAuth認証情報
 OAuth Error,OAuthエラー
 OAuth Provider,OAuthプロバイダー
-OAuth Provider Settings,OAuth Provider設定
+OAuth Provider Settings,OAuth プロバイダー設定
 OAuth Scope,OAuthスコープ
 OAuth Settings,OAuth設定
 "OAuth has been enabled but not authorised. Please use ""Authorise API Access"" button to do the same.",OAuthは有効になっていますが、承認されていません。「APIアクセスを承認」ボタンを使用して承認してください。
@@ -15429,7 +15429,7 @@ President,社長
 Press Alt Key to trigger additional shortcuts in Menu and Sidebar,Altキーを押すと、メニューとサイドバーにショートカットが追加されます。
 Press Enter to save,Enter キーを押して保存
 Prev,前
-Prevdoc DocType,Prevdoc文書型
+Prevdoc DocType,前文書の DocType
 Prevent POs,注文停止
 Prevent Purchase Orders,注文停止
 Prevent RFQs,見積停止
