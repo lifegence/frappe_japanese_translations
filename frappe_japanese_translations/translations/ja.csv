@@ -5216,7 +5216,7 @@ Clauses and Conditions,条項および条項
 Clay,粘土
 Clay Composition (%),粘土組成（％）
 Clay Loam,埴壌土
-Clear,晴れ
+Clear,クリア
 Clear & Add Template,消去してテンプレートを追加
 Clear & Add template,クリアしてテンプレートを追加
 Clear Activity Log After,後でアクティビティログをクリアする
@@ -7678,7 +7678,7 @@ Earliest,最初
 Earliest Age,最古の時代
 Earnest Money,手付金
 Earning & Deduction,収益と控除
-Edit,編集する
+Edit,編集
 Edit Address in Form,フォームで住所を編集
 Edit Auto Email Report Settings,自動メールレポートの設定を編集する
 Edit BOM,編集部品表
@@ -9796,7 +9796,7 @@ Hidden Line (Internal Use Only),非表示行 (内部使用のみ)
 Hidden columns include: <br> {0},非表示の列は次のとおりです。<br> {0}
 Hidden columns include: {0},非表示の列: {0}
 Hidden list maintaining the list of contacts linked to Shareholder,株主にリンクされている連絡先のリストを維持している非表示のリスト
-Hide,隠す
+Hide,非表示
 Hide Block,ブロックを隠す
 Hide Border,ボーダーを隠す
 Hide Buttons,ボタンを非表示
@@ -12859,7 +12859,7 @@ Net Weight of each Item,各品目の正味重量
 Net total calculation precision loss,純合計計算の精度損失
 Network Printer Settings,ネットワークプリンター設定
 Never,しない
-New,新着
+New,新規
 New Academic Term,新しい学期
 New Academic Year,新学年
 New Account,新規勘定
@@ -18875,7 +18875,7 @@ Short-term Provisions,短期引当金
 Shortage Qty,不足数量
 Shortcut,ショートカット
 Shortcuts,ショートカット
-Show,公演
+Show,表示
 "Show ""In Stock"" or ""Not in Stock"" based on stock available in this warehouse.",この倉庫での利用可能な在庫に基づいて「在庫あり」または「在庫切れ」を表示します
 Show 'Scan Barcode' field above every child table to insert Items with ease.,すべての子テーブルの上に[バーコードのスキャン]フィールドを表示して、アイテムを簡単に挿入します。
 Show Absolute Datetime in Timeline,タイムラインに絶対日時を表示
