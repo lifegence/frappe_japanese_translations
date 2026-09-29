@@ -59,11 +59,14 @@ jobs:
           if broken:
               problems.append(f"{len(broken)} rows drop or invent a placeholder")
 
-          # A trailing space stops Frappe matching the source string at all, so it
-          # is a silent failure rather than a cosmetic one.
-          padded = [r for r in rows if len(r) == 2 and r[0] != r[0].strip()]
-          if padded:
-              problems.append(f"{len(padded)} source strings carry leading or trailing whitespace")
+          # A padded key is shipped on purpose for the client-side `__()`, which
+          # looks the message up verbatim. The server-side `_()` strips first, so
+          # a padded key without its stripped twin leaves that string English in
+          # Python -- a silent failure rather than a cosmetic one.
+          keys = {r[0] for r in rows if len(r) == 2}
+          orphans = [r for r in rows if len(r) == 2 and r[0] != r[0].strip() and r[0].strip() not in keys]
+          if orphans:
+              problems.append(f"{len(orphans)} padded source strings have no stripped entry")
 
           if problems:
               print("\n".join(f"  - {p}" for p in problems), file=sys.stderr)
