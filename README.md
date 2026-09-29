@@ -70,9 +70,11 @@ Merge policy:
   app.
 - **`translations/overrides/{version}.csv` is applied last** and may reword
   anything. It holds the hand-reviewed corrections no heuristic catches.
-- **Source strings are stripped.** `frappe._()` strips the message before
-  looking it up, so an entry keyed on `" Status "` can never match. Upstream
-  ships a few hundred of them; they are rekeyed rather than shipped dead.
+- **Padded source strings are shipped twice, stripped and verbatim.**
+  `frappe._()` strips the message before looking it up, so an entry keyed on
+  `" Status "` alone can never match server-side; the client-side `__()` does
+  not strip, and upstream fixtures carry a few hundred such strings. CI checks
+  that every padded key has its stripped twin.
 - Rows whose translation equals the source, or is empty, are dropped.
 
 ### Overriding a single string on one site

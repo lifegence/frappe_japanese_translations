@@ -1,7 +1,7 @@
 [project]
 name = "frappe_japanese_translations"
 authors = [
-    { name = "Lifegence", email = "info@lifegence.co.jp" }
+    { name = "Lifegence", email = "contact@lifegence.com" }
 ]
 description = "Japanese (ja) translations for Frappe, ERPNext and related apps, packaged as an installable app"
 license = { file = "LICENSE" }
