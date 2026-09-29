@@ -9,6 +9,9 @@ All notable changes to this project are recorded here.
   emitted on purpose since 2026-09-08, so `main` and `version-15` had failed on
   every push. It now fails only on a padded key that has no stripped twin.
 
+### Added (2026-09-29)
+- `PRIVACY.md`, for the Frappe Cloud Marketplace listing.
+
 ### Added (2026-06-12 version-16 support)
 - **Version-specific translation sets** under
   `translations/{app}/version-16/` (ja.po + ja.csv) for all five PO apps,
