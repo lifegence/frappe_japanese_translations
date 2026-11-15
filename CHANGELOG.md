@@ -4,6 +4,14 @@ All notable changes to this project are recorded here.
 
 ## [Unreleased]
 
+### Added (2026-11-16 Raven)
+- **Raven** (The Commit Company's chat app) for version-16: `translations/raven/version-16/`
+  (ja.po + ja.csv), 1,866 strings from the Raven v3.2.0 POT. Raven ships no
+  Japanese. Draft by Lifegence with a Raven glossary (チャンネル, スレッド,
+  ワークスペース, メンション, リアクション, ピン留め, …); placeholders, HTML and
+  line breaks checked against the source. Review by Japanese users pending.
+  Raven is add-only in the app CSV, so it never rewords a frappe/erpnext entry.
+
 ### Fixed (2026-09-29)
 - CI: the validation step refused the padded source strings the build has
   emitted on purpose since 2026-09-08, so `main` and `version-15` had failed on
