@@ -4,6 +4,14 @@ All notable changes to this project are recorded here.
 
 ## [Unreleased]
 
+### Added (2026-11-16 Raven date formats)
+- 12 Raven date and time patterns (`Do MMMM YYYY` → `YYYY年M月D日`, `h:mm A` →
+  `Ah:mm`, …). Raven hard-codes English patterns; the change proposed to
+  frappe/raven ("show dates and times in the user's language") passes them
+  through `_()` and loads the dayjs locale, so these entries put dates in
+  Japanese order. Until Raven ships that change they match nothing and change
+  nothing on screen.
+
 ### Added (2026-11-16 Raven)
 - **Raven** (The Commit Company's chat app) for version-16: `translations/raven/version-16/`
   (ja.po + ja.csv), 1,866 strings from the Raven v3.2.0 POT. Raven ships no
