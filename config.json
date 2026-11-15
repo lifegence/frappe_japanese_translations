@@ -62,6 +62,17 @@
       "crowdin": false,
       "repo": "https://github.com/yrestom/POS-Awesome",
       "notes": "Legacy CSV format; no upstream PO / Crowdin path. Local bench deploy only."
+    },
+    "raven": {
+      "type": "community",
+      "format": "po",
+      "crowdin": false,
+      "repo": "https://github.com/The-Commit-Company/raven",
+      "pot_path": "raven/locale/main.pot",
+      "versions": {
+        "version-16": "v3.2.0"
+      },
+      "notes": "Raven ships no Japanese. Draft by Lifegence (machine translation with the Raven glossary), 2026-11-16; review pending. version-16 = Raven v3.2.0."
     }
   },
   "defaults": {
