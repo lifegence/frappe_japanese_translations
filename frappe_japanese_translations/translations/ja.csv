@@ -7059,6 +7059,11 @@ Distributor,販売代理店
 Dividends Paid,支払配当金
 Divider,区切り線
 Divorced,離婚
+Do MMM YYYY,YYYY年M月D日
+Do MMM YYYY - HH:mm,YYYY年M月D日 HH:mm
+Do MMM YYYY - h:mma,YYYY年M月D日 Ah:mm
+Do MMMM YYYY,YYYY年M月D日
+"Do MMMM YYYY, {0}",YYYY年M月D日 {0}
 Do Not Bill Patient Encounters for Inpatients,入院患者の診察は請求しない
 Do Not Contact,連絡先
 Do Not Create New User,新規ユーザーを作成しない
@@ -12112,6 +12117,9 @@ Loyalty Program Tier,ロイヤルティプログラムティア
 Loyalty Program Type,ロイヤルティプログラムタイプ
 Loyalty scheme this customer earns points under. Auto-assigned if a matching program exists.,この顧客がポイントを獲得するロイヤルティスキーム。一致するプログラムが存在する場合、自動割り当てされます。
 MIT License,MITライセンス
+MMM D,M月D日
+"MMM D, YYYY",YYYY年M月D日
+"MMM Do, YYYY",YYYY年M月D日
 MPS Generated,MPS生成済
 MRP Log documents are being created in the background.,MRPログドキュメントはバックグラウンドで作成されています。
 MT940 file detected. Please enable 'Import MT940 Format' to proceed.,MT940ファイルが検出されました。「MT940フォーマットのインポート」を有効にして続行してください。
@@ -23944,6 +23952,7 @@ cyan,シアン
 darkgrey,ダークグレー
 dashboard,ダッシュボード
 dated {0},{0}付
+"dddd, D MMM",M月D日（dddd）
 default,デフォルト
 deferred,延期
 delete,削除
@@ -23986,6 +23995,9 @@ green,緑
 grey,灰色
 gzip not found in PATH! This is required to take a backup.,PATHにgzipが見つかりません！これはバックアップを取るために必要です。
 h,時
+h:mm A,Ah:mm
+h:mm a,Ah:mm
+hh:mm a,Ahh:mm
 hidden,非表示
 high,高
 hours,時間

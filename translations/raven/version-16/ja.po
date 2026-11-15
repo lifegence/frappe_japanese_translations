@@ -9082,3 +9082,50 @@ msgstr "{0}、{1} 件のリアクション"
 msgid "⏰ Reminder"
 msgstr "⏰ リマインダー"
 
+#. dayjs date/time pattern (frappe/raven "show dates and times in the user's language")
+msgid "h:mm a"
+msgstr "Ah:mm"
+
+#. dayjs date/time pattern (frappe/raven "show dates and times in the user's language")
+msgid "hh:mm a"
+msgstr "Ahh:mm"
+
+#. dayjs date/time pattern (frappe/raven "show dates and times in the user's language")
+msgid "h:mm A"
+msgstr "Ah:mm"
+
+#. dayjs date/time pattern (frappe/raven "show dates and times in the user's language")
+msgid "Do MMMM YYYY, {0}"
+msgstr "YYYY年M月D日 {0}"
+
+#. dayjs date/time pattern (frappe/raven "show dates and times in the user's language")
+msgid "Do MMMM YYYY"
+msgstr "YYYY年M月D日"
+
+#. dayjs date/time pattern (frappe/raven "show dates and times in the user's language")
+msgid "Do MMM YYYY"
+msgstr "YYYY年M月D日"
+
+#. dayjs date/time pattern (frappe/raven "show dates and times in the user's language")
+msgid "MMM Do, YYYY"
+msgstr "YYYY年M月D日"
+
+#. dayjs date/time pattern (frappe/raven "show dates and times in the user's language")
+msgid "MMM D, YYYY"
+msgstr "YYYY年M月D日"
+
+#. dayjs date/time pattern (frappe/raven "show dates and times in the user's language")
+msgid "MMM D"
+msgstr "M月D日"
+
+#. dayjs date/time pattern (frappe/raven "show dates and times in the user's language")
+msgid "Do MMM YYYY - h:mma"
+msgstr "YYYY年M月D日 Ah:mm"
+
+#. dayjs date/time pattern (frappe/raven "show dates and times in the user's language")
+msgid "Do MMM YYYY - HH:mm"
+msgstr "YYYY年M月D日 HH:mm"
+
+#. dayjs date/time pattern (frappe/raven "show dates and times in the user's language")
+msgid "dddd, D MMM"
+msgstr "M月D日（dddd）"
