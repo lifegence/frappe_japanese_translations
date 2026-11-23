@@ -4,6 +4,18 @@ All notable changes to this project are recorded here.
 
 ## [Unreleased]
 
+### Changed (2026-11-24 version-16 refresh)
+- Merged the version-16 sets with the current upstream version-16 POTs
+  (frappe, erpnext, hrms, healthcare; lending from version-16-hotfix). Upstream
+  had added strings since the 9/9 refresh: frappe +2,952, erpnext +2,344,
+  hrms +96. Strings that upstream dropped were removed.
+- 40 Frappe v16 email and login strings (account invitation, password reset,
+  authenticator app setup, verification code, login alerts) translated by hand
+  and reviewed; these were showing in English in the emails Frappe sends.
+- The rest were drafted with Gemini 2.5 Flash and flagged fuzzy, as before.
+  Five entries failed the placeholder check and stay untranslated.
+- Shipped file rebuilt: 26,982 entries.
+
 ### Added (2026-11-16 Raven date formats)
 - 12 Raven date and time patterns (`Do MMMM YYYY` → `YYYY年M月D日`, `h:mm A` →
   `Ah:mm`, …). Raven hard-codes English patterns; the change proposed to

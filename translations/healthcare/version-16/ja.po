@@ -74,7 +74,9 @@ msgid ""
 "<b>Expiry Date of Patient's Insurance Policy</b> (via Patient Insurance "
 "Policy) or <b>Validity End Date of Coverage</b> (via Item Insurance "
 "Eligibility)"
-msgstr "<b>患者の保険証の有効期限</b> (患者保険証経由) または <b>補償の有効終了日</b> (品目保険資格経由)"
+msgstr ""
+"<b>患者の保険証の有効期限</b> (患者保険証経由) または <b>補償の有効終了日</"
+"b> (品目保険資格経由)"
 
 #: healthcare/healthcare/doctype/insurance_claim/insurance_claim.py:85
 #, fuzzy
@@ -91,11 +93,13 @@ msgid ""
 "<br>\n"
 "<b>Compound</b>: Results which require multiple event inputs.\n"
 "<br>\n"
-"<b>Descriptive</b>: Tests which have multiple result components with manual result entry.\n"
+"<b>Descriptive</b>: Tests which have multiple result components with manual "
+"result entry.\n"
 "<br>\n"
 "<b>Grouped</b>: Test templates which are a group of other test templates.\n"
 "<br>\n"
-"<b>No Result</b>: Tests with no results, can be ordered and billed but no Lab Test will be created. e.g.. Sub Tests for Grouped results"
+"<b>No Result</b>: Tests with no results, can be ordered and billed but no "
+"Lab Test will be created. e.g.. Sub Tests for Grouped results"
 msgstr ""
 "<b>単一</b>: 単一の入力のみを必要とする結果。\n"
 "<br>\n"
@@ -103,9 +107,11 @@ msgstr ""
 "<br>\n"
 "<b>記述的</b>: 手動で結果を入力する複数の結果コンポーネントを持つテスト。\n"
 "<br>\n"
-"<b>グループ化</b>: 他のテストテンプレートのグループであるテストテンプレート。\n"
+"<b>グループ化</b>: 他のテストテンプレートのグループであるテストテンプレー"
+"ト。\n"
 "<br>\n"
-"<b>結果なし</b>: 結果のないテスト。注文および請求は可能ですが、検査結果は作成されません。(例: グループ化された結果のサブテスト)"
+"<b>結果なし</b>: 結果のないテスト。注文および請求は可能ですが、検査結果は作成"
+"されません。(例: グループ化された結果のサブテスト)"
 
 #: healthcare/healthcare/doctype/item_insurance_eligibility/item_insurance_eligibility.py:46
 #, fuzzy
@@ -125,7 +131,8 @@ msgid ""
 "\t\t\t\t\t\t\t\t<small>Please note, this may take a while</small>"
 msgstr ""
 "<br><br><br>Health IDを作成中<br>\n"
-"\t\t\t\t\t\t\t\t<small>これには時間がかかる場合がありますのでご注意ください</small>"
+"\t\t\t\t\t\t\t\t<small>これには時間がかかる場合がありますのでご注意ください</"
+"small>"
 
 #: healthcare/regional/india/abdm/js/patient.js:935
 #, fuzzy
@@ -161,9 +168,11 @@ msgstr "<br><br>検証中..."
 #: healthcare/healthcare/doctype/patient/patient.py:121
 #, fuzzy
 msgid ""
-"<br>Please check email / mobile or disable 'Invite as User' to skip creating"
-" User"
-msgstr "<br>メール/携帯電話を確認するか、「ユーザーとして招待」を無効にしてユーザー作成をスキップしてください"
+"<br>Please check email / mobile or disable 'Invite as User' to skip creating "
+"User"
+msgstr ""
+"<br>メール/携帯電話を確認するか、「ユーザーとして招待」を無効にしてユーザー作"
+"成をスキップしてください"
 
 #. Content of the 'note' (HTML) field in DocType 'Observation Component'
 #: healthcare/healthcare/doctype/observation_component/observation_component.json
@@ -174,7 +183,8 @@ msgid ""
 "<ol>\n"
 "<li>Keywords Available : \n"
 "<code>age</code></li>\n"
-"<li>Tables Available : <code>Patient, Healthcare Settings, Observation, Observation Template</code></li>\n"
+"<li>Tables Available : <code>Patient, Healthcare Settings, Observation, "
+"Observation Template</code></li>\n"
 "</ol>"
 msgstr ""
 "<p>注記:</p>\n"
@@ -182,7 +192,8 @@ msgstr ""
 "<ol>\n"
 "<li>利用可能なキーワード: \n"
 "<code>age</code></li>\n"
-"<li>利用可能なテーブル: <code>Patient, Healthcare Settings, Observation, Observation Template</code></li>\n"
+"<li>利用可能なテーブル: <code>Patient, Healthcare Settings, Observation, "
+"Observation Template</code></li>\n"
 "</ol>"
 
 #. Header text in the Healthcare Workspace
@@ -312,8 +323,7 @@ msgstr "年齢"
 msgid "ASAP"
 msgstr "ASAP"
 
-#. Label of the patient_aadhaar_consent (Link) field in DocType 'ABDM
-#. Settings'
+#. Label of the patient_aadhaar_consent (Link) field in DocType 'ABDM Settings'
 #: healthcare/healthcare/doctype/abdm_settings/abdm_settings.json
 msgid "Aadhaar Consent Template"
 msgstr "Aadhaar Consentテンプレート"
@@ -469,14 +479,17 @@ msgid ""
 "the administrations occurred. This should not be used if the original order "
 "was entered in error"
 msgstr ""
-"リクエストによって示唆されるアクションは、すべての管理が行われる前に恒久的に停止されます。元の注文が誤って入力された場合には、これを使用しないでください"
+"リクエストによって示唆されるアクションは、すべての管理が行われる前に恒久的に"
+"停止されます。元の注文が誤って入力された場合には、これを使用しないでください"
 
 #: healthcare/setup.py:1679
 #, fuzzy
 msgid ""
 "Actions implied by the request are to be temporarily halted. The request "
 "might or might not be resumed. May also be called 'suspended'."
-msgstr "リクエストによって示唆されるアクションは一時的に停止されます。リクエストは再開される場合とされない場合があります。「中断」とも呼ばれます。"
+msgstr ""
+"リクエストによって示唆されるアクションは一時的に停止されます。リクエストは再"
+"開される場合とされない場合があります。「中断」とも呼ばれます。"
 
 #. Option for the 'Assistance Level' (Select) field in DocType 'Exercise'
 #. Option for the 'Status' (Select) field in DocType 'Fee Validity'
@@ -521,7 +534,9 @@ msgstr "アクティブなサービスリクエスト"
 #: healthcare/healthcare/doctype/treatment_counselling/treatment_counselling.py:37
 #, fuzzy
 msgid "Active Treatment Counselling {0} already exist for encounter {1}"
-msgstr "エンカウンター {1} に対して、アクティブな治療カウンセリング {0} が既に存在します"
+msgstr ""
+"エンカウンター {1} に対して、アクティブな治療カウンセリング {0} が既に存在し"
+"ます"
 
 #. Label of the activity (Data) field in DocType 'Healthcare Activity'
 #. Label of the activity (Link) field in DocType 'Nursing Checklist Template
@@ -529,8 +544,7 @@ msgstr "エンカウンター {1} に対して、アクティブな治療カウ�
 #. Label of the activity (Link) field in DocType 'Nursing Task'
 #. Option for the 'Observation Category' (Select) field in DocType
 #. 'Observation'
-#. Option for the 'Observation Category' (Select) field in DocType
-#. 'Observation
+#. Option for the 'Observation Category' (Select) field in DocType 'Observation
 #. Template'
 #: healthcare/healthcare/doctype/healthcare_activity/healthcare_activity.json
 #: healthcare/healthcare/doctype/nursing_checklist_template_task/nursing_checklist_template_task.json
@@ -833,8 +847,7 @@ msgstr "成人の脈拍数は1分あたり50〜80拍です。"
 msgid "Advice on Discharge"
 msgstr "退院時のアドバイス"
 
-#. Label of the against_imo (Link) field in DocType 'Inpatient Medication
-#. Entry
+#. Label of the against_imo (Link) field in DocType 'Inpatient Medication Entry
 #. Detail'
 #: healthcare/healthcare/doctype/inpatient_medication_entry_detail/inpatient_medication_entry_detail.json
 #, fuzzy
@@ -915,11 +928,9 @@ msgstr "飲酒歴"
 msgid "Alerts"
 msgstr "アラート"
 
-#. Option for the 'Applies To' (Select) field in DocType 'Observation
-#. Reference
+#. Option for the 'Applies To' (Select) field in DocType 'Observation Reference
 #. Range'
-#. Option for the 'Age' (Select) field in DocType 'Observation Reference
-#. Range'
+#. Option for the 'Age' (Select) field in DocType 'Observation Reference Range'
 #: healthcare/healthcare/doctype/observation_reference_range/observation_reference_range.json
 #, fuzzy
 msgid "All"
@@ -981,11 +992,9 @@ msgstr "アレルギー"
 msgid "Allocated Amount (via Journal Entry)"
 msgstr "割当額 (仕訳伝票経由)"
 
-#. Label of the allow_appointments (Check) field in DocType 'Healthcare
-#. Service
+#. Label of the allow_appointments (Check) field in DocType 'Healthcare Service
 #. Unit'
-#. Label of the allow_appointments (Check) field in DocType 'Healthcare
-#. Service
+#. Label of the allow_appointments (Check) field in DocType 'Healthcare Service
 #. Unit Type'
 #: healthcare/healthcare/doctype/healthcare_service_unit/healthcare_service_unit.json
 #: healthcare/healthcare/doctype/healthcare_service_unit_type/healthcare_service_unit_type.json
@@ -1046,8 +1055,7 @@ msgstr "重複を許可"
 msgid "Allow Stock Consumption"
 msgstr "在庫消費を許可"
 
-#. Label of the allow_video_conferencing (Check) field in DocType
-#. 'Practitioner
+#. Label of the allow_video_conferencing (Check) field in DocType 'Practitioner
 #. Schedule'
 #: healthcare/healthcare/doctype/practitioner_schedule/practitioner_schedule.json
 #, fuzzy
@@ -1082,8 +1090,7 @@ msgstr "修正済"
 #. Label of the amended_from (Link) field in DocType 'Inpatient Medication
 #. Order'
 #. Label of the amended_from (Link) field in DocType 'Insurance Claim'
-#. Label of the amended_from (Link) field in DocType 'Insurance Payor
-#. Contract'
+#. Label of the amended_from (Link) field in DocType 'Insurance Payor Contract'
 #. Label of the amended_from (Link) field in DocType 'Lab Test'
 #. Label of the amended_from (Link) field in DocType 'Medication Request'
 #. Label of the amended_from (Link) field in DocType 'Nursing Task'
@@ -1092,8 +1099,7 @@ msgstr "修正済"
 #. Label of the amended_from (Link) field in DocType 'Patient Encounter'
 #. Label of the amended_from (Link) field in DocType 'Patient Insurance
 #. Coverage'
-#. Label of the amended_from (Link) field in DocType 'Patient Insurance
-#. Policy'
+#. Label of the amended_from (Link) field in DocType 'Patient Insurance Policy'
 #. Label of the amended_from (Link) field in DocType 'Practitioner
 #. Availability'
 #. Label of the amended_from (Link) field in DocType 'Sample Collection'
@@ -1128,8 +1134,7 @@ msgstr "修正元"
 
 #. Label of the amount (Currency) field in DocType 'Healthcare Payment Record'
 #. Label of the amount (Currency) field in DocType 'Inpatient Record Item'
-#. Label of the amount (Currency) field in DocType 'Patient Insurance
-#. Coverage'
+#. Label of the amount (Currency) field in DocType 'Patient Insurance Coverage'
 #. Label of the amount (Currency) field in DocType 'Therapy Plan Template
 #. Detail'
 #. Label of the amount (Currency) field in DocType 'Treatment Plan Template
@@ -1142,8 +1147,7 @@ msgstr "修正元"
 msgid "Amount"
 msgstr "金額"
 
-#. Label of the amount_with_gst (Currency) field in DocType 'Healthcare
-#. Payment
+#. Label of the amount_with_gst (Currency) field in DocType 'Healthcare Payment
 #. Record'
 #: healthcare/healthcare/doctype/healthcare_payment_record/healthcare_payment_record.json
 #, fuzzy
@@ -1155,7 +1159,8 @@ msgid ""
 "An Inpatient Medication Order {0} against Patient Encounter {1} already "
 "exists."
 msgstr ""
-"An Inpatient Medication Order {0} against Patient Encounter {1}は既に存在します"
+"An Inpatient Medication Order {0} against Patient Encounter {1}は既に存在しま"
+"す"
 
 #: healthcare/healthcare/doctype/insurance_payor_contract/insurance_payor_contract.py:37
 #, fuzzy
@@ -1166,9 +1171,11 @@ msgstr "この保険支払者に対する有効な契約が既に存在します
 #, fuzzy
 msgid ""
 "An order created in fulfillment of a broader order that represents the "
-"authorization for a single activity occurrence. E.g. The administration of a"
-" single dose of a drug."
-msgstr "単一のアクティビティ発生の承認を表す、より広範な注文の履行として作成された注文。例：単回投与の薬剤の投与。"
+"authorization for a single activity occurrence. E.g. The administration of a "
+"single dose of a drug."
+msgstr ""
+"単一のアクティビティ発生の承認を表す、より広範な注文の履行として作成された注"
+"文。例：単回投与の薬剤の投与。"
 
 #. Name of a DocType
 #. Label of the antibiotic (Link) field in DocType 'Sensitivity Test Result'
@@ -1209,8 +1216,7 @@ msgstr "適用対象"
 msgid "Appointment"
 msgstr "予約"
 
-#. Label of the appointment_based_on_check_in (Check) field in DocType
-#. 'Patient
+#. Label of the appointment_based_on_check_in (Check) field in DocType 'Patient
 #. Appointment'
 #: healthcare/healthcare/doctype/patient_appointment/patient_appointment.json
 #, fuzzy
@@ -1232,7 +1238,8 @@ msgstr "予約がキャンセルされました。"
 #: healthcare/healthcare/doctype/patient_appointment/patient_appointment.py:663
 #, fuzzy
 msgid "Appointment Cancelled. Please review and cancel the invoice {0}"
-msgstr "予約がキャンセルされました。請求書 {0} を確認し、キャンセルしてください。"
+msgstr ""
+"予約がキャンセルされました。請求書 {0} を確認し、キャンセルしてください。"
 
 #. Label of the send_appointment_confirmation (Check) field in DocType
 #. 'Healthcare Settings'
@@ -1277,8 +1284,7 @@ msgstr "予約期間 (分)"
 msgid "Appointment End Datetime"
 msgstr "予約終了日時"
 
-#. Label of the appointment_for (Select) field in DocType 'Patient
-#. Appointment'
+#. Label of the appointment_for (Select) field in DocType 'Patient Appointment'
 #: healthcare/healthcare/doctype/patient_appointment/patient_appointment.json
 #, fuzzy
 msgid "Appointment For"
@@ -1344,7 +1350,9 @@ msgstr "予約終了は開始後である必要があります。"
 msgid ""
 "Appointment for service units with Inpatient Occupancy can only be created "
 "against the unit where patient is admitted."
-msgstr "入院患者の占有があるサービスユニットの予約は、患者が入院しているユニットに対してのみ作成できます。"
+msgstr ""
+"入院患者の占有があるサービスユニットの予約は、患者が入院しているユニットに対"
+"してのみ作成できます。"
 
 #: healthcare/healthcare/doctype/patient_appointment/patient_appointment.py:659
 #, fuzzy
@@ -1387,8 +1395,7 @@ msgstr "承認"
 #. Option for the 'Coverage Status' (Select) field in DocType 'Inpatient
 #. Occupancy'
 #. Option for the 'Claim Status' (Select) field in DocType 'Inpatient Record'
-#. Option for the 'Status' (Select) field in DocType 'Insurance Claim
-#. Coverage'
+#. Option for the 'Status' (Select) field in DocType 'Insurance Claim Coverage'
 #. Option for the 'Status' (Select) field in DocType 'Lab Test'
 #. Option for the 'Status' (Select) field in DocType 'Observation'
 #. Option for the 'Status' (Select) field in DocType 'Patient Insurance
@@ -1413,7 +1420,9 @@ msgstr "承認済"
 msgid ""
 "Approved / Rejected / Paid Amount connot be more than Claim Amount, please "
 "update row #{}"
-msgstr "承認/却下/支払済金額は請求金額を超えることはできません。行 #{} を更新してください。"
+msgstr ""
+"承認/却下/支払済金額は請求金額を超えることはできません。行 #{} を更新してくだ"
+"さい。"
 
 #. Label of the approved_amount (Currency) field in DocType 'Insurance Claim'
 #. Label of the approved_amount (Currency) field in DocType 'Insurance Claim
@@ -1511,9 +1520,11 @@ msgstr "Assessmentテンプレート"
 #: healthcare/setup.py:1417
 #, fuzzy
 msgid ""
-"Assessment tool/survey instrument observations (e.g., Apgar Scores, Montreal"
-" Cognitive Assessment (MoCA))."
-msgstr "評価ツール/調査機器による観察 (例: アプガースコア、モントリオール認知評価 (MoCA))。"
+"Assessment tool/survey instrument observations (e.g., Apgar Scores, Montreal "
+"Cognitive Assessment (MoCA))."
+msgstr ""
+"評価ツール/調査機器による観察 (例: アプガースコア、モントリオール認知評価 "
+"(MoCA))。"
 
 #. Group in Therapy Session's connections
 #: healthcare/healthcare/doctype/therapy_session/therapy_session.json
@@ -1534,8 +1545,7 @@ msgstr "割り当て先"
 msgid "Assistance Level"
 msgstr "支援レベル"
 
-#. Option for the 'Permitted Data Type' (Select) field in DocType
-#. 'Observation'
+#. Option for the 'Permitted Data Type' (Select) field in DocType 'Observation'
 #. Option for the 'Permitted Data Type' (Select) field in DocType 'Observation
 #. Template'
 #: healthcare/healthcare/doctype/observation/observation.json
@@ -1706,8 +1716,7 @@ msgstr "請求可能項目"
 #. Template'
 #. Label of the billing_section (Section Break) field in DocType 'Medication
 #. Request'
-#. Label of the billing_tab (Tab Break) field in DocType 'Observation
-#. Template'
+#. Label of the billing_tab (Tab Break) field in DocType 'Observation Template'
 #: healthcare/healthcare/doctype/appointment_type/appointment_type.json
 #: healthcare/healthcare/doctype/clinical_procedure_template/clinical_procedure_template.json
 #: healthcare/healthcare/doctype/lab_test_template/lab_test_template.json
@@ -1758,8 +1767,7 @@ msgstr "請求ステータス"
 msgid "Billing Summary"
 msgstr "請求サマリー"
 
-#. Label of the billing_type (Select) field in DocType 'Service Unit Type
-#. Item'
+#. Label of the billing_type (Select) field in DocType 'Service Unit Type Item'
 #: healthcare/healthcare/doctype/service_unit_type_item/service_unit_type_item.json
 msgid "Billing Type"
 msgstr "請求種類"
@@ -1780,10 +1788,8 @@ msgid "Billing and Payments"
 msgstr "請求と支払い"
 
 #. Label of the birth_date (Date) field in DocType 'Insurance Claim Coverage'
-#. Label of the patient_birth_date (Date) field in DocType 'Medication
-#. Request'
-#. Label of the birth_date (Date) field in DocType 'Patient Insurance
-#. Coverage'
+#. Label of the patient_birth_date (Date) field in DocType 'Medication Request'
+#. Label of the birth_date (Date) field in DocType 'Patient Insurance Coverage'
 #. Label of the birth_date (Date) field in DocType 'Patient Insurance Policy'
 #. Label of the patient_birth_date (Date) field in DocType 'Service Request'
 #: healthcare/healthcare/doctype/insurance_claim_coverage/insurance_claim_coverage.json
@@ -1807,8 +1813,7 @@ msgstr "膨満感"
 #. Label of the patient_blood_group (Select) field in DocType 'Medication
 #. Request'
 #. Label of the blood_group (Select) field in DocType 'Patient'
-#. Label of the patient_blood_group (Select) field in DocType 'Service
-#. Request'
+#. Label of the patient_blood_group (Select) field in DocType 'Service Request'
 #. Label of a field in the patient-registration Web Form
 #: healthcare/healthcare/doctype/clinical_note/clinical_note.json
 #: healthcare/healthcare/doctype/inpatient_record/inpatient_record.json
@@ -1858,8 +1863,7 @@ msgstr "身体部位"
 msgid "Body Part Link"
 msgstr "身体部位リンク"
 
-#. Label of the body_parts (Table MultiSelect) field in DocType 'Exercise
-#. Type'
+#. Label of the body_parts (Table MultiSelect) field in DocType 'Exercise Type'
 #: healthcare/healthcare/doctype/exercise_type/exercise_type.json
 #, fuzzy
 msgid "Body Parts"
@@ -1884,8 +1888,7 @@ msgstr "太字"
 msgid "Book"
 msgstr "予約"
 
-#. Option for the 'Permitted Data Type' (Select) field in DocType
-#. 'Observation'
+#. Option for the 'Permitted Data Type' (Select) field in DocType 'Observation'
 #. Option for the 'Permitted Data Type' (Select) field in DocType 'Observation
 #. Reference Range'
 #. Option for the 'Permitted Data Type' (Select) field in DocType 'Observation
@@ -1958,8 +1961,7 @@ msgstr "入院キャンセル"
 #. Order'
 #. Option for the 'Status' (Select) field in DocType 'Inpatient Record'
 #. Option for the 'Status' (Select) field in DocType 'Insurance Claim'
-#. Option for the 'Status' (Select) field in DocType 'Insurance Claim
-#. Coverage'
+#. Option for the 'Status' (Select) field in DocType 'Insurance Claim Coverage'
 #. Option for the 'Status' (Select) field in DocType 'Lab Test'
 #. Option for the 'Status' (Select) field in DocType 'Nursing Task'
 #. Option for the 'Status' (Select) field in DocType 'Observation'
@@ -2013,14 +2015,17 @@ msgstr "予約不可ブロックを作成できません: 既存の患者予約�
 #, fuzzy
 msgid ""
 "Cannot link existing Item Code {}, UOM {} does not match with Item Stock UOM"
-msgstr "既存の品目コード {} をリンクできません。UOM {} が品目在庫UOMと一致しません"
+msgstr ""
+"既存の品目コード {} をリンクできません。UOM {} が品目在庫UOMと一致しません"
 
 #: healthcare/healthcare/doctype/inpatient_record/inpatient_record.py:474
 #, fuzzy
 msgid ""
 "Cannot mark Inpatient Record as Discharged since there are unbilled "
 "services. "
-msgstr "未請求のサービスがあるため、Inpatient Record を退院済としてマークできません。 "
+msgstr ""
+"未請求のサービスがあるため、Inpatient Record を退院済としてマークできませ"
+"ん。 "
 
 #. Label of the canonical_mapping (Link) field in DocType 'Code Value'
 #: healthcare/healthcare/doctype/code_value/code_value.json
@@ -2149,24 +2154,25 @@ msgstr "タバコ摂取歴があるか確認してください"
 
 #: healthcare/healthcare/doctype/clinical_procedure_template/clinical_procedure_template.js:195
 #, fuzzy
-msgid ""
-"Check this if the Clinical Procedure is billable and also set the rate."
-msgstr "臨床処置が請求可能である場合はこれをチェックし、料金も設定してください。"
+msgid "Check this if the Clinical Procedure is billable and also set the rate."
+msgstr ""
+"臨床処置が請求可能である場合はこれをチェックし、料金も設定してください。"
 
 #: healthcare/healthcare/doctype/clinical_procedure_template/clinical_procedure_template.js:200
 #, fuzzy
 msgid "Check this if the Clinical Procedure utilises consumables. Click "
 msgstr "臨床処置が消耗品を利用する場合、これをチェックしてください。クリック "
 
-#. Description of the 'Employee name and designation in print' (Check) field
-#. in
+#. Description of the 'Employee name and designation in print' (Check) field in
 #. DocType 'Healthcare Settings'
 #: healthcare/healthcare/doctype/healthcare_settings/healthcare_settings.json
 #, fuzzy
 msgid ""
 "Check this if you want the Name and Designation of the Employee associated "
 "with the User who submits the document to be printed in the Lab Test Report."
-msgstr "文書を提出するユーザーに関連付けられた従業員の氏名と役職を検査レポートに印刷する場合は、これをチェックしてください。"
+msgstr ""
+"文書を提出するユーザーに関連付けられた従業員の氏名と役職を検査レポートに印刷"
+"する場合は、これをチェックしてください。"
 
 #: healthcare/healthcare/doctype/inpatient_record/inpatient_record.js:305
 #: healthcare/healthcare/doctype/inpatient_record/inpatient_record.js:421
@@ -2200,7 +2206,8 @@ msgstr "このオプションをチェックすると、予約の請求と支払
 msgid ""
 "Checking this will create Lab Test(s) specified in the Sales Invoice on "
 "submission."
-msgstr "これをチェックすると、提出時に売上請求書で指定された検査が作成されます。"
+msgstr ""
+"これをチェックすると、提出時に売上請求書で指定された検査が作成されます。"
 
 #. Description of the 'Create Sample Collection document for Lab Test' (Check)
 #. field in DocType 'Healthcare Settings'
@@ -2216,9 +2223,11 @@ msgstr "これをチェックすると、検査を作成するたびに検体採
 #: healthcare/healthcare/doctype/healthcare_settings/healthcare_settings.json
 #, fuzzy
 msgid ""
-"Checking this will create new Patients with a Disabled status by default and"
-" will only be enabled after invoicing the Registration Fee."
-msgstr "これをチェックすると、新しい患者はデフォルトで無効ステータスで作成され、登録料の請求後にのみ有効になります。"
+"Checking this will create new Patients with a Disabled status by default and "
+"will only be enabled after invoicing the Registration Fee."
+msgstr ""
+"これをチェックすると、新しい患者はデフォルトで無効ステータスで作成され、登録"
+"料の請求後にのみ有効になります。"
 
 #: healthcare/healthcare/doctype/healthcare_settings/healthcare_settings.js:128
 #, fuzzy
@@ -2232,7 +2241,9 @@ msgstr "これをチェックすると、予約の請求ポップアップが表
 msgid ""
 "Checking this will restrict printing and emailing of Lab Test documents "
 "unless they have the status as Approved."
-msgstr "これをチェックすると、検査文書のステータスが承認済みでない限り、印刷およびメール送信が制限されます。"
+msgstr ""
+"これをチェックすると、検査文書のステータスが承認済みでない限り、印刷および"
+"メール送信が制限されます。"
 
 #. Label of the checklist_section (Section Break) field in DocType 'Nursing
 #. Checklist Template'
@@ -2241,11 +2252,9 @@ msgstr "これをチェックすると、検査文書のステータスが承認
 msgid "Checklist"
 msgstr "チェックリスト"
 
-#. Label of the chief_complaint (Table MultiSelect) field in DocType
-#. 'Discharge
+#. Label of the chief_complaint (Table MultiSelect) field in DocType 'Discharge
 #. Summary'
-#. Label of the chief_complaint (Table MultiSelect) field in DocType
-#. 'Inpatient
+#. Label of the chief_complaint (Table MultiSelect) field in DocType 'Inpatient
 #. Record'
 #: healthcare/healthcare/doctype/discharge_summary/discharge_summary.json
 #: healthcare/healthcare/doctype/inpatient_record/inpatient_record.json
@@ -2263,7 +2272,9 @@ msgstr "子ノードは「グループ」タイプのノードの下にのみ作
 msgid ""
 "Circular reference detected: '{0}' is already a component (directly or "
 "indirectly) of '{1}'"
-msgstr "循環参照が検出されました: '{0}' は '{1}' のコンポーネント (直接的または間接的) です"
+msgstr ""
+"循環参照が検出されました: '{0}' は '{1}' のコンポーネント (直接的または間接"
+"的) です"
 
 #: healthcare/public/js/patient_quick_entry.js:120
 #, fuzzy
@@ -2369,8 +2380,7 @@ msgstr "臨床ノート"
 
 #. Label of the clinical_note_type (Link) field in DocType 'Clinical Note'
 #. Name of a DocType
-#. Label of the clinical_note_type (Data) field in DocType 'Clinical Note
-#. Type'
+#. Label of the clinical_note_type (Data) field in DocType 'Clinical Note Type'
 #. Label of a Link in the Setup Workspace
 #: healthcare/healthcare/doctype/clinical_note/clinical_note.json
 #: healthcare/healthcare/doctype/clinical_note_type/clinical_note_type.json
@@ -2456,7 +2466,9 @@ msgid ""
 "Clinical observations measure the body's basic functions such as blood "
 "pressure, heart rate, respiratory rate, height, weight, body mass index, "
 "head circumference, pulse oximetry, temperature, and body surface area."
-msgstr "臨床観察では、血圧、心拍数、呼吸数、身長、体重、体格指数、頭囲、パルスオキシメトリー、体温、体表面積など、身体の基本的な機能を測定します。"
+msgstr ""
+"臨床観察では、血圧、心拍数、呼吸数、身長、体重、体格指数、頭囲、パルスオキシ"
+"メトリー、体温、体表面積など、身体の基本的な機能を測定します。"
 
 #. Option for the 'Status' (Select) field in DocType 'Patient Medical Record'
 #: healthcare/healthcare/doctype/patient_medical_record/patient_medical_record.json
@@ -2529,10 +2541,8 @@ msgstr "コードシステム"
 #. Label of the code_value (Data) field in DocType 'Code Value'
 #. Label of the code_value (Link) field in DocType 'Codification Table'
 #. Label of the code_value (Link) field in DocType 'Insurance Claim Coverage'
-#. Label of the code_value (Link) field in DocType 'Item Insurance
-#. Eligibility'
-#. Label of the code_value (Link) field in DocType 'Patient Insurance
-#. Coverage'
+#. Label of the code_value (Link) field in DocType 'Item Insurance Eligibility'
+#. Label of the code_value (Link) field in DocType 'Patient Insurance Coverage'
 #. Label of a Link in the Healthcare Workspace
 #. Label of a Link in the Setup Workspace
 #: healthcare/healthcare/doctype/code_value/code_value.json
@@ -2643,8 +2653,7 @@ msgstr "収集日時"
 #. Template'
 #. Label of the sample_details (Small Text) field in DocType 'Observation
 #. Template'
-#. Label of the sample_details (Long Text) field in DocType 'Sample
-#. Collection'
+#. Label of the sample_details (Long Text) field in DocType 'Sample Collection'
 #: healthcare/healthcare/doctype/clinical_procedure_template/clinical_procedure_template.json
 #: healthcare/healthcare/doctype/lab_test_template/lab_test_template.json
 #: healthcare/healthcare/doctype/observation_template/observation_template.json
@@ -2808,8 +2817,7 @@ msgid "Complaint"
 msgstr "苦情"
 
 #. Label of the complaints (Data) field in DocType 'Complaint'
-#. Label of the complaints (Table MultiSelect) field in DocType 'Treatment
-#. Plan
+#. Label of the complaints (Table MultiSelect) field in DocType 'Treatment Plan
 #. Template'
 #: healthcare/healthcare/doctype/complaint/complaint.json
 #: healthcare/healthcare/doctype/treatment_plan_template/treatment_plan_template.json
@@ -2847,8 +2855,7 @@ msgstr "{0}を完了しますか？"
 #. Option for the 'Status' (Select) field in DocType 'Inpatient Medication
 #. Order'
 #. Option for the 'Status' (Select) field in DocType 'Insurance Claim'
-#. Option for the 'Status' (Select) field in DocType 'Insurance Claim
-#. Coverage'
+#. Option for the 'Status' (Select) field in DocType 'Insurance Claim Coverage'
 #. Option for the 'Status' (Select) field in DocType 'Lab Test'
 #. Option for the 'Status' (Select) field in DocType 'Nursing Task'
 #. Option for the 'Status' (Select) field in DocType 'Patient Encounter'
@@ -2877,8 +2884,7 @@ msgstr "{0}を完了しますか？"
 msgid "Completed"
 msgstr "完了"
 
-#. Label of the completed_orders (Float) field in DocType 'Inpatient
-#. Medication
+#. Label of the completed_orders (Float) field in DocType 'Inpatient Medication
 #. Order'
 #: healthcare/healthcare/doctype/inpatient_medication_order/inpatient_medication_order.json
 #, fuzzy
@@ -2906,8 +2912,7 @@ msgstr "コンポーネント観察"
 msgid "Components"
 msgstr "コンポーネント"
 
-#. Option for the 'Result Format' (Select) field in DocType 'Lab Test
-#. Template'
+#. Option for the 'Result Format' (Select) field in DocType 'Lab Test Template'
 #. Label of the section_break_compound (Section Break) field in DocType 'Lab
 #. Test Template'
 #: healthcare/healthcare/doctype/lab_test_template/lab_test_template.json
@@ -2965,11 +2970,9 @@ msgstr "確認済"
 
 #. Label of the connections_tab (Tab Break) field in DocType 'Healthcare
 #. Service Unit'
-#. Label of the connections_tab (Tab Break) field in DocType 'Inpatient
-#. Record'
+#. Label of the connections_tab (Tab Break) field in DocType 'Inpatient Record'
 #. Label of the connections_tab (Tab Break) field in DocType 'Insurance Payor'
-#. Label of the connections_tab (Tab Break) field in DocType 'Patient
-#. Insurance
+#. Label of the connections_tab (Tab Break) field in DocType 'Patient Insurance
 #. Policy'
 #: healthcare/healthcare/doctype/healthcare_service_unit/healthcare_service_unit.json
 #: healthcare/healthcare/doctype/inpatient_record/inpatient_record.json
@@ -3098,8 +3101,7 @@ msgstr "Contract詳細"
 #. Label of the conversion_factor (Float) field in DocType 'Lab Test Group
 #. Template'
 #. Label of the conversion_factor (Float) field in DocType 'Lab Test Template'
-#. Label of the conversion_factor (Float) field in DocType 'Normal Test
-#. Result'
+#. Label of the conversion_factor (Float) field in DocType 'Normal Test Result'
 #. Label of the conversion_factor (Float) field in DocType 'Normal Test
 #. Template'
 #: healthcare/healthcare/doctype/clinical_procedure_item/clinical_procedure_item.json
@@ -3126,8 +3128,7 @@ msgstr "修正済"
 #: healthcare/healthcare/doctype/patient_appointment/patient_appointment.py:430
 #, fuzzy
 msgid ""
-"Could not add conferencing to this Appointment, please contact System "
-"Manager"
+"Could not add conferencing to this Appointment, please contact System Manager"
 msgstr "この予約に会議を追加できませんでした。システム管理者にご連絡ください。"
 
 #: healthcare/healthcare/doctype/healthcare_service_unit/healthcare_service_unit_tree.js:172
@@ -3203,8 +3204,7 @@ msgstr "補償金額"
 msgid "Coverage Percentage"
 msgstr "補償率"
 
-#. Label of the coverage_status (Select) field in DocType 'Inpatient
-#. Occupancy'
+#. Label of the coverage_status (Select) field in DocType 'Inpatient Occupancy'
 #. Label of the coverage_status (Data) field in DocType 'Patient Appointment'
 #. Label of the coverage_status (Data) field in DocType 'Patient Encounter'
 #. Label of the coverage_status (Data) field in DocType 'Service Request'
@@ -3341,8 +3341,7 @@ msgstr "治療カウンセリングを作成"
 
 #: healthcare/healthcare/doctype/healthcare_practitioner/healthcare_practitioner.js:220
 #, fuzzy
-msgid ""
-"Create and link a service item to be billed for Out Patient Consulting."
+msgid "Create and link a service item to be billed for Out Patient Consulting."
 msgstr "外来診察の請求対象となるサービス品目を作成し、リンクします。"
 
 #. Description of the 'Task Document Name' (Dynamic Link) field in DocType
@@ -3561,8 +3560,7 @@ msgstr "日次"
 msgid "Dashboard"
 msgstr "ダッシュボード"
 
-#. Label of the date (Date) field in DocType 'Inpatient Medication Order
-#. Entry'
+#. Label of the date (Date) field in DocType 'Inpatient Medication Order Entry'
 #. Label of the date (Date) field in DocType 'Lab Test'
 #. Label of the date (Date) field in DocType 'Nursing Task'
 #. Label of the appointment_date (Date) field in DocType 'Patient Appointment'
@@ -3619,8 +3617,7 @@ msgstr "生年月日"
 msgid "Date of birth"
 msgstr "生年月日"
 
-#. Option for the 'Permitted Data Type' (Select) field in DocType
-#. 'Observation'
+#. Option for the 'Permitted Data Type' (Select) field in DocType 'Observation'
 #. Option for the 'Permitted Data Type' (Select) field in DocType 'Observation
 #. Reference Range'
 #. Option for the 'Permitted Data Type' (Select) field in DocType 'Observation
@@ -3647,8 +3644,7 @@ msgstr "日時"
 
 #. Option for the 'Interval UOM' (Select) field in DocType 'Drug Prescription'
 #. Label of the day (Select) field in DocType 'Healthcare Schedule Time Slot'
-#. Option for the 'Default Interval UOM' (Select) field in DocType
-#. 'Medication'
+#. Option for the 'Default Interval UOM' (Select) field in DocType 'Medication'
 #. Option for the 'Period' (Select) field in DocType 'Prescription Duration'
 #. Option for the 'Interval UOM' (Select) field in DocType 'Treatment Plan
 #. Template Item'
@@ -3687,8 +3683,7 @@ msgstr "日"
 msgid "Default"
 msgstr "デフォルト"
 
-#. Label of the sb_in_ac (Section Break) field in DocType 'Healthcare
-#. Settings'
+#. Label of the sb_in_ac (Section Break) field in DocType 'Healthcare Settings'
 #: healthcare/healthcare/doctype/healthcare_settings/healthcare_settings.json
 #, fuzzy
 msgid "Default Accounts"
@@ -3804,10 +3799,11 @@ msgstr "タスク完了にかかるデフォルト期間"
 msgid ""
 "Default income accounts to be used if not set in Healthcare Practitioner to "
 "book Appointment charges."
-msgstr "医療従事者で設定されていない場合に、予約料金を計上するために使用されるデフォルトの収入勘定科目。"
+msgstr ""
+"医療従事者で設定されていない場合に、予約料金を計上するために使用されるデフォ"
+"ルトの収入勘定科目。"
 
-#. Description of the 'Receivable Account' (Table) field in DocType
-#. 'Healthcare
+#. Description of the 'Receivable Account' (Table) field in DocType 'Healthcare
 #. Settings'
 #: healthcare/healthcare/doctype/healthcare_settings/healthcare_settings.json
 #, fuzzy
@@ -3838,8 +3834,7 @@ msgstr "拒否済"
 #. Label of the department (Link) field in DocType 'Lab Test'
 #. Label of the department (Link) field in DocType 'Lab Test Template'
 #. Label of the department (Data) field in DocType 'Medical Department'
-#. Label of the department (Link) field in DocType 'Nursing Checklist
-#. Template'
+#. Label of the department (Link) field in DocType 'Nursing Checklist Template'
 #. Label of the department (Link) field in DocType 'Patient Appointment'
 #. Option for the 'Appointment For' (Select) field in DocType 'Patient
 #. Appointment'
@@ -3875,8 +3870,7 @@ msgstr "部門別患者予約"
 #. Label of the description (Small Text) field in DocType 'Code Value Set'
 #. Label of the description (Long Text) field in DocType 'Exercise Type'
 #. Label of the description (Long Text) field in DocType 'Exercise Type Step'
-#. Label of the description (Small Text) field in DocType 'Healthcare
-#. Activity'
+#. Label of the description (Small Text) field in DocType 'Healthcare Activity'
 #. Label of the description (Small Text) field in DocType 'Healthcare Service
 #. Unit Type'
 #. Label of the lab_test_description (Data) field in DocType 'Lab Test Group
@@ -3922,16 +3916,14 @@ msgstr "部門別患者予約"
 msgid "Description"
 msgstr "説明"
 
-#. Label of the section_break_description (Section Break) field in DocType
-#. 'Lab
+#. Label of the section_break_description (Section Break) field in DocType 'Lab
 #. Test Template'
 #: healthcare/healthcare/doctype/lab_test_template/lab_test_template.json
 #, fuzzy
 msgid "Description "
 msgstr "説明 "
 
-#. Option for the 'Result Format' (Select) field in DocType 'Lab Test
-#. Template'
+#. Option for the 'Result Format' (Select) field in DocType 'Lab Test Template'
 #: healthcare/healthcare/doctype/lab_test_template/lab_test_template.json
 #, fuzzy
 msgid "Descriptive"
@@ -3999,8 +3991,7 @@ msgstr "詳細"
 #. Template'
 #. Label of the diagnosis (Table MultiSelect) field in DocType 'Patient
 #. Encounter'
-#. Label of the diagnosis (Link) field in DocType 'Patient Encounter
-#. Diagnosis'
+#. Label of the diagnosis (Link) field in DocType 'Patient Encounter Diagnosis'
 #. Label of the diagnosis (Table MultiSelect) field in DocType 'Treatment Plan
 #. Template'
 #. Label of a Link in the Healthcare Workspace
@@ -4065,10 +4056,11 @@ msgstr "診断設定"
 #: healthcare/healthcare/doctype/lab_test/lab_test.js:298
 #, fuzzy
 msgid "Did not send SMS, missing patient mobile number or message content."
-msgstr "SMSを送信できませんでした。患者の携帯電話番号またはメッセージ内容が不足しています。"
+msgstr ""
+"SMSを送信できませんでした。患者の携帯電話番号またはメッセージ内容が不足してい"
+"ます。"
 
-#. Label of the diet_adviced (Text Editor) field in DocType 'Discharge
-#. Summary'
+#. Label of the diet_adviced (Text Editor) field in DocType 'Discharge Summary'
 #: healthcare/healthcare/doctype/discharge_summary/discharge_summary.json
 #, fuzzy
 msgid "Diet Adviced"
@@ -4100,8 +4092,7 @@ msgstr "直接"
 msgid "Directive"
 msgstr "指示"
 
-#. Label of the disabled (Check) field in DocType 'Clinical Procedure
-#. Template'
+#. Label of the disabled (Check) field in DocType 'Clinical Procedure Template'
 #. Label of the disabled (Check) field in DocType 'Code System'
 #. Option for the 'Status' (Select) field in DocType 'Healthcare Practitioner'
 #. Label of the disabled (Check) field in DocType 'Healthcare Service Unit
@@ -4159,8 +4150,7 @@ msgstr "退院日"
 msgid "Discharge Details"
 msgstr "Discharge詳細"
 
-#. Label of the discharge_instructions (Small Text) field in DocType
-#. 'Inpatient
+#. Label of the discharge_instructions (Small Text) field in DocType 'Inpatient
 #. Record'
 #: healthcare/healthcare/doctype/inpatient_record/inpatient_record.json
 #, fuzzy
@@ -4275,16 +4265,14 @@ msgstr "入院患者の診察は請求しない"
 msgid "Do not add Video Conferencing"
 msgstr "ビデオ会議を追加しない"
 
-#. Description of the 'Avoid Confirmation' (Check) field in DocType
-#. 'Healthcare
+#. Description of the 'Avoid Confirmation' (Check) field in DocType 'Healthcare
 #. Settings'
 #: healthcare/healthcare/doctype/healthcare_settings/healthcare_settings.json
 #, fuzzy
 msgid "Do not confirm if appointment is created for the same day"
 msgstr "同日予約の場合は確認しない"
 
-#. Label of the lab_test_approval_required (Check) field in DocType
-#. 'Healthcare
+#. Label of the lab_test_approval_required (Check) field in DocType 'Healthcare
 #. Settings'
 #: healthcare/healthcare/doctype/healthcare_settings/healthcare_settings.json
 #, fuzzy
@@ -4306,8 +4294,7 @@ msgstr "DocType"
 
 #. Label of the document_type (Link) field in DocType 'Patient History Custom
 #. Document Type'
-#. Label of the document_type (Link) field in DocType 'Patient History
-#. Standard
+#. Label of the document_type (Link) field in DocType 'Patient History Standard
 #. Document Type'
 #: healthcare/healthcare/doctype/patient_history_custom_document_type/patient_history_custom_document_type.json
 #: healthcare/healthcare/doctype/patient_history_standard_document_type/patient_history_standard_document_type.json
@@ -4346,11 +4333,9 @@ msgstr "用量"
 #. Name of a DocType
 #. Label of the dosage_form (Data) field in DocType 'Dosage Form'
 #. Label of the dosage_form (Link) field in DocType 'Drug Prescription'
-#. Label of the dosage_form (Link) field in DocType 'Inpatient Medication
-#. Entry
+#. Label of the dosage_form (Link) field in DocType 'Inpatient Medication Entry
 #. Detail'
-#. Label of the dosage_form (Link) field in DocType 'Inpatient Medication
-#. Order
+#. Label of the dosage_form (Link) field in DocType 'Inpatient Medication Order
 #. Entry'
 #. Label of the dosage_form (Link) field in DocType 'Medication'
 #. Label of the dosage_form (Link) field in DocType 'Medication Request'
@@ -4384,8 +4369,7 @@ msgstr "投与形態:"
 msgid "Dosage Strength"
 msgstr "投与量強度"
 
-#. Label of the dosage_by_interval (Check) field in DocType 'Drug
-#. Prescription'
+#. Label of the dosage_by_interval (Check) field in DocType 'Drug Prescription'
 #. Label of the dosage_by_interval (Check) field in DocType 'Treatment Plan
 #. Template Item'
 #: healthcare/healthcare/doctype/drug_prescription/drug_prescription.json
@@ -4406,8 +4390,7 @@ msgstr "投与量:"
 #. Option for the 'Status' (Select) field in DocType 'Inpatient Medication
 #. Order'
 #. Option for the 'Status' (Select) field in DocType 'Insurance Claim'
-#. Option for the 'Status' (Select) field in DocType 'Insurance Claim
-#. Coverage'
+#. Option for the 'Status' (Select) field in DocType 'Insurance Claim Coverage'
 #. Option for the 'Status' (Select) field in DocType 'Lab Test'
 #. Option for the 'Status' (Select) field in DocType 'Nursing Task'
 #. Option for the 'Status' (Select) field in DocType 'Patient Insurance
@@ -4436,8 +4419,7 @@ msgstr "下書き"
 msgid "Draft Observations"
 msgstr "下書き観察"
 
-#. Label of the drug (Link) field in DocType 'Inpatient Medication Order
-#. Entry'
+#. Label of the drug (Link) field in DocType 'Inpatient Medication Order Entry'
 #: healthcare/healthcare/doctype/inpatient_medication_order/inpatient_medication_order.js:31
 #: healthcare/healthcare/doctype/inpatient_medication_order_entry/inpatient_medication_order_entry.json
 #: healthcare/setup.py:847 healthcare/setup.py:848
@@ -4597,8 +4579,7 @@ msgstr "資格プラン"
 msgid "Email"
 msgstr "メール"
 
-#. Label of the email_id (Read Only) field in DocType 'Healthcare
-#. Practitioner'
+#. Label of the email_id (Read Only) field in DocType 'Healthcare Practitioner'
 #: healthcare/healthcare/doctype/healthcare_practitioner/healthcare_practitioner.json
 #: healthcare/public/js/patient_quick_entry.js:77
 #, fuzzy
@@ -4638,8 +4619,7 @@ msgstr "従業員 (検査技師)"
 msgid "Employee and User Details"
 msgstr "Employee and User詳細"
 
-#. Label of the employee_name_and_designation_in_print (Check) field in
-#. DocType
+#. Label of the employee_name_and_designation_in_print (Check) field in DocType
 #. 'Healthcare Settings'
 #: healthcare/healthcare/doctype/healthcare_settings/healthcare_settings.json
 #, fuzzy
@@ -4755,8 +4735,7 @@ msgid "Entered in Error"
 msgstr "誤って入力されました"
 
 #. Option for the 'Status' (Select) field in DocType 'Insurance Claim'
-#. Option for the 'Status' (Select) field in DocType 'Insurance Claim
-#. Coverage'
+#. Option for the 'Status' (Select) field in DocType 'Insurance Claim Coverage'
 #: healthcare/healthcare/doctype/insurance_claim/insurance_claim.json
 #: healthcare/healthcare/doctype/insurance_claim_coverage/insurance_claim_coverage.json
 msgid "Error"
@@ -4772,9 +4751,11 @@ msgstr "エラー / 却下理由"
 #: healthcare/healthcare/doctype/patient_insurance_coverage/patient_insurance_coverage.py:272
 #, fuzzy
 msgid ""
-"Error calculating Coverage for Insurance Coverage {}. Please verify Coverage"
-" for Item and then try saving Insurance Coverage again"
-msgstr "保険適用範囲 {} の適用範囲の計算中にエラーが発生しました。品目の適用範囲を確認し、再度保険適用範囲の保存を試してください。"
+"Error calculating Coverage for Insurance Coverage {}. Please verify Coverage "
+"for Item and then try saving Insurance Coverage again"
+msgstr ""
+"保険適用範囲 {} の適用範囲の計算中にエラーが発生しました。品目の適用範囲を確"
+"認し、再度保険適用範囲の保存を試してください。"
 
 #: healthcare/healthcare/doctype/observation/observation.py:691
 #, fuzzy
@@ -4787,7 +4768,8 @@ msgid ""
 "Error while evaluating the {0} {1} at row {2}. <br><br> <b>Error:</b> {3}\n"
 "\t\t\t<br><br> <b>Hint:</b> {4}"
 msgstr ""
-"行 {2} の {0} {1} の評価中にエラーが発生しました。<br><br> <b>エラー:</b> {3}\n"
+"行 {2} の {0} {1} の評価中にエラーが発生しました。<br><br> <b>エラー:</b> "
+"{3}\n"
 "\t\t\t<br><br> <b>ヒント:</b> {4}"
 
 #. Label of the estimated_duration (Duration) field in DocType 'Diagnosis'
@@ -4809,8 +4791,7 @@ msgstr "イベント"
 
 #. Option for the 'Observation Category' (Select) field in DocType
 #. 'Observation'
-#. Option for the 'Observation Category' (Select) field in DocType
-#. 'Observation
+#. Option for the 'Observation Category' (Select) field in DocType 'Observation
 #. Template'
 #: healthcare/healthcare/doctype/observation/observation.json
 #: healthcare/healthcare/doctype/observation_template/observation_template.json
@@ -4879,8 +4860,7 @@ msgstr "運動ビデオ"
 #. Label of the exercises_section (Section Break) field in DocType 'Therapy
 #. Session'
 #. Label of the exercises (Table) field in DocType 'Therapy Session'
-#. Label of the section_break_6 (Section Break) field in DocType 'Therapy
-#. Type'
+#. Label of the section_break_6 (Section Break) field in DocType 'Therapy Type'
 #. Label of the exercises (Table) field in DocType 'Therapy Type'
 #. Label of the exercises_tab (Tab Break) field in DocType 'Therapy Type'
 #: healthcare/healthcare/doctype/therapy_session/therapy_session.json
@@ -5056,8 +5036,7 @@ msgstr "料金有効性参照"
 msgid "Fee Validity {0} updated."
 msgstr "料金有効性 {0} が更新されました。"
 
-#. Option for the 'Applies To' (Select) field in DocType 'Observation
-#. Reference
+#. Option for the 'Applies To' (Select) field in DocType 'Observation Reference
 #. Range'
 #. Option in a Select field in the personal-details Web Form
 #: healthcare/healthcare/doctype/observation_reference_range/observation_reference_range.json
@@ -5347,8 +5326,7 @@ msgstr "OTPを生成中..."
 msgid "Generic Name"
 msgstr "Generic名"
 
-#. Label of the gestational_age (Float) field in DocType 'Observation
-#. Reference
+#. Label of the gestational_age (Float) field in DocType 'Observation Reference
 #. Range'
 #: healthcare/healthcare/doctype/observation_reference_range/observation_reference_range.json
 #, fuzzy
@@ -5401,8 +5379,7 @@ msgstr "PDFを取得"
 msgid "Get Pending Medication Orders"
 msgstr "保留中の投薬指示を取得"
 
-#. Label of the get_procedure_from_encounter (Button) field in DocType
-#. 'Patient
+#. Label of the get_procedure_from_encounter (Button) field in DocType 'Patient
 #. Appointment'
 #: healthcare/healthcare/doctype/patient_appointment/patient_appointment.json
 #, fuzzy
@@ -5467,8 +5444,7 @@ msgstr "許可済"
 msgid "Group Tests"
 msgstr "グループテスト"
 
-#. Option for the 'Result Format' (Select) field in DocType 'Lab Test
-#. Template'
+#. Option for the 'Result Format' (Select) field in DocType 'Lab Test Template'
 #: healthcare/healthcare/doctype/lab_test_template/lab_test_template.json
 #, fuzzy
 msgid "Grouped"
@@ -5619,8 +5595,7 @@ msgstr "医療従事者"
 
 #. Label of the primary_practitioner (Link) field in DocType 'Discharge
 #. Summary'
-#. Label of the primary_practitioner (Link) field in DocType 'Inpatient
-#. Record'
+#. Label of the primary_practitioner (Link) field in DocType 'Inpatient Record'
 #. Label of the primary_practitioner (Link) field in DocType 'Treatment
 #. Counselling'
 #: healthcare/healthcare/doctype/discharge_summary/discharge_summary.json
@@ -5713,8 +5688,7 @@ msgstr "医療サービス単位ツリー"
 #. Name of a DocType
 #. Label of the healthcare_service_unit_type (Link) field in DocType 'Service
 #. Request'
-#. Label of the healthcare_service_unit_type (Link) field in DocType
-#. 'Treatment
+#. Label of the healthcare_service_unit_type (Link) field in DocType 'Treatment
 #. Plan Template'
 #. Label of a Link in the Healthcare Workspace
 #. Label of a Link in the Setup Workspace
@@ -5734,7 +5708,9 @@ msgstr "医療サービス単位タイプは {0} と {1} の両方を持つこ�
 #: healthcare/healthcare/doctype/healthcare_service_unit_type/healthcare_service_unit_type.py:25
 #, fuzzy
 msgid "Healthcare Service Unit Type must allow atleast one among {0} and {1}"
-msgstr "医療サービス単位タイプは {0} と {1} のうち少なくとも1つを許可する必要があります。"
+msgstr ""
+"医療サービス単位タイプは {0} と {1} のうち少なくとも1つを許可する必要がありま"
+"す。"
 
 #: healthcare/public/js/sales_invoice.js:5
 #, fuzzy
@@ -5784,8 +5760,7 @@ msgid "Hospital"
 msgstr "病院"
 
 #. Option for the 'Interval UOM' (Select) field in DocType 'Drug Prescription'
-#. Option for the 'Default Interval UOM' (Select) field in DocType
-#. 'Medication'
+#. Option for the 'Default Interval UOM' (Select) field in DocType 'Medication'
 #. Option for the 'Period' (Select) field in DocType 'Prescription Duration'
 #. Option for the 'Interval UOM' (Select) field in DocType 'Treatment Plan
 #. Template Item'
@@ -5838,16 +5813,20 @@ msgid ""
 "existing Customer is not selected then, a Customer will be created for this "
 "Patient for recording transactions in Accounts module."
 msgstr ""
-"医療設定で「顧客を患者にリンク」がチェックされており、既存の顧客が選択されていない場合、この患者のために顧客が作成され、会計モジュールで取引が記録されます。"
+"医療設定で「顧客を患者にリンク」がチェックされており、既存の顧客が選択されて"
+"いない場合、この患者のために顧客が作成され、会計モジュールで取引が記録されま"
+"す。"
 
 #: healthcare/healthcare/doctype/healthcare_settings/healthcare_settings.js:108
 #, fuzzy
 msgid ""
 "If checked, a customer will be created for every Patient. Patient Invoices "
-"will be created against this Customer. You can also select existing Customer"
-" while creating a Patient. This field is checked by default."
+"will be created against this Customer. You can also select existing Customer "
+"while creating a Patient. This field is checked by default."
 msgstr ""
-"チェックされている場合、すべての患者に対して顧客が作成されます。患者の請求書はこの顧客に対して作成されます。患者の作成時に既存の顧客を選択することもできます。このフィールドはデフォルトでチェックされています。"
+"チェックされている場合、すべての患者に対して顧客が作成されます。患者の請求書"
+"はこの顧客に対して作成されます。患者の作成時に既存の顧客を選択することもでき"
+"ます。このフィールドはデフォルトでチェックされています。"
 
 #. Description of the 'Link Customer to Patient' (Check) field in DocType
 #. 'Healthcare Settings'
@@ -5855,13 +5834,14 @@ msgstr ""
 #, fuzzy
 msgid ""
 "If checked, a customer will be created, mapped to Patient.\n"
-"Patient Invoices will be created against this Customer. You can also select existing Customer while creating Patient."
+"Patient Invoices will be created against this Customer. You can also select "
+"existing Customer while creating Patient."
 msgstr ""
 "チェックされている場合、顧客が作成され、患者にマッピングされます。\n"
-"患者の請求書はこの顧客に対して作成されます。患者の作成時に既存の顧客を選択することもできます。"
+"患者の請求書はこの顧客に対して作成されます。患者の作成時に既存の顧客を選択す"
+"ることもできます。"
 
-#. Description of the 'Show Diagnostics Tab on Portal' (Check) field in
-#. DocType
+#. Description of the 'Show Diagnostics Tab on Portal' (Check) field in DocType
 #. 'Healthcare Settings'
 #: healthcare/healthcare/doctype/healthcare_settings/healthcare_settings.json
 #, fuzzy
@@ -5873,14 +5853,18 @@ msgstr "有効になっている場合、患者ポータルに診断詳細タブ
 msgid ""
 "If this Healthcare Practitioner also works for the In-Patient Department, "
 "set the inpatient visit charge for this Practitioner."
-msgstr "この医療従事者が入院部門でも勤務している場合、この従事者の入院診察料を設定してください。"
+msgstr ""
+"この医療従事者が入院部門でも勤務している場合、この従事者の入院診察料を設定し"
+"てください。"
 
 #: healthcare/healthcare/doctype/healthcare_practitioner/healthcare_practitioner.js:225
 #, fuzzy
 msgid ""
 "If this Healthcare Practitioner works for the In-Patient Department, create "
 "a service item for Inpatient Visits."
-msgstr "この医療従事者が入院部門で勤務している場合、入院診察用のサービス品目を作成してください。"
+msgstr ""
+"この医療従事者が入院部門で勤務している場合、入院診察用のサービス品目を作成し"
+"てください。"
 
 #. Description of the 'Is Billable' (Check) field in DocType 'Lab Test
 #. Template'
@@ -5889,7 +5873,9 @@ msgstr "この医療従事者が入院部門で勤務している場合、入院
 msgid ""
 "If unchecked, the item will not be available in Sales Invoices for billing "
 "but can be used in group test creation. "
-msgstr "チェックを外した場合、この品目は売上請求書での請求には利用できませんが、グループテスト作成では使用できます。 "
+msgstr ""
+"チェックを外した場合、この品目は売上請求書での請求には利用できませんが、グ"
+"ループテスト作成では使用できます。 "
 
 #: healthcare/healthcare/doctype/healthcare_settings/healthcare_settings.js:149
 #, fuzzy
@@ -5898,21 +5884,27 @@ msgid ""
 "option. Similary, you can set up Out Patient SMS alerts for other "
 "functionalities in this section. Click"
 msgstr ""
-"患者登録時にSMSアラートを送信したい場合は、このオプションを有効にできます。同様に、このセクションで他の機能について外来患者SMSアラートを設定できます。「クリック」"
+"患者登録時にSMSアラートを送信したい場合は、このオプションを有効にできます。同"
+"様に、このセクションで他の機能について外来患者SMSアラートを設定できます。「ク"
+"リック」"
 
 #: healthcare/healthcare/doctype/healthcare_practitioner/healthcare_practitioner.js:205
 #, fuzzy
 msgid ""
 "If you want to track Payroll and other HRMS operations for a Practitoner, "
 "create an Employee and link it here."
-msgstr "医療従事者の給与計算やその他のHRMS操作を追跡したい場合は、従業員を作成し、ここにリンクしてください。"
+msgstr ""
+"医療従事者の給与計算やその他のHRMS操作を追跡したい場合は、従業員を作成し、こ"
+"こにリンクしてください。"
 
 #: healthcare/healthcare/doctype/healthcare_settings/healthcare_settings.js:143
 #, fuzzy
 msgid ""
 "If you wish to override default accounts settings and configure the Income "
 "and Receivable accounts for Healthcare, you can do so here."
-msgstr "デフォルトの会計設定を上書きし、医療用の収入勘定と売掛金勘定を設定したい場合は、ここで設定できます。"
+msgstr ""
+"デフォルトの会計設定を上書きし、医療用の収入勘定と売掛金勘定を設定したい場合"
+"は、ここで設定できます。"
 
 #: healthcare/healthcare/doctype/healthcare_settings/healthcare_settings.js:123
 #, fuzzy
@@ -5922,11 +5914,12 @@ msgid ""
 "create new Patients with a Disabled status by default and will only be "
 "enabled after invoicing the Registration Fee."
 msgstr ""
-"医療施設が患者の登録を請求する場合、これをチェックし、以下のフィールドで登録料を設定できます。これをチェックすると、新しい患者はデフォルトで無効ステータスで作成され、登録料が請求された後にのみ有効になります。"
+"医療施設が患者の登録を請求する場合、これをチェックし、以下のフィールドで登録"
+"料を設定できます。これをチェックすると、新しい患者はデフォルトで無効ステータ"
+"スで作成され、登録料が請求された後にのみ有効になります。"
 
 #. Label of the image (Attach Image) field in DocType 'Exercise Type Step'
-#. Label of the image (Attach Image) field in DocType 'Healthcare
-#. Practitioner'
+#. Label of the image (Attach Image) field in DocType 'Healthcare Practitioner'
 #. Label of the image (Attach Image) field in DocType 'Insurance Payor'
 #. Label of the image (Attach Image) field in DocType 'Patient'
 #: healthcare/healthcare/doctype/exercise_type_step/exercise_type_step.json
@@ -5936,12 +5929,10 @@ msgstr ""
 msgid "Image"
 msgstr "画像"
 
-#. Option for the 'Result Format' (Select) field in DocType 'Lab Test
-#. Template'
+#. Option for the 'Result Format' (Select) field in DocType 'Lab Test Template'
 #. Option for the 'Observation Category' (Select) field in DocType
 #. 'Observation'
-#. Option for the 'Observation Category' (Select) field in DocType
-#. 'Observation
+#. Option for the 'Observation Category' (Select) field in DocType 'Observation
 #. Template'
 #: healthcare/healthcare/doctype/lab_test_template/lab_test_template.json
 #: healthcare/healthcare/doctype/observation/observation.json
@@ -6006,8 +5997,7 @@ msgid "In minutes"
 msgstr "分単位"
 
 #. Label of the symptoms_in_print (Check) field in DocType 'Patient Encounter'
-#. Label of the diagnosis_in_print (Check) field in DocType 'Patient
-#. Encounter'
+#. Label of the diagnosis_in_print (Check) field in DocType 'Patient Encounter'
 #: healthcare/healthcare/doctype/patient_encounter/patient_encounter.json
 #, fuzzy
 msgid "In print"
@@ -6037,7 +6027,9 @@ msgstr "未完了サービス"
 msgid ""
 "Indicates the mechanism used to compare versions to determine which is more "
 "current."
-msgstr "バージョンを比較して、どちらがより新しいかを判断するために使用されるメカニズムを示します。"
+msgstr ""
+"バージョンを比較して、どちらがより新しいかを判断するために使用されるメカニズ"
+"ムを示します。"
 
 #. Description of the 'Result Legend Print' (Section Break) field in DocType
 #. 'Lab Test Template'
@@ -6046,7 +6038,8 @@ msgstr "バージョンを比較して、どちらがより新しいかを判断
 msgid ""
 "Information to help easily interpret the test report, will be printed as "
 "part of the Lab Test result."
-msgstr "検査レポートを容易に解釈するための情報で、検査結果の一部として印刷されます。"
+msgstr ""
+"検査レポートを容易に解釈するための情報で、検査結果の一部として印刷されます。"
 
 #. Group in Patient Encounter's connections
 #. Label of the ip (Tab Break) field in DocType 'Treatment Plan Template'
@@ -6061,8 +6054,7 @@ msgstr "検査レポートを容易に解釈するための情報で、検査結
 msgid "Inpatient"
 msgstr "入院患者"
 
-#. Label of the inpatient_billables_tab (Tab Break) field in DocType
-#. 'Inpatient
+#. Label of the inpatient_billables_tab (Tab Break) field in DocType 'Inpatient
 #. Record'
 #: healthcare/healthcare/doctype/inpatient_record/inpatient_record.json
 #, fuzzy
@@ -6074,7 +6066,9 @@ msgstr "入院請求可能項目"
 msgid ""
 "Inpatient Consulting Charge is mandatory if you are setting Inpatient "
 "Consulting Charge Item"
-msgstr "入院コンサルティング料金品目を設定する場合、入院コンサルティング料金は必須です。"
+msgstr ""
+"入院コンサルティング料金品目を設定する場合、入院コンサルティング料金は必須で"
+"す。"
 
 #. Label of the inpatient_details_section (Section Break) field in DocType
 #. 'Treatment Counselling'
@@ -6217,8 +6211,7 @@ msgstr "Inpatient設定"
 msgid "Inpatient Status"
 msgstr "入院ステータス"
 
-#. Label of the inpatient_visit_charge (Currency) field in DocType
-#. 'Appointment
+#. Label of the inpatient_visit_charge (Currency) field in DocType 'Appointment
 #. Type Service Item'
 #. Label of the inpatient_visit_charge (Currency) field in DocType 'Healthcare
 #. Practitioner'
@@ -6232,11 +6225,9 @@ msgstr "入院診察料"
 
 #. Label of the inpatient_visit_charge_item (Link) field in DocType
 #. 'Appointment Type Service Item'
-#. Label of the inpatient_visit_charge_item (Link) field in DocType
-#. 'Healthcare
+#. Label of the inpatient_visit_charge_item (Link) field in DocType 'Healthcare
 #. Practitioner'
-#. Label of the inpatient_visit_charge_item (Link) field in DocType
-#. 'Healthcare
+#. Label of the inpatient_visit_charge_item (Link) field in DocType 'Healthcare
 #. Settings'
 #: healthcare/healthcare/doctype/appointment_type_service_item/appointment_type_service_item.json
 #: healthcare/healthcare/doctype/healthcare_practitioner/healthcare_practitioner.js:224
@@ -6252,8 +6243,7 @@ msgstr "入院診察料品目"
 msgid "Instance Order"
 msgstr "インスタンス順序"
 
-#. Label of the instructions (Text Editor) field in DocType 'Discharge
-#. Summary'
+#. Label of the instructions (Text Editor) field in DocType 'Discharge Summary'
 #. Label of the instructions_tab (Tab Break) field in DocType 'Exercise Type'
 #. Label of the instructions (Small Text) field in DocType 'Inpatient
 #. Medication Entry Detail'
@@ -6388,7 +6378,9 @@ msgstr "保険カバー範囲計上日"
 msgid ""
 "Insurance Coverage not created!<br>Not supported as <b>Automate Appointment "
 "Invoicing</b> enabled"
-msgstr "保険カバー範囲が作成されませんでした！<br><b>予約請求の自動化</b>が有効になっているためサポートされていません"
+msgstr ""
+"保険カバー範囲が作成されませんでした！<br><b>予約請求の自動化</b>が有効になっ"
+"ているためサポートされていません"
 
 #: healthcare/healthcare/doctype/patient_insurance_coverage/patient_insurance_coverage.py:105
 #, fuzzy
@@ -6578,8 +6570,7 @@ msgid "Interval"
 msgstr "間隔"
 
 #. Label of the interval_uom (Select) field in DocType 'Drug Prescription'
-#. Label of the interval_uom (Select) field in DocType 'Treatment Plan
-#. Template
+#. Label of the interval_uom (Select) field in DocType 'Treatment Plan Template
 #. Item'
 #: healthcare/healthcare/doctype/drug_prescription/drug_prescription.json
 #: healthcare/healthcare/doctype/treatment_plan_template_item/treatment_plan_template_item.json
@@ -6609,7 +6600,8 @@ msgstr "無効なCoverage / Discount percentage"
 #: healthcare/healthcare/doctype/patient_insurance_coverage/patient_insurance_coverage.py:96
 msgid ""
 "Invalid Coverage Percent {}, cannot submit Insurance Coverage as Approved"
-msgstr "無効なCoverage Percent {}, cannot submit Insurance Coverage as Approved"
+msgstr ""
+"無効なCoverage Percent {}, cannot submit Insurance Coverage as Approved"
 
 #: healthcare/healthcare/doctype/patient_appointment/patient_appointment.py:294
 msgid "Invalid Healthcare Service Unit"
@@ -6636,8 +6628,7 @@ msgstr ""
 "marked <b>Is Billable</b>"
 
 #: healthcare/healthcare/doctype/patient_insurance_coverage/patient_insurance_coverage.py:177
-msgid ""
-"Invalid Service Template, Item is required to create Insurance Coverage"
+msgid "Invalid Service Template, Item is required to create Insurance Coverage"
 msgstr "無効なService Template, Item is required to create Insurance Coverage"
 
 #. Label of the investigations_section (Section Break) field in DocType
@@ -6747,14 +6738,14 @@ msgstr "請求済"
 msgid ""
 "Invoiced Quantity and Invoiced Amount cannot be more than Claim Quantity {} "
 "and Claim Amount {}"
-msgstr "請求済数量と請求済金額は、請求数量 {} および請求金額 {} を超えることはできません。"
+msgstr ""
+"請求済数量と請求済金額は、請求数量 {} および請求金額 {} を超えることはできま"
+"せん。"
 
 #. Label of the is_active (Check) field in DocType 'Insurance Payor Contract'
-#. Label of the is_active (Check) field in DocType 'Insurance Payor
-#. Eligibility
+#. Label of the is_active (Check) field in DocType 'Insurance Payor Eligibility
 #. Plan'
-#. Label of the is_active (Check) field in DocType 'Item Insurance
-#. Eligibility'
+#. Label of the is_active (Check) field in DocType 'Item Insurance Eligibility'
 #: healthcare/healthcare/doctype/insurance_payor_contract/insurance_payor_contract.json
 #: healthcare/healthcare/doctype/insurance_payor_eligibility_plan/insurance_payor_eligibility_plan.json
 #: healthcare/healthcare/doctype/item_insurance_eligibility/item_insurance_eligibility.json
@@ -6801,8 +6792,7 @@ msgstr "FHIR定義済み"
 msgid "Is Group"
 msgstr "グループ"
 
-#. Label of the is_inpatient (Check) field in DocType 'Treatment Plan
-#. Template'
+#. Label of the is_inpatient (Check) field in DocType 'Treatment Plan Template'
 #: healthcare/healthcare/doctype/treatment_plan_template/treatment_plan_template.json
 #, fuzzy
 msgid "Is Inpatient"
@@ -6821,8 +6811,7 @@ msgstr "OT"
 msgid "Is Order Completed"
 msgstr "注文完了済み"
 
-#. Label of the is_stock_item (Check) field in DocType 'Service Unit Type
-#. Item'
+#. Label of the is_stock_item (Check) field in DocType 'Service Unit Type Item'
 #: healthcare/healthcare/doctype/service_unit_type_item/service_unit_type_item.json
 #, fuzzy
 msgid "Is Stock Item"
@@ -6861,12 +6850,13 @@ msgstr "品目"
 #: healthcare/healthcare/doctype/medication/medication.py:45
 #, fuzzy
 msgid ""
-"Item <b>{}</b> has been already used in <b><a "
-"href='/app/medication/{}'>Medication</a></b>"
-msgstr "品目 <b>{}</b> は、<b><a href='/app/medication/{}'>投薬</a></b>ですでに使用されています"
+"Item <b>{}</b> has been already used in <b><a href='/app/medication/"
+"{}'>Medication</a></b>"
+msgstr ""
+"品目 <b>{}</b> は、<b><a href='/app/medication/{}'>投薬</a></b>ですでに使用さ"
+"れています"
 
-#. Label of the item_code (Data) field in DocType 'Clinical Procedure
-#. Template'
+#. Label of the item_code (Data) field in DocType 'Clinical Procedure Template'
 #. Label of the item_code (Data) field in DocType 'Healthcare Service Unit
 #. Type'
 #. Label of the item_code (Link) field in DocType 'Insurance Claim Coverage'
@@ -7015,8 +7005,7 @@ msgstr "LOINC"
 msgid "Lab Prescription"
 msgstr "検査処方"
 
-#. Label of the section_break_normal (Section Break) field in DocType 'Lab
-#. Test
+#. Label of the section_break_normal (Section Break) field in DocType 'Lab Test
 #. Template'
 #: healthcare/healthcare/doctype/lab_test_template/lab_test_template.json
 #, fuzzy
@@ -7146,8 +7135,7 @@ msgstr "検査承認者"
 #. Settings'
 #. Option for the 'Observation Category' (Select) field in DocType
 #. 'Observation'
-#. Option for the 'Observation Category' (Select) field in DocType
-#. 'Observation
+#. Option for the 'Observation Category' (Select) field in DocType 'Observation
 #. Template'
 #. Label of a Card Break in the Healthcare Workspace
 #: healthcare/healthcare/doctype/healthcare_settings/healthcare_settings.json
@@ -7244,11 +7232,9 @@ msgstr "顧客を患者にリンク"
 msgid "Link Existing Item"
 msgstr "既存の品目をリンク"
 
-#. Label of the link_existing_item (Check) field in DocType 'Clinical
-#. Procedure
+#. Label of the link_existing_item (Check) field in DocType 'Clinical Procedure
 #. Template'
-#. Label of the link_existing_item (Check) field in DocType 'Lab Test
-#. Template'
+#. Label of the link_existing_item (Check) field in DocType 'Lab Test Template'
 #. Label of the link_existing_item (Check) field in DocType 'Therapy Plan
 #. Template'
 #: healthcare/healthcare/doctype/clinical_procedure_template/clinical_procedure_template.json
@@ -7264,7 +7250,8 @@ msgid ""
 "Link the Google Calendar created and Authorized by the practitioner, all "
 "tele consultation appointments will be scheduled using this calendar"
 msgstr ""
-"施術者によって作成および承認されたGoogleカレンダーをリンクしてください。すべての遠隔診療予約はこのカレンダーを使用してスケジュールされます"
+"施術者によって作成および承認されたGoogleカレンダーをリンクしてください。すべ"
+"ての遠隔診療予約はこのカレンダーを使用してスケジュールされます"
 
 #. Label of the item_details (Section Break) field in DocType 'Medication'
 #: healthcare/healthcare/doctype/medication/medication.json
@@ -7321,8 +7308,7 @@ msgstr "支払いを行う"
 msgid "Make Stock Entry"
 msgstr "在庫入力を作成"
 
-#. Option for the 'Applies To' (Select) field in DocType 'Observation
-#. Reference
+#. Option for the 'Applies To' (Select) field in DocType 'Observation Reference
 #. Range'
 #. Option in a Select field in the personal-details Web Form
 #: healthcare/healthcare/doctype/observation_reference_range/observation_reference_range.json
@@ -7468,21 +7454,18 @@ msgstr "最大請求可能数量が {0} を超過しました"
 #. Type'
 #. Label of the codification_table (Table) field in DocType 'Clinical
 #. Procedure'
-#. Label of the codification_table (Table) field in DocType 'Clinical
-#. Procedure
+#. Label of the codification_table (Table) field in DocType 'Clinical Procedure
 #. Template'
 #. Label of the codification_table (Table) field in DocType 'Diagnosis'
 #. Label of the codification_table (Table) field in DocType 'Lab Test'
-#. Label of the codification_table (Table) field in DocType 'Lab Test
-#. Template'
+#. Label of the codification_table (Table) field in DocType 'Lab Test Template'
 #. Label of the codification_table (Table) field in DocType 'Medication'
 #. Label of the codification_table (Table) field in DocType 'Medication
 #. Request'
 #. Label of the codification_table (Table) field in DocType 'Observation'
 #. Label of the medical_codes_tab (Tab Break) field in DocType 'Observation
 #. Template'
-#. Label of the codification_table (Table) field in DocType 'Patient
-#. Encounter'
+#. Label of the codification_table (Table) field in DocType 'Patient Encounter'
 #. Label of the codification_table (Table) field in DocType 'Service Request'
 #. Label of the codification_table (Table) field in DocType 'Therapy Session'
 #. Label of the codification_table (Table) field in DocType 'Therapy Type'
@@ -7541,8 +7524,7 @@ msgstr "医療コード"
 msgid "Medical Coding"
 msgstr "医療コーディング"
 
-#. Label of the medical_department (Link) field in DocType 'Clinical
-#. Procedure'
+#. Label of the medical_department (Link) field in DocType 'Clinical Procedure'
 #. Label of the medical_department (Link) field in DocType 'Clinical Procedure
 #. Template'
 #. Label of the medical_department (Link) field in DocType 'Discharge Summary'
@@ -7552,8 +7534,7 @@ msgstr "医療コーディング"
 #. Unit Type'
 #. Label of the medical_department (Link) field in DocType 'Inpatient Record'
 #. Name of a DocType
-#. Label of the medical_department (Link) field in DocType 'Medication
-#. Request'
+#. Label of the medical_department (Link) field in DocType 'Medication Request'
 #. Label of the medical_department (Link) field in DocType 'Nursing Task'
 #. Label of the medical_department (Link) field in DocType 'Observation'
 #. Label of the medical_department (Link) field in DocType 'Observation Sample
@@ -7773,8 +7754,7 @@ msgstr "薬剤:"
 #. Label of the sb_drug_prescription (Section Break) field in DocType 'Patient
 #. Encounter'
 #. Label of the drugs (Table) field in DocType 'Treatment Plan Template'
-#. Label of the medications_section (Section Break) field in DocType
-#. 'Treatment
+#. Label of the medications_section (Section Break) field in DocType 'Treatment
 #. Plan Template'
 #: healthcare/healthcare/doctype/inpatient_record/inpatient_record.json
 #: healthcare/healthcare/doctype/patient_encounter/patient_encounter.json
@@ -7815,8 +7795,7 @@ msgstr "ミドルネーム (任意)"
 msgid "Middle Name (optional)"
 msgstr "ミドルネーム (任意)"
 
-#. Label of the minimum_billable_qty (Int) field in DocType 'Healthcare
-#. Service
+#. Label of the minimum_billable_qty (Int) field in DocType 'Healthcare Service
 #. Unit Type'
 #: healthcare/healthcare/doctype/healthcare_service_unit_type/healthcare_service_unit_type.json
 #, fuzzy
@@ -7975,8 +7954,7 @@ msgstr "詳細情報"
 #. Label of the sb_refs (Section Break) field in DocType 'Clinical Procedure'
 #. Label of the more_information_section (Section Break) field in DocType 'Lab
 #. Test'
-#. Label of the tab_more_information (Tab Break) field in DocType
-#. 'Observation'
+#. Label of the tab_more_information (Tab Break) field in DocType 'Observation'
 #. Label of the more_info (Section Break) field in DocType 'Patient'
 #. Label of the more_information_section (Section Break) field in DocType
 #. 'Therapy Plan'
@@ -8134,9 +8112,9 @@ msgstr "患者 {0} の入院記録が見つかりません"
 
 #: healthcare/healthcare/doctype/insurance_claim/insurance_claim.py:416
 #, fuzzy
-msgid ""
-"No Insurance Claim Coverages in Approved status to create Payment Entry"
-msgstr "入出金伝票を作成するための承認済ステータスの保険請求適用範囲はありません"
+msgid "No Insurance Claim Coverages in Approved status to create Payment Entry"
+msgstr ""
+"入出金伝票を作成するための承認済ステータスの保険請求適用範囲はありません"
 
 #: healthcare/healthcare/doctype/lab_test/lab_test_list.js:58
 #, fuzzy
@@ -8170,8 +8148,7 @@ msgstr "観察記録なし"
 msgid "No Prescribed Procedures found for the selected Patient"
 msgstr "選択された患者の処方された処置が見つかりません"
 
-#. Option for the 'Result Format' (Select) field in DocType 'Lab Test
-#. Template'
+#. Option for the 'Result Format' (Select) field in DocType 'Lab Test Template'
 #: healthcare/healthcare/doctype/lab_test_template/lab_test_template.json
 #, fuzzy
 msgid "No Result"
@@ -8195,8 +8172,7 @@ msgstr "会社 {0} と保険支払者 {1} の間で有効な保険契約はあ�
 
 #: healthcare/healthcare/doctype/insurance_claim/insurance_claim.py:267
 #, fuzzy
-msgid ""
-"No matching Patient Insurance Coverages found, please check the filters"
+msgid "No matching Patient Insurance Coverages found, please check the filters"
 msgstr "一致する患者保険適用範囲が見つかりません。フィルターを確認してください"
 
 #: healthcare/healthcare/page/patient_history/patient_history.js:139
@@ -8260,8 +8236,7 @@ msgstr "非数値の結果 {0} は、許可されたタイプ {1} では許可�
 msgid "Normal"
 msgstr "通常"
 
-#. Label of the normal_condition (Code) field in DocType 'Observation
-#. Reference
+#. Label of the normal_condition (Code) field in DocType 'Observation Reference
 #. Range'
 #: healthcare/healthcare/doctype/observation_reference_range/observation_reference_range.json
 #, fuzzy
@@ -8282,8 +8257,7 @@ msgstr "正常範囲（開始）"
 msgid "Normal Interpretation"
 msgstr "正常な解釈"
 
-#. Label of the normal_long_interpretation (Text) field in DocType
-#. 'Observation
+#. Label of the normal_long_interpretation (Text) field in DocType 'Observation
 #. Reference Range'
 #: healthcare/healthcare/doctype/observation_reference_range/observation_reference_range.json
 #, fuzzy
@@ -8364,7 +8338,9 @@ msgstr "成人の正常基準範囲は1分あたり16～20回呼吸です (RCP 2
 msgid ""
 "Normal resting blood pressure in an adult is approximately 120 mmHg "
 "systolic, and 80 mmHg diastolic, abbreviated \"120/80 mmHg\""
-msgstr "成人の安静時血圧の正常値は、おおよそ収縮期120 mmHg、拡張期80 mmHgであり、「120/80 mmHg」と略されます"
+msgstr ""
+"成人の安静時血圧の正常値は、おおよそ収縮期120 mmHg、拡張期80 mmHgであり、"
+"「120/80 mmHg」と略されます"
 
 #: healthcare/healthcare/doctype/insurance_payor_contract/insurance_payor_contract_list.js:7
 #: healthcare/healthcare/doctype/insurance_payor_eligibility_plan/insurance_payor_eligibility_plan_list.js:7
@@ -8393,19 +8369,24 @@ msgstr "許可されていません"
 #: healthcare/healthcare/doctype/nursing_task/nursing_task.py:36
 #, fuzzy
 msgid "Not Allowed to 'Complete' Nursing Task without linking Task Document"
-msgstr "タスクドキュメントをリンクせずに看護タスクを「完了」することは許可されていません"
+msgstr ""
+"タスクドキュメントをリンクせずに看護タスクを「完了」することは許可されていま"
+"せん"
 
 #: healthcare/healthcare/doctype/nursing_task/nursing_task.py:30
 #, fuzzy
 msgid "Not Allowed to cancel Nursing Task with status 'Completed'"
-msgstr "ステータスが「完了」の看護タスクをキャンセルすることは許可されていません"
+msgstr ""
+"ステータスが「完了」の看護タスクをキャンセルすることは許可されていません"
 
 #: healthcare/healthcare/doctype/insurance_claim/insurance_claim.js:223
 #, fuzzy
 msgid ""
 "Not Allowed to delete coverage after submission, please update the Coverage "
 "status instead"
-msgstr "提出後に適用範囲を削除することは許可されていません。代わりに適用範囲のステータスを更新してください"
+msgstr ""
+"提出後に適用範囲を削除することは許可されていません。代わりに適用範囲のステー"
+"タスを更新してください"
 
 #: healthcare/healthcare/doctype/patient_appointment/patient_appointment.js:647
 #: healthcare/healthcare/doctype/patient_appointment/patient_appointment.py:754
@@ -8544,8 +8525,7 @@ msgstr "作成するサービスユニット数は少なくとも1である必�
 msgid "Number of prints required for labelling the samples"
 msgstr "サンプルにラベルを貼るために必要な印刷枚数"
 
-#. Option for the 'Permitted Data Type' (Select) field in DocType
-#. 'Observation'
+#. Option for the 'Permitted Data Type' (Select) field in DocType 'Observation'
 #. Option for the 'Permitted Data Type' (Select) field in DocType 'Observation
 #. Reference Range'
 #. Option for the 'Permitted Data Type' (Select) field in DocType 'Observation
@@ -8705,8 +8685,7 @@ msgid "Obese"
 msgstr "肥満"
 
 #. Label of the observation (HTML) field in DocType 'Diagnostic Report'
-#. Label of the observation_template (Link) field in DocType 'Lab
-#. Prescription'
+#. Label of the observation_template (Link) field in DocType 'Lab Prescription'
 #. Name of a DocType
 #. Label of the observation (Data) field in DocType 'Observation Template'
 #. Label of a Link in the Diagnostics Workspace
@@ -8805,7 +8784,8 @@ msgstr "Observationテンプレート"
 #: healthcare/healthcare/doctype/observation_template/observation_template.py:53
 #, fuzzy
 msgid "Observation Template '{0}' cannot be added as a component of itself."
-msgstr "観察テンプレート '{0}' はそれ自身のコンポーネントとして追加できません。"
+msgstr ""
+"観察テンプレート '{0}' はそれ自身のコンポーネントとして追加できません。"
 
 #. Label of the observation_idx (Int) field in DocType 'Observation'
 #: healthcare/healthcare/doctype/observation/observation.json
@@ -8832,31 +8812,39 @@ msgstr "観察記録"
 #: healthcare/setup.py:1387
 #, fuzzy
 msgid ""
-"Observations generated by imaging. The scope includes observations regarding"
-" plain x-ray, ultrasound, CT, MRI, angiography, echocardiography, and "
-"nuclear medicine."
-msgstr "画像診断によって生成された観察記録。範囲には、単純X線、超音波、CT、MRI、血管造影、心エコー検査、核医学に関する観察記録が含まれます。"
+"Observations generated by imaging. The scope includes observations regarding "
+"plain x-ray, ultrasound, CT, MRI, angiography, echocardiography, and nuclear "
+"medicine."
+msgstr ""
+"画像診断によって生成された観察記録。範囲には、単純X線、超音波、CT、MRI、血管"
+"造影、心エコー検査、核医学に関する観察記録が含まれます。"
 
 #: healthcare/setup.py:1437
 #, fuzzy
 msgid ""
 "Observations generated by non-interventional treatment protocols (e.g. "
 "occupational, physical, radiation, nutritional and medication therapy)"
-msgstr "非侵襲的治療プロトコルによって生成された観察記録（例：作業療法、理学療法、放射線療法、栄養療法、薬物療法）"
+msgstr ""
+"非侵襲的治療プロトコルによって生成された観察記録（例：作業療法、理学療法、放"
+"射線療法、栄養療法、薬物療法）"
 
 #: healthcare/setup.py:1407
 #, fuzzy
 msgid ""
 "Observations generated by other procedures. This category includes "
-"observations resulting from interventional and non-interventional procedures"
-" excluding laboratory and imaging (e.g., cardiology catheterization, "
+"observations resulting from interventional and non-interventional procedures "
+"excluding laboratory and imaging (e.g., cardiology catheterization, "
 "endoscopy, electrodiagnostics, etc.). Procedure results are typically "
 "generated by a clinician to provide more granular information about "
 "component observations made during a procedure. An example would be when a "
-"gastroenterologist reports the size of a polyp observed during a "
-"colonoscopy."
+"gastroenterologist reports the size of a polyp observed during a colonoscopy."
 msgstr ""
-"その他の処置によって生成された観察記録。このカテゴリには、臨床検査および画像診断を除く侵襲的および非侵襲的処置（例：心臓カテーテル検査、内視鏡検査、電気診断など）から生じる観察記録が含まれます。処置結果は通常、処置中に行われた構成要素の観察に関するより詳細な情報を提供するために臨床医によって生成されます。例としては、消化器内科医が結腸内視鏡検査中に観察されたポリープのサイズを報告する場合などです。"
+"その他の処置によって生成された観察記録。このカテゴリには、臨床検査および画像"
+"診断を除く侵襲的および非侵襲的処置（例：心臓カテーテル検査、内視鏡検査、電気"
+"診断など）から生じる観察記録が含まれます。処置結果は通常、処置中に行われた構"
+"成要素の観察に関するより詳細な情報を提供するために臨床医によって生成されま"
+"す。例としては、消化器内科医が結腸内視鏡検査中に観察されたポリープのサイズを"
+"報告する場合などです。"
 
 #: healthcare/setup.py:1427
 #, fuzzy
@@ -8864,27 +8852,33 @@ msgid ""
 "Observations generated by physical exam findings including direct "
 "observations made by a clinician and use of simple instruments and the "
 "result of simple maneuvers performed directly on the patient's body."
-msgstr "臨床医による直接観察、簡単な器具の使用、および患者の身体に直接行われた簡単な操作の結果を含む、身体診察所見によって生成された観察記録。"
+msgstr ""
+"臨床医による直接観察、簡単な器具の使用、および患者の身体に直接行われた簡単な"
+"操作の結果を含む、身体診察所見によって生成された観察記録。"
 
 #: healthcare/setup.py:1447
 #, fuzzy
 msgid ""
 "Observations that measure or record any bodily activity that enhances or "
-"maintains physical fitness and overall health and wellness. Not under direct"
-" supervision of practitioner such as a physical therapist. (e.g., laps swum,"
-" steps, sleep data)"
+"maintains physical fitness and overall health and wellness. Not under direct "
+"supervision of practitioner such as a physical therapist. (e.g., laps swum, "
+"steps, sleep data)"
 msgstr ""
-"身体の健康と全体的な健康状態を向上または維持するあらゆる身体活動を測定または記録する観察記録。理学療法士などの医療従事者の直接の監督下にはありません。（例：水泳のラップ数、歩数、睡眠データ）"
+"身体の健康と全体的な健康状態を向上または維持するあらゆる身体活動を測定または"
+"記録する観察記録。理学療法士などの医療従事者の直接の監督下にはありません。"
+"（例：水泳のラップ数、歩数、睡眠データ）"
 
 #: healthcare/setup.py:1463
 #, fuzzy
 msgid ""
 "Observations that measure or record any bodily activity that enhances or "
-"maintains physical fitness and overall health and wellness. Not under direct"
-" supervision of practitioner such as a physical therapist. (e.g., laps swum,"
-" steps, sleep data.)"
+"maintains physical fitness and overall health and wellness. Not under direct "
+"supervision of practitioner such as a physical therapist. (e.g., laps swum, "
+"steps, sleep data.)"
 msgstr ""
-"身体の健康と全体的な健康状態を向上または維持するあらゆる身体活動を測定または記録する観察記録。理学療法士などの医療従事者の直接の監督下にはありません。（例：水泳のラップ数、歩数、睡眠データ。）"
+"身体の健康と全体的な健康状態を向上または維持するあらゆる身体活動を測定または"
+"記録する観察記録。理学療法士などの医療従事者の直接の監督下にはありません。"
+"（例：水泳のラップ数、歩数、睡眠データ。）"
 
 #. Label of the occupancy_status (Select) field in DocType 'Healthcare Service
 #. Unit'
@@ -8975,9 +8969,10 @@ msgstr "片面"
 #: healthcare/healthcare/doctype/patient_insurance_coverage/patient_insurance_coverage.py:90
 #, fuzzy
 msgid ""
-"Only Insurance Coverages in Status <b>Approved</b> or <b>Rejected</b> can be"
-" submitted"
-msgstr "ステータスが<b>承認済</b>または<b>却下</b>の保険適用範囲のみ提出できます"
+"Only Insurance Coverages in Status <b>Approved</b> or <b>Rejected</b> can be "
+"submitted"
+msgstr ""
+"ステータスが<b>承認済</b>または<b>却下</b>の保険適用範囲のみ提出できます"
 
 #. Description of the 'Canonical Mapping' (Link) field in DocType 'Code Value'
 #: healthcare/healthcare/doctype/code_value/code_value.json
@@ -8987,7 +8982,9 @@ msgid ""
 "codes defined as part of Resource Status (The master set of status codes "
 "used throughout FHIR)"
 msgstr ""
-"ステータスコードにのみ適用されます。すべてのステータスコードは、リソースステータス（FHIR全体で使用されるステータスコードのマスターセット）の一部として定義されたコードのいずれかにマッピングされます。"
+"ステータスコードにのみ適用されます。すべてのステータスコードは、リソースス"
+"テータス（FHIR全体で使用されるステータスコードのマスターセット）の一部として"
+"定義されたコードのいずれかにマッピングされます。"
 
 #. Option for the 'Status' (Select) field in DocType 'Diagnostic Report'
 #. Option for the 'Status' (Select) field in DocType 'Observation Sample
@@ -9051,10 +9048,11 @@ msgid ""
 "Patients subscribed to an Insurance Plan (Insurance Policy for the Patient "
 "should have the Coverage Plan selected)."
 msgstr ""
-"オプション。この適用範囲を保険プランに加入している患者にのみ制限したい場合に<i>のみ</i>設定してください（患者の保険証券には適用プランが選択されている必要があります）。"
+"オプション。この適用範囲を保険プランに加入している患者にのみ制限したい場合に"
+"<i>のみ</i>設定してください（患者の保険証券には適用プランが選択されている必要"
+"があります）。"
 
-#. Label of the options (Select) field in DocType 'Observation Reference
-#. Range'
+#. Label of the options (Select) field in DocType 'Observation Reference Range'
 #. Label of the options (Small Text) field in DocType 'Observation Template'
 #: healthcare/healthcare/doctype/observation_reference_range/observation_reference_range.json
 #: healthcare/healthcare/doctype/observation_template/observation_template.json
@@ -9207,7 +9205,9 @@ msgstr "Order Template種類"
 msgid ""
 "Order Template Type and Order Template are mandatory to create Service "
 "Request"
-msgstr "サービスリクエストを作成するには、指示テンプレートタイプと指示テンプレートが必須です"
+msgstr ""
+"サービスリクエストを作成するには、指示テンプレートタイプと指示テンプレートが"
+"必須です"
 
 #. Label of the order_time (Time) field in DocType 'Medication Request'
 #. Label of the order_time (Time) field in DocType 'Service Request'
@@ -9471,8 +9471,7 @@ msgstr "支払済"
 #. Label of the paid_amount (Currency) field in DocType 'Patient Appointment'
 #. Label of the paid_amount (Currency) field in DocType 'Patient Insurance
 #. Coverage'
-#. Label of the paid_amount (Currency) field in DocType 'Treatment
-#. Counselling'
+#. Label of the paid_amount (Currency) field in DocType 'Treatment Counselling'
 #: healthcare/healthcare/doctype/inpatient_record/inpatient_record.json
 #: healthcare/healthcare/doctype/insurance_claim/insurance_claim.json
 #: healthcare/healthcare/doctype/insurance_claim_coverage/insurance_claim_coverage.json
@@ -9662,10 +9661,11 @@ msgstr "患者 <b>{0}</b> は顧客にリンクされていません"
 #: healthcare/healthcare/utils.py:57
 #, fuzzy
 msgid ""
-"Patient <b>{0}</b> is not linked to a Customer <b><a "
-"href='/app/Form/Patient/{1}'>{1}</a></b>"
+"Patient <b>{0}</b> is not linked to a Customer <b><a href='/app/Form/Patient/"
+"{1}'>{1}</a></b>"
 msgstr ""
-"患者 <b>{0}</b> は顧客 <b><a href='/app/Form/Patient/{1}'>{1}</a></b> にリンクされていません"
+"患者 <b>{0}</b> は顧客 <b><a href='/app/Form/Patient/{1}'>{1}</a></b> にリン"
+"クされていません"
 
 #. Label of the patient_age (Data) field in DocType 'Inpatient Medication
 #. Order'
@@ -9698,8 +9698,7 @@ msgstr "患者年齢 (開始)"
 msgid "Patient Age From cannot be less than 0"
 msgstr "患者年齢 (開始) は0未満にすることはできません"
 
-#. Label of the patient_age_to (Int) field in DocType 'Treatment Plan
-#. Template'
+#. Label of the patient_age_to (Int) field in DocType 'Treatment Plan Template'
 #: healthcare/healthcare/doctype/treatment_plan_template/treatment_plan_template.json
 #, fuzzy
 msgid "Patient Age To"
@@ -9809,8 +9808,7 @@ msgstr "Patient Assessmentテンプレート"
 #. Label of the patient_care_type (Link) field in DocType 'Service Request'
 #. Label of the patient_care_type (Link) field in DocType 'Service Request
 #. Category'
-#. Label of the patient_care_type (Link) field in DocType 'Therapy Plan
-#. Detail'
+#. Label of the patient_care_type (Link) field in DocType 'Therapy Plan Detail'
 #. Label of the patient_care_type (Link) field in DocType 'Therapy Type'
 #: healthcare/healthcare/doctype/clinical_procedure_template/clinical_procedure_template.json
 #: healthcare/healthcare/doctype/lab_prescription/lab_prescription.json
@@ -9828,8 +9826,7 @@ msgstr "Patient Care種類"
 
 #. Label of the consent_section_section (Section Break) field in DocType 'ABDM
 #. Settings'
-#. Label of the patient_consent_template_tab (Tab Break) field in DocType
-#. 'ABDM
+#. Label of the patient_consent_template_tab (Tab Break) field in DocType 'ABDM
 #. Settings'
 #: healthcare/healthcare/doctype/abdm_settings/abdm_settings.json
 msgid "Patient Consent Template"
@@ -9881,10 +9878,8 @@ msgstr "患者人口統計"
 msgid "Patient Details"
 msgstr "Patient詳細"
 
-#. Label of the admission_encounter (Link) field in DocType 'Discharge
-#. Summary'
-#. Label of the patient_encounter (Link) field in DocType 'Inpatient
-#. Medication
+#. Label of the admission_encounter (Link) field in DocType 'Discharge Summary'
+#. Label of the patient_encounter (Link) field in DocType 'Inpatient Medication
 #. Order'
 #. Label of the admission_encounter (Link) field in DocType 'Inpatient Record'
 #. Label of the discharge_encounter (Link) field in DocType 'Inpatient Record'
@@ -10035,8 +10030,7 @@ msgstr "患者医療記録は、提出可能な文書タイプに対してのみ
 #. Label of the patient_name (Data) field in DocType 'Inpatient Medication
 #. Order'
 #. Label of the patient_name (Data) field in DocType 'Inpatient Record'
-#. Label of the patient_name (Data) field in DocType 'Insurance Claim
-#. Coverage'
+#. Label of the patient_name (Data) field in DocType 'Insurance Claim Coverage'
 #. Label of the patient_name (Data) field in DocType 'Lab Test'
 #. Label of the patient_name (Data) field in DocType 'Medication Request'
 #. Label of the patient_name (Data) field in DocType 'Nursing Task'
@@ -10045,8 +10039,7 @@ msgstr "患者医療記録は、提出可能な文書タイプに対してのみ
 #. Label of the patient_name (Data) field in DocType 'Patient Encounter'
 #. Label of the patient_name (Data) field in DocType 'Patient Insurance
 #. Coverage'
-#. Label of the patient_name (Data) field in DocType 'Patient Insurance
-#. Policy'
+#. Label of the patient_name (Data) field in DocType 'Patient Insurance Policy'
 #. Label of the patient_name (Data) field in DocType 'Sample Collection'
 #. Label of the patient_name (Data) field in DocType 'Service Request'
 #. Label of the patient_name (Data) field in DocType 'Specimen'
@@ -10083,8 +10076,7 @@ msgstr "患者医療記録は、提出可能な文書タイプに対してのみ
 msgid "Patient Name"
 msgstr "Patient名"
 
-#. Label of the patient_name_by (Select) field in DocType 'Healthcare
-#. Settings'
+#. Label of the patient_name_by (Select) field in DocType 'Healthcare Settings'
 #: healthcare/healthcare/doctype/healthcare_settings/healthcare_settings.json
 #, fuzzy
 msgid "Patient Name By"
@@ -10202,7 +10194,9 @@ msgstr "患者{0}は、同じ保険証券番号{2}の保険証券{1}をすでに
 msgid ""
 "Patient {0} already has an active insurance policy {1} with the coverage "
 "plan {2} for this period"
-msgstr "患者{0}は、この期間に補償プラン{2}のアクティブな保険証券{1}をすでに持っています"
+msgstr ""
+"患者{0}は、この期間に補償プラン{2}のアクティブな保険証券{1}をすでに持っていま"
+"す"
 
 #: healthcare/healthcare/doctype/patient_appointment/patient_appointment.py:286
 #, fuzzy
@@ -10268,8 +10262,7 @@ msgstr "支払いが必要です"
 msgid "Payment Settings"
 msgstr "支払い設定"
 
-#. Label of the payment_for_doctype (Link) field in DocType 'Healthcare
-#. Payment
+#. Label of the payment_for_doctype (Link) field in DocType 'Healthcare Payment
 #. Record'
 #: healthcare/healthcare/doctype/healthcare_payment_record/healthcare_payment_record.json
 #, fuzzy
@@ -10368,12 +10361,12 @@ msgstr "保留中の治療計画"
 msgid ""
 "Perform the service only if there is a need. For example \"pain\", \"on "
 "flare-up\", etc."
-msgstr "必要に応じてのみサービスを実行してください。例：「痛み」、「再燃時」など。"
+msgstr ""
+"必要に応じてのみサービスを実行してください。例：「痛み」、「再燃時」など。"
 
 #. Label of the period (Link) field in DocType 'Drug Prescription'
 #. Label of the period (Link) field in DocType 'Medication Request'
-#. Option for the 'Permitted Data Type' (Select) field in DocType
-#. 'Observation'
+#. Option for the 'Permitted Data Type' (Select) field in DocType 'Observation'
 #. Option for the 'Permitted Data Type' (Select) field in DocType 'Observation
 #. Reference Range'
 #. Option for the 'Permitted Data Type' (Select) field in DocType 'Observation
@@ -10555,7 +10548,9 @@ msgstr "提出前にリンクされた看護タスクを完了してください
 msgid ""
 "Please enable Allow Negative Stock in Stock Settings or create Stock Entry "
 "to proceed."
-msgstr "続行するには、在庫設定で「マイナス在庫を許可」を有効にするか、在庫伝票を作成してください。"
+msgstr ""
+"続行するには、在庫設定で「マイナス在庫を許可」を有効にするか、在庫伝票を作成"
+"してください。"
 
 #: healthcare/healthcare/doctype/diagnostic_report/diagnostic_report.js:107
 #: healthcare/healthcare/doctype/sample_collection/sample_collection.js:355
@@ -10668,7 +10663,9 @@ msgstr "患者にリンクされた顧客を設定してください"
 #, fuzzy
 msgid ""
 "Please set a valid Service Unit Capacity to enable Overlapping Appointments"
-msgstr "重複予約を有効にするには、有効なサービスユニットキャパシティを設定してください"
+msgstr ""
+"重複予約を有効にするには、有効なサービスユニットキャパシティを設定してくださ"
+"い"
 
 #: healthcare/healthcare/doctype/patient/patient.py:94
 msgid ""
@@ -10761,8 +10758,7 @@ msgstr "Post-op Nursing Checklistテンプレート"
 #. Label of the posting_date (Date) field in DocType 'Inpatient Medication
 #. Entry'
 #. Label of the posting_date (Date) field in DocType 'Insurance Claim'
-#. Label of the posting_date (Date) field in DocType 'Insurance Payor
-#. Contract'
+#. Label of the posting_date (Date) field in DocType 'Insurance Payor Contract'
 #. Label of the posting_date (Date) field in DocType 'Observation'
 #. Label of the posting_date (Date) field in DocType 'Patient Insurance
 #. Coverage'
@@ -10829,8 +10825,7 @@ msgstr "医師の空き状況の開始時刻と終了時刻は必須です。"
 msgid "Practitioner Availability:"
 msgstr "医師の空き状況:"
 
-#. Label of the practitioner_email (Data) field in DocType 'Medication
-#. Request'
+#. Label of the practitioner_email (Data) field in DocType 'Medication Request'
 #. Label of the practitioner_email (Data) field in DocType 'Service Request'
 #: healthcare/healthcare/doctype/medication_request/medication_request.json
 #: healthcare/healthcare/doctype/service_request/service_request.json
@@ -10842,8 +10837,7 @@ msgstr "医師のメールアドレス"
 #. Label of the practitioner_name (Data) field in DocType 'Diagnostic Report'
 #. Label of the practitioner_name (Data) field in DocType 'Medication Request'
 #. Label of the practitioner_name (Data) field in DocType 'Observation'
-#. Label of the practitioner_name (Data) field in DocType 'Patient
-#. Appointment'
+#. Label of the practitioner_name (Data) field in DocType 'Patient Appointment'
 #. Label of the practitioner_name (Data) field in DocType 'Patient Encounter'
 #: healthcare/healthcare/doctype/clinical_procedure/clinical_procedure.json
 #: healthcare/healthcare/doctype/diagnostic_report/diagnostic_report.json
@@ -10923,7 +10917,9 @@ msgstr "医師{0}には医師のスケジュールが割り当てられていま
 msgid ""
 "Practitioner {0} does not have a Service Unit set against the Practitioner "
 "Schedule {1}."
-msgstr "医師{0}には、医師のスケジュール{1}に対してサービスユニットが設定されていません。"
+msgstr ""
+"医師{0}には、医師のスケジュール{1}に対してサービスユニットが設定されていませ"
+"ん。"
 
 #. Label of the practitioners (Table MultiSelect) field in DocType 'Treatment
 #. Plan Template'
@@ -10953,8 +10949,7 @@ msgstr "Pre-op Nursing Checklistテンプレート"
 msgid "Preferred Display Name"
 msgstr "Preferred Display名"
 
-#. Option for the 'Applies To' (Select) field in DocType 'Observation
-#. Reference
+#. Option for the 'Applies To' (Select) field in DocType 'Observation Reference
 #. Range'
 #: healthcare/healthcare/doctype/observation_reference_range/observation_reference_range.json
 #, fuzzy
@@ -11021,7 +11016,9 @@ msgstr "処方箋"
 msgid ""
 "Presence of a fever (temp &gt; 38.5 °C/101.3 °F or sustained temp &gt; 38 "
 "°C/100.4 °F)"
-msgstr "発熱の有無 (体温 &gt; 38.5 °C/101.3 °F または持続的な体温 &gt; 38 °C/100.4 °F)"
+msgstr ""
+"発熱の有無 (体温 &gt; 38.5 °C/101.3 °F または持続的な体温 &gt; 38 °C/100.4 "
+"°F)"
 
 #: healthcare/setup.py:882
 #, fuzzy
@@ -11030,12 +11027,10 @@ msgstr "予防"
 
 #. Label of the price_list (Link) field in DocType 'Appointment Type'
 #. Label of the price_list (Link) field in DocType 'Inpatient Record'
-#. Label of the price_list (Link) field in DocType 'Insurance Payor
-#. Eligibility
+#. Label of the price_list (Link) field in DocType 'Insurance Payor Eligibility
 #. Plan'
 #. Label of the price_list (Link) field in DocType 'Medication'
-#. Label of the price_list (Link) field in DocType 'Patient Insurance
-#. Coverage'
+#. Label of the price_list (Link) field in DocType 'Patient Insurance Coverage'
 #. Label of the price_list (Link) field in DocType 'Treatment Counselling'
 #: healthcare/healthcare/doctype/appointment_type/appointment_type.json
 #: healthcare/healthcare/doctype/inpatient_record/inpatient_record.json
@@ -11139,8 +11134,7 @@ msgstr "優先度"
 
 #. Option for the 'Observation Category' (Select) field in DocType
 #. 'Observation'
-#. Option for the 'Observation Category' (Select) field in DocType
-#. 'Observation
+#. Option for the 'Observation Category' (Select) field in DocType 'Observation
 #. Template'
 #: healthcare/healthcare/doctype/observation/observation.json
 #: healthcare/healthcare/doctype/observation_template/observation_template.json
@@ -11156,8 +11150,7 @@ msgstr "処置"
 msgid "Procedure Created"
 msgstr "手順作成済"
 
-#. Label of the procedure_name (Data) field in DocType 'Procedure
-#. Prescription'
+#. Label of the procedure_name (Data) field in DocType 'Procedure Prescription'
 #: healthcare/healthcare/doctype/procedure_prescription/procedure_prescription.json
 msgid "Procedure Name"
 msgstr "Procedure名"
@@ -11173,8 +11166,7 @@ msgstr "Procedure名"
 msgid "Procedure Prescription"
 msgstr "処置処方"
 
-#. Label of the procedure_template (Link) field in DocType 'Clinical
-#. Procedure'
+#. Label of the procedure_template (Link) field in DocType 'Clinical Procedure'
 #. Description of a DocType
 #: healthcare/healthcare/doctype/clinical_procedure/clinical_procedure.json
 #: healthcare/healthcare/doctype/clinical_procedure_template/clinical_procedure_template.json
@@ -11221,7 +11213,9 @@ msgstr "患者の入院処理"
 msgid ""
 "Properties of the linked Item, you may further configure Batch Number and "
 "Expiry, Serial Number, Shelf Life etc. in the Item master"
-msgstr "リンクされた品目のプロパティ。品目マスターで、バッチ番号と有効期限、シリアル番号、貯蔵寿命などをさらに設定できます。"
+msgstr ""
+"リンクされた品目のプロパティ。品目マスターで、バッチ番号と有効期限、シリアル"
+"番号、貯蔵寿命などをさらに設定できます。"
 
 #: healthcare/setup.py:921
 #, fuzzy
@@ -11245,8 +11239,7 @@ msgstr "数量"
 #. Label of the quantity (Float) field in DocType 'Inpatient Record Item'
 #. Label of the sample_qty (Float) field in DocType 'Lab Test Template'
 #. Label of the quantity (Int) field in DocType 'Medication Request'
-#. Option for the 'Permitted Data Type' (Select) field in DocType
-#. 'Observation'
+#. Option for the 'Permitted Data Type' (Select) field in DocType 'Observation'
 #. Option for the 'Permitted Data Type' (Select) field in DocType 'Observation
 #. Reference Range'
 #. Label of the sample_qty (Float) field in DocType 'Observation Sample
@@ -11294,12 +11287,10 @@ msgstr "数量:"
 msgid "Quarterly"
 msgstr "四半期ごと"
 
-#. Option for the 'Permitted Data Type' (Select) field in DocType
-#. 'Observation'
+#. Option for the 'Permitted Data Type' (Select) field in DocType 'Observation'
 #. Option for the 'Permitted Data Type' (Select) field in DocType 'Observation
 #. Reference Range'
-#. Option for the 'Age' (Select) field in DocType 'Observation Reference
-#. Range'
+#. Option for the 'Age' (Select) field in DocType 'Observation Reference Range'
 #. Option for the 'Permitted Data Type' (Select) field in DocType 'Observation
 #. Template'
 #: healthcare/healthcare/doctype/observation/observation.json
@@ -11317,8 +11308,7 @@ msgstr "範囲"
 #. Label of the lab_test_rate (Currency) field in DocType 'Lab Test Template'
 #. Label of the rate (Float) field in DocType 'Medication Linked Item'
 #. Label of the rate (Currency) field in DocType 'Observation Template'
-#. Label of the rate (Currency) field in DocType 'Therapy Plan Template
-#. Detail'
+#. Label of the rate (Currency) field in DocType 'Therapy Plan Template Detail'
 #. Label of the rate (Currency) field in DocType 'Therapy Session'
 #. Label of the rate (Currency) field in DocType 'Therapy Type'
 #: healthcare/healthcare/doctype/clinical_procedure_template/clinical_procedure_template.json
@@ -11333,15 +11323,13 @@ msgstr "範囲"
 msgid "Rate"
 msgstr "単価"
 
-#. Label of the rate (Currency) field in DocType 'Healthcare Service Unit
-#. Type'
+#. Label of the rate (Currency) field in DocType 'Healthcare Service Unit Type'
 #: healthcare/healthcare/doctype/healthcare_service_unit_type/healthcare_service_unit_type.json
 #, fuzzy
 msgid "Rate / UOM"
 msgstr "単価 / 単位"
 
-#. Option for the 'Permitted Data Type' (Select) field in DocType
-#. 'Observation'
+#. Option for the 'Permitted Data Type' (Select) field in DocType 'Observation'
 #. Option for the 'Permitted Data Type' (Select) field in DocType 'Observation
 #. Reference Range'
 #. Label of the ratio (Data) field in DocType 'Observation Reference Range'
@@ -11509,8 +11497,7 @@ msgstr "参照ドキュメント"
 msgid "Reference DocType"
 msgstr "参照ドキュメントタイプ"
 
-#. Label of the reference_docname (Dynamic Link) field in DocType
-#. 'Observation'
+#. Label of the reference_docname (Dynamic Link) field in DocType 'Observation'
 #. Label of the reference_docname (Dynamic Link) field in DocType 'Observation
 #. Sample Collection'
 #. Label of the reference_docname (Dynamic Link) field in DocType 'Patient
@@ -11526,8 +11513,7 @@ msgstr "参照ドキュメント名"
 #. Label of the reference_doctype (Link) field in DocType 'Observation'
 #. Label of the reference_doctype (Link) field in DocType 'Observation Sample
 #. Collection'
-#. Label of the reference_doctype (Link) field in DocType 'Patient
-#. Appointment'
+#. Label of the reference_doctype (Link) field in DocType 'Patient Appointment'
 #: healthcare/healthcare/doctype/nursing_task/nursing_task.json
 #: healthcare/healthcare/doctype/observation/observation.json
 #: healthcare/healthcare/doctype/observation_sample_collection/observation_sample_collection.json
@@ -11538,8 +11524,7 @@ msgstr "参照ドキュメントタイプ"
 
 #. Label of the reference_name (Dynamic Link) field in DocType 'Clinical Note'
 #. Label of the reference_name (Dynamic Link) field in DocType 'Nursing Task'
-#. Label of the reference_name (Dynamic Link) field in DocType 'Patient
-#. Medical
+#. Label of the reference_name (Dynamic Link) field in DocType 'Patient Medical
 #. Record'
 #. Label of the reference_name (Dynamic Link) field in DocType 'Sample
 #. Collection'
@@ -11576,8 +11561,7 @@ msgstr "参照範囲"
 msgid "Reference Ranges"
 msgstr "参照範囲"
 
-#. Label of the ref_sales_invoice (Link) field in DocType 'Patient
-#. Appointment'
+#. Label of the ref_sales_invoice (Link) field in DocType 'Patient Appointment'
 #: healthcare/healthcare/doctype/patient_appointment/patient_appointment.json
 #, fuzzy
 msgid "Reference Sales Invoice"
@@ -11690,8 +11674,7 @@ msgstr "登録料"
 msgid "Registration Fee cannot be negative or zero"
 msgstr "登録料は負またはゼロにすることはできません"
 
-#. Label of the registration_item (Link) field in DocType 'Healthcare
-#. Settings'
+#. Label of the registration_item (Link) field in DocType 'Healthcare Settings'
 #: healthcare/healthcare/doctype/healthcare_settings/healthcare_settings.json
 #, fuzzy
 msgid "Registration Item"
@@ -11749,8 +11732,7 @@ msgstr "却下"
 #. Option for the 'Coverage Status' (Select) field in DocType 'Inpatient
 #. Occupancy'
 #. Option for the 'Claim Status' (Select) field in DocType 'Inpatient Record'
-#. Option for the 'Status' (Select) field in DocType 'Insurance Claim
-#. Coverage'
+#. Option for the 'Status' (Select) field in DocType 'Insurance Claim Coverage'
 #. Option for the 'Status' (Select) field in DocType 'Lab Test'
 #. Option for the 'Status' (Select) field in DocType 'Nursing Task'
 #. Option for the 'Status' (Select) field in DocType 'Observation'
@@ -11918,8 +11900,7 @@ msgstr "リクエスト済"
 msgid "Requested End Time"
 msgstr "要求終了時刻"
 
-#. Label of the requested_start_time (Datetime) field in DocType 'Nursing
-#. Task'
+#. Label of the requested_start_time (Datetime) field in DocType 'Nursing Task'
 #: healthcare/healthcare/doctype/nursing_task/nursing_task.json
 #, fuzzy
 msgid "Requested Start Time"
@@ -11947,8 +11928,7 @@ msgstr "要求元開業医"
 msgid "Requesting Practitioner Name"
 msgstr "Requesting Practitioner名"
 
-#. Label of the require_result_value (Check) field in DocType 'Descriptive
-#. Test
+#. Label of the require_result_value (Check) field in DocType 'Descriptive Test
 #. Result'
 #. Label of the require_result_value (Check) field in DocType 'Normal Test
 #. Result'
@@ -12016,8 +11996,7 @@ msgstr "レスポンス"
 msgid "Result"
 msgstr "結果"
 
-#. Label of the particulars (Data) field in DocType 'Descriptive Test
-#. Template'
+#. Label of the particulars (Data) field in DocType 'Descriptive Test Template'
 #: healthcare/healthcare/doctype/descriptive_test_template/descriptive_test_template.json
 #, fuzzy
 msgid "Result Component"
@@ -12030,8 +12009,7 @@ msgstr "結果コンポーネント"
 msgid "Result Date"
 msgstr "結果日"
 
-#. Label of the sms_emailed (Small Text) field in DocType 'Healthcare
-#. Settings'
+#. Label of the sms_emailed (Small Text) field in DocType 'Healthcare Settings'
 #: healthcare/healthcare/doctype/healthcare_settings/healthcare_settings.json
 #, fuzzy
 msgid "Result Emailed Message"
@@ -12093,8 +12071,7 @@ msgstr "結果期間開始"
 msgid "Result Period To"
 msgstr "結果期間終了"
 
-#. Label of the sms_printed (Small Text) field in DocType 'Healthcare
-#. Settings'
+#. Label of the sms_printed (Small Text) field in DocType 'Healthcare Settings'
 #: healthcare/healthcare/doctype/healthcare_settings/healthcare_settings.json
 #, fuzzy
 msgid "Result Printed Message"
@@ -12168,26 +12145,32 @@ msgstr "Row #{0} (Drug Prescription): Drug Codeは必須です"
 #: healthcare/healthcare/doctype/patient_encounter/patient_encounter.py:197
 msgid ""
 "Row #{0} (Lab Tests): Observation Template or Lab Test Template is mandatory"
-msgstr "Row #{0} (Lab Tests): Observation Template or Lab Test Templateは必須です"
+msgstr ""
+"Row #{0} (Lab Tests): Observation Template or Lab Test Templateは必須です"
 
 #: healthcare/public/js/sales_invoice.js:432
 #, fuzzy
 msgid ""
 "Row #{0} Item under Insurance Coverage {1}, quantity cannot be more than "
 "approved quantity <b>{2}</b>"
-msgstr "行 #{0} 保険適用 {1} の品目の数量は、承認済数量 <b>{2}</b> を超えることはできません。"
+msgstr ""
+"行 #{0} 保険適用 {1} の品目の数量は、承認済数量 <b>{2}</b> を超えることはでき"
+"ません。"
 
 #: healthcare/public/js/sales_invoice.js:439
 #, fuzzy
 msgid ""
-"Row #{0} Item under Insurance Coverage {1}, rate should be equal to approved"
-" rate<b>{2}</b>"
-msgstr "行 #{0} 保険適用 {1} の品目の単価は、承認済単価<b>{2}</b> と同じである必要があります。"
+"Row #{0} Item under Insurance Coverage {1}, rate should be equal to approved "
+"rate<b>{2}</b>"
+msgstr ""
+"行 #{0} 保険適用 {1} の品目の単価は、承認済単価<b>{2}</b> と同じである必要が"
+"あります。"
 
 #: healthcare/healthcare/doctype/inpatient_record/inpatient_record.py:101
 #, fuzzy
 msgid "Row #{0}: Check Out datetime cannot be less than Check In datetime"
-msgstr "行 #{0}: チェックアウト日時がチェックイン日時より前になることはできません"
+msgstr ""
+"行 #{0}: チェックアウト日時がチェックイン日時より前になることはできません"
 
 #: healthcare/healthcare/doctype/lab_test_template/lab_test_template.py:96
 #: healthcare/healthcare/doctype/lab_test_template/lab_test_template.py:104
@@ -12203,12 +12186,16 @@ msgstr "行 #{0}: ドキュメントタイプ {1} は提出できません。"
 #, fuzzy
 msgid ""
 "Row #{0}: Field {1} in Document Type {2} is not a Date / Datetime field."
-msgstr "行 #{0}: ドキュメントタイプ {2} のフィールド {1} は日付/日時フィールドではありません。"
+msgstr ""
+"行 #{0}: ドキュメントタイプ {2} のフィールド {1} は日付/日時フィールドではあ"
+"りません。"
 
 #: healthcare/healthcare/doctype/patient_history_settings/patient_history_settings.py:36
 #, fuzzy
 msgid "Row #{0}: No such Field named {1} found in the Document Type {2}."
-msgstr "行 #{0}: ドキュメントタイプ {2} に {1} という名前のフィールドは見つかりませんでした。"
+msgstr ""
+"行 #{0}: ドキュメントタイプ {2} に {1} という名前のフィールドは見つかりません"
+"でした。"
 
 #: healthcare/healthcare/doctype/lab_test/lab_test.py:81
 #: healthcare/healthcare/doctype/lab_test/lab_test.py:91
@@ -12231,7 +12218,9 @@ msgstr "行 {1}: 仕訳伝票 {0} の承認済保険請求は見つかりませ�
 msgid ""
 "Row {0}: Cannot create Inpatient Medication Entry against cancelled "
 "Inpatient Medication Order {1}"
-msgstr "行 {0}: キャンセルされた入院薬物指示 {1} に対して入院薬物入力を作成することはできません"
+msgstr ""
+"行 {0}: キャンセルされた入院薬物指示 {1} に対して入院薬物入力を作成することは"
+"できません"
 
 #: healthcare/healthcare/doctype/inpatient_medication_entry/inpatient_medication_entry.py:82
 #, fuzzy
@@ -12354,8 +12343,7 @@ msgstr "サンプル"
 #. Label of the sample_collection_tab (Tab Break) field in DocType 'Clinical
 #. Procedure Template'
 #. Label of the sample_collection (Link) field in DocType 'Diagnostic Report'
-#. Label of the sb_sample_collection (Section Break) field in DocType 'Lab
-#. Test
+#. Label of the sb_sample_collection (Section Break) field in DocType 'Lab Test
 #. Template'
 #. Label of the sample_collection_tab (Tab Break) field in DocType 'Lab Test
 #. Template'
@@ -12403,8 +12391,7 @@ msgstr "Sample Collection {0}が作成されました"
 
 #. Label of the column_break_meur (Section Break) field in DocType
 #. 'Observation'
-#. Label of the sample_details_section (Section Break) field in DocType
-#. 'Sample
+#. Label of the sample_details_section (Section Break) field in DocType 'Sample
 #. Collection'
 #: healthcare/healthcare/doctype/observation/observation.json
 #: healthcare/healthcare/doctype/sample_collection/sample_collection.json
@@ -12552,9 +12539,11 @@ msgstr "請求予定時刻"
 #: healthcare/healthcare/doctype/practitioner_schedule/practitioner_schedule.js:136
 #, fuzzy
 msgid ""
-"Schedules for {0} overlaps, do you want to proceed after skipping overlapped"
-" slots ?"
-msgstr "{0} のスケジュールが重複しています。重複するスロットをスキップして続行しますか？"
+"Schedules for {0} overlaps, do you want to proceed after skipping overlapped "
+"slots ?"
+msgstr ""
+"{0} のスケジュールが重複しています。重複するスロットをスキップして続行します"
+"か？"
 
 #: healthcare/healthcare/doctype/patient_encounter/patient_encounter.js:380
 #, fuzzy
@@ -12583,8 +12572,7 @@ msgstr "スコア"
 msgid "Score Obtained"
 msgstr "取得スコア"
 
-#. Label of the secondary_uom (Link) field in DocType 'Lab Test Group
-#. Template'
+#. Label of the secondary_uom (Link) field in DocType 'Lab Test Group Template'
 #. Label of the secondary_uom (Link) field in DocType 'Lab Test Template'
 #. Label of the secondary_uom (Link) field in DocType 'Normal Test Result'
 #. Label of the secondary_uom (Link) field in DocType 'Normal Test Template'
@@ -12603,8 +12591,7 @@ msgstr "副UOM"
 msgid "Secondary UOM Result"
 msgstr "副UOM結果"
 
-#. Option for the 'Permitted Data Type' (Select) field in DocType
-#. 'Observation'
+#. Option for the 'Permitted Data Type' (Select) field in DocType 'Observation'
 #. Option for the 'Permitted Data Type' (Select) field in DocType 'Observation
 #. Reference Range'
 #. Option for the 'Permitted Data Type' (Select) field in DocType 'Observation
@@ -12673,8 +12660,7 @@ msgstr "臨床処置品目の品目グループを選択してください。"
 msgid "Select, to make the practitioner searchable with these fields"
 msgstr "これらのフィールドで施術者を検索可能にするために選択します"
 
-#. Label of the selected_fields (Code) field in DocType 'Patient History
-#. Custom
+#. Label of the selected_fields (Code) field in DocType 'Patient History Custom
 #. Document Type'
 #. Label of the selected_fields (Code) field in DocType 'Patient History
 #. Standard Document Type'
@@ -12694,7 +12680,8 @@ msgstr "選択されたサービスユニットタイプには、リンクされ
 msgid ""
 "Selling Price List not found. Please configure a valid Price List in the "
 "document."
-msgstr "販売価格表が見つかりません。ドキュメントに有効な価格表を設定してください。"
+msgstr ""
+"販売価格表が見つかりません。ドキュメントに有効な価格表を設定してください。"
 
 #: healthcare/healthcare/doctype/lab_test/lab_test.js:253
 msgid "Send"
@@ -12772,8 +12759,7 @@ msgstr "注文グループ内の順序"
 #. Label of the naming_series (Select) field in DocType 'Sample Collection'
 #. Label of the naming_series (Select) field in DocType 'Service Request'
 #. Label of the naming_series (Select) field in DocType 'Therapy Session'
-#. Label of the naming_series (Select) field in DocType 'Treatment
-#. Counselling'
+#. Label of the naming_series (Select) field in DocType 'Treatment Counselling'
 #. Label of the naming_series (Select) field in DocType 'Vital Signs'
 #: healthcare/healthcare/doctype/clinical_procedure/clinical_procedure.json
 #: healthcare/healthcare/doctype/diagnostic_report/diagnostic_report.json
@@ -12892,8 +12878,7 @@ msgstr "サービスリクエストのデフォルト"
 msgid "Service Request Reason"
 msgstr "サービスリクエスト理由"
 
-#. Label of the service_request_reason (Data) field in DocType 'Service
-#. Request
+#. Label of the service_request_reason (Data) field in DocType 'Service Request
 #. Reason'
 #: healthcare/healthcare/doctype/service_request_reason/service_request_reason.json
 #, fuzzy
@@ -12950,8 +12935,7 @@ msgstr "サービス種類"
 #. Appointment'
 #. Label of the service_unit (Link) field in DocType 'Practitioner
 #. Availability'
-#. Label of the service_unit (Link) field in DocType 'Practitioner Service
-#. Unit
+#. Label of the service_unit (Link) field in DocType 'Practitioner Service Unit
 #. Schedule'
 #. Label of a Card Break in the Healthcare Workspace
 #: healthcare/healthcare/doctype/appointment_type/appointment_type.json
@@ -12986,7 +12970,9 @@ msgstr "Service Unit名"
 msgid ""
 "Service Unit Name and Company are mandatory to create Healthcare Service "
 "Units"
-msgstr "ヘルスケアサービスユニットを作成するには、サービスユニット名と会社が必須です。"
+msgstr ""
+"ヘルスケアサービスユニットを作成するには、サービスユニット名と会社が必須で"
+"す。"
 
 #: healthcare/healthcare/doctype/patient_appointment/patient_appointment.py:1022
 #, fuzzy
@@ -13035,8 +13021,7 @@ msgstr "サービスユニット:"
 msgid "Sessions"
 msgstr "セッション"
 
-#. Label of the sessions_completed (Int) field in DocType 'Therapy Plan
-#. Detail'
+#. Label of the sessions_completed (Int) field in DocType 'Therapy Plan Detail'
 #: healthcare/healthcare/doctype/therapy_plan_detail/therapy_plan_detail.json
 #, fuzzy
 msgid "Sessions Completed"
@@ -13144,8 +13129,7 @@ msgstr "兄弟姉妹"
 msgid "Signature"
 msgstr "署名"
 
-#. Option for the 'Result Format' (Select) field in DocType 'Lab Test
-#. Template'
+#. Option for the 'Result Format' (Select) field in DocType 'Lab Test Template'
 #. Option for the 'Marital Status' (Select) field in DocType 'Patient'
 #. Option in a Select field in the patient-registration Web Form
 #: healthcare/healthcare/doctype/lab_test_template/lab_test_template.json
@@ -13162,8 +13146,7 @@ msgstr "{0} のスロットはスケジュールに追加されていません�
 
 #. Option for the 'Observation Category' (Select) field in DocType
 #. 'Observation'
-#. Option for the 'Observation Category' (Select) field in DocType
-#. 'Observation
+#. Option for the 'Observation Category' (Select) field in DocType 'Observation
 #. Template'
 #: healthcare/healthcare/doctype/observation/observation.json
 #: healthcare/healthcare/doctype/observation_template/observation_template.json
@@ -13175,11 +13158,12 @@ msgstr "社会歴"
 #: healthcare/setup.py:1367
 #, fuzzy
 msgid ""
-"Social History Observations define the patient's occupational, personal "
-"(e.g., lifestyle), social, familial, and environmental history and health "
-"risk factors that may impact the patient's health."
+"Social History Observations define the patient's occupational, personal (e."
+"g., lifestyle), social, familial, and environmental history and health risk "
+"factors that may impact the patient's health."
 msgstr ""
-"社会歴観察は、患者の職業歴、個人歴（例：ライフスタイル）、社会歴、家族歴、環境歴、および患者の健康に影響を与える可能性のある健康リスク要因を定義します。"
+"社会歴観察は、患者の職業歴、個人歴（例：ライフスタイル）、社会歴、家族歴、環"
+"境歴、および患者の健康に影響を与える可能性のある健康リスク要因を定義します。"
 
 #. Label of the sb_source (Section Break) field in DocType 'Inpatient Record'
 #. Label of the source (Select) field in DocType 'Inpatient Record'
@@ -13268,8 +13252,7 @@ msgstr "開始"
 
 #. Label of the start_date (Date) field in DocType 'Clinical Procedure'
 #. Label of the start_date (Date) field in DocType 'Fee Validity'
-#. Label of the start_date (Date) field in DocType 'Inpatient Medication
-#. Order'
+#. Label of the start_date (Date) field in DocType 'Inpatient Medication Order'
 #. Label of the start_date (Date) field in DocType 'Insurance Payor Contract'
 #. Label of the start_date (Date) field in DocType 'Practitioner Availability'
 #. Label of the start_date (Date) field in DocType 'Therapy Plan'
@@ -13440,9 +13423,11 @@ msgstr "在庫UOM"
 #: healthcare/healthcare/doctype/clinical_procedure/clinical_procedure.js:139
 #, fuzzy
 msgid ""
-"Stock quantity to start the Procedure is not available in the Warehouse {0}."
-" Do you want to record a Stock Entry?"
-msgstr "手続きを開始するための在庫数量が倉庫 {0} にありません。在庫伝票を記録しますか？"
+"Stock quantity to start the Procedure is not available in the Warehouse {0}. "
+"Do you want to record a Stock Entry?"
+msgstr ""
+"手続きを開始するための在庫数量が倉庫 {0} にありません。在庫伝票を記録します"
+"か？"
 
 #: healthcare/public/js/healthcare_orders.html:136
 msgid "Stop"
@@ -13481,8 +13466,7 @@ msgstr "効力"
 msgid "Strength UOM"
 msgstr "効力UOM"
 
-#. Label of the subject (Text Editor) field in DocType 'Patient Medical
-#. Record'
+#. Label of the subject (Text Editor) field in DocType 'Patient Medical Record'
 #: healthcare/healthcare/doctype/patient_medical_record/patient_medical_record.json
 msgid "Subject"
 msgstr "件名"
@@ -13506,8 +13490,7 @@ msgstr "保存時に注文を提出"
 #. Option for the 'Status' (Select) field in DocType 'Inpatient Medication
 #. Order'
 #. Option for the 'Status' (Select) field in DocType 'Insurance Claim'
-#. Option for the 'Status' (Select) field in DocType 'Insurance Claim
-#. Coverage'
+#. Option for the 'Status' (Select) field in DocType 'Insurance Claim Coverage'
 #: healthcare/healthcare/doctype/clinical_procedure/clinical_procedure.json
 #: healthcare/healthcare/doctype/inpatient_medication_entry/inpatient_medication_entry.json
 #: healthcare/healthcare/doctype/inpatient_medication_order/inpatient_medication_order.json
@@ -13529,14 +13512,17 @@ msgstr "提出日"
 msgid ""
 "Subsequent to being Final, the observation has been modified subsequent. "
 "This includes updates/new information and corrections."
-msgstr "最終確定後、観察結果が修正されました。これには、更新/新規情報および修正が含まれます。"
+msgstr ""
+"最終確定後、観察結果が修正されました。これには、更新/新規情報および修正が含ま"
+"れます。"
 
 #: healthcare/setup.py:1505
 #, fuzzy
 msgid ""
 "Subsequent to being Final, the observation has been modified to correct an "
 "error in the test result."
-msgstr "最終確定後、観察結果はテスト結果のエラーを修正するために変更されました。"
+msgstr ""
+"最終確定後、観察結果はテスト結果のエラーを修正するために変更されました。"
 
 #: healthcare/healthcare/doctype/inpatient_medication_entry/inpatient_medication_entry.py:65
 msgid "Success"
@@ -13577,8 +13563,7 @@ msgstr "手術歴"
 
 #. Option for the 'Observation Category' (Select) field in DocType
 #. 'Observation'
-#. Option for the 'Observation Category' (Select) field in DocType
-#. 'Observation
+#. Option for the 'Observation Category' (Select) field in DocType 'Observation
 #. Template'
 #: healthcare/healthcare/doctype/observation/observation.json
 #: healthcare/healthcare/doctype/observation_template/observation_template.json
@@ -13677,17 +13662,18 @@ msgstr "システム管理者"
 msgid "System URI"
 msgstr "システムURI"
 
-#. Description of the 'Task Doctype' (Link) field in DocType 'Nursing
-#. Checklist
+#. Description of the 'Task Doctype' (Link) field in DocType 'Nursing Checklist
 #. Template Task'
 #: healthcare/healthcare/doctype/nursing_checklist_template_task/nursing_checklist_template_task.json
 #, fuzzy
 msgid ""
-"System will validate if a document of this type is created and linked before"
-" completing the Nursing Task - for example, Vital Signs if the task is "
+"System will validate if a document of this type is created and linked before "
+"completing the Nursing Task - for example, Vital Signs if the task is "
 "supposed to capture the vitals of the Patient"
 msgstr ""
-"システムは、看護タスクを完了する前に、このタイプのドキュメントが作成されリンクされているかを検証します。例えば、患者のバイタルを記録するタスクの場合、バイタルサインのドキュメントを検証します。"
+"システムは、看護タスクを完了する前に、このタイプのドキュメントが作成されリン"
+"クされているかを検証します。例えば、患者のバイタルを記録するタスクの場合、バ"
+"イタルサインのドキュメントを検証します。"
 
 #: healthcare/healthcare/page/patient_progress/patient_progress.py:102
 #, fuzzy
@@ -13742,8 +13728,7 @@ msgstr "タスク終了時刻"
 msgid "Task Resolution"
 msgstr "タスク解決"
 
-#. Label of the task_schedule_section (Section Break) field in DocType
-#. 'Nursing
+#. Label of the task_schedule_section (Section Break) field in DocType 'Nursing
 #. Task'
 #: healthcare/healthcare/doctype/nursing_task/nursing_task.json
 #, fuzzy
@@ -13809,8 +13794,7 @@ msgid "Template DocType"
 msgstr "テンプレートドキュメントタイプ"
 
 #. Label of the template (Data) field in DocType 'Clinical Procedure Template'
-#. Label of the template_name (Data) field in DocType 'Treatment Plan
-#. Template'
+#. Label of the template_name (Data) field in DocType 'Treatment Plan Template'
 #: healthcare/healthcare/doctype/clinical_procedure_template/clinical_procedure_template.js:179
 #: healthcare/healthcare/doctype/clinical_procedure_template/clinical_procedure_template.json
 #: healthcare/healthcare/doctype/treatment_plan_template/treatment_plan_template.json
@@ -13898,8 +13882,7 @@ msgstr "テストテンプレート"
 msgid "Tests"
 msgstr "テスト"
 
-#. Option for the 'Permitted Data Type' (Select) field in DocType
-#. 'Observation'
+#. Option for the 'Permitted Data Type' (Select) field in DocType 'Observation'
 #. Option for the 'Permitted Data Type' (Select) field in DocType 'Observation
 #. Reference Range'
 #. Option for the 'Permitted Data Type' (Select) field in DocType 'Observation
@@ -13921,27 +13904,35 @@ msgstr "ヘルスケアモジュールの設定が完了しました！"
 msgid ""
 "The activity described by the request has been fully performed. No further "
 "activity will occur."
-msgstr "リクエストによって記述されたアクティビティは完全に実行されました。これ以上の活動は発生しません。"
+msgstr ""
+"リクエストによって記述されたアクティビティは完全に実行されました。これ以上の"
+"活動は発生しません。"
 
 #: healthcare/setup.py:1538
 #, fuzzy
 msgid ""
 "The authoring/source system does not know which of the status values "
-"currently applies for this observation. Note: This concept is not to be used"
-" for 'other' - one of the listed statuses is presumed to apply, but the "
+"currently applies for this observation. Note: This concept is not to be used "
+"for 'other' - one of the listed statuses is presumed to apply, but the "
 "authoring/source system does not know which."
 msgstr ""
-"作成/ソースシステムは、この観察に現在適用されるステータス値のいずれであるかを知りません。注：この概念は「その他」には使用されません。リストされているステータスのいずれかが適用されると推定されますが、作成/ソースシステムはどれであるかを知りません。"
+"作成/ソースシステムは、この観察に現在適用されるステータス値のいずれであるかを"
+"知りません。注：この概念は「その他」には使用されません。リストされているス"
+"テータスのいずれかが適用されると推定されますが、作成/ソースシステムはどれであ"
+"るかを知りません。"
 
 #: healthcare/setup.py:1654 healthcare/setup.py:1745
 #, fuzzy
 msgid ""
 "The authoring/source system does not know which of the status values "
-"currently applies for this request. Note: This concept is not to be used for"
-" 'other' - one of the listed statuses is presumed to apply, but the "
-"authoring/source system does not know which."
+"currently applies for this request. Note: This concept is not to be used for "
+"'other' - one of the listed statuses is presumed to apply, but the authoring/"
+"source system does not know which."
 msgstr ""
-"作成/ソースシステムは、このリクエストに現在適用されるステータス値のいずれであるかを知りません。注：この概念は「その他」には使用されません。リストされているステータスのいずれかが適用されると推定されますが、作成/ソースシステムはどれであるかを知りません。"
+"作成/ソースシステムは、このリクエストに現在適用されるステータス値のいずれであ"
+"るかを知りません。注：この概念は「その他」には使用されません。リストされてい"
+"るステータスのいずれかが適用されると推定されますが、作成/ソースシステムはどれ"
+"であるかを知りません。"
 
 #: healthcare/healthcare/utils.py:1149
 #, fuzzy
@@ -13968,11 +13959,14 @@ msgstr "許可される無料のフォローアップ回数（有効期間内の
 #, fuzzy
 msgid ""
 "The observation has been withdrawn following previous final release. This "
-"electronic record should never have existed, though it is possible that "
-"real-world decisions were based on it. (If real-world activity has occurred,"
-" the status should be 'cancelled' rather than 'entered-in-error'.)."
+"electronic record should never have existed, though it is possible that real-"
+"world decisions were based on it. (If real-world activity has occurred, the "
+"status should be 'cancelled' rather than 'entered-in-error'.)."
 msgstr ""
-"以前の最終リリース後、観察結果は撤回されました。この電子記録は存在すべきではありませんでしたが、現実世界の決定がこれに基づいて行われた可能性があります。（現実世界での活動が発生している場合、ステータスは「エラー入力」ではなく「キャンセル済み」であるべきです。）"
+"以前の最終リリース後、観察結果は撤回されました。この電子記録は存在すべきでは"
+"ありませんでしたが、現実世界の決定がこれに基づいて行われた可能性があります。"
+"（現実世界での活動が発生している場合、ステータスは「エラー入力」ではなく"
+"「キャンセル済み」であるべきです。）"
 
 #: healthcare/setup.py:1485
 #, fuzzy
@@ -13984,14 +13978,18 @@ msgstr "観察は完了しており、これ以上のアクションは必要あ
 msgid ""
 "The observation is unavailable because the measurement was not started or "
 "not completed (also sometimes called 'aborted')."
-msgstr "測定が開始されなかったか、完了しなかったため（「中止」とも呼ばれる）、観察は利用できません。"
+msgstr ""
+"測定が開始されなかったか、完了しなかったため（「中止」とも呼ばれる）、観察は"
+"利用できません。"
 
 #: healthcare/setup.py:1614
 #, fuzzy
 msgid ""
 "The request (and any implicit authorization to act) has been temporarily "
 "withdrawn but is expected to resume in the future."
-msgstr "リクエスト（および行動するための暗黙の承認）は一時的に撤回されましたが、将来的に再開される予定です。"
+msgstr ""
+"リクエスト（および行動するための暗黙の承認）は一時的に撤回されましたが、将来"
+"的に再開される予定です。"
 
 #: healthcare/setup.py:1624
 #, fuzzy
@@ -14000,18 +13998,21 @@ msgid ""
 "prior to the known full completion of the intended actions. No further "
 "activity should occur."
 msgstr ""
-"リクエスト（および行動するための暗黙の承認）は、意図されたアクションの完全な完了が確認される前に終了されました。これ以上の活動は発生すべきではありません。"
+"リクエスト（および行動するための暗黙の承認）は、意図されたアクションの完全な"
+"完了が確認される前に終了されました。これ以上の活動は発生すべきではありませ"
+"ん。"
 
 #: healthcare/setup.py:1598
 #, fuzzy
 msgid ""
 "The request has been created but is not yet complete or ready for action."
-msgstr "リクエストは作成されましたが、まだ完了しておらず、行動の準備ができていません。"
+msgstr ""
+"リクエストは作成されましたが、まだ完了しておらず、行動の準備ができていませ"
+"ん。"
 
 #: healthcare/setup.py:1717
 #, fuzzy
-msgid ""
-"The request has been withdrawn before any administrations have occurred"
+msgid "The request has been withdrawn before any administrations have occurred"
 msgstr "リクエストは、いかなる管理も行われる前に撤回されました。"
 
 #: healthcare/setup.py:992
@@ -14022,16 +14023,20 @@ msgstr "リクエストは通常の優先度です。"
 #: healthcare/setup.py:1669
 #, fuzzy
 msgid ""
-"The request is 'actionable', but not all actions that are implied by it have"
-" occurred yet."
-msgstr "リクエストは「実行可能」ですが、それに伴うすべてのアクションがまだ発生していません。"
+"The request is 'actionable', but not all actions that are implied by it have "
+"occurred yet."
+msgstr ""
+"リクエストは「実行可能」ですが、それに伴うすべてのアクションがまだ発生してい"
+"ません。"
 
 #: healthcare/setup.py:922
 #, fuzzy
 msgid ""
 "The request is a suggestion made by someone/something that does not have an "
 "intention to ensure it occurs and without providing an authorization to act."
-msgstr "リクエストは、それが確実に発生することを意図せず、行動する承認も提供せずに、誰か/何かによって行われた提案です。"
+msgstr ""
+"リクエストは、それが確実に発生することを意図せず、行動する承認も提供せずに、"
+"誰か/何かによって行われた提案です。"
 
 #: healthcare/setup.py:1606
 #, fuzzy
@@ -14048,25 +14053,30 @@ msgstr "リクエストはもはや有効ではなく、対象者は投薬を中
 #: healthcare/setup.py:1735
 #, fuzzy
 msgid ""
-"The request is not yet 'actionable', e.g. it is a work in progress, requires"
-" sign-off, verification or needs to be run through decision support process."
-msgstr "リクエストはまだ「実行可能」ではありません。例えば、作業中である、承認、検証が必要である、または意思決定支援プロセスを経る必要があります。"
+"The request is not yet 'actionable', e.g. it is a work in progress, requires "
+"sign-off, verification or needs to be run through decision support process."
+msgstr ""
+"リクエストはまだ「実行可能」ではありません。例えば、作業中である、承認、検証"
+"が必要である、または意思決定支援プロセスを経る必要があります。"
 
 #: healthcare/setup.py:983
 #, fuzzy
 msgid ""
-"The request represents a component or option for a RequestOrchestration that"
-" establishes timing, conditionality and/or other constraints among a set of "
+"The request represents a component or option for a RequestOrchestration that "
+"establishes timing, conditionality and/or other constraints among a set of "
 "requests."
 msgstr ""
-"リクエストは、一連のリクエスト間のタイミング、条件、および/またはその他の制約を確立するRequestOrchestrationのコンポーネントまたはオプションを表します。"
+"リクエストは、一連のリクエスト間のタイミング、条件、および/またはその他の制約"
+"を確立するRequestOrchestrationのコンポーネントまたはオプションを表します。"
 
 #: healthcare/setup.py:940
 #, fuzzy
 msgid ""
 "The request represents a legally binding instruction authored by a Patient "
 "or RelatedPerson."
-msgstr "リクエストは、患者または関連者によって作成された法的拘束力のある指示を表します。"
+msgstr ""
+"リクエストは、患者または関連者によって作成された法的拘束力のある指示を表しま"
+"す。"
 
 #: healthcare/setup.py:913
 #, fuzzy
@@ -14078,17 +14088,21 @@ msgstr "リクエストは、要求者による行動の要求/需要および�
 #: healthcare/setup.py:956
 #, fuzzy
 msgid ""
-"The request represents an automatically generated supplemental authorization"
-" for action based on a parent authorization together with initial results of"
-" the action taken against that parent authorization."
-msgstr "リクエストは、親承認と、その親承認に対して取られたアクションの初期結果に基づいて自動的に生成された補足的な行動承認を表します。"
+"The request represents an automatically generated supplemental authorization "
+"for action based on a parent authorization together with initial results of "
+"the action taken against that parent authorization."
+msgstr ""
+"リクエストは、親承認と、その親承認に対して取られたアクションの初期結果に基づ"
+"いて自動的に生成された補足的な行動承認を表します。"
 
 #: healthcare/setup.py:931
 #, fuzzy
 msgid ""
 "The request represents an intention to ensure something occurs without "
 "providing an authorization for others to act."
-msgstr "リクエストは、他者が行動するための承認を提供せずに、何かが発生することを確実にする意図を表します。"
+msgstr ""
+"リクエストは、他者が行動するための承認を提供せずに、何かが発生することを確実"
+"にする意図を表します。"
 
 #: healthcare/setup.py:949
 #, fuzzy
@@ -14102,53 +14116,61 @@ msgid ""
 "fulfilling system representing the details of the fulfiller's intention to "
 "act upon a submitted order."
 msgstr ""
-"リクエストは、提出された注文に対して行動するという履行者の意図の詳細を表す、履行システムによってインスタンス化された承認のビューを表します。"
+"リクエストは、提出された注文に対して行動するという履行者の意図の詳細を表す、"
+"履行システムによってインスタンス化された承認のビューを表します。"
 
 #: healthcare/setup.py:1006
 #, fuzzy
 msgid ""
 "The request should be actioned as soon as possible - higher priority than "
 "urgent."
-msgstr "リクエストはできるだけ早く処理されるべきです - 緊急よりも高い優先度です。"
+msgstr ""
+"リクエストはできるだけ早く処理されるべきです - 緊急よりも高い優先度です。"
 
 #: healthcare/setup.py:1015
 #, fuzzy
 msgid ""
-"The request should be actioned immediately - highest possible priority. E.g."
-" an emergency."
-msgstr "リクエストは直ちに処理されるべきです - 可能な限り最高の優先度です。例：緊急事態。"
+"The request should be actioned immediately - highest possible priority. E.g. "
+"an emergency."
+msgstr ""
+"リクエストは直ちに処理されるべきです - 可能な限り最高の優先度です。例：緊急事"
+"態。"
 
 #: healthcare/setup.py:999
 #, fuzzy
-msgid ""
-"The request should be actioned promptly - higher priority than routine."
+msgid "The request should be actioned promptly - higher priority than routine."
 msgstr "リクエストは迅速に処理されるべきです - 定期よりも高い優先度です。"
 
 #: healthcare/setup.py:1725
 #, fuzzy
 msgid ""
-"The request was recorded against the wrong patient or for some reason should"
-" not have been recorded (e.g. wrong medication, wrong dose, etc.). Some of "
+"The request was recorded against the wrong patient or for some reason should "
+"not have been recorded (e.g. wrong medication, wrong dose, etc.). Some of "
 "the actions that are implied by the medication request may have occurred. "
-"For example, the medication may have been dispensed and the patient may have"
-" taken some of the medication."
+"For example, the medication may have been dispensed and the patient may have "
+"taken some of the medication."
 msgstr ""
-"リクエストは誤った患者に対して記録されたか、何らかの理由で記録されるべきではありませんでした（例：誤った薬、誤った用量など）。投薬リクエストによって暗示されるアクションの一部は発生した可能性があります。例えば、薬が調剤され、患者が一部の薬を服用した可能性があります。"
+"リクエストは誤った患者に対して記録されたか、何らかの理由で記録されるべきでは"
+"ありませんでした（例：誤った薬、誤った用量など）。投薬リクエストによって暗示"
+"されるアクションの一部は発生した可能性があります。例えば、薬が調剤され、患者"
+"が一部の薬を服用した可能性があります。"
 
 #: healthcare/setup.py:1397
 #, fuzzy
 msgid ""
 "The results of observations generated by laboratories. Laboratory results "
-"are typically generated by laboratories providing analytic services in areas"
-" such as chemistry, hematology, serology, histology, cytology, anatomic "
+"are typically generated by laboratories providing analytic services in areas "
+"such as chemistry, hematology, serology, histology, cytology, anatomic "
 "pathology (including digital pathology), microbiology, and/or virology. "
 "These observations are based on analysis of specimens obtained from the "
 "patient and submitted to the laboratory."
 msgstr ""
-"検査室によって生成された観察結果。検査結果は通常、化学、血液学、血清学、組織学、細胞学、解剖病理学（デジタル病理学を含む）、微生物学、および/またはウイルス学などの分野で分析サービスを提供する検査室によって生成されます。これらの観察は、患者から採取され検査室に提出された検体の分析に基づいています。"
+"検査室によって生成された観察結果。検査結果は通常、化学、血液学、血清学、組織"
+"学、細胞学、解剖病理学（デジタル病理学を含む）、微生物学、および/またはウイル"
+"ス学などの分野で分析サービスを提供する検査室によって生成されます。これらの観"
+"察は、患者から採取され検査室に提出された検体の分析に基づいています。"
 
-#. Description of the 'Staff Role' (Link) field in DocType 'Medication
-#. Request'
+#. Description of the 'Staff Role' (Link) field in DocType 'Medication Request'
 #: healthcare/healthcare/doctype/medication_request/medication_request.json
 #, fuzzy
 msgid "The role responsible for performing the medication request"
@@ -14165,7 +14187,9 @@ msgstr "サービス実行を担当するロール"
 msgid ""
 "The selected Service Unit <strong>{0}</strong> is already occupied. Please "
 "choose a vacant Service Unit."
-msgstr "選択されたサービスユニット <strong>{0}</strong> はすでに使用中です。空いているサービスユニットを選択してください。"
+msgstr ""
+"選択されたサービスユニット <strong>{0}</strong> はすでに使用中です。空いてい"
+"るサービスユニットを選択してください。"
 
 #. Description of the 'Time Offset' (Duration) field in DocType 'Nursing
 #. Checklist Template Task'
@@ -14174,7 +14198,9 @@ msgstr "選択されたサービスユニット <strong>{0}</strong> はすで�
 msgid ""
 "The time duration before or after the event on which the Nursing Task is to "
 "be performed. The Nursing Task start time will be set based on this."
-msgstr "看護タスクが実行されるイベントの前後の時間期間。看護タスクの開始時刻はこれに基づいて設定されます。"
+msgstr ""
+"看護タスクが実行されるイベントの前後の時間期間。看護タスクの開始時刻はこれに"
+"基づいて設定されます。"
 
 #. Label of the therapies (Table) field in DocType 'Patient Encounter'
 #: healthcare/healthcare/doctype/patient_encounter/patient_encounter.json
@@ -14184,8 +14210,7 @@ msgstr "治療"
 
 #. Option for the 'Observation Category' (Select) field in DocType
 #. 'Observation'
-#. Option for the 'Observation Category' (Select) field in DocType
-#. 'Observation
+#. Option for the 'Observation Category' (Select) field in DocType 'Observation
 #. Template'
 #. Label of the therapy_type (Link) field in DocType 'Patient Appointment'
 #: healthcare/healthcare/doctype/observation/observation.json
@@ -14196,8 +14221,7 @@ msgstr "治療"
 msgid "Therapy"
 msgstr "治療"
 
-#. Label of the therapy_for (Table MultiSelect) field in DocType 'Therapy
-#. Type'
+#. Label of the therapy_for (Table MultiSelect) field in DocType 'Therapy Type'
 #: healthcare/healthcare/doctype/therapy_type/therapy_type.json
 #, fuzzy
 msgid "Therapy For"
@@ -14337,8 +14361,7 @@ msgstr "治療セッションの重複"
 msgid "Therapy Type"
 msgstr "Therapy種類"
 
-#. Label of the therapy_types_section (Section Break) field in DocType
-#. 'Therapy
+#. Label of the therapy_types_section (Section Break) field in DocType 'Therapy
 #. Plan Template'
 #. Label of the therapy_types (Table) field in DocType 'Therapy Plan Template'
 #: healthcare/healthcare/doctype/therapy_plan_template/therapy_plan_template.json
@@ -14361,9 +14384,11 @@ msgstr "患者 {0} に処方された治療はありません"
 #: healthcare/healthcare/doctype/observation_template/observation_template.json
 #, fuzzy
 msgid ""
-"These options will be available for selection in Observation. No need to add"
-" a blank space before the first option"
-msgstr "これらのオプションは観察で選択可能になります。最初のオプションの前に空白を追加する必要はありません"
+"These options will be available for selection in Observation. No need to add "
+"a blank space before the first option"
+msgstr ""
+"これらのオプションは観察で選択可能になります。最初のオプションの前に空白を追"
+"加する必要はありません"
 
 #: healthcare/healthcare/doctype/observation/observation.py:686
 #, fuzzy
@@ -14381,7 +14406,9 @@ msgstr "これはルートの医療サービスユニットであり、編集で
 msgid ""
 "This is an initial or interim observation: data may be incomplete or "
 "unverified."
-msgstr "これは初期または暫定的な観察です。データは不完全または未検証である可能性があります。"
+msgstr ""
+"これは初期または暫定的な観察です。データは不完全または未検証である可能性があ"
+"ります。"
 
 #: healthcare/healthcare/doctype/healthcare_practitioner/healthcare_practitioner_dashboard.py:7
 #, fuzzy
@@ -14393,7 +14420,9 @@ msgstr "これはこの医療従事者に対する取引に基づいています
 msgid ""
 "This is based on transactions against this Patient. See timeline below for "
 "details"
-msgstr "これはこの患者に対する取引に基づいています。詳細については以下のタイムラインを参照してください"
+msgstr ""
+"これはこの患者に対する取引に基づいています。詳細については以下のタイムライン"
+"を参照してください"
 
 #: healthcare/www/patient_portal.py:23
 #, fuzzy
@@ -14408,7 +14437,9 @@ msgid ""
 "activity has occurred, the status should be 'revoked' rather than 'entered-"
 "in-error'.)."
 msgstr ""
-"このリクエストは存在すべきではなく、「無効」と見なされるべきです。(現実世界の決定がこれに基づいて行われた可能性があります。現実世界の活動が発生した場合、ステータスは「エラー入力済み」ではなく「取り消し済み」であるべきです。)"
+"このリクエストは存在すべきではなく、「無効」と見なされるべきです。(現実世界の"
+"決定がこれに基づいて行われた可能性があります。現実世界の活動が発生した場合、"
+"ステータスは「エラー入力済み」ではなく「取り消し済み」であるべきです。)"
 
 #. Description of the 'Rate' (Currency) field in DocType 'Lab Test Template'
 #: healthcare/healthcare/doctype/lab_test_template/lab_test_template.json
@@ -14426,11 +14457,9 @@ msgid "Thursday"
 msgstr "木曜日"
 
 #. Label of the strength_time (Time) field in DocType 'Dosage Strength'
-#. Label of the time (Time) field in DocType 'Inpatient Medication Order
-#. Entry'
+#. Label of the time (Time) field in DocType 'Inpatient Medication Order Entry'
 #. Label of the time (Time) field in DocType 'Lab Test'
-#. Option for the 'Permitted Data Type' (Select) field in DocType
-#. 'Observation'
+#. Option for the 'Permitted Data Type' (Select) field in DocType 'Observation'
 #. Option for the 'Permitted Data Type' (Select) field in DocType 'Observation
 #. Reference Range'
 #. Option for the 'Permitted Data Type' (Select) field in DocType 'Observation
@@ -14484,11 +14513,9 @@ msgstr "承認時刻"
 msgid "Time of Result"
 msgstr "結果時刻"
 
-#. Description of the 'Valid Number of Days' (Int) field in DocType
-#. 'Healthcare
+#. Description of the 'Valid Number of Days' (Int) field in DocType 'Healthcare
 #. Practitioner'
-#. Description of the 'Valid Number of Days' (Int) field in DocType
-#. 'Healthcare
+#. Description of the 'Valid Number of Days' (Int) field in DocType 'Healthcare
 #. Settings'
 #: healthcare/healthcare/doctype/healthcare_practitioner/healthcare_practitioner.json
 #: healthcare/healthcare/doctype/healthcare_settings/healthcare_settings.json
@@ -14499,9 +14526,10 @@ msgstr "無料相談の期間 (有効日数)"
 #: healthcare/healthcare/doctype/practitioner_schedule/practitioner_schedule.js:75
 #: healthcare/healthcare/doctype/practitioner_schedule/practitioner_schedule.js:110
 #, fuzzy
-msgid ""
-"Time slot skiped, the slot {0} to {1} overlap exisiting slot {2} to {3}"
-msgstr "タイムスロットはスキップされました。スロット {0} から {1} は既存のスロット {2} から {3} と重複しています"
+msgid "Time slot skiped, the slot {0} to {1} overlap exisiting slot {2} to {3}"
+msgstr ""
+"タイムスロットはスキップされました。スロット {0} から {1} は既存のスロット "
+"{2} から {3} と重複しています"
 
 #: healthcare/healthcare/doctype/practitioner_schedule/practitioner_schedule.js:158
 #, fuzzy
@@ -14519,8 +14547,7 @@ msgstr "タイムスロットが追加されました"
 #. Label of the title (Data) field in DocType 'Patient Encounter'
 #. Label of the title (Data) field in DocType 'Patient Insurance Coverage'
 #. Label of the title (Data) field in DocType 'Patient Insurance Policy'
-#. Label of the title (Small Text) field in DocType 'Practitioner
-#. Availability'
+#. Label of the title (Small Text) field in DocType 'Practitioner Availability'
 #. Label of the title (Data) field in DocType 'Service Request'
 #. Label of the title (Data) field in DocType 'Therapy Plan'
 #. Label of the title (Data) field in DocType 'Vital Signs'
@@ -14591,8 +14618,7 @@ msgstr "退院させる"
 msgid "To Duration"
 msgstr "期間まで"
 
-#. Label of the to_time (Time) field in DocType 'Healthcare Schedule Time
-#. Slot'
+#. Label of the to_time (Time) field in DocType 'Healthcare Schedule Time Slot'
 #. Label of the to_time (Time) field in DocType 'Inpatient Medication Entry'
 #: healthcare/healthcare/doctype/healthcare_schedule_time_slot/healthcare_schedule_time_slot.json
 #: healthcare/healthcare/doctype/inpatient_medication_entry/inpatient_medication_entry.json
@@ -14662,8 +14688,7 @@ msgstr "合計"
 msgid "Total Amount"
 msgstr "Amount合計"
 
-#. Label of the total_counts_completed (Int) field in DocType 'Therapy
-#. Session'
+#. Label of the total_counts_completed (Int) field in DocType 'Therapy Session'
 #: healthcare/healthcare/doctype/therapy_session/therapy_session.json
 msgid "Total Counts Completed"
 msgstr "Counts Completed合計"
@@ -14679,8 +14704,7 @@ msgstr "Counts Targeted合計"
 msgid "Total Coverage Amount Invoiced"
 msgstr "Coverage Amount Invoiced合計"
 
-#. Label of the total_dispensable_quantity (Float) field in DocType
-#. 'Medication
+#. Label of the total_dispensable_quantity (Float) field in DocType 'Medication
 #. Request'
 #: healthcare/healthcare/doctype/medication_request/medication_request.json
 msgid "Total Dispensable Quantity"
@@ -14786,8 +14810,7 @@ msgstr "取引"
 msgid "Transfer"
 msgstr "転送"
 
-#. Label of the transfer_qty (Float) field in DocType 'Clinical Procedure
-#. Item'
+#. Label of the transfer_qty (Float) field in DocType 'Clinical Procedure Item'
 #: healthcare/healthcare/doctype/clinical_procedure_item/clinical_procedure_item.json
 #, fuzzy
 msgid "Transfer Qty"
@@ -14959,9 +14982,11 @@ msgstr "利用不可"
 #: healthcare/healthcare/doctype/practitioner_availability/practitioner_availability.py:100
 #, fuzzy
 msgid ""
-"Unavailable block for a practitioner must overlap at least partially with an"
-" existing Availability"
-msgstr "医療従事者の利用不可ブロックは、既存の利用可能時間と少なくとも部分的に重複する必要があります"
+"Unavailable block for a practitioner must overlap at least partially with an "
+"existing Availability"
+msgstr ""
+"医療従事者の利用不可ブロックは、既存の利用可能時間と少なくとも部分的に重複す"
+"る必要があります"
 
 #: healthcare/healthcare/doctype/inpatient_record/inpatient_record.py:498
 #, fuzzy
@@ -15080,17 +15105,22 @@ msgstr "HL7標準でLOINCを使用しています。https://terminology.hl7.org/
 #, fuzzy
 msgid ""
 "Using RxNorm with HL7 Standards. https://terminology.hl7.org/RxNorm.html"
-msgstr "HL7標準でRxNormを使用しています。https://terminology.hl7.org/RxNorm.html"
+msgstr ""
+"HL7標準でRxNormを使用しています。https://terminology.hl7.org/RxNorm.html"
 
 #: healthcare/setup.py:1205
 #, fuzzy
 msgid ""
-"Using SNOMED CT with HL7 Standards. https://terminology.hl7.org/SNOMEDCT.html\n"
-"\t\t\t\tSee also the SNOMED CT Usage Summary (link below) which summarizes the use of SNOMED CT in the base FHIR Specification.\n"
+"Using SNOMED CT with HL7 Standards. https://terminology.hl7.org/SNOMEDCT."
+"html\n"
+"\t\t\t\tSee also the SNOMED CT Usage Summary (link below) which summarizes "
+"the use of SNOMED CT in the base FHIR Specification.\n"
 "\t\t\t\thttps://www.hl7.org/fhir/snomedct-usage.html"
 msgstr ""
-"HL7標準でSNOMED CTを使用しています。https://terminology.hl7.org/SNOMEDCT.html\n"
-"\t\t\t\tまた、SNOMED CTの基本FHIR仕様での使用法をまとめたSNOMED CT使用概要 (以下のリンク) も参照してください。\n"
+"HL7標準でSNOMED CTを使用しています。https://terminology.hl7.org/SNOMEDCT."
+"html\n"
+"\t\t\t\tまた、SNOMED CTの基本FHIR仕様での使用法をまとめたSNOMED CT使用概要 "
+"(以下のリンク) も参照してください。\n"
 "\t\t\t\thttps://www.hl7.org/fhir/snomedct-usage.html"
 
 #: healthcare/setup.py:1245
@@ -15105,8 +15135,7 @@ msgstr "HL7標準でUCUMを使用しています。https://terminology.hl7.org/U
 msgid "Vacant"
 msgstr "空き"
 
-#. Label of the valid_from (Date) field in DocType 'Item Insurance
-#. Eligibility'
+#. Label of the valid_from (Date) field in DocType 'Item Insurance Eligibility'
 #: healthcare/healthcare/doctype/item_insurance_eligibility/item_insurance_eligibility.json
 #, fuzzy
 msgid "Valid From"
@@ -15121,8 +15150,7 @@ msgid "Valid Number of Days"
 msgstr "有効日数"
 
 #. Label of the valid_till (Date) field in DocType 'Fee Validity'
-#. Label of the valid_till (Date) field in DocType 'Item Insurance
-#. Eligibility'
+#. Label of the valid_till (Date) field in DocType 'Item Insurance Eligibility'
 #: healthcare/healthcare/doctype/fee_validity/fee_validity.json
 #: healthcare/healthcare/doctype/item_insurance_eligibility/item_insurance_eligibility.json
 #, fuzzy
@@ -15143,17 +15171,22 @@ msgstr "看護チェックリストの検証"
 msgid ""
 "Validates all mandatory tasks in nursing checklist to be Completed before a "
 "Patient transactional event."
-msgstr "患者の取引イベントの前に、看護チェックリスト内のすべての必須タスクが完了していることを検証します。"
+msgstr ""
+"患者の取引イベントの前に、看護チェックリスト内のすべての必須タスクが完了して"
+"いることを検証します。"
 
 #: healthcare/healthcare/doctype/healthcare_settings/healthcare_settings.js:133
 #, fuzzy
 msgid ""
 "Validates all mandatory tasks in nursing checklist to be Completed before a "
-"Patient transactional event. For example, if any of the tasks as part of the"
-" Discharge Checklist is not in status Completed, system will alert the user "
+"Patient transactional event. For example, if any of the tasks as part of the "
+"Discharge Checklist is not in status Completed, system will alert the user "
 "while trying to Discharge the Patient from inpatient facility"
 msgstr ""
-"患者の取引イベントの前に、看護チェックリスト内のすべての必須タスクが完了していることを検証します。例えば、退院チェックリストの一部であるタスクのいずれかが完了ステータスでない場合、システムは患者を病棟施設から退院させようとするときにユーザーに警告します"
+"患者の取引イベントの前に、看護チェックリスト内のすべての必須タスクが完了して"
+"いることを検証します。例えば、退院チェックリストの一部であるタスクのいずれか"
+"が完了ステータスでない場合、システムは患者を病棟施設から退院させようとすると"
+"きにユーザーに警告します"
 
 #: healthcare/healthcare/doctype/healthcare_service_unit_type/healthcare_service_unit_type.py:20
 #: healthcare/healthcare/doctype/healthcare_service_unit_type/healthcare_service_unit_type.py:29
@@ -15163,8 +15196,7 @@ msgstr ""
 msgid "Validation Error"
 msgstr "検証エラー"
 
-#. Label of the section_break_3 (Section Break) field in DocType 'Fee
-#. Validity'
+#. Label of the section_break_3 (Section Break) field in DocType 'Fee Validity'
 #: healthcare/healthcare/doctype/fee_validity/fee_validity.json
 #, fuzzy
 msgid "Validity"
@@ -15223,7 +15255,9 @@ msgstr "グループ相談向けビデオ会議は無効です"
 msgid ""
 "Video conferencing enabled for {}, \t\t\t\t\t\t\t\t\t\t\tplease link {} or "
 "configure Default Google Calendar in {}"
-msgstr "{} のビデオ会議が有効になっています。\t\t\t\t\t\t\t\t\t\t\t{} をリンクするか、{} でデフォルトの Google カレンダーを設定してください"
+msgstr ""
+"{} のビデオ会議が有効になっています。\t\t\t\t\t\t\t\t\t\t\t{} をリンクする"
+"か、{} でデフォルトの Google カレンダーを設定してください"
 
 #: healthcare/healthcare/doctype/patient/patient.js:33
 #: healthcare/healthcare/doctype/patient/patient.js:38
@@ -15245,8 +15279,7 @@ msgstr "訪問完了"
 
 #. Option for the 'Observation Category' (Select) field in DocType
 #. 'Observation'
-#. Option for the 'Observation Category' (Select) field in DocType
-#. 'Observation
+#. Option for the 'Observation Category' (Select) field in DocType 'Observation
 #. Template'
 #. Name of a DocType
 #. Label of the sb_vs (Section Break) field in DocType 'Vital Signs'
@@ -15277,8 +15310,7 @@ msgstr "バイタルサイン"
 msgid "Warehouse"
 msgstr "倉庫"
 
-#. Description of the 'Medication Warehouse' (Link) field in DocType
-#. 'Inpatient
+#. Description of the 'Medication Warehouse' (Link) field in DocType 'Inpatient
 #. Medication Entry'
 #: healthcare/healthcare/doctype/inpatient_medication_entry/inpatient_medication_entry.json
 #, fuzzy
@@ -15330,8 +15362,9 @@ msgid ""
 "Calendar will be used. You can also configure separate Google Calender for "
 "each Practitioner if required"
 msgstr ""
-"Google Meet を介して遠隔診療の予約をする際、この Google カレンダーが使用されます。必要に応じて、各医療従事者ごとに個別の "
-"Google カレンダーを設定することもできます"
+"Google Meet を介して遠隔診療の予約をする際、この Google カレンダーが使用され"
+"ます。必要に応じて、各医療従事者ごとに個別の Google カレンダーを設定すること"
+"もできます"
 
 #. Option for the 'Marital Status' (Select) field in DocType 'Patient'
 #. Option in a Select field in the patient-registration Web Form
@@ -15346,13 +15379,16 @@ msgstr "寡婦"
 msgid ""
 "Will be serially suffixed to maintain uniquness. Example: 'Ward' will be "
 "named as 'Ward-####'"
-msgstr "一意性を保つために連番が接尾辞として追加されます。例: 「病棟」は「病棟-####」と命名されます。"
+msgstr ""
+"一意性を保つために連番が接尾辞として追加されます。例: 「病棟」は「病棟-####」"
+"と命名されます。"
 
 #: healthcare/healthcare/doctype/healthcare_settings/healthcare_settings.js:113
 #, fuzzy
 msgid ""
 "Will be set as the default Code System selected in the Codification Table"
-msgstr "コード化テーブルで選択されたデフォルトのコードシステムとして設定されます"
+msgstr ""
+"コード化テーブルで選択されたデフォルトのコードシステムとして設定されます"
 
 #. Label of the worksheet_legend_tab (Tab Break) field in DocType 'Lab Test
 #. Template'
@@ -15363,8 +15399,7 @@ msgstr "ワークシート & 凡例"
 
 #. Label of the worksheet_instructions (Text Editor) field in DocType 'Lab
 #. Test'
-#. Label of the worksheet_instructions (Text Editor) field in DocType 'Lab
-#. Test
+#. Label of the worksheet_instructions (Text Editor) field in DocType 'Lab Test
 #. Template'
 #: healthcare/healthcare/doctype/lab_test/lab_test.json
 #: healthcare/healthcare/doctype/lab_test_template/lab_test_template.json
@@ -15436,12 +15471,16 @@ msgstr "いずれの患者にもリンクされていません。管理者にご
 msgid ""
 "You can also set the Medical Department for the template. After saving the "
 "document, an Item will automatically be created for billing this Clinical "
-"Procedure. You can then use this template while creating Clinical Procedures"
-" for Patients. Templates save you from filling up redundant data every "
-"single time. You can also create templates for other operations like Lab "
-"Tests, Therapy Sessions, etc."
+"Procedure. You can then use this template while creating Clinical Procedures "
+"for Patients. Templates save you from filling up redundant data every single "
+"time. You can also create templates for other operations like Lab Tests, "
+"Therapy Sessions, etc."
 msgstr ""
-"テンプレートに医療部門を設定することもできます。ドキュメントを保存すると、この臨床処置の請求用に品目が自動的に作成されます。その後、患者の臨床処置を作成する際にこのテンプレートを使用できます。テンプレートを使用すると、毎回冗長なデータを入力する手間を省くことができます。検査、治療セッションなどの他の操作のテンプレートを作成することもできます。"
+"テンプレートに医療部門を設定することもできます。ドキュメントを保存すると、こ"
+"の臨床処置の請求用に品目が自動的に作成されます。その後、患者の臨床処置を作成"
+"する際にこのテンプレートを使用できます。テンプレートを使用すると、毎回冗長な"
+"データを入力する手間を省くことができます。検査、治療セッションなどの他の操作"
+"のテンプレートを作成することもできます。"
 
 #. Description of the 'Default Healthcare Service Items' (Section Break) field
 #. in DocType 'Healthcare Settings'
@@ -15450,15 +15489,19 @@ msgstr ""
 msgid ""
 "You can configure default Items for billing consultation charges, procedure "
 "consumption items and inpatient visits"
-msgstr "診察料、処置消費品目、入院患者の訪問の請求用にデフォルトの品目を設定できます。"
+msgstr ""
+"診察料、処置消費品目、入院患者の訪問の請求用にデフォルトの品目を設定できま"
+"す。"
 
 #: healthcare/healthcare/doctype/healthcare_settings/healthcare_settings.js:138
 #, fuzzy
 msgid ""
 "You can create a service item for Inpatient Visit Charge and set it here. "
-"Similarly, you can set up other Healthcare Service Items for billing in this"
-" section. Click"
-msgstr "入院訪問料のサービス品目を作成し、ここに設定できます。同様に、このセクションで請求用の他の医療サービス品目を設定できます。クリック"
+"Similarly, you can set up other Healthcare Service Items for billing in this "
+"section. Click"
+msgstr ""
+"入院訪問料のサービス品目を作成し、ここに設定できます。同様に、このセクション"
+"で請求用の他の医療サービス品目を設定できます。クリック"
 
 #: healthcare/healthcare/doctype/patient_insurance_coverage/patient_insurance_coverage.py:141
 #, fuzzy
@@ -15475,7 +15518,9 @@ msgstr "ステータス {} のサービスリクエストはキャンセルで�
 msgid ""
 "You cannot add '{0}' because it already contains {1} levels of nested "
 "components. The maximum allowed depth is {2}."
-msgstr "'{0}' はすでに {1} レベルのネストされたコンポーネントを含んでいるため、追加できません。許可される最大深度は {2} です。"
+msgstr ""
+"'{0}' はすでに {1} レベルのネストされたコンポーネントを含んでいるため、追加で"
+"きません。許可される最大深度は {2} です。"
 
 #: healthcare/healthcare/doctype/observation_template/observation_template.py:43
 #, fuzzy
@@ -15583,7 +15628,9 @@ msgstr "{1} に {0}"
 msgid ""
 "{0} does not have a Healthcare Practitioner Schedule / Availability. Add it "
 "in Healthcare Practitioner master / Practitioner Availability"
-msgstr "{0} には医療従事者のスケジュール/空き状況がありません。医療従事者マスター / 従事者空き状況で追加してください。"
+msgstr ""
+"{0} には医療従事者のスケジュール/空き状況がありません。医療従事者マスター / "
+"従事者空き状況で追加してください。"
 
 #: healthcare/healthcare/utils.py:1202
 #, fuzzy

@@ -302,9 +302,10 @@ msgstr "従業員向けローンのオプションを追加します"
 #. Origination Settings'
 #: lending/loan_origination/doctype/loan_origination_settings/loan_origination_settings.json
 msgid ""
-"Adds unique constraints to the email and phone number fields of the Customer"
-" DocType."
-msgstr "顧客DocTypeのメールアドレスと電話番号フィールドに一意制約を追加します。"
+"Adds unique constraints to the email and phone number fields of the Customer "
+"DocType."
+msgstr ""
+"顧客DocTypeのメールアドレスと電話番号フィールドに一意制約を追加します。"
 
 #. Option for the 'BPI Treatment' (Select) field in DocType 'Loan Product'
 #: lending/loan_management/doctype/loan_product/loan_product.json
@@ -442,8 +443,7 @@ msgstr "配分済み請求"
 #. Label of the amended_from (Link) field in DocType 'Loan Repayment Repost'
 #. Label of the amended_from (Link) field in DocType 'Loan Repayment Schedule'
 #. Label of the amended_from (Link) field in DocType 'Loan Restructure'
-#. Label of the amended_from (Link) field in DocType 'Loan Security
-#. Assignment'
+#. Label of the amended_from (Link) field in DocType 'Loan Security Assignment'
 #. Label of the amended_from (Link) field in DocType 'Loan Security Deposit'
 #. Label of the amended_from (Link) field in DocType 'Loan Security Release'
 #. Label of the amended_from (Link) field in DocType 'Loan Transfer'
@@ -528,7 +528,9 @@ msgstr "支払い済み金額"
 msgid ""
 "Amount Paid must equal the sum of Principal, Interest, Penalty, Charges, "
 "Unbooked Interest, and Unbooked Penalty."
-msgstr "支払金額は、元金、利息、違約金、手数料、未計上利息、および未計上違約金の合計と等しくなければなりません。"
+msgstr ""
+"支払金額は、元金、利息、違約金、手数料、未計上利息、および未計上違約金の合計"
+"と等しくなければなりません。"
 
 #: lending/loan_management/doctype/loan_balance_adjustment/loan_balance_adjustment.py:50
 msgid "Amount cannot be negative"
@@ -564,8 +566,7 @@ msgstr "ローン終了の場合、支払い金額は支払い予定額を下回
 msgid "Amount paid cannot be zero"
 msgstr "支払い金額はゼロにできません"
 
-#. Label of the section_break_7 (Section Break) field in DocType 'Loan
-#. Interest
+#. Label of the section_break_7 (Section Break) field in DocType 'Loan Interest
 #. Accrual'
 #: lending/loan_management/doctype/loan_interest_accrual/loan_interest_accrual.json
 #: lending/loan_management/report/loan_outstanding_report/loan_outstanding_report.py:26
@@ -768,8 +769,7 @@ msgstr "基準日"
 msgid "Atlest one security needs to be assigned"
 msgstr "少なくとも1つの担保を割り当てる必要があります。"
 
-#. Label of the authentication_details_section (Section Break) field in
-#. DocType
+#. Label of the authentication_details_section (Section Break) field in DocType
 #. 'Loan Lead'
 #: lending/loan_origination/doctype/loan_lead/loan_lead.json
 #, fuzzy
@@ -840,8 +840,7 @@ msgstr "BPI"
 msgid "BPI Amount Difference"
 msgstr "BPI金額差異"
 
-#. Label of the bpi_difference_date (Date) field in DocType 'Loan
-#. Disbursement'
+#. Label of the bpi_difference_date (Date) field in DocType 'Loan Disbursement'
 #: lending/loan_management/doctype/loan_disbursement/loan_disbursement.json
 msgid "BPI Difference Date"
 msgstr "BPI差異日"
@@ -929,14 +928,12 @@ msgstr "銀行口座"
 msgid "Banking"
 msgstr "銀行業務"
 
-#. Label of the base_amount (Currency) field in DocType 'Loan Interest
-#. Accrual'
+#. Label of the base_amount (Currency) field in DocType 'Loan Interest Accrual'
 #: lending/loan_management/doctype/loan_interest_accrual/loan_interest_accrual.json
 msgid "Base Amount"
 msgstr "基本金額"
 
-#. Label of the section_break_hmca (Section Break) field in DocType 'Loan
-#. Lead'
+#. Label of the section_break_hmca (Section Break) field in DocType 'Loan Lead'
 #: lending/loan_origination/doctype/loan_lead/loan_lead.json
 #, fuzzy
 msgid "Basic Details"
@@ -1008,8 +1005,7 @@ msgstr "端数期間利息"
 msgid "Broken Period Interest Days"
 msgstr "端数期間利息日数"
 
-#. Label of the broken_period_interest_recovery_account (Link) field in
-#. DocType
+#. Label of the broken_period_interest_recovery_account (Link) field in DocType
 #. 'Loan Product'
 #: lending/loan_management/doctype/loan_product/loan_product.json
 msgid "Broken Period Interest Recovery Account"
@@ -1048,8 +1044,7 @@ msgstr "キャンセル日"
 
 #. Option for the 'Status' (Select) field in DocType 'Loan Disbursement'
 #. Option for the 'Status' (Select) field in DocType 'Loan Repayment Schedule'
-#. Option for the 'Status' (Select) field in DocType 'Loan Security
-#. Assignment'
+#. Option for the 'Status' (Select) field in DocType 'Loan Security Assignment'
 #: lending/loan_management/doctype/loan_disbursement/loan_disbursement.json
 #: lending/loan_management/doctype/loan_repayment_schedule/loan_repayment_schedule.json
 #: lending/loan_management/doctype/loan_security_assignment/loan_security_assignment.json
@@ -1073,7 +1068,9 @@ msgstr "申し込みが承認されるまでローンを作成できません"
 msgid ""
 "Cannot make Advance or Pre Payments during moratorium period. (Moratorium "
 "End Date: {}, Posting Date: {})"
-msgstr "据置期間中は前払いまたは繰り上げ返済はできません。（据置期間終了日: {}, 転記日: {}）"
+msgstr ""
+"据置期間中は前払いまたは繰り上げ返済はできません。（据置期間終了日: {}, 転記"
+"日: {}）"
 
 #: lending/loan_management/doctype/loan/loan.py:473
 msgid "Cannot un mark as NPA before watch period end date"
@@ -1097,8 +1094,7 @@ msgstr "経過観察期間終了日より前にNPAの解除はできません"
 msgid "Capitalize"
 msgstr "資本化"
 
-#. Label of the capitalize_amount (Currency) field in DocType 'Loan
-#. Restructure
+#. Label of the capitalize_amount (Currency) field in DocType 'Loan Restructure
 #. Charges'
 #: lending/loan_management/doctype/loan_restructure_charges/loan_restructure_charges.json
 #, fuzzy
@@ -1176,8 +1172,7 @@ msgid "Charge Payment"
 msgstr "手数料支払い"
 
 #. Label of the charge_type (Link) field in DocType 'Loan Charges'
-#. Label of the charge_type (Link) field in DocType 'Loan Partner Adhoc
-#. Charges
+#. Label of the charge_type (Link) field in DocType 'Loan Partner Adhoc Charges
 #. Shared'
 #: lending/loan_management/doctype/loan_charges/loan_charges.json
 #: lending/loan_management/doctype/loan_partner_adhoc_charges_shared/loan_partner_adhoc_charges_shared.json
@@ -1197,9 +1192,11 @@ msgstr "費用 {0} は未払い請求に存在しません。"
 #: lending/loan_management/doctype/loan_restructure/loan_restructure.py:537
 #, fuzzy
 msgid ""
-"Charge {0} with overdue amount {1} is missing from the charges table. Please"
-" refresh the page to get latest charges."
-msgstr "期限超過金額 {1} の費用 {0} が費用テーブルから見つかりません。最新の費用を取得するには、ページを更新してください。"
+"Charge {0} with overdue amount {1} is missing from the charges table. Please "
+"refresh the page to get latest charges."
+msgstr ""
+"期限超過金額 {1} の費用 {0} が費用テーブルから見つかりません。最新の費用を取"
+"得するには、ページを更新してください。"
 
 #. Option for the 'Demand Type' (Select) field in DocType 'Loan Demand'
 #. Option for the 'Demand Type' (Select) field in DocType 'Loan Demand Offset
@@ -1439,8 +1436,7 @@ msgstr "パートナー比率での回収"
 #. Label of the company (Link) field in DocType 'Loan Security Release'
 #. Label of the company (Link) field in DocType 'Loan Transfer'
 #. Label of the company (Link) field in DocType 'Loan Write Off'
-#. Label of the company (Link) field in DocType 'Process Loan Interest
-#. Accrual'
+#. Label of the company (Link) field in DocType 'Process Loan Interest Accrual'
 #. Label of the company (Link) field in DocType 'Sanctioned Loan Amount'
 #. Label of a shortcut in the Lending Workspace
 #. Label of a Workspace Sidebar Item
@@ -1506,8 +1502,7 @@ msgid "Components"
 msgstr "コンポーネント"
 
 #. Label of the connections_tab (Tab Break) field in DocType 'Loan'
-#. Label of the connections_tab (Tab Break) field in DocType 'Loan
-#. Application'
+#. Label of the connections_tab (Tab Break) field in DocType 'Loan Application'
 #. Label of the connections_tab (Tab Break) field in DocType 'Loan
 #. Disbursement'
 #. Label of the connections_tab (Tab Break) field in DocType 'Loan Product'
@@ -1641,8 +1636,7 @@ msgid "Current Value"
 msgstr "現在価値"
 
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan'
-#. Option for the 'Applicant Type' (Select) field in DocType 'Loan
-#. Application'
+#. Option for the 'Applicant Type' (Select) field in DocType 'Loan Application'
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan Balance
 #. Adjustment'
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan
@@ -1651,8 +1645,7 @@ msgstr "現在価値"
 #. Accrual'
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan Refund'
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan Repayment'
-#. Option for the 'Applicant Type' (Select) field in DocType 'Loan
-#. Restructure'
+#. Option for the 'Applicant Type' (Select) field in DocType 'Loan Restructure'
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan Security
 #. Assignment'
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan Security
@@ -1824,8 +1817,7 @@ msgstr "延滞利用可能限度額"
 msgid "Delinquent In Process Limit"
 msgstr "延滞処理中限度額"
 
-#. Label of the delinquent_limit_section (Section Break) field in DocType
-#. 'Loan
+#. Label of the delinquent_limit_section (Section Break) field in DocType 'Loan
 #. Restructure Limit Log'
 #: lending/loan_management/doctype/loan_restructure_limit_log/loan_restructure_limit_log.json
 msgid "Delinquent Limit"
@@ -1908,8 +1900,7 @@ msgid "Description"
 msgstr "説明"
 
 #. Label of the details (Long Text) field in DocType 'Bulk Repayment Log'
-#. Label of the details_section (Section Break) field in DocType 'Loan
-#. Partner'
+#. Label of the details_section (Section Break) field in DocType 'Loan Partner'
 #: lending/loan_management/doctype/bulk_repayment_log/bulk_repayment_log.json
 #: lending/loan_management/doctype/loan_partner/loan_partner.json
 msgid "Details"
@@ -1940,8 +1931,7 @@ msgstr "実行済み"
 #. Details'
 #. Label of the disbursed_amount (Currency) field in DocType 'Loan Repayment
 #. Schedule'
-#. Label of the disbursed_amount (Currency) field in DocType 'Loan
-#. Restructure'
+#. Label of the disbursed_amount (Currency) field in DocType 'Loan Restructure'
 #: lending/loan_management/doctype/loan/loan.json
 #: lending/loan_management/doctype/loan_disbursement/loan_disbursement.json
 #: lending/loan_management/doctype/loan_import_details/loan_import_details.json
@@ -1956,7 +1946,9 @@ msgstr "実行金額"
 msgid ""
 "Disbursed Amount cannot be more than {0} as per loan limit or assigned "
 "security value"
-msgstr "実行金額は、融資限度額または割り当てられた担保価値に従って {0} を超えることはできません。"
+msgstr ""
+"実行金額は、融資限度額または割り当てられた担保価値に従って {0} を超えることは"
+"できません。"
 
 #: lending/loan_management/doctype/loan/loan.js:132
 msgid "Disbursed Amount: {0}"
@@ -2001,8 +1993,7 @@ msgstr "支払費用"
 #. Label of the disbursement_date (Date) field in DocType 'Loan'
 #. Label of the disbursement_date (Date) field in DocType 'Loan Demand'
 #. Label of the disbursement_date (Date) field in DocType 'Loan Disbursement'
-#. Label of the disbursement_date (Date) field in DocType 'Loan Import
-#. Details'
+#. Label of the disbursement_date (Date) field in DocType 'Loan Import Details'
 #: lending/loan_management/doctype/loan/loan.json
 #: lending/loan_management/doctype/loan_demand/loan_demand.json
 #: lending/loan_management/doctype/loan_disbursement/loan_disbursement.json
@@ -2115,7 +2106,9 @@ msgstr "発効日"
 msgid ""
 "Either Loan Application, Loan or Applicant details are required to create "
 "Loan Security Assignment"
-msgstr "融資担保割当を作成するには、融資申請、融資、または申請者の詳細のいずれかが必要です。"
+msgstr ""
+"融資担保割当を作成するには、融資申請、融資、または申請者の詳細のいずれかが必"
+"要です。"
 
 #. Label of the email (Data) field in DocType 'Loan Lead'
 #: lending/loan_management/doctype/loan_application/loan_application.js:86
@@ -2130,8 +2123,7 @@ msgstr "メール"
 msgid "Email OTP"
 msgstr "メールOTP"
 
-#. Label of the email_verification_status (Select) field in DocType 'Loan
-#. Lead'
+#. Label of the email_verification_status (Select) field in DocType 'Loan Lead'
 #: lending/loan_origination/doctype/loan_lead/loan_lead.json
 #, fuzzy
 msgid "Email Verification Status"
@@ -2139,8 +2131,7 @@ msgstr "メール確認ステータス"
 
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan'
 #. Name of a role
-#. Option for the 'Applicant Type' (Select) field in DocType 'Loan
-#. Application'
+#. Option for the 'Applicant Type' (Select) field in DocType 'Loan Application'
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan Balance
 #. Adjustment'
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan
@@ -2149,8 +2140,7 @@ msgstr "メール確認ステータス"
 #. Accrual'
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan Refund'
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan Repayment'
-#. Option for the 'Applicant Type' (Select) field in DocType 'Loan
-#. Restructure'
+#. Option for the 'Applicant Type' (Select) field in DocType 'Loan Restructure'
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan Security
 #. Assignment'
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan Security
@@ -2195,8 +2185,7 @@ msgid "Enable Partner Accounting"
 msgstr "パートナー会計を有効化"
 
 #. Option for the 'Repayment Date On' (Select) field in DocType 'Loan Product'
-#. Option for the 'Repayment Date On' (Select) field in DocType 'Loan
-#. Repayment
+#. Option for the 'Repayment Date On' (Select) field in DocType 'Loan Repayment
 #. Schedule'
 #: lending/loan_management/doctype/loan_product/loan_product.json
 #: lending/loan_management/doctype/loan_repayment_schedule/loan_repayment_schedule.json
@@ -2243,8 +2232,7 @@ msgstr "超過支払い金額"
 msgid "Excess amount refund cannot be more than excess amount paid"
 msgstr "超過返金額は超過支払い額を超えることはできません"
 
-#. Description of the 'Excess Amount Acceptance Limit' (Float) field in
-#. DocType
+#. Description of the 'Excess Amount Acceptance Limit' (Float) field in DocType
 #. 'Loan Product'
 #: lending/loan_management/doctype/loan_product/loan_product.json
 msgid "Excess amount repayment limit during loan closure"
@@ -2334,8 +2322,7 @@ msgstr "固定金利"
 
 #: lending/loan_management/doctype/loan/loan.py:245
 msgid ""
-"Flat Interest Rate loans can only have monthly and yearly repayment "
-"frequency"
+"Flat Interest Rate loans can only have monthly and yearly repayment frequency"
 msgstr "固定金利ローンは月次と年次の返済頻度のみ設定できます"
 
 #: lending/loan_management/doctype/loan/loan.py:241
@@ -2345,12 +2332,10 @@ msgid ""
 msgstr "固定金利ローンには「期間あたりの固定返済額」返済方法を使用できません"
 
 #: lending/loan_management/doctype/process_loan_classification/process_loan_classification.py:31
-msgid ""
-"For backdated process loan classification, a Loan account is mandatory."
+msgid "For backdated process loan classification, a Loan account is mandatory."
 msgstr "遡及処理のローン分類には、ローンアカウントが必須です。"
 
-#. Label of the force_update_dpd_in_loan (Check) field in DocType 'Process
-#. Loan
+#. Label of the force_update_dpd_in_loan (Check) field in DocType 'Process Loan
 #. Classification'
 #: lending/loan_management/doctype/process_loan_classification/process_loan_classification.json
 msgid "Force Update DPD in Loan"
@@ -2407,7 +2392,9 @@ msgstr "全額決済ジョブ"
 msgid ""
 "Full Settlement cannot be backdated. The value date {0} cannot be earlier "
 "than the last repayment value date {1} ({2})."
-msgstr "全額決済は遡及できません。処理日 {0} は、最終返済処理日 {1} ({2}) より前にすることはできません。"
+msgstr ""
+"全額決済は遡及できません。処理日 {0} は、最終返済処理日 {1} ({2}) より前にす"
+"ることはできません。"
 
 #. Name of a report
 #. Label of a Link in the Lending Workspace
@@ -2448,7 +2435,9 @@ msgid ""
 "Haircut percentage is the percentage difference between market value of the "
 "Loan Security and the value ascribed to that Loan Security when used as "
 "collateral for that loan."
-msgstr "ヘアカット率は、ローン担保の市場価値と、そのローンの担保として使用される際に付与される価値との差を表す割合です。"
+msgstr ""
+"ヘアカット率は、ローン担保の市場価値と、そのローンの担保として使用される際に"
+"付与される価値との差を表す割合です。"
 
 #. Label of a Workspace Sidebar Item
 #: lending/workspace_sidebar/lending.json
@@ -2461,10 +2450,12 @@ msgstr "ホーム"
 #: lending/loan_management/doctype/loan_product/loan_product.json
 #, fuzzy
 msgid ""
-"If enabled, no interest will be accrued from each disbursement date till the"
-" end of the calendar month. Interest accrual will begin from the 1st of the "
+"If enabled, no interest will be accrued from each disbursement date till the "
+"end of the calendar month. Interest accrual will begin from the 1st of the "
 "following month."
-msgstr "有効な場合、各支払日から暦月の月末まで利息は発生しません。利息の発生は翌月の1日から開始されます。"
+msgstr ""
+"有効な場合、各支払日から暦月の月末まで利息は発生しません。利息の発生は翌月の1"
+"日から開始されます。"
 
 #. Label of the ignore_on_cancel_amount_update (Check) field in DocType 'Loan
 #. Repayment Repost'
@@ -2528,8 +2519,7 @@ msgstr "利息"
 msgid "Interest Accounts"
 msgstr "利息アカウント"
 
-#. Label of the interest_accrued_account (Link) field in DocType 'Loan
-#. Product'
+#. Label of the interest_accrued_account (Link) field in DocType 'Loan Product'
 #: lending/loan_management/doctype/loan_product/loan_product.json
 msgid "Interest Accrued Account"
 msgstr "利息見越アカウント"
@@ -2588,8 +2578,7 @@ msgstr "受取利息勘定科目"
 msgid "Interest Income Account is mandatory"
 msgstr "利息収入アカウントは必須です"
 
-#. Label of the interest_overdue (Currency) field in DocType 'Loan
-#. Restructure'
+#. Label of the interest_overdue (Currency) field in DocType 'Loan Restructure'
 #: lending/loan_management/doctype/loan_restructure/loan_restructure.json
 #: lending/loan_management/report/loan_outstanding_report/loan_outstanding_report.py:100
 msgid "Interest Overdue"
@@ -2620,8 +2609,7 @@ msgstr "利息受取アカウントは必須です"
 msgid "Interest Treatment"
 msgstr "利息の取り扱い"
 
-#. Label of the interest_type (Select) field in DocType 'Loan Interest
-#. Accrual'
+#. Label of the interest_type (Select) field in DocType 'Loan Interest Accrual'
 #: lending/loan_management/doctype/loan_interest_accrual/loan_interest_accrual.json
 msgid "Interest Type"
 msgstr "利息タイプ"
@@ -3230,8 +3218,7 @@ msgstr "ローン詳細"
 #. Label of the loan_disbursement (Link) field in DocType 'Loan Write Off'
 #. Label of the loan_disbursement (Link) field in DocType 'Process Loan
 #. Classification'
-#. Label of the loan_disbursement (Link) field in DocType 'Process Loan
-#. Demand'
+#. Label of the loan_disbursement (Link) field in DocType 'Process Loan Demand'
 #. Label of the loan_disbursement (Link) field in DocType 'Process Loan
 #. Interest Accrual'
 #. Label of a Link in the Lending Workspace
@@ -3281,8 +3268,7 @@ msgstr "融資実行ID"
 
 #. Label of a Link in the Lending Workspace
 #. Name of a DocType
-#. Label of the loan_document_type (Data) field in DocType 'Loan Document
-#. Type'
+#. Label of the loan_document_type (Data) field in DocType 'Loan Document Type'
 #: lending/loan_management/workspace/lending/lending.json
 #: lending/loan_origination/doctype/loan_document_type/loan_document_type.json
 msgid "Loan Document Type"
@@ -3606,8 +3592,7 @@ msgstr "ローン返済手数料"
 msgid "Loan Repayment Detail"
 msgstr "ローン返済詳細"
 
-#. Label of the loan_repayment_entries_section (Section Break) field in
-#. DocType
+#. Label of the loan_repayment_entries_section (Section Break) field in DocType
 #. 'Loan Repayment Repost'
 #: lending/loan_management/doctype/loan_repayment_repost/loan_repayment_repost.json
 msgid "Loan Repayment Entries"
@@ -3878,8 +3863,7 @@ msgstr "ローン担保ステータス"
 #. Label of the loan_security_type (Link) field in DocType 'Loan Security
 #. Price'
 #. Name of a DocType
-#. Label of the loan_security_type (Data) field in DocType 'Loan Security
-#. Type'
+#. Label of the loan_security_type (Data) field in DocType 'Loan Security Type'
 #. Label of the loan_security_type (Link) field in DocType 'Pledge'
 #. Label of the loan_security_type (Link) field in DocType 'Unpledge'
 #. Label of a Link in the Lending Workspace
@@ -3935,8 +3919,9 @@ msgid ""
 "the security pledged. A loan security shortfall will be triggered if this "
 "falls below the specified value for any loan "
 msgstr ""
-"ローン・トゥ・バリュー・レシオは、質権設定された証券の価値に対するローン金額の比率を表します。これがいずれかのローンの指定された値を下回ると、ローンのセキュリティ不足がトリガーされます"
-" "
+"ローン・トゥ・バリュー・レシオは、質権設定された証券の価値に対するローン金額"
+"の比率を表します。これがいずれかのローンの指定された値を下回ると、ローンのセ"
+"キュリティ不足がトリガーされます "
 
 #: lending/loan_management/doctype/loan_security_release/loan_security_release.py:141
 msgid "Loan To Value ratio breach"
@@ -3978,7 +3963,9 @@ msgstr "ローン償却"
 msgid ""
 "Loan Write Off will be automatically created on loan closure request if "
 "pending amount is below this limit"
-msgstr "ローン償却は、未払い額がこの上限を下回る場合、ローン終了リクエスト時に自動的に作成されます"
+msgstr ""
+"ローン償却は、未払い額がこの上限を下回る場合、ローン終了リクエスト時に自動的"
+"に作成されます"
 
 #: lending/loan_management/doctype/loan/loan.py:591
 msgid "Loan amount cannot be greater than {0}"
@@ -4002,7 +3989,9 @@ msgstr "ローン{0}が終了しました"
 msgid ""
 "Loan {0}: Cannot post {1} after Full Settlement. Only Interest, Penalty, or "
 "Charges Waiver can be posted after a Full Settlement."
-msgstr "融資 {0}: 全額決済後に {1} を記帳することはできません。全額決済後には、利息、ペナルティ、または手数料免除のみ記帳できます。"
+msgstr ""
+"融資 {0}: 全額決済後に {1} を記帳することはできません。全額決済後には、利息、"
+"ペナルティ、または手数料免除のみ記帳できます。"
 
 #. Label of the loans_section (Section Break) field in DocType 'Loan Accrual
 #. Repost'
@@ -4019,7 +4008,8 @@ msgstr "ローン"
 msgid ""
 "Loans will be marked as NPA when the days past due count exceed this "
 "threshold"
-msgstr "延滞日数がこのしきい値を超えると、ローンは不良債権（NPA）としてマークされます"
+msgstr ""
+"延滞日数がこのしきい値を超えると、ローンは不良債権（NPA）としてマークされます"
 
 #. Option for the 'Foreclosure Type' (Select) field in DocType 'Loan
 #. Adjustment'
@@ -4044,8 +4034,7 @@ msgstr "手動備考"
 msgid "Manually marked as NPA"
 msgstr "手動でNPAとしてマーク済み"
 
-#. Label of the maturity_date (Date) field in DocType 'Loan Repayment
-#. Schedule'
+#. Label of the maturity_date (Date) field in DocType 'Loan Repayment Schedule'
 #: lending/loan_management/doctype/loan_repayment_schedule/loan_repayment_schedule.json
 msgid "Maturity Date"
 msgstr "満期日"
@@ -4088,8 +4077,7 @@ msgstr "最大ローン価値"
 #. Accrual'
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan Refund'
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan Repayment'
-#. Option for the 'Applicant Type' (Select) field in DocType 'Loan
-#. Restructure'
+#. Option for the 'Applicant Type' (Select) field in DocType 'Loan Restructure'
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan Security
 #. Assignment'
 #. Option for the 'Applicant Type' (Select) field in DocType 'Loan Security
@@ -4136,8 +4124,7 @@ msgstr "最小DPD範囲"
 msgid "Minimum Partner Loan Amount Percentage"
 msgstr "最小パートナーローン金額割合"
 
-#. Label of the min_days_bw_disbursement_first_repayment (Int) field in
-#. DocType
+#. Label of the min_days_bw_disbursement_first_repayment (Int) field in DocType
 #. 'Loan Product'
 #: lending/loan_management/doctype/loan_product/loan_product.json
 msgid "Minimum days between Disbursement date and first Repayment date"
@@ -4184,8 +4171,7 @@ msgid "Monthly"
 msgstr "月次"
 
 #. Label of the monthly_repayment_amount (Currency) field in DocType 'Loan'
-#. Label of the repayment_amount (Currency) field in DocType 'Loan
-#. Application'
+#. Label of the repayment_amount (Currency) field in DocType 'Loan Application'
 #. Label of the monthly_repayment_amount (Currency) field in DocType 'Loan
 #. Disbursement'
 #. Label of the monthly_repayment_amount (Currency) field in DocType 'Loan
@@ -4254,11 +4240,9 @@ msgstr "据置期間"
 msgid "Moratorium Type"
 msgstr "据置タイプ"
 
-#. Label of the more_information_section (Section Break) field in DocType
-#. 'Loan
+#. Label of the more_information_section (Section Break) field in DocType 'Loan
 #. Security Assignment'
-#. Label of the more_information_section (Section Break) field in DocType
-#. 'Loan
+#. Label of the more_information_section (Section Break) field in DocType 'Loan
 #. Security Release'
 #: lending/loan_management/doctype/loan_security_assignment/loan_security_assignment.json
 #: lending/loan_management/doctype/loan_security_release/loan_security_release.json
@@ -4316,8 +4300,7 @@ msgstr "新規返済方法"
 msgid "New Repayment Period in Months"
 msgstr "新規返済期間（月数）"
 
-#. Label of the repayment_start_date (Date) field in DocType 'Loan
-#. Restructure'
+#. Label of the repayment_start_date (Date) field in DocType 'Loan Restructure'
 #: lending/loan_management/doctype/loan_restructure/loan_restructure.json
 msgid "New Repayment Start Date"
 msgstr "新規返済開始日"
@@ -4488,8 +4471,7 @@ msgstr "期首未回収利息"
 msgid "Opening Penalty Outstanding"
 msgstr "期首未回収ペナルティ"
 
-#. Label of the opening_principal_outstanding (Currency) field in DocType
-#. 'Loan
+#. Label of the opening_principal_outstanding (Currency) field in DocType 'Loan
 #. Import Details'
 #: lending/loan_management/doctype/loan_import_details/loan_import_details.json
 #, fuzzy
@@ -4564,8 +4546,7 @@ msgid "POS reduction plus interest at partner ROI"
 msgstr "POS削減とパートナーROIでの利息"
 
 #. Label of the paid_amount (Currency) field in DocType 'Loan Demand'
-#. Label of the paid_amount (Currency) field in DocType 'Loan Repayment
-#. Detail'
+#. Label of the paid_amount (Currency) field in DocType 'Loan Repayment Detail'
 #: lending/loan_management/doctype/loan_demand/loan_demand.json
 #: lending/loan_management/doctype/loan_repayment_detail/loan_repayment_detail.json
 #, fuzzy
@@ -4624,8 +4605,7 @@ msgstr "パートナー利息分担"
 msgid "Partner Interest Share is mandatory"
 msgstr "パートナー利息分担は必須です"
 
-#. Label of the partner_loan_amount_percentage (Percent) field in DocType
-#. 'Loan
+#. Label of the partner_loan_amount_percentage (Percent) field in DocType 'Loan
 #. Partner Shareable'
 #: lending/loan_management/doctype/loan_partner_shareable/loan_partner_shareable.json
 msgid "Partner Loan Amount Percentage"
@@ -4715,10 +4695,11 @@ msgstr "支払い手数料"
 #: lending/loan_management/doctype/loan_repayment/loan_repayment.py:131
 #, fuzzy
 msgid ""
-"Payable Charges can only be added for Charge Payment, or for Charges "
-"Waiver/Charges Capitalization/Principal Capitalization during Loan "
-"Restructure"
-msgstr "支払手数料は、手数料支払い、またはローン再構築時の手数料免除/手数料の元本組入/元本の元本組入の場合にのみ追加できます。"
+"Payable Charges can only be added for Charge Payment, or for Charges Waiver/"
+"Charges Capitalization/Principal Capitalization during Loan Restructure"
+msgstr ""
+"支払手数料は、手数料支払い、またはローン再構築時の手数料免除/手数料の元本組"
+"入/元本の元本組入の場合にのみ追加できます。"
 
 #. Label of the payable_principal_amount (Currency) field in DocType 'Loan
 #. Repayment'
@@ -4828,8 +4809,7 @@ msgstr "ペナルティ手数料率"
 
 #. Label of the penalty_income_account (Link) field in DocType 'Loan'
 #. Label of the penalty_income_account (Link) field in DocType 'Loan Product'
-#. Label of the penalty_income_account (Link) field in DocType 'Loan
-#. Repayment'
+#. Label of the penalty_income_account (Link) field in DocType 'Loan Repayment'
 #: lending/loan_management/doctype/loan/loan.json
 #: lending/loan_management/doctype/loan_product/loan_product.json
 #: lending/loan_management/doctype/loan_repayment/loan_repayment.json
@@ -4840,8 +4820,7 @@ msgstr "ペナルティ収入アカウント"
 msgid "Penalty Income Account is mandatory"
 msgstr "ペナルティ収入アカウントは必須です"
 
-#. Label of the penalty_interest_rate (Percent) field in DocType 'Loan
-#. Product'
+#. Label of the penalty_interest_rate (Percent) field in DocType 'Loan Product'
 #: lending/loan_management/doctype/loan_product/loan_product.json
 msgid "Penalty Interest Rate (%)"
 msgstr "延滞利息率(%)"
@@ -4870,8 +4849,7 @@ msgstr "ペナルティ受取アカウント"
 msgid "Penalty Receivable Account is mandatory"
 msgstr "ペナルティ受取アカウントは必須です"
 
-#. Label of the penalty_suspense_account (Link) field in DocType 'Loan
-#. Product'
+#. Label of the penalty_suspense_account (Link) field in DocType 'Loan Product'
 #: lending/loan_management/doctype/loan_product/loan_product.json
 msgid "Penalty Suspense Account"
 msgstr "ペナルティ仮勘定"
@@ -5052,7 +5030,8 @@ msgstr "ローン商品{0}に償却回収アカウントを設定してくださ
 msgid ""
 "Please set up Branch as an Accounting Dimension before transferring loans "
 "between branches."
-msgstr "支店間のローン移管の前に、支店を会計ディメンションとして設定してください。"
+msgstr ""
+"支店間のローン移管の前に、支店を会計ディメンションとして設定してください。"
 
 #: lending/loan_management/doctype/loan_demand/loan_demand.py:158
 msgid "Please set {0} Accrual Account in Loan Product {1}"
@@ -5071,8 +5050,7 @@ msgstr "会社またはローン商品に{0}を設定してください"
 msgid "Pledge"
 msgstr "質権設定"
 
-#. Option for the 'Status' (Select) field in DocType 'Loan Security
-#. Assignment'
+#. Option for the 'Status' (Select) field in DocType 'Loan Security Assignment'
 #: lending/loan_management/doctype/loan_security_assignment/loan_security_assignment.json
 msgid "Pledge Requested"
 msgstr "質権設定リクエスト済み"
@@ -5088,8 +5066,7 @@ msgstr "質権設定ステータス"
 msgid "Pledge Time"
 msgstr "質権設定日時"
 
-#. Option for the 'Status' (Select) field in DocType 'Loan Security
-#. Assignment'
+#. Option for the 'Status' (Select) field in DocType 'Loan Security Assignment'
 #: lending/loan_management/doctype/loan_security_assignment/loan_security_assignment.json
 msgid "Pledged"
 msgstr "質権設定済み"
@@ -5232,8 +5209,7 @@ msgstr "主な住所"
 msgid "Primary Applicant Address Details"
 msgstr "主申請者住所詳細"
 
-#. Label of the applicant_contact_info_section (Section Break) field in
-#. DocType
+#. Label of the applicant_contact_info_section (Section Break) field in DocType
 #. 'Loan Application'
 #: lending/loan_management/doctype/loan_application/loan_application.json
 msgid "Primary Applicant Contact Info"
@@ -5503,8 +5479,7 @@ msgstr "受取勘定科目"
 msgid "Reference Date"
 msgstr "参照日"
 
-#. Label of the reference_document_type (Select) field in DocType 'Loan
-#. Balance
+#. Label of the reference_document_type (Select) field in DocType 'Loan Balance
 #. Adjustment'
 #: lending/loan_management/doctype/loan_balance_adjustment/loan_balance_adjustment.json
 msgid "Reference Document Type"
@@ -5516,8 +5491,7 @@ msgstr "Reference Document種類"
 msgid "Reference Name"
 msgstr "参照名"
 
-#. Label of the reference_no (Data) field in DocType 'Loan Security
-#. Assignment'
+#. Label of the reference_no (Data) field in DocType 'Loan Security Assignment'
 #. Label of the reference_no (Data) field in DocType 'Loan Security Release'
 #: lending/loan_management/doctype/loan_security_assignment/loan_security_assignment.json
 #: lending/loan_management/doctype/loan_security_release/loan_security_release.json
@@ -5614,8 +5588,7 @@ msgstr "却下"
 msgid "Release"
 msgstr "解除"
 
-#. Option for the 'Status' (Select) field in DocType 'Loan Security
-#. Assignment'
+#. Option for the 'Status' (Select) field in DocType 'Loan Security Assignment'
 #: lending/loan_management/doctype/loan_security_assignment/loan_security_assignment.json
 msgid "Release Requested"
 msgstr "解除リクエスト済み"
@@ -5626,8 +5599,7 @@ msgstr "解除リクエスト済み"
 msgid "Release Time"
 msgstr "解除日時"
 
-#. Option for the 'Status' (Select) field in DocType 'Loan Security
-#. Assignment'
+#. Option for the 'Status' (Select) field in DocType 'Loan Security Assignment'
 #: lending/loan_management/doctype/loan_security_assignment/loan_security_assignment.json
 msgid "Released"
 msgstr "リリース済"
@@ -5779,8 +5751,7 @@ msgstr "返済期間"
 msgid "Repayment Schedule"
 msgstr "返済スケジュール"
 
-#. Label of the repayment_schedule_detail (Data) field in DocType 'Loan
-#. Demand'
+#. Label of the repayment_schedule_detail (Data) field in DocType 'Loan Demand'
 #: lending/loan_management/doctype/loan_demand/loan_demand.json
 msgid "Repayment Schedule Detail"
 msgstr "返済スケジュール詳細"
@@ -5794,8 +5765,7 @@ msgstr "返済スケジュール詳細"
 #. Product'
 #. Label of the repayment_schedule_type (Data) field in DocType 'Loan
 #. Repayment'
-#. Label of the repayment_schedule_type (Data) field in DocType 'Loan
-#. Repayment
+#. Label of the repayment_schedule_type (Data) field in DocType 'Loan Repayment
 #. Schedule'
 #: lending/loan_management/doctype/loan/loan.json
 #: lending/loan_management/doctype/loan_disbursement/loan_disbursement.json
@@ -5854,8 +5824,7 @@ msgstr "返済タイプは償却回収または償却清算のみ指定できま
 msgid "Reports"
 msgstr "レポート"
 
-#. Option for the 'Status' (Select) field in DocType 'Loan Security
-#. Assignment'
+#. Option for the 'Status' (Select) field in DocType 'Loan Security Assignment'
 #: lending/loan_management/doctype/loan_security_assignment/loan_security_assignment.json
 msgid "Repossessed"
 msgstr "回収済み"
@@ -5892,8 +5861,7 @@ msgstr "再構築手数料額 (既存の請求なし)"
 msgid "Restructure Charges"
 msgstr "再編手数料"
 
-#. Label of the restructure_date (Datetime) field in DocType 'Loan
-#. Restructure'
+#. Label of the restructure_date (Datetime) field in DocType 'Loan Restructure'
 #: lending/loan_management/doctype/loan_restructure/loan_restructure.json
 msgid "Restructure Date"
 msgstr "再編日"
@@ -5975,8 +5943,7 @@ msgstr "通常利息アカウントと同じ"
 msgid "Sanctioned"
 msgstr "承認済み"
 
-#. Label of the sanctioned_amount_limit (Currency) field in DocType
-#. 'Sanctioned
+#. Label of the sanctioned_amount_limit (Currency) field in DocType 'Sanctioned
 #. Loan Amount'
 #: lending/loan_management/doctype/sanctioned_loan_amount/sanctioned_loan_amount.json
 msgid "Sanctioned Amount Limit"
@@ -6014,8 +5981,7 @@ msgstr "有担保"
 msgid "Securities"
 msgstr "担保"
 
-#. Label of the security_deposit_account (Link) field in DocType 'Loan
-#. Product'
+#. Label of the security_deposit_account (Link) field in DocType 'Loan Product'
 #: lending/loan_management/doctype/loan_product/loan_product.json
 msgid "Security Deposit Account"
 msgstr "担保預り金アカウント"
@@ -6034,8 +6000,7 @@ msgstr "担保預り金調整"
 msgid "Security Management"
 msgstr "担保管理"
 
-#. Label of the security_type (Select) field in DocType 'Loan IRAC
-#. Provisioning
+#. Label of the security_type (Select) field in DocType 'Loan IRAC Provisioning
 #. Configuration'
 #: lending/loan_management/doctype/loan_irac_provisioning_configuration/loan_irac_provisioning_configuration.json
 msgid "Security Type"
@@ -6058,9 +6023,9 @@ msgstr "返済日を当月末にするか翌月初にするかを選択してく
 #: lending/loan_management/doctype/loan/loan.py:173
 #: lending/loan_management/doctype/loan_application/loan_application.py:158
 msgid ""
-"Selected employee belongs to {0}. Please select an employee from company "
-"{1}."
-msgstr "選択された従業員は{0}に所属しています。会社{1}の従業員を選択してください。"
+"Selected employee belongs to {0}. Please select an employee from company {1}."
+msgstr ""
+"選択された従業員は{0}に所属しています。会社{1}の従業員を選択してください。"
 
 #. Option for the 'Employment Type' (Select) field in DocType 'Loan Lead'
 #: lending/loan_origination/doctype/loan_lead/loan_lead.json
@@ -6095,8 +6060,7 @@ msgstr "清算日"
 msgid "Setup"
 msgstr "セットアップ"
 
-#. Label of the shareable_type (Link) field in DocType 'Loan Partner
-#. Shareable'
+#. Label of the shareable_type (Link) field in DocType 'Loan Partner Shareable'
 #: lending/loan_management/doctype/loan_partner_shareable/loan_partner_shareable.json
 msgid "Shareable Type"
 msgstr "分担タイプ"
@@ -6112,8 +6076,7 @@ msgstr "分担タイプ{0}が複数回追加されています"
 msgid "Shareables"
 msgstr "分担対象"
 
-#. Label of the sharing_parameter (Select) field in DocType 'Loan Partner
-#. Adhoc
+#. Label of the sharing_parameter (Select) field in DocType 'Loan Partner Adhoc
 #. Charges Shared'
 #. Label of the sharing_parameter (Select) field in DocType 'Loan Partner
 #. Shareable'
@@ -6149,8 +6112,7 @@ msgid "Start Date"
 msgstr "開始日"
 
 #. Option for the 'Repayment Date On' (Select) field in DocType 'Loan Product'
-#. Option for the 'Repayment Date On' (Select) field in DocType 'Loan
-#. Repayment
+#. Option for the 'Repayment Date On' (Select) field in DocType 'Loan Repayment
 #. Schedule'
 #: lending/loan_management/doctype/loan_product/loan_product.json
 #: lending/loan_management/doctype/loan_repayment_schedule/loan_repayment_schedule.json
@@ -6221,8 +6183,7 @@ msgstr "仮勘定"
 msgid "Suspense Collection Account"
 msgstr "仮勘定回収アカウント"
 
-#. Label of the suspense_interest_income (Link) field in DocType 'Loan
-#. Product'
+#. Label of the suspense_interest_income (Link) field in DocType 'Loan Product'
 #: lending/loan_management/doctype/loan_product/loan_product.json
 msgid "Suspense Interest Income"
 msgstr "仮勘定利息収入"
@@ -6325,14 +6286,15 @@ msgstr "次の実行が存在しないか未提出です: {}"
 msgid "The following loans do not exist: {}"
 msgstr "次のローンが存在しません: {}"
 
-#. Description of the 'Repayment Schedule Type' (Select) field in DocType
-#. 'Loan
+#. Description of the 'Repayment Schedule Type' (Select) field in DocType 'Loan
 #. Product'
 #: lending/loan_management/doctype/loan_product/loan_product.json
 msgid ""
 "The schedule type that will be used for generating the term loan schedules "
 "(will affect the payment date and monthly repayment amount)"
-msgstr "期間ローンのスケジュール生成に使用されるスケジュールタイプ（支払日と月次返済額に影響します）"
+msgstr ""
+"期間ローンのスケジュール生成に使用されるスケジュールタイプ（支払日と月次返済"
+"額に影響します）"
 
 #: lending/loan_management/doctype/loan_application/loan_application.js:208
 msgid ""
@@ -6344,7 +6306,8 @@ msgstr "同じ連絡先情報の借入者が既に存在します。この借入
 msgid ""
 "There are overlapping accruals here {}, the current acrrual date gets "
 "accrued from {} to {}"
-msgstr "ここに重複する見越があります {}、現在の見越日は{}から{}まで見越されます"
+msgstr ""
+"ここに重複する見越があります {}、現在の見越日は{}から{}まで見越されます"
 
 #. Label of the timestamp (Datetime) field in DocType 'Bulk Repayment Log'
 #: lending/loan_management/doctype/bulk_repayment_log/bulk_repayment_log.json
@@ -6382,8 +6345,7 @@ msgstr "合計"
 msgid "Total Amount Paid"
 msgstr "支払い総額"
 
-#. Label of the total_charges_paid (Currency) field in DocType 'Loan
-#. Repayment'
+#. Label of the total_charges_paid (Currency) field in DocType 'Loan Repayment'
 #: lending/loan_management/doctype/loan_repayment/loan_repayment.json
 #: lending/loan_management/report/past_cashflow_report/past_cashflow_report.py:42
 msgid "Total Charges Paid"
@@ -6456,8 +6418,7 @@ msgstr "延滞総額"
 msgid "Total Partner Interest Share"
 msgstr "パートナー利息分担合計"
 
-#. Label of the total_partner_principal_share (Currency) field in DocType
-#. 'Loan
+#. Label of the total_partner_principal_share (Currency) field in DocType 'Loan
 #. Repayment'
 #: lending/loan_management/doctype/loan_repayment/loan_repayment.json
 msgid "Total Partner Principal Share"
@@ -6486,8 +6447,7 @@ msgstr "支払い予定利息合計"
 msgid "Total Payment"
 msgstr "支払い合計"
 
-#. Label of the total_penalty_paid (Currency) field in DocType 'Loan
-#. Repayment'
+#. Label of the total_penalty_paid (Currency) field in DocType 'Loan Repayment'
 #: lending/loan_management/doctype/loan_repayment/loan_repayment.json
 #: lending/loan_management/report/loan_repayment_and_closure/loan_repayment_and_closure.py:57
 #: lending/loan_management/report/past_cashflow_report/past_cashflow_report.py:48
@@ -6509,8 +6469,7 @@ msgstr "元本支払い総額"
 msgid "Total Qty"
 msgstr "合計数量"
 
-#. Label of the total_security_value (Currency) field in DocType 'Loan
-#. Security
+#. Label of the total_security_value (Currency) field in DocType 'Loan Security
 #. Assignment'
 #: lending/loan_management/doctype/loan_security_assignment/loan_security_assignment.json
 msgid "Total Security Value"
@@ -6523,8 +6482,9 @@ msgid ""
 "Manual or Internal Foreclosure, shortfall {2} exceeds the allowed write-off "
 "limit of {3} as per the Loan Product Auto Write Off Amount."
 msgstr ""
-"支払純合計額は {0} で、調整合計額は {1} です。手動または内部の差押えの場合、不足額 {2} "
-"は、融資商品の自動償却金額に従って許可されている償却限度額 {3} を超えています。"
+"支払純合計額は {0} で、調整合計額は {1} です。手動または内部の差押えの場合、"
+"不足額 {2} は、融資商品の自動償却金額に従って許可されている償却限度額 {3} を"
+"超えています。"
 
 #: lending/loan_management/doctype/loan_restructure/loan_restructure.py:530
 #, fuzzy
@@ -6532,7 +6492,8 @@ msgid ""
 "Total overdue amount for charge {0} is {1}, but table shows {2}. Please "
 "remove the duplicate charges and refresh the page."
 msgstr ""
-"手数料 {0} の期限超過合計額は {1} ですが、テーブルには {2} と表示されています。重複する手数料を削除し、ページを更新してください。"
+"手数料 {0} の期限超過合計額は {1} ですが、テーブルには {2} と表示されていま"
+"す。重複する手数料を削除し、ページを更新してください。"
 
 #. Label of the section_break_17 (Section Break) field in DocType 'Loan'
 #. Label of the totals_tab (Tab Break) field in DocType 'Loan'
@@ -6585,8 +6546,7 @@ msgstr "取引種類"
 msgid "Transfer Date"
 msgstr "振替日"
 
-#. Label of the treatment_of_interest (Select) field in DocType 'Loan
-#. Repayment
+#. Label of the treatment_of_interest (Select) field in DocType 'Loan Repayment
 #. Schedule'
 #: lending/loan_management/doctype/loan_repayment_schedule/loan_repayment_schedule.json
 msgid "Treatment Of Interest"
@@ -6673,8 +6633,7 @@ msgstr "質権解除"
 msgid "Unpledge Time"
 msgstr "質権解除日時"
 
-#. Option for the 'Status' (Select) field in DocType 'Loan Security
-#. Assignment'
+#. Option for the 'Status' (Select) field in DocType 'Loan Security Assignment'
 #: lending/loan_management/doctype/loan_security_assignment/loan_security_assignment.json
 msgid "Unpledged"
 msgstr "質権解除済み"
@@ -6841,7 +6800,9 @@ msgstr "週次"
 msgid ""
 "Will do a deduplication check and auto create a customer when a lead is "
 "converted to applicaiton  "
-msgstr "見込み客が申請に変換された際に、重複排除チェックを行い、顧客を自動作成します  "
+msgstr ""
+"見込み客が申請に変換された際に、重複排除チェックを行い、顧客を自動作成しま"
+"す  "
 
 #. Label of the withhold_security_deposit (Check) field in DocType 'Loan
 #. Disbursement'
